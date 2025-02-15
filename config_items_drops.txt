@@ -1,0 +1,1283 @@
+#containers								
+Id	StorageSize	DropItemsOnHealthChanged	UseForSpawnItems	AllowedItemClasses	ManualDropId	ManualDropItemCount		
+AirDropCapsule	3 2	TRUE	FALSE			0 0		
+AutonomousCapsule	6 3	TRUE	FALSE			0 0		
+AztecAltar	1 1	TRUE	FALSE		AztecAltar	1 1		
+corpsePile	8 12	TRUE	FALSE			0 0		
+StationStash	0 0	FALSE	FALSE			0 0		
+orange_barrel	1 1	FALSE	FALSE		redbarreldrop	1 1		
+toxic_barrel	1 1	FALSE	FALSE		toxicbarreldrop	1 1		
+sink_1	1 1	FALSE	FALSE		watertankdrop	1 1		
+sink_2	1 1	FALSE	FALSE		bloodsinkdrop	1 1		
+toilet_1	2 1	FALSE	FALSE		toiletdrop	2 2		
+water_tank	1 1	FALSE	FALSE		watertankdrop	1 1		
+blueBookcase_1	6 4	TRUE	TRUE	Parts Data	bookcaseContainer	0 4		
+blueCabinet_1	6 4	TRUE	TRUE	Ammo Parts Organ QuasiOrgan Data Blueprint Grenade Mine MilitaryBarter RepairKit Food Alcohol Drink ValuableBarter QuasiArtefact		0 0		
+blueCapboard_1	6 4	TRUE	TRUE	Ammo Parts Organ QuasiOrgan Data Blueprint Grenade Mine MilitaryBarter RepairKit Food Alcohol Drink ValuableBarter QuasiArtefact		0 0		
+blueSmallCupboard	4 3	TRUE	TRUE	Ammo Parts Organ QuasiOrgan Data Blueprint Grenade Mine MilitaryBarter RepairKit Food Alcohol Drink ValuableBarter QuasiArtefact		0 0		
+blueWeaponStand_1	6 3	TRUE	TRUE	Weapon		0 0		
+box_4	4 3	TRUE	TRUE	Ammo Parts Organ QuasiOrgan Data Blueprint Grenade Mine MilitaryBarter RepairKit Food Alcohol Drink ValuableBarter QuasiArtefact		0 0		
+box_5	4 3	TRUE	TRUE	Ammo Parts Organ QuasiOrgan Data Blueprint Grenade Mine MilitaryBarter RepairKit Food Alcohol Drink ValuableBarter QuasiArtefact		0 0		
+box_6	4 3	TRUE	TRUE	Ammo Parts Organ QuasiOrgan Data Blueprint Grenade Mine MilitaryBarter RepairKit Food Alcohol Drink ValuableBarter QuasiArtefact		0 0		
+brownCabinet_1	6 4	TRUE	TRUE	Ammo Parts Organ QuasiOrgan Data Blueprint Grenade Mine MilitaryBarter RepairKit Food Alcohol Drink ValuableBarter QuasiArtefact		0 0		
+brownCapboard_1	6 4	TRUE	TRUE	Ammo Parts Organ QuasiOrgan Data Blueprint Grenade Mine MilitaryBarter RepairKit Food Alcohol Drink ValuableBarter QuasiArtefact		0 0		
+BrownCaseBig	4 2	TRUE	TRUE	Weapon	weaponBigcontainer	1 1		
+BrownCaseSmall	4 1	TRUE	TRUE	Weapon	weaponSmallcontainer	1 1		
+brownSmallCupboard	4 3	TRUE	TRUE	Ammo Parts Organ QuasiOrgan Data Blueprint Grenade Mine MilitaryBarter RepairKit Dressing Syringe Pills Medpack Food Alcohol Drink ValuableBarter QuasiArtefact Boots Leggings Helmet Armor		0 0		
+brownWeaponStand_1	6 3	TRUE	TRUE	Weapon		0 0		
+flowersContainer	4 3	TRUE	FALSE		poppycontainer	1 3		
+flowersContainer_2	4 3	TRUE	FALSE		poppycontainer	1 3		
+GreenCaseBig	4 2	TRUE	FALSE		ammocontainer	1 1		
+GreenCaseSmall	4 2	TRUE	FALSE		weaponElitecontainer	1 1		
+industryBigContainer	4 4	TRUE	TRUE	Parts Blueprint RepairKit IndustrialBarter	industryContainer	2 3		
+medicalCapboard	6 4	TRUE	TRUE	Syringe Pills Dressing	medicalcontainer	1 3		
+MedicalCaseBig	4 2	TRUE	FALSE		medicalcontainer	2 2		
+Metal_Trash_Can	4 2	TRUE	FALSE		trashbin	0 2		
+metallRack	6 3	TRUE	TRUE	Parts Ammo		0 0		
+scienceBigContainer	4 4	TRUE	TRUE	Data Blueprint Dressing Syringe Pills Medpack ScienceBarter	scienceContainer	2 3		
+VendingMachine	6 3	TRUE	FALSE		VendingMachine	1 1		
+#end								
+								
+#factiondrop_AnCom_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+1	anc_shirt_1	15	150					
+1	anc_pants_1	15	150					
+1	anc_boots_1	15	150					
+3	anc_reinforced_hat_1	30	450					
+3	anc_reinforced_shirt_1	30	450					
+3	anc_reinforced_pants_1	30	450					
+4	anc_agent_mask_1	40	600					
+4	anc_agent_armor_1	40	600					
+4	anc_agent_pants_1	40	600					
+4	anc_agent_boots_1	40	600					
+5	anc_medium_mask_1	50	750					
+5	anc_medium_armor_2	50	750					
+5	anc_medium_pants_2	50	750					
+5	anc_medium_boots_2	50	750					
+5	anc_quasi_pistol_1	50	750					
+6	anc_quasi_smg_1	60	900					
+7	anc_quasi_assault_1	70	1050					
+7	anc_medium_armor_1	70	1050					
+7	anc_medium_helmet_1	70	1050					
+7	anc_medium_pants_1	70	1050					
+7	anc_medium_boots_1	70	1050					
+8	anc_marksman_1	80	1200					
+9	anc_shotgun_1	90	1350					
+10	army_sniper_2	100	1500					
+#end								
+								
+#factiondrop_AnCom_rewardChips								
+TechLevel	ContentIds	Weight	Points					
+1	itemChip	20	100					
+2	merkUSB	5	300					
+3	classUSB	5	400					
+5	mediumItemChip	10	200					
+7	highItemChip	15	400					
+9	AncomItemChip	20	500					
+#end								
+								
+#factiondrop_AnCom_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+1	small_expansive_ammo	30	10					
+1	pills_fibromine	10	80					
+2	firearm_repair_kit	5	150					
+2	pills_tranexam	10	80					
+8	fire_turret	5	500					
+#end								
+								
+#factiondrop_Tezctlan_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+1	venus_club_1	15	150					
+1	venus_quasi_pistol_1	15	150					
+1	spider_light_helmet_1	10	150					
+1	spider_light_armor_1	10	150					
+1	spider_light_pants_1	10	150					
+1	spider_light_boots_1	10	150					
+1	venus_hat_1	10	150					
+1	venus_shirt_1	10	150					
+1	venus_pants_1	10	150					
+1	venus_boots_1	10	150					
+2	venusTez_heavy_helmet_1	20	300					
+2	venusTez_heavy_armor_1	20	300					
+2	venus_axe_1	20	300					
+2	venus_mace_1	20	300					
+2	venus_knife_1	20	300					
+2	venus_blowpipe_1	20	300					
+2	venus_marksman_1	20	300					
+2	venus_poleaxe_1	20	300					
+3	venusTez_heavy_armor_2	30	450					
+3	venusTez_heavy_helmet_2	30	450					
+3	venusTez_heavy_pants_1	30	450					
+3	venusTez_heavy_boots_1	30	450					
+3	venus_quasi_shotgun_1	30	450					
+5	venusTez_heavy_helmet_3	50	750					
+5	venusTez_heavy_armor_3	50	750					
+5	venusTez_heavy_pants_2	50	750					
+#end								
+								
+#factiondrop_Tezctlan_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+1	quasi_venus_rags	10	30					
+1	human_rib	10	10					
+1	human_skin	10	10					
+1	quasi_basic_ammo	20	100					
+1	quasi_darts_ammo	10	100					
+3	human_organ_1	5	10					
+3	human_meat	5	10					
+3	venus_armor_plates	15	80					
+4	trowable_heart	5	100					
+4	venus_weapon_parts	15	80					
+5	quasi_medical_kit_1	10	300					
+5	quasi_repair_kit	10	150					
+6	demonic_aye	10	300					
+7	skull_bloodstrike	5	700					
+8	skull_bloodlust	5	700					
+9	skull_call_of_blood	5	700					
+10	skull_contract_venus	5	700					
+#end								
+								
+#factiondrop_XiomaraMasks_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+1	venus_club_1	15	150					
+1	venus_quasi_pistol_1	15	150					
+1	venusTez_heavy_helmet_1	15	150					
+1	venusTez_heavy_armor_1	15	300					
+1	spider_light_helmet_1	5	150					
+1	spider_light_armor_1	5	150					
+1	spider_light_pants_1	5	150					
+1	spider_light_boots_1	5	150					
+1	venus_hat_1	10	150					
+1	venus_shirt_1	10	150					
+1	venus_pants_1	10	150					
+1	venus_boots_1	10	150					
+2	venus_poleaxe_1	20	300					
+2	venus_axe_1	20	300					
+2	venus_mace_1	20	300					
+2	venus_knife_1	20	300					
+2	venus_blowpipe_1	20	300					
+2	venus_marksman_1	20	300					
+3	venusXsi_light_helmet_1	30	450					
+3	venusXsi_light_helmet_2	30	450					
+3	venusXsi_light_helmet_3	30	450					
+3	venusXsi_light_armor_1	30	450					
+3	venusXsi_light_armor_2	30	450					
+3	venusXsi_light_armor_3	30	450					
+3	venusXsi_pants_1	30	450					
+3	venusXsi_light_boots_1	30	450					
+3	venus_quasi_shotgun_1	30	450					
+#end								
+								
+#factiondrop_XiomaraMasks_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+1	human_skin	10	10					
+1	human_rib	10	10					
+1	quasi_basic_ammo	20	100					
+1	quasi_darts_ammo	10	100					
+1	quasi_venus_rags	10	30					
+3	human_meat	5	10					
+3	human_organ_1	5	10					
+3	venus_armor_plates	15	80					
+4	trowable_heart	5	100					
+4	venus_weapon_parts	15	80					
+5	quasi_medical_kit_1	10	300					
+5	quasi_repair_kit	10	150					
+6	demonic_aye	10	300					
+7	skull_feathered_serpent	5	700					
+7	skull_bloodstrike	5	700					
+8	skull_bloodlust	5	700					
+9	skull_call_of_blood	5	700					
+10	skull_contract_venus	5	700					
+#end								
+								
+								
+#factiondrop_SBN_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+1	laser_pistol_2	10	150					
+2	sbn_rail_pistol_1	20	300					
+2	laser_smg_1	20	300					
+3	laser_marksman_1	30	450					
+3	sbn_cap_1	30	450					
+3	sbn_shirt_2	30	450					
+3	sbn_pants_2	30	450					
+3	sbn_boots_1	30	450					
+4	laser_smg_2	40	600					
+4	sbn_rail_shotgun_1	40	600					
+5	sbn_rail_smg_1	50	750					
+5	sbn_medium_helmet_1	50	750					
+5	sbn_medium_armor_1	50	750					
+5	sbn_medium_pants_1	50	750					
+5	sbn_medium_boots_1	50	750					
+6	laser_sniper_1	60	900					
+7	sbn_heavy_armor_1	70	1050					
+7	sbn_heavy_helmet_1	70	1050					
+7	sbn_heavy_pants_1	70	1050					
+7	sbn_heavy_boots_1	70	1050					
+8	plasma_hmg_1	80	1200					
+9	sbn_light_armor_1	90	1350					
+9	sbn_light_helmet_1	90	1350					
+9	sbn_light_pants_1	90	1350					
+9	sbn_light_boots_1	90	1350					
+10	sbn_rail_assault_1	100	1500					
+#end								
+								
+#factiondrop_SBN_rewardChips								
+TechLevel	ContentIds	Weight	Points					
+1	itemChip	20	150					
+2	merkUSB	5	200					
+3	classUSB	5	200					
+4	mediumItemChip	10	250					
+8	highItemChip	15	400					
+10	SBNItemChip	20	600					
+#end								
+								
+#factiondrop_SBN_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+1	battery_basic_ammo	10	40					
+1	stun_grenade	10	60					
+2	energy_turret	5	500					
+6	automap	5	200					
+#end								
+								
+#factiondrop_RealWare_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+1	military_axe_1	10	150					
+1	rwa_light_helmet_1	10	150					
+1	rwa_shirt_1	10	150					
+1	rwa_pants_1	10	150					
+1	rwa_boots_1	10	150					
+2	military_shirt_3	20	300					
+2	military_light_helmet_1	20	300					
+2	military_pants_2	20	300					
+3	big_backpack_1	30	450					
+4	rwa_light_armor_1	40	600					
+4	rwa_light_helmet_2	40	600					
+4	rwa_light_pants_1	40	600					
+4	rwa_light_boots_1	40	600					
+5	military_medium_armor_1	50	750					
+5	military_medium_helmet_1	50	750					
+5	military_medium_pants_1	50	750					
+5	military_medium_boots_1	50	750					
+6	rwa_military_pistol_1	60	900					
+7	rwa_heavy_armor_1	70	1050					
+7	rwa_heavy_helmet_1	70	1050					
+7	rwa_heavy_pants_1	70	1050					
+7	rwa_heavy_boots_1	70	1050					
+8	rwa_military_smg_1	80	1200					
+9	rwa_military_assault_1	90	1350					
+10	rwa_power_armor_1	100	1500					
+10	rwa_power_helmet_1	100	1500					
+10	rwa_power_pants_1	100	1500					
+10	rwa_power_boots_1	100	1500					
+#end								
+								
+#factiondrop_RealWare_rewardChips								
+TechLevel	ContentIds	Weight	Points					
+1	itemChip	30	120					
+2	merkUSB	5	300					
+3	classUSB	5	400					
+5	mediumItemChip	10	160					
+9	highItemChip	15	300					
+10	RealWareItemChip	20	300					
+#end								
+								
+#factiondrop_RealWare_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+1	frag_grenade	10	70					
+1	frag_mine	10	70					
+3	medical_kit_2	10	150					
+4	pills_osteodron	10	80					
+4	stationary_turret	10	500					
+#end								
+								
+								
+#factiondrop_DaydreamChems_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+1	ddr_toxic_pistol_1	10	150					
+2	science_chem_helmet_1	20	300					
+2	science_chem_shirt_1	20	300					
+2	science_chem_pants_1	20	300					
+2	science_chem_boots_1	20	300					
+3	science_reinforced_shirt_1	30	450					
+3	science_gasmask_1	30	450					
+3	science_reinforced_pants_1	30	450					
+3	science_reinforced_boots_1	30	450					
+3	toxic_thrower_1	40	750					
+4	ddr_chem_coat_1	20	300					
+4	ddr_chem_helmet_1	20	300					
+4	ddr_chem_pants_1	20	300					
+4	ddr_chem_boots_1	20	300					
+5	ddr_reinforced_chem_coat_1	50	750					
+5	ddr_reinforced_chem_helmet_1	50	750					
+5	ddr_reinforced_chem_pants_1	50	750					
+5	ddr_frost_pistol_1	50	750					
+6	common_assault_1	60	900					
+7	ddr_toxic_shotgun_1	70	1050					
+8	military_armored_vest_1	80	1200					
+9	ddr_power_armor_1	90	1350					
+9	ddr_power_pants_1	90	1350					
+9	ddr_power_helmet_1	90	1350					
+9	ddr_power_boots_1	90	1350					
+10	ddr_frost_shotgun_1	100	1500					
+#end								
+								
+#factiondrop_DaydreamChems_rewardChips								
+TechLevel	ContentIds	Weight	Points					
+1	itemChip	20	120					
+4	mediumItemChip	10	180					
+8	highItemChip	10	80					
+10	DayDreamItemChip	10	100					
+#end								
+								
+#factiondrop_DaydreamChems_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+1	syringe_antidote	15	80					
+1	syringe_nanoinjection	5	240					
+1	toxic_ammo	20	10					
+3	toxic_grenade	10	100					
+4	pills_painkillers	10	80					
+5	syringe_morphine	10	80					
+6	frost_grenade	10	120					
+8	surgicalKit	10	150					
+#end								
+								
+#factiondrop_PlanetBridge_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+1	common_pistol_3	10	150					
+1	rail_pistol_2	10	150					
+1	worker_pistol_1	10	150					
+2	trucker_marksman_2	30	450					
+2	laborer_hard_cap_1	20	300					
+2	laborer_shirt_2	20	300					
+2	laborer_pants_2	20	300					
+2	laborer_boots_1	20	300					
+3	laborer_warm_shirt_1	30	450					
+3	laborer_warm_pants_1	30	450					
+3	laborer_warm_hat_1	30	450					
+3	laborer_warm_boots_1	30	450					
+3	common_assault_1	30	450					
+3	medium_backpack_1	30	450					
+4	rail_pistol_3	40	600					
+4	laborer_medium_helmet_1	40	600					
+4	laborer_medium_pants_1	40	600					
+4	laborer_medium_boots_1	40	600					
+4	laborer_medium_armor_1	40	600					
+5	rail_marksman_1	50	750					
+5	laborer_exoskeleton_1	50	750					
+6	plb_worker_shockgun_1	60	900					
+8	laser_sniper_1	80	1200					
+9	army_hmg_1	90	1350					
+#end								
+								
+#factiondrop_PlanetBridge_rewardChips								
+TechLevel	ContentIds	Weight	Points					
+1	itemChip	10	150					
+2	merkUSB	5	300					
+3	classUSB	5	300					
+7	mediumItemChip	10	300					
+8	highItemChip	15	400					
+10	PlanetBridgeItemChip	20	500					
+#end								
+								
+#factiondrop_PlanetBridge_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+1	medical_kit_1	20	80					
+2	syringe_antidote	10	80					
+10	automap	20	300					
+#end								
+								
+#factiondrop_Grasshopper_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+2	laborer_warm_shirt_1	10	300					
+2	laborer_warm_pants_1	10	300					
+2	laborer_warm_hat_1	10	300					
+2	laborer_warm_boots_1	10	300					
+2	grh_revolver_pistol_1	30	450					
+3	grh_trucker_marksman_1	30	450					
+3	military_light_gasmask_1	30	450					
+3	military_light_armor_1	30	450					
+3	military_light_pants_1	30	450					
+3	military_light_boots_1	30	450					
+4	laborer_medium_helmet_1	40	600					
+4	laborer_medium_pants_1	40	600					
+4	laborer_medium_boots_1	40	600					
+4	laborer_medium_armor_1	40	600					
+4	grh_trucker_marksman_2	40	600					
+5	grh_trucker_assault_1	50	750					
+6	grh_common_smg_1	50	750					
+6	laborer_exoskeleton_1	60	900					
+9	military_heavy_armor_1	90	1350					
+9	military_heavy_helmet_1	90	1350					
+9	military_heavy_pants_1	90	1350					
+9	military_heavy_boots_1	90	1350					
+#end								
+								
+#factiondrop_Grasshopper_rewardChips								
+TechLevel	ContentIds	Weight	Points					
+1	classUSB	5	400					
+1	merkUSB	5	400					
+1	itemChip	30	150					
+6	mediumItemChip	10	200					
+8	highItemChip	15	300					
+10	GrassHopperItemChip	20	400					
+#end								
+								
+#factiondrop_Grasshopper_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+1	chocolate_pack_1	15	40					
+1	canned_food_1	15	70					
+3	frag_grenade	5	160					
+4	thermal_grenade	5	160					
+5	cigarettes_1	10	100					
+7	stationary_turret	5	600					
+#end								
+								
+								
+#factiondrop_Sunlight_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+2	trucker_marksman_2	20	300					
+3	sun_laser_pistol_1	30	450					
+4	armored_expanded_vest_1	30	450					
+5	sun_laser_shotgun_1	50	750					
+6	sun_laser_sniper_1	60	900					
+7	grenade_launcher_1	70	1050					
+7	sun_servo_backpack_1	40	600					
+8	sun_power_armor_1	80	1200					
+8	sun_power_helmet_1	80	1200					
+8	sun_power_pants_1	80	1200					
+8	sun_power_boots_1	80	1200					
+9	sun_laser_assault_1	90	1350					
+10	sun_laser_marksman_1	100	1500					
+#end								
+								
+#factiondrop_Sunlight_rewardChips								
+TechLevel	ContentIds	Weight	Points					
+1	itemChip	30	150					
+2	classUSB	5	300					
+3	merkUSB	5	400					
+6	mediumItemChip	10	250					
+8	highItemChip	15	350					
+10	SunLightItemChip	20	500					
+#end								
+								
+#factiondrop_Sunlight_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+1	soda_can_2	10	60					
+1	burger_pack_1	10	60					
+4	armor_repair_kit	40	80					
+5	melee_repair_kit	50	80					
+6	firearm_repair_kit	60	160					
+7	surgicalKit	70	100					
+7	energy_turret	5	600					
+10	anulator	100	400					
+#end								
+								
+								
+#factiondrop_FrancheComte_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+1	fra_security_pistol_1	10	150					
+1	fra_police_club_1	10	150					
+2	police_medium_armor_1	10	150					
+2	police_medium_helmet_1	20	300					
+2	police_medium_pants_1	20	300					
+2	police_medium_boots_1	20	300					
+3	fra_shock_pistol_1	30	450					
+4	fra_heavy_armor_1	40	600					
+4	fra_heavy_mask_1	40	600					
+4	fra_heavy_pants_1	40	600					
+4	fra_heavy_boots_1	40	600					
+5	fra_security_smg_1	50	750					
+6	big_backpack_1	60	900					
+6	fra_shock_smg_1	60	900					
+7	fra_security_smg_2	70	1050					
+8	fra_security_assault_1	80	1200					
+9	fra_security_shotgun_1	100	1500					
+10	plasma_assault_1	100	1500					
+#end								
+								
+#factiondrop_FrancheComte_rewardChips								
+TechLevel	ContentIds	Weight	Points					
+1	itemChip	15	160					
+5	mediumItemChip	10	200					
+9	highItemChip	20	300					
+10	FrancheItemChip	20	500					
+#end								
+								
+#factiondrop_FrancheComte_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+1	small_burst_ammo	15	80					
+1	medium_basic_ammo	15	80					
+1	thermal_grenade	15	80					
+2	armor_repair_kit	10	70					
+2	firearm_repair_kit	10	70					
+3	melee_repair_kit	10	70					
+3	frag_grenade	15	80					
+3	fire_turret	5	500					
+3	medium_police_ammo	20	50					
+4	stationary_turret	5	400					
+7	rifle_armorpierce_ammo	10	80					
+8	automap	10	300					
+#end								
+								
+#factiondrop_ChurchRevelation_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+1	trucker_pistol_1	10	150					
+2	trucker_shotgun_1	20	300					
+2	chu_manager_shirt_1	20	300					
+2	chu_manager_mask_1	20	300					
+2	chu_manager_pants_1	20	300					
+2	chu_manager_boots_1	20	300					
+3	trucker_pistol_2	30	450					
+3	pmc_common_vest_1	30	450					
+4	trucker_shotgun_2	40	600					
+5	plasma_shotgun_1	50	750					
+5	chu_trucker_pistol_1	50	750					
+6	chu_trucker_pistol_2	60	900					
+6	chu_meltatrower_1	60	900					
+7	plasma_assault_1	70	1050					
+8	chu_power_armor_1	80	1200					
+8	chu_power_helmet_1	80	1200					
+8	chu_power_pants_1	80	1200					
+8	chu_power_boots_1	80	1200					
+10	chu_shotgun_1	100	1500					
+#end								
+								
+#factiondrop_ChurchRevelation_rewardChips								
+TechLevel	ContentIds	Weight	Points					
+1	itemChip	30	150					
+4	mediumItemChip	25	250					
+6	highItemChip	20	400					
+9	ChurchItemChip	15	500					
+#end								
+								
+#factiondrop_ChurchRevelation_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+1	vodka_bottle_1	5	70					
+1	wiskey_bottle_1	5	70					
+1	armagnac_bottle_1	5	70					
+1	shotgun_shrapnel_ammo	10	100					
+2	mre_pack_1	15	90					
+3	cigarettes_1	10	150					
+7	anulator	5	500					
+7	shotgun_flechette_ammo	10	100					
+8	shotgun_explosion_ammo	10	100					
+9	hellfire_grenade	10	150					
+9	shotgun_dragon_ammo	10	100					
+#end								
+								
+#factiondrop_CoreWard_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+1	military_knife_1	10	100					
+1	cor_worker_pistol_1	10	150					
+2	miner_gasmask_1	20	300					
+2	miner_reinforced_shirt_1	20	300					
+2	miner_reinforced_pants_1	20	300					
+2	miner_reinforced_boots_1	20	300					
+3	cor_worker_hmg_1	30	450					
+3	medium_backpack_1	30	450					
+4	cor_worker_disctrower_1	40	600					
+4	cor_worker_flametrower_1	40	600					
+5	miner_medium_helmet_1	50	750					
+5	miner_medium_armor_1	50	750					
+5	miner_medium_pants_1	50	750					
+5	miner_medium_boots_1	50	750					
+6	cor_laser_sniper_1	60	900					
+6	miner_exoskeleton_1	60	900					
+7	miner_power_armor_1	70	1050					
+7	miner_power_helmet_1	70	1050					
+7	miner_power_pants_1	70	1050					
+7	miner_power_boots_1	70	1050					
+8	grenade_launcher_1	80	1200					
+9	army_hmg_1	90	1350					
+#end								
+								
+#factiondrop_CoreWard_rewardChips								
+TechLevel	ContentIds	Weight	Points					
+1	merkUSB	5	120					
+1	classUSB	5	120					
+3	itemChip	20	150					
+5	mediumItemChip	10	300					
+6	highItemChip	15	400					
+10	CoreItemChip	10	500					
+#end								
+								
+#factiondrop_CoreWard_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+1	nail_bolts_ammo	10	20					
+3	gas_ammo	15	50					
+4	sawblade_ammo	15	50					
+5	surgicalKit	5	120					
+10	frag_mine	20	100					
+#end								
+								
+#factiondrop_CResistance_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+1	worker_pistol_1	10	150					
+1	civ_powerfist_1	10	150					
+1	civ_reinforced_shirt_1	10	150					
+1	civ_gasmask_1	10	150					
+1	civ_pants_4	10	150					
+1	civ_boots_2	10	150					
+2	civ_common_smg_1	20	300					
+2	worker_hmg_1	20	300					
+3	civ_pistol_1	30	450					
+3	worker_flametrower_1	30	450					
+3	civ_medium_armor_1	30	450					
+3	civ_medium_helmet_1	30	450					
+3	civ_medium_pants_1	30	450					
+3	civ_medium_boots_1	30	450					
+4	worker_disctrower_1	40	600					
+4	civ_common_smg_2	40	600					
+4	civ_medium_armor_2	40	600					
+4	civ_medium_helmet_2	40	600					
+4	civ_medium_pants_2	40	600					
+4	civ_medium_boots_2	40	600					
+5	civ_plasma_pistol_1	50	750					
+5	civ_common_assault_1	50	750					
+6	civ_marksman_1	60	900					
+7	civ_heavy_helmet_1	70	1050					
+7	civ_heavy_armor_1	70	1050					
+7	civ_heavy_pants_1	70	1050					
+7	civ_heavy_boots_1	70	1050					
+8	civ_plasma_assault_1	80	1200					
+9	plasma_hmg_1	90	1350					
+10	tech_hfg_1	100	1500					
+#end								
+								
+#factiondrop_CResistance_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+1	nail_bolts_ammo	10	20					
+2	stun_grenade	15	100					
+2	frag_mine	10	120					
+3	frag_grenade	10	150					
+4	gas_ammo	15	50					
+5	sawblade_ammo	15	50					
+6	thermal_grenade	10	150					
+6	vodka_bottle_1	10	80					
+8	nanorobot_grenade	20	300					
+#end								
+								
+#factiondrop_UnchainedBelt_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+1	military_common_vest_1	10	150					
+1	common_axe_1	10	150					
+1	trash_assault_1	10	150					
+2	pirates_gasmask_1	20	300					
+2	pirates_reinforced_shirt_1	20	300					
+2	pirates_reinforced_pants_1	20	300					
+2	pirates_smg_1	20	300					
+2	tech_blade_1	20	300					
+3	pirates_reinforced_cap_1	30	450					
+3	pirates_reinforced_shirt_2	30	450					
+3	pirates_reinforced_pants_2	30	450					
+3	army_pistol_4	30	450					
+3	trash_armored_vest_1	30	450					
+4	pirates_light_helmet_1	40	600					
+4	pirates_light_armor_1	40	600					
+4	pirates_light_pants_1	40	600					
+4	pirates_light_boots_1	40	600					
+4	pirates_smg_2	40	600					
+4	big_backpack_1	40	600					
+5	pirates_medium_helmet_1	50	750					
+5	pirates_medium_armor_1	50	750					
+5	pirates_medium_pants_1	50	750					
+5	pirates_medium_boots_1	50	750					
+5	pirates_assault_1	50	750					
+6	pirates_medium_helmet_2	60	900					
+6	pirates_medium_armor_2	60	900					
+6	pirates_medium_pants_2	60	900					
+6	pirates_medium_boots_2	60	900					
+6	military_assault_1	60	900					
+7	pirates_sniper_1	70	1050					
+7	pirates_assault_2	70	1050					
+8	military_power_armor_1	80	1200					
+8	military_power_helmet_1	80	1200					
+8	military_power_pants_1	80	1200					
+8	military_power_boots_1	80	1200					
+9	army_sniper_1	90	1350					
+10	pirates_autogun_1	100	1500					
+#end								
+								
+#factiondrop_UnchainedBelt_rewardChips								
+TechLevel	ContentIds	Weight	Points					
+1	merkUSB	5	120					
+1	classUSB	5	120					
+3	itemChip	20	150					
+5	mediumItemChip	10	300					
+6	highItemChip	15	400					
+#end								
+								
+#factiondrop_UnchainedBelt_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+1	shotgun_bullet_ammo	10	20					
+2	stun_grenade	15	100					
+2	frag_mine	10	120					
+3	frag_grenade	10	150					
+3	vodka_bottle_1	10	50					
+4	gas_ammo	15	50					
+5	sawblade_ammo	15	50					
+6	thermal_grenade	10	150					
+6	alcogol_container	10	80					
+8	nanorobot_grenade	20	300					
+8	drug_cargo	15	170					
+10	heavy_flack_ammo	10	90					
+10	heavy_basic_ammo	10	70					
+#end								
+								
+#factiondrop_SheduThousand_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+1	she_heavy_pistol_1	10	150					
+2	military_shirt_3	20	300					
+2	military_light_helmet_1	20	300					
+2	military_pants_2	20	300					
+3	military_light_gasmask_1	30	450					
+3	military_light_armor_1	30	450					
+3	military_light_pants_1	30	450					
+3	military_light_boots_1	30	450					
+4	she_gas_shotgun_1	40	600					
+5	military_smg_1	50	750					
+5	posessed_medium_boots_1	50	750					
+5	posessed_medium_pants_1	50	750					
+5	posessed_medium_helmet_1	50	750					
+5	posessed_medium_armor_1	50	750					
+6	military_assault_1	60	900					
+7	rwa_military_pistol_1	70	1050					
+8	military_heavy_armor_1	80	1200					
+8	military_heavy_helmet_1	80	1200					
+8	military_heavy_pants_1	80	1200					
+8	military_heavy_boots_1	80	1200					
+9	she_military_minigun_1	90	1350					
+10	she_common_assault_1	100	1500					
+#end								
+								
+#factiondrop_SheduThousand_rewardChips								
+TechLevel	ContentIds	Weight	Points					
+1	merkUSB	5	120					
+1	classUSB	5	120					
+3	itemChip	20	150					
+5	mediumItemChip	10	300					
+6	highItemChip	15	400					
+#end								
+								
+#factiondrop_SheduThousand_rewardChips								
+TechLevel	ContentIds	Weight	Points					
+1	rifle_basic_ammo	10	50					
+2	frag_mine	10	70					
+3	rifle_armorpierce_ammo	10	70					
+4	frag_grenade	10	70					
+5	medical_kit_2	10	150					
+6	rifle_plasma_ammo	10	90					
+7	stationary_turret	10	500					
+8	quasi_medical_kit_1	10	300					
+9	quasi_repair_kit	10	150					
+10	demonic_aye	10	300					
+#end								
+								
+#factiondrop_Dilthey_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+1	laser_pistol_1	10	150					
+2	dil_sound_pistol_1	20	300					
+2	tech_blade_1	20	300					
+3	laser_marksman_1	30	450					
+4	dil_shock_smg_1	40	600					
+4	laser_smg_1	40	600					
+5	dil_sound_shotgun_1	50	750					
+6	dil_sound_pistol_2	60	900					
+7	dil_light_armor_1	70	1050					
+7	dil_light_helmet_1	70	1050					
+7	dil_light_pants_1	70	1050					
+7	dil_light_boots_1	70	1050					
+8	army_sniper_1	60	900					
+8	common_assault_1	60	900					
+9	dil_sound_assault_1	90	1350					
+10	dil_shock_sniper_1	100	1500					
+#end								
+								
+#factiondrop_Dilthey_rewardChips								
+TechLevel	ContentIds	Weight	Points					
+1	merkUSB	5	120					
+1	classUSB	5	120					
+3	itemChip	20	150					
+5	mediumItemChip	10	300					
+6	highItemChip	15	400					
+10	DiltheyItemChip	20	500					
+#end								
+								
+#factiondrop_Dilthey_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+2	dil_battery_ammo	15	100					
+2	frag_mine	10	120					
+3	frag_grenade	10	150					
+4	gas_ammo	15	50					
+6	thermal_grenade	10	150					
+6	vodka_bottle_1	10	80					
+8	nanorobot_grenade	20	300					
+#end								
+								
+#factiondrop_General_rewardEquipment								
+TechLevel	ContentIds	Weight	Points					
+1	pmc_shotgun_1	10	150					
+1	pmc_smg_1	10	150					
+1	medium_backpack_1	10	150					
+1	pmc_pistol_2	10	150					
+1	army_pistol_3	10	150					
+1	military_pistol_2	10	150					
+1	military_pistol_3	10	150					
+1	military_common_vest_1	10	150					
+1	common_shotgun_1	10	150					
+1	common_shotgun_2	10	150					
+1	trucker_marksman_1	10	150					
+1	trucker_pistol_1	10	150					
+1	rail_pistol_1	10	150					
+1	rail_pistol_2	10	150					
+1	common_axe_1	10	150					
+2	pmc_shotgun_2	20	300					
+2	tech_blade_1	20	300					
+2	pmc_common_vest_1	20	300					
+2	servo_backpack_1	20	300					
+2	trucker_marksman_2	20	300					
+2	trucker_shotgun_1	20	300					
+3	armored_vest_1	30	450					
+3	army_pistol_4	30	450					
+3	military_shotgun_1	30	450					
+3	pmc_smg_2	30	450					
+3	trucker_pistol_2	30	450					
+3	rail_pistol_3	30	450					
+4	military_armored_vest_1	40	600					
+4	military_smg_1	40	600					
+4	trucker_shotgun_2	40	600					
+5	pmc_assault_1	50	750					
+5	military_assault_1	50	750					
+5	chu_trucker_pistol_1	50	750					
+5	trucker_shotgun_3	50	750					
+6	pmc_smg_3	60	900					
+6	heavy_armored_vest_1	60	900					
+6	big_backpack_1	60	900					
+6	army_sniper_1	60	900					
+6	common_assault_1	60	900					
+6	chu_trucker_pistol_2	60	900					
+7	military_power_armor_1	70	1050					
+7	military_power_helmet_1	70	1050					
+7	military_power_pants_1	70	1050					
+7	military_power_boots_1	70	1050					
+8	army_hmg_1	80	1200					
+9	military_heavy_armor_1	90	1350					
+9	military_heavy_helmet_1	90	1350					
+9	military_heavy_pants_1	90	1350					
+9	military_heavy_boots_1	90	1350					
+10	military_minigun_1	100	1500					
+10	army_sniper_2	100	1500					
+#end								
+								
+#factiondrop_General_rewardConsumables								
+TechLevel	ContentIds	Weight	Points					
+1	soda_can_1	4	14					
+1	canned_food_1	3	42					
+1	canned_food_2	3	28					
+1	chocolate_pack_1	5	14					
+1	soda_can_2	4	14					
+1	beer_can_1	2	14					
+1	ration_pack_3	3	14					
+1	ration_pack_4	3	14					
+1	bandage	3	16					
+1	splint	3	16					
+1	small_basic_ammo	3	10					
+1	nail_bolts_ammo	3	10					
+1	medium_basic_ammo	3	15					
+1	shotgun_shrapnel_ammo	3	20					
+1	rifle_basic_ammo	3	40					
+1	battery_basic_ammo	3	30					
+2	ration_pack_1	4	28					
+2	ration_pack_2	4	28					
+2	water_bottle_1	5	14					
+2	burger_pack_1	3	28					
+2	burger_pack_2	3	28					
+2	vodka_bottle_1	3	78					
+2	pills_antibiotics	3	16					
+2	pills_sorbent	3	24					
+2	cigarettes_1	3	36					
+2	syringe_antidote	3	24					
+2	pills_painkillers	3	36					
+3	mre_pack_1	2	70					
+3	wiskey_bottle_1	3	92					
+3	medical_kit_1	3	48					
+3	syringe_morphine	3	48					
+3	pills_antiradin	3	28					
+3	medicalClue	3	36					
+3	syringe_naloxone	3	28					
+3	syringe_bloodbag	3	48					
+3	plaster	3	36					
+4	armagnac_bottle_1	3	120					
+5	luxury_canned_food_1	1	120					
+5	surgicalKit	3	48					
+6	luxury_ration_pack_1	1	160					
+6	syringe_nanoinjection	3	58					
+7	oil_bottle_1	1	200					
+8	luxury_ration_pack_2	1	240					
+8	medical_kit_2	3	100					
+#end								
+								
+#itemdrop_AztecAltar								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+quest_goldenSkull 20 20	quest_goldenSkull 20 20	quest_goldenSkull 20 20	quest_goldenSkull 20 20	quest_goldenSkull 20 20	quest_goldenSkull 20 20	quest_goldenSkull 20 20	quest_goldenSkull 20 20	quest_goldenSkull 20 20
+#end								
+								
+#itemdrop_trashbin								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+soda_can_1 5 14	soda_can_1 5 14	soda_can_1 5 14	soda_can_1 5 14	rotten_human_meat 10 7	soda_can_1 5 14	soda_can_1 5 14	rotten_human_meat 10 7	soda_can_1 5 14
+soda_can_2 5 14	soda_can_2 5 14	soda_can_2 5 14	soda_can_2 5 14	rotten_burger_pack_1 10 7	soda_can_2 5 14	soda_can_2 5 14	rotten_spider_meat 10 7	soda_can_2 5 14
+rotten_human_meat 10 7	rotten_burger_pack_1 10 7	rotten_human_meat 10 7	rotten_human_meat 10 7	rotten_burger_pack_2 10 7	rotten_human_meat 10 7	rotten_human_meat 10 7	human_wrist 10 7	rotten_human_meat 10 7
+rotten_burger_pack_1 10 7	rotten_burger_pack_2 10 7	rotten_burger_pack_1 10 7	rotten_burger_pack_1 10 7	water_bottle_1 5 14	rotten_burger_pack_1 10 7	rotten_burger_pack_1 10 7	human_feet 10 7	rotten_burger_pack_1 10 7
+rotten_burger_pack_2 10 7	water_bottle_1 5 14	rotten_burger_pack_2 10 7	rotten_burger_pack_2 10 7	plastic 15 7	rotten_burger_pack_2 10 7	rotten_burger_pack_2 10 7	human_skin 10 7	rotten_burger_pack_2 10 7
+water_bottle_1 5 14	plastic 15 7	water_bottle_1 5 14	water_bottle_1 5 14	handmade_thermal_grenade 3 14	water_bottle_1 5 14	water_bottle_1 5 14	human_poop 10 7	water_bottle_1 5 14
+plastic 15 7	ceramite_plates 3 21	plastic 15 7	plastic 15 7	human_wrist 10 7	plastic 15 7	plastic 15 7	human_rib 10 7	plastic 15 7
+armor_plates 5 14	tin 10 7	armor_plates 5 14	ceramite_plates 3 21	human_feet 10 7	armor_plates 5 14	armor_plates 5 14	human_skull 10 7	armor_plates 5 14
+rusty_plates 5 14	glassBottle 10 7	rusty_plates 5 14	armor_plates 5 14	human_skin 10 7	rusty_plates 5 14	rusty_plates 5 14	human_ear 10 7	rusty_plates 5 14
+rubber 10 7	personalKey 5 21	handmade_thermal_grenade 3 14	rusty_plates 5 14	human_poop 10 7	tin 10 7	rubber 10 7	human_aye 10 7	rubber 10 7
+tin 10 7	acid 10 7	tin 10 7	rubber 10 7	human_rib 10 7	glassBottle 10 7	tin 10 7	roasted_spider_meat 5 14	tin 10 7
+glassBottle 10 7	explosives 5 7	glassBottle 10 7	tin 10 7	human_skull 10 7	tape 5 21	glassBottle 10 7	rotten_soup_can_1 10 7	glassBottle 10 7
+human_poop 10 7	wire 5 7	human_poop 10 7	glassBottle 10 7	human_ear 10 7	juice_pack_1 5 14	chocolate_pack_1 5 14	rotten_human_skin 5 14	personalKey 5 21
+nail_bolts_ammo 10 7	tape 5 21	nail_bolts_ammo 10 7	human_poop 10 7	human_aye 10 7	juice_pack_2 5 14	glass 5 7		tape 5 21
+tape 5 21	juice_pack_1 5 14	tape 5 21	personalKey 5 21	tin 10 7	chocolate_pack_1 5 14	energy_can_1 5 14		juice_pack_1 5 14
+chocolate_pack_1 5 14	juice_pack_2 5 14	chocolate_pack_1 5 14	explosives 5 7	glassBottle 10 7	glass 5 7	chips_pack_1 5 14		juice_pack_2 5 14
+glass 5 7	glass 5 7	glass 5 7	tape 5 21	glass 5 7	energy_can_1 5 14	chips_pack_2 5 14		chocolate_pack_1 5 14
+handmade_thermal_grenade 3 14	energy_can_1 5 14	energy_can_1 5 14	chocolate_pack_1 5 14	energy_can_1 5 14	chips_pack_1 5 14			glass 5 7
+energy_can_1 5 14	chips_pack_1 5 14	chips_pack_1 5 14	glass 5 7	chips_pack_1 5 14	chips_pack_2 5 14			energy_can_1 5 14
+chips_pack_1 5 14	chips_pack_2 5 14	chips_pack_2 5 14	chips_pack_1 5 14	chips_pack_2 5 14				chips_pack_1 5 14
+chips_pack_2 5 14			chips_pack_2 5 14					chips_pack_2 5 14
+#end								
+								
+#itemdrop_bookcaseContainer								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+cigarettes_1 4 20	tape 4 10	cigarettes_1 4 20	cigarettes_1 4 20	cigarettes_1 4 20	cigarettes_1 10 15	cigarettes_1 4 20	anulator 2 40	cigarettes_1 4 20
+rags 8 5	anulator 2 40	rags 8 5	rags 8 5	rags 8 5	rags 8 5	rags 8 5	human_skin 4 5	vodka_bottle_1 4 10
+vodka_bottle_1 4 10	plastic 8 5	vodka_bottle_1 4 10	prototype_schematics 16 28	human_skin 4 5	vodka_bottle_1 4 10	vodka_bottle_1 4 10	human_poop 8 7	rags 8 5
+tape 4 10	ledgerBook 32 10	tape 4 10	entertainment_software 8 20	plastic 8 5	tape 4 10	tape 4 10	human_wrist 8 7	tape 4 10
+plastic 8 5	prototype_schematics 16 28	plastic 8 5	expert_disk 16 20	glass 4 5	rubber 8 5	glass 4 5	human_feet 8 7	plastic 8 5
+glass 4 5	memory_software 8 20	glass 4 5	gunbang_magazine 32 20	rubber 8 5	ledgerBook 32 10	ledgerBook 32 10	human_skin 8 7	glass 4 5
+rubber 8 5	entertainment_software 8 20	rubber 8 5	merkUSB 1 70	entertainment_software 8 20	prototype_schematics 16 28	prototype_schematics 16 28	human_rib 8 7	ledgerBook 32 10
+prototype_schematics 16 28	expert_disk 16 20	entertainment_software 8 20	military_unit 1 42	human_poop 8 7	memory_software 8 20	memory_software 8 20	human_skull 8 7	prototype_schematics 16 28
+entertainment_software 8 20	quasiresearch_disk 2 20			human_wrist 8 7	entertainment_software 8 20	entertainment_software 8 20	human_ear 8 7	memory_software 8 20
+expert_disk 16 20	research_disk 2 20			human_feet 8 7	gunbang_magazine 32 20	expert_disk 16 20	human_aye 8 7	entertainment_software 8 20
+				human_skin 8 7		gunbang_magazine 32 20		gunbang_magazine 32 20
+				human_rib 8 7				
+				human_skull 8 7				
+				human_ear 8 7				
+				human_aye 8 7				
+#end								
+								
+#itemdrop_scienceContainer								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+scientist_clothing_container 10 40	scientist_clothing_container 10 40	medical_equipment 20 20	medical_equipment 20 20	human_skin 4 5	human_poop 8 7	medical_components 20 20	human_skin 4 5	scientist_clothing_container 10 40
+electrical_parts_container 10 40	electrical_parts_container 10 40	scientific_equipment 20 20	scientific_equipment 20 20	human_poop 8 7	human_skin 8 7	tool_container 20 20	human_poop 8 7	electrical_parts_container 10 40
+medical_equipment 20 20	medical_equipment 20 20	chemical_analyzer 20 20	tool_container 20 20	human_wrist 8 7	chemical_analyzer 20 20	robot_parts_container 20 20	human_wrist 8 7	medical_equipment 20 20
+chemical_analyzer 20 20	scientific_equipment 20 20	medical_components 20 20	robot_parts_container 20 20	human_feet 8 7	medical_components 20 20	scientific_equipment 20 20	human_feet 8 7	chemical_analyzer 20 20
+biomass_tank 20 20	chemical_analyzer 20 20	tool_container 20 20	armor_plates 10 10	human_skin 8 7	tool_container 20 20	pills_antiradin 5 14	human_skin 8 7	biomass_tank 20 20
+medical_components 20 20	quasiresearch_disk 20 20	robot_parts_container 20 20	weapon_parts 10 10	human_rib 8 7	research_disk 20 20	pills_fibromine 5 14	human_rib 8 7	medical_components 20 20
+tool_container 20 20	research_disk 20 20	pills_antiradin 5 14	surgicalKit 10 20	human_skull 8 7	water_bottle_1 20 10	pills_cryopentol 5 14	human_skull 8 7	tool_container 20 20
+robot_parts_container 20 20	quasisamples 20 20	pills_fibromine 5 14	nanorobot_grenade 10 20	human_ear 8 7	beer_can_1 8 7	pills_tranexam 5 14	human_ear 8 7	robot_parts_container 20 20
+pills_antiradin 5 14	biomass_tank 20 20	pills_cryopentol 5 14	medical_kit_2 10 20	human_aye 8 7	luxury_ration_pack_1 8 14	pills_osteodron 5 14	human_aye 8 7	quasisamples 20 20
+pills_fibromine 5 14	medical_components 20 20	pills_tranexam 5 14	ai_module 20 20	pills_antiradin 5 14	oil_bottle_1 8 14		anulator 2 40	research_disk 20 20
+pills_cryopentol 5 14	anulator 2 40	pills_osteodron 5 14	ceramite_plates 6 14	pills_fibromine 5 14	luxury_ration_pack_2 8 14		spider_brain 8 7	scientific_equipment 20 20
+pills_tranexam 5 14	defibrillator_device 5 20			pills_cryopentol 5 14	pills_antiradin 5 14		spider_joint 8 7	pills_antiradin 5 14
+pills_osteodron 5 14	ai_module 20 20			pills_tranexam 5 14	pills_fibromine 5 14		spider_cocoon 8 7	pills_fibromine 5 14
+	ceramite_plates 6 14			pills_osteodron 5 14	pills_cryopentol 5 14		spider_aye 8 7	pills_cryopentol 5 14
+					pills_tranexam 5 14		spider_chitin 8 7	pills_tranexam 5 14
+					pills_osteodron 5 14		spider_meat 8 7	pills_osteodron 5 14
+							spider_poisongland 8 7	
+#end								
+								
+#itemdrop_industryContainer								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+tool_container 20 20	tool_container 20 20	miner_breaker_1 10 10	tape 10 10	trash_pipe_1 10 10	mining_equipment 10 40	construction_equipment 10 40	quasi_repair_kit 5 20	construction_equipment 10 40
+robot_parts_container 20 20	robot_parts_container 30 20	tool_container 20 20	armor_repair_kit 10 10	worker_crowbar_1 10 10	construction_equipment 10 40	robot_parts_container 20 20	venus_armor_plates 10 10	robot_parts_container 20 20
+engineering_parts_container 20 20	engineering_parts_container 30 20	robot_parts_container 20 20	firearm_repair_kit 10 10	worker_pistol_1 10 20	robot_parts_container 20 20	tool_container 20 20	moon_armor_plates 10 10	tool_container 20 20
+welding_machine_device 20 20	electrical_parts_container 10 40	welding_machine_device 20 20	melee_repair_kit 10 10	electrical_parts_container 10 40	tool_container 20 20	engineering_parts_container 20 20	moon_weapon_parts 10 10	engineering_parts_container 20 20
+mining_equipment 10 40	scientific_equipment 20 20	mining_equipment 20 40	tool_container 20 20	tape 10 10	engineering_parts_container 20 20	armor_plates 10 10	venus_weapon_parts 10 10	armor_plates 10 10
+construction_equipment 10 40	medical_equipment 20 20	armor_plates 10 10	robot_parts_container 30 20	melee_repair_kit 10 10	armor_plates 10 10	weapon_parts 10 10		weapon_parts 10 10
+armor_plates 10 10	tape 10 10	weapon_parts 10 10	electrical_parts_container 10 40		weapon_parts 10 10	armor_repair_kit 10 10		
+weapon_parts 10 10	armor_repair_kit 10 10	trash_pipe_1 10 10	welding_machine_device 20 20		armor_repair_kit 10 10	firearm_repair_kit 10 10		armor_repair_kit 10 10
+coarse_parts 10 10	firearm_repair_kit 10 10	worker_crowbar_1 10 10	itemChip 1 70		firearm_repair_kit 10 10	melee_repair_kit 10 10		firearm_repair_kit 10 10
+trash_pipe_1 10 10	melee_repair_kit 10 10	worker_pistol_1 10 20	ai_module 20 20		melee_repair_kit 10 10	transformer 5 10		melee_repair_kit 10 10
+worker_crowbar_1 10 10	transformer 5 10	tape 10 10	ceramite_plates 6 14		transformer 5 10			transformer 5 10
+worker_pistol_1 10 20	lens 5 10	armor_repair_kit 10 10			itemChip 1 70			
+electrical_parts_container 10 40		firearm_repair_kit 10 10						
+tape 10 10	itemChip 1 70	melee_repair_kit 10 10						
+armor_repair_kit 10 10	geoscanner_device 20 20							
+firearm_repair_kit 10 10	ceramite_plates 6 14							
+melee_repair_kit 10 10								
+itemChip 1 70								
+#end								
+								
+#itemdrop_medicalcontainer								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+rags 8 5	bandage 15 7	rags 8 5	bandage 15 7	rags 8 5	rags 8 5	rags 8 5	rags 8 5	rags 8 5
+bandage 15 7	medical_kit_1 10 14	bandage 15 7	splint 15 7	syringe_morphine 10 14	bandage 15 7	bandage 15 7	trowable_heart 10 14	bandage 15 7
+splint 15 7	syringe_morphine 10 14	splint 15 7	pills_antibiotics 10 14	splint 15 7	syringe_morphine 10 14	syringe_morphine 10 14	human_poop 8 7	syringe_morphine 10 14
+medicalClue 10 14	splint 15 7	medicalClue 10 14	pills_antiradin 10 14	syringe_naloxone 10 14	splint 15 7	splint 15 7	quasi_medical_kit_1 10 21	splint 15 7
+pills_sorbent 10 14	pills_antibiotics 10 14	pills_sorbent 10 14	medicalClue 10 14	pills_sorbent 10 14	pills_antibiotics 10 14	medicalClue 10 14	syringe_bloodbag 10 14	medicalClue 10 14
+defibrillator_device 2 28	pills_antiradin 10 14	defibrillator_device 2 28	pills_sorbent 10 14	syringe_bloodbag 10 14	syringe_naloxone 10 14	syringe_naloxone 10 14	quasi_venus_rags 20 7	syringe_naloxone 10 14
+medical_equipment 2 28	medicalClue 10 14	chemical_analyzer 2 28	surgicalKit 5 21	trowable_heart 10 14	pills_sorbent 10 14	pills_sorbent 10 14	human_meat 8 7	pills_sorbent 10 14
+chemical_analyzer 2 28	syringe_naloxone 10 14	medical_components 2 28	pills_painkillers 10 14	drug_cargo 2 28	syringe_antidote 10 14	syringe_bloodbag 10 14	human_organ_1 8 7	syringe_antidote 10 14
+medical_components 2 28	pills_sorbent 10 14	pills_steroids 2 28	syringe_bloodbag 10 14	pills_steroids 2 28	organsBox 2 28	pills_painkillers 10 14	soup_can_1 10 14	pills_antiradin 10 14
+pills_steroids 2 28	surgicalKit 5 21	pills_fibromine 2 28	syringe_nanoinjection 10 14	human_poop 8 7	chemical_analyzer 2 28	organsBox 2 28	roasted_human_skin 10 14	pills_painkillers 10 14
+pills_fibromine 2 28	syringe_antidote 10 14	pills_cryopentol 2 28	plaster 10 14	pills_steroids 2 28	medical_components 2 28	medical_equipment 2 28		organsBox 2 28
+pills_cryopentol 2 28	syringe_bloodbag 10 14	pills_tranexam 2 28	medical_kit_2 5 21	pills_fibromine 2 28	pills_steroids 2 28	drug_cargo 2 28		medical_equipment 2 28
+pills_tranexam 2 28	pills_painkillers 10 14	pills_osteodron 2 28	defibrillator_device 2 28	pills_cryopentol 2 28	pills_fibromine 2 28	pills_steroids 2 28		drug_cargo 2 28
+pills_osteodron 2 28	syringe_nanoinjection 10 14	paper_towel 2 28	pills_steroids 2 28	pills_tranexam 2 28	pills_cryopentol 2 28	pills_fibromine 2 28		pills_steroids 2 28
+paper_towel 2 28	plaster 10 14	hydrogel_bandage 2 28	pills_fibromine 2 28	pills_osteodron 2 28	pills_tranexam 2 28	pills_cryopentol 2 28		pills_fibromine 2 28
+hydrogel_bandage 2 28	medical_kit_2 5 21	mustard_patch 2 28	pills_cryopentol 2 28	paper_towel 2 28	pills_osteodron 2 28	pills_tranexam 2 28		pills_cryopentol 2 28
+mustard_patch 2 28	trowable_heart 10 14	goldenstar_balm 2 28	pills_tranexam 2 28	hydrogel_bandage 2 28	paper_towel 2 28	pills_osteodron 2 28		pills_tranexam 2 28
+goldenstar_balm 2 28	organsBox 2 28		pills_osteodron 2 28	mustard_patch 2 28	hydrogel_bandage 2 28	paper_towel 2 28		pills_osteodron 2 28
+	defibrillator_device 2 28		paper_towel 2 28	goldenstar_balm 2 28	mustard_patch 2 28	hydrogel_bandage 2 28		paper_towel 2 28
+	medical_equipment 2 28		hydrogel_bandage 2 28		goldenstar_balm 2 28	mustard_patch 2 28		hydrogel_bandage 2 28
+	chemical_analyzer 2 28		mustard_patch 2 28			goldenstar_balm 2 28		mustard_patch 2 28
+	drug_cargo 2 28		goldenstar_balm 2 28					goldenstar_balm 2 28
+	medical_components 2 28							
+	pills_steroids 2 28							
+	pills_fibromine 2 28							
+	pills_cryopentol 2 28							
+	pills_tranexam 2 28							
+	pills_osteodron 2 28							
+	paper_towel 2 28							
+								
+#end								
+								
+#itemdrop_ammocontainer								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+battery_crafted_ammo 10 14	battery_basic_ammo 10 14	battery_crafted_ammo 10 14	small_basic_ammo 10 7	small_basic_ammo 10 7	battery_crafted_ammo 5 7	battery_crafted_ammo 5 7	quasi_basic_ammo 10 14	battery_crafted_ammo 5 7
+gas_ammo 10 7	small_basic_ammo 10 7	gas_ammo 10 7	small_burst_ammo 10 14	medium_police_ammo 10 14	gas_ammo 10 7	gas_ammo 10 7	quasi_bolts_ammo 10 14	gas_ammo 10 7
+toxic_ammo 5 7	medium_basic_ammo 10 7	toxic_ammo 5 7	small_expansive_ammo 10 14	shotgun_bullet_ammo 10 14	toxic_ammo 5 7	nail_bolts_ammo 10 7	quasi_energy_ammo 10 14	nail_bolts_ammo 10 7
+nail_bolts_ammo 10 7	shotgun_shrapnel_ammo 10 7	nail_bolts_ammo 10 7	medium_basic_ammo 10 7	shotgun_flechette_ammo 10 14	nail_bolts_ammo 10 7	small_basic_ammo 10 7		medium_basic_ammo 10 7
+	rifle_basic_ammo 10 7		medium_police_ammo 10 14	battery_crafted_ammo 5 7	shotgun_bullet_ammo 10 14	medium_basic_ammo 10 7		medium_police_ammo 10 14
+	battery_crafted_ammo 5 7		shotgun_bullet_ammo 10 14	gas_ammo 10 7	shotgun_shrapnel_ammo 10 7	medium_police_ammo 10 14		rifle_basic_ammo 10 7
+	gas_ammo 5 7		shotgun_shrapnel_ammo 10 7	nail_bolts_ammo 10 7	shotgun_flechette_ammo 10 14	rifle_basic_ammo 10 7		rifle_armorpierce_ammo 10 7
+	toxic_ammo 5 7		shotgun_flechette_ammo 10 14	heavy_basic_ammo 5 14	shotgun_dragon_ammo 10 14			
+	rifle_plasma_ammo 5 21		shotgun_dragon_ammo 10 14	heavy_flack_ammo 5 14	shotgun_explosion_ammo 10 14			
+	dil_battery_ammo 5 21		shotgun_explosion_ammo 10 14					
+			rifle_basic_ammo 10 7					
+			rifle_armorpierce_ammo 10 7					
+			heavy_basic_ammo 5 14					
+			heavy_flack_ammo 5 14					
+#end								
+								
+#itemdrop_amplifiercontainers								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+small_basic_ammo 4 28	small_basic_ammo 4 28	small_basic_ammo 4 28	small_basic_ammo 4 28	small_basic_ammo 4 28	small_basic_ammo 4 28	small_basic_ammo 4 28	human_skin 4 5	small_basic_ammo 4 28
+small_burst_ammo 3 42	shotgun_shrapnel_ammo 5 28	small_burst_ammo 3 42	small_burst_ammo 3 42	shotgun_shrapnel_ammo 5 28	small_burst_ammo 3 42	small_burst_ammo 3 42	human_poop 8 7	small_burst_ammo 3 42
+rifle_basic_ammo 3 70	rifle_basic_ammo 3 70	rifle_basic_ammo 3 70	shotgun_bullet_ammo 10 14	rags 6 14	shotgun_bullet_ammo 10 14	shotgun_bullet_ammo 10 14	human_wrist 8 7	shotgun_bullet_ammo 10 14
+rags 6 14	battery_basic_ammo 2 56	rags 6 14	shotgun_shrapnel_ammo 5 28	soda_can_1 4 14	shotgun_bullet_ammo 10 14	soda_can_1 4 14	human_feet 8 7	surgicalKit 2 70
+soda_can_1 4 14	bandage 5 28	soda_can_1 4 14	shotgun_flechette_ammo 3 56	canned_food_1 3 42	shotgun_shrapnel_ammo 5 28	canned_food_1 3 42	human_skin 8 7	soda_can_1 4 14
+canned_food_1 3 42	medical_kit_1 4 42	canned_food_1 3 42	shotgun_dragon_ammo 3 70	canned_food_2 3 28	shotgun_flechette_ammo 3 56	canned_food_2 3 28	human_rib 8 7	canned_food_1 3 42
+canned_food_2 3 28	splint 5 28	canned_food_2 3 28	shotgun_explosion_ammo 3 70	chocolate_pack_1 5 14	shotgun_dragon_ammo 3 70	chocolate_pack_1 5 14	human_skull 8 7	canned_food_2 3 28
+chocolate_pack_1 5 14	pills_antibiotics 6 28	chocolate_pack_1 5 14	rifle_basic_ammo 3 70	ration_pack_1 4 28	shotgun_explosion_ammo 3 70	ration_pack_1 4 28	human_ear 8 7	chocolate_pack_1 5 14
+ration_pack_1 4 28	medicalClue 6 42	ration_pack_1 4 28	battery_basic_ammo 2 56	ration_pack_2 4 28	soda_can_1 6 14	ration_pack_2 4 28	human_aye 8 7	ration_pack_1 4 28
+ration_pack_2 4 28	pills_sorbent 8 14	ration_pack_2 4 28	bandage 5 28	soda_can_2 4 14	canned_food_1 3 42	soda_can_2 4 14	anulator 2 40	ration_pack_2 4 28
+soda_can_2 4 14	surgicalKit 2 70	soda_can_2 4 14	medical_kit_1 4 42	water_bottle_1 5 14	canned_food_2 3 28	water_bottle_1 5 14	spider_brain 8 7	soda_can_2 4 14
+water_bottle_1 5 14	soda_can_1 4 14	water_bottle_1 5 14	splint 5 28	beer_can_1 2 14	chocolate_pack_1 5 14	beer_can_1 2 14	spider_joint 8 7	water_bottle_1 5 14
+beer_can_1 2 14	canned_food_1 3 42	beer_can_1 2 14	pills_antibiotics 6 28	melee_repair_kit 5 84	beer_can_1 4 14	firearm_repair_kit 5 84	spider_cocoon 8 7	beer_can_1 2 14
+burger_pack_1 3 28	canned_food_2 3 28	burger_pack_1 3 28	medicalClue 6 42	stun_grenade 4 56	burger_pack_1 4 28	melee_repair_kit 5 84	spider_aye 8 7	servo_backpack_1 3 112
+burger_pack_2 3 28	chocolate_pack_1 5 14	burger_pack_2 3 28	pills_sorbent 8 14	thermal_grenade 5 84	burger_pack_2 4 28	thermal_grenade 5 84	spider_chitin 8 7	armor_repair_kit 5 84
+servo_backpack_1 3 112	soda_can_2 4 14	servo_backpack_1 3 112	surgicalKit 2 70	stun_grenade 4 56	armor_repair_kit 2 84	stun_grenade 4 56	spider_meat 8 7	firearm_repair_kit 5 84
+armor_repair_kit 5 84	water_bottle_1 5 14	armor_repair_kit 5 84	soda_can_1 4 14	coarse_parts 6 14	thermal_grenade 2 84	coarse_parts 6 14	spider_poisongland 8 7	melee_repair_kit 5 84
+melee_repair_kit 5 84	medium_backpack_1 3 112	melee_repair_kit 5 84	mre_pack_1 2 70	rusty_plates 6 14	stun_grenade 4 56	rusty_plates 6 14		thermal_grenade 5 84
+thermal_grenade 5 84	servo_backpack_1 3 112	thermal_grenade 5 84	soda_can_2 4 14	rod_parts 6 14		rod_parts 6 14		stun_grenade 4 56
+stun_grenade 4 56	automap 3 210	stun_grenade 4 56	water_bottle_1 5 14					coarse_parts 6 14
+coarse_parts 6 14	capacitor_parts 6 14	coarse_parts 6 14	burger_pack_1 3 28					rusty_plates 6 14
+rusty_plates 6 14	ceramite_plates 6 14		burger_pack_2 3 28					rod_parts 6 14
+rod_parts 6 14			medium_backpack_1 3 112					
+			armor_repair_kit 5 84					
+			firearm_repair_kit 5 84					
+			melee_repair_kit 5 84					
+			frag_grenade 5 84					
+			thermal_grenade 5 84					
+			stun_grenade 4 56					
+			frag_mine 5 84					
+#end								
+								
+#itemdrop_weaponSmallcontainer								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+cor_worker_pistol_1 10 21	rail_pistol_1 10 21	cor_worker_pistol_1 10 21	army_pistol_1 10 21	common_pistol_1 10 21	cor_worker_pistol_1 10 21	cor_worker_pistol_1 10 21	venus_quasi_pistol_1 10 21	cor_worker_pistol_1 10 21
+army_pistol_1 10 21	laser_pistol_1 10 21	army_pistol_1 10 21	army_pistol_2 10 21	common_pistol_2 10 21	army_pistol_1 10 21	army_pistol_1 10 21	venus_battlefist_1 10 21	army_pistol_1 10 21
+army_pistol_2 10 21	rail_pistol_2 10 21	army_pistol_2 10 21	pmc_pistol_1 10 21	common_pistol_3 10 21	army_pistol_2 10 21	army_pistol_2 10 21	mercury_sickle_1 10 21	army_pistol_2 10 21
+pmc_pistol_1 10 21	ddr_frost_pistol_1 10 21	pmc_pistol_1 10 21	pmc_pistol_2 10 21	military_pistol_1 10 21	pmc_pistol_1 10 21	pmc_pistol_1 10 21	trash_knife_1 10 14	pmc_pistol_1 10 21
+pmc_pistol_2 10 21	sun_laser_pistol_1 10 21	pmc_pistol_2 10 21	military_pistol_1 10 21	cor_worker_pistol_1 10 21	pmc_pistol_2 10 21	pmc_pistol_2 10 21	human_hand 10 14	pmc_pistol_2 10 21
+military_pistol_1 10 21	pmc_pistol_3 10 21	military_pistol_1 10 21	military_pistol_2 10 21	army_pistol_1 10 21	military_pistol_1 10 21	military_pistol_1 10 21	human_leg 10 14	military_pistol_1 10 21
+military_pistol_2 10 21	pmc_pistol_1 10 21	military_pistol_2 10 21	trucker_pistol_1 10 21	army_pistol_2 10 21	military_pistol_2 10 21	military_pistol_2 10 21	bone_knife 10 14	military_pistol_2 10 21
+trucker_pistol_1 10 21	pmc_pistol_2 10 21	trucker_pistol_1 10 21	trucker_pistol_2 10 21	civ_pistol_1 10 21	trucker_pistol_1 10 21	trucker_pistol_1 10 21	spider_claw 10 14	trucker_pistol_1 10 21
+trucker_pistol_2 10 21	ddr_toxic_pistol_1 10 21	trucker_pistol_2 10 21	common_pistol_1 10 21	civ_pistol_2 10 21	trucker_pistol_2 10 21	trucker_pistol_2 10 21		trucker_pistol_2 10 21
+common_pistol_1 10 21	sbn_rail_pistol_1 5 21	common_pistol_1 10 21	common_pistol_2 10 21	fra_security_pistol_1 10 21	common_pistol_1 10 21	common_pistol_1 10 21		common_pistol_1 10 21
+common_pistol_2 10 21	laser_smg_1 5 21	common_pistol_2 10 21	common_pistol_3 10 21	trash_fist_1 5 14	common_pistol_2 10 21	common_pistol_2 10 21		common_pistol_2 10 21
+common_pistol_3 10 21	laser_smg_2 5 21	common_pistol_3 10 21	pmc_smg_1 10 21	fra_police_club_1 5 21	common_pistol_3 10 21	common_pistol_3 10 21		common_pistol_3 10 21
+pmc_smg_1 10 21		pmc_smg_1 10 21	ddr_toxic_pistol_1 10 21	trash_smg_1 5 21	pmc_smg_1 10 21	pmc_smg_1 10 21		pmc_smg_1 10 21
+ddr_toxic_pistol_1 10 21		ddr_toxic_pistol_1 10 21	pmc_pistol_3 10 21		ddr_toxic_pistol_1 10 21	ddr_toxic_pistol_1 10 21		ddr_toxic_pistol_1 10 21
+civ_pistol_1 10 21		civ_pistol_1 10 21	pmc_pistol_1 10 21					
+civ_pistol_2 10 21		civ_pistol_2 10 21	pmc_pistol_2 10 21					
+			pmc_smg_2 10 21					
+#end								
+								
+#itemdrop_weaponBigcontainer								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+pmc_shotgun_1 10 42	common_shotgun_1 10 42	pmc_shotgun_1 10 42	grenade_launcher_1 5 42	trash_smg_1 10 42	pmc_shotgun_1 10 42	pmc_shotgun_1 10 42	venus_marksman_1 10 42	pmc_shotgun_1 10 42
+trucker_shotgun_1 10 42	trucker_shotgun_1 10 42	trucker_shotgun_1 10 42	pmc_shotgun_1 10 42	police_smg_1 10 42	trucker_shotgun_1 10 42	trucker_shotgun_1 10 42	moon_crossbow_sniper_1 10 42	trucker_shotgun_1 10 42
+common_shotgun_1 10 42	pmc_shotgun_1 10 42	common_shotgun_1 10 42	trucker_shotgun_1 10 42	fra_security_smg_1 5 42	common_shotgun_1 10 42	common_shotgun_1 10 42	mercury_assault_staff_1 10 42	common_shotgun_1 10 42
+common_shotgun_2 10 42	laser_smg_2 5 42	common_shotgun_2 10 42	common_shotgun_1 10 42	trash_sawblade_1 10 42	common_shotgun_2 10 42	common_shotgun_2 10 42	venus_quasi_shotgun_1 10 42	common_shotgun_2 10 42
+pmc_smg_1 10 42	laser_smg_1 5 42	pmc_smg_1 10 42	common_shotgun_2 10 42	prison_axe_1 10 42	pmc_smg_1 10 42	pmc_smg_1 10 42		pmc_smg_1 10 42
+pmc_smg_2 10 42	laser_sniper_1 5 42	pmc_smg_2 10 42	pmc_smg_1 10 42	trash_shotgun_1 10 42	pmc_smg_2 10 42	pmc_smg_2 10 42		pmc_smg_2 10 42
+police_smg_1 10 42	laser_marksman_1 5 42	police_smg_1 10 42	pmc_smg_2 10 42	pmc_smg_1 10 42	grh_trucker_assault_1 3 21	police_smg_1 10 42		police_smg_1 10 42
+pmc_assault_1 5 42	rail_marksman_1 10 42	pmc_assault_1 10 42	military_smg_1 10 42	trash_assault_1 10 42	pmc_assault_1 10 42	pmc_assault_1 10 42		pmc_assault_1 10 42
+common_assault_1 10 42	ddr_frost_pistol_1 10 42	common_assault_1 10 42	police_smg_1 10 42		common_assault_1 10 42	common_assault_1 10 42		common_assault_1 10 42
+trucker_marksman_1 10 42	toxic_thrower_1 10 42	trucker_marksman_1 10 42	pmc_assault_1 10 42		trucker_marksman_1 10 42	trucker_marksman_1 10 42		trucker_marksman_1 10 42
+			common_assault_1 10 42					rail_marksman_1 10 42
+			trucker_marksman_1 10 42					
+#end								
+								
+#itemdrop_weaponElitecontainer								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+worker_hmg_1 10 42	plasma_assault_1 5 42	worker_hmg_1 10 42	military_assault_1 2 42	pirates_smg_2 10 42	army_pistol_3 10 42	army_pistol_3 10 42	venus_marksman_1 10 42	army_pistol_3 10 42
+cor_worker_disctrower_1 3 42	laser_smg_2 5 42	toxic_thrower_1 10 42	army_pistol_3 5 42	army_pistol_3 10 42	military_pistol_3 10 42	military_pistol_3 10 42	moon_crossbow_sniper_1 10 42	military_pistol_3 10 42
+cor_laser_sniper_1 3 42	laser_smg_1 5 42	worker_flametrower_1 10 42	military_pistol_3 10 42	military_pistol_3 10 42	trucker_pistol_3 10 42	trucker_pistol_3 10 42	mercury_assault_staff_1 10 42	trucker_pistol_3 10 42
+cor_worker_hmg_1 3 42	laser_marksman_1 10 42	worker_disctrower_1 5 42	trucker_pistol_3 10 42	trucker_pistol_3 10 42	rail_pistol_2 10 42	rail_pistol_2 10 42	venus_quasi_shotgun_1 10 42	rail_pistol_2 10 42
+army_pistol_3 10 42	rail_marksman_1 10 42	cor_laser_sniper_1 3 42	rail_pistol_2 10 42	rail_pistol_2 5 42	laser_pistol_2 10 42	laser_pistol_2 5 42		laser_pistol_2 10 42
+military_pistol_3 10 42	rail_pistol_1 10 42	army_pistol_3 10 42	laser_pistol_2 10 42	laser_pistol_2 5 42	common_pistol_3 10 42	common_pistol_3 10 42		common_pistol_3 10 42
+trucker_pistol_3 10 42	rail_pistol_2 10 42	military_pistol_3 10 42	common_pistol_3 10 42	common_pistol_3 10 42				
+rail_pistol_2 10 42		trucker_pistol_3 10 42	laser_smg_2 3 42					
+laser_pistol_2 10 42		rail_pistol_2 10 42	laser_smg_1 3 42					
+common_pistol_3 10 42		laser_pistol_2 10 42	laser_marksman_1 3 42					
+		common_pistol_3 10 42						
+#end								
+								
+#itemdrop_armorLabcontainer								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+medical_tshirt_1 10 14	science_coat_1 10 14	medical_tshirt_1 10 14	medical_tshirt_1 10 14	prison_tshirt_2 10 14	medical_tshirt_1 10 14	common_hat_1 10 14	possesed_shirt_1 10 14	science_chem_boots_1 10 14
+medical_tshirt_2 10 14	science_coat_2 10 14	medical_tshirt_2 10 14	medical_tshirt_2 10 14	prison_reinforced_shirt_1 10 14	medical_tshirt_2 10 14	common_hat_2 10 14	possesed_shirt_2 10 14	prison_reinforced_shirt_1 10 14
+medical_gasmask_1 10 14	science_reinforced_shirt_1 10 14	medical_gasmask_1 10 14	medical_gasmask_1 10 14	prison_light_armor_1 10 14	medical_gasmask_1 10 14	common_gasmask_1 10 14	possesed_shirt_3 10 14	prison_light_armor_1 10 14
+medical_pants_1 10 14	science_chem_shirt_1 10 14	medical_pants_1 10 14	medical_pants_1 10 14	prison_light_helmet_1 10 14	medical_pants_1 10 14	pirates_boots_1 10 14	possesed_light_armor_1 10 14	prison_light_helmet_1 10 14
+medical_chem_pants_1 10 14	science_gasmask_1 10 14	medical_chem_pants_1 10 14	medical_chem_pants_1 10 14	science_gasmask_1 10 14	medical_chem_pants_1 10 14	pirates_light_boots_1 10 14	human_wrist 10 14	science_chem_helmet_1 10 14
+medical_sneakers_1 10 14	science_chem_helmet_1 10 14	medical_sneakers_1 10 14	science_reinforced_shirt_1 10 14	prison_mask_2 10 14	medical_sneakers_1 10 14	pirates_pants_1 10 14	human_feet 10 14	laborer_medium_helmet_1 5 14
+medical_sneakers_2 10 14	medical_gasmask_1 10 14	medical_sneakers_2 10 14	military_doc_armor_1 5 21	prison_mask_3 10 14	medical_sneakers_2 10 14	pirates_reinforced_pants_1 10 14	human_skin 10 14	laborer_pants_1 10 14
+science_chem_shirt_1 10 14	medical_chem_helmet_1 10 14	science_chem_shirt_1 10 14	military_doc_helmet_1 5 21	science_chem_helmet_1 10 14	medical_chem_helmet_1 10 14	pirates_reinforced_pants_2 10 14	human_poop 10 14	laborer_pants_2 10 14
+science_chem_helmet_1 10 14	science_pants_1 10 14	science_chem_helmet_1 10 14	military_doc_pants_1 5 21	prison_pants_1 10 14	common_jacket_1 10 14	science_coat_1 10 14	human_rib 10 14	laborer_pants_3 10 14
+medical_chem_helmet_1 10 14	science_pants_2 10 14	medical_chem_helmet_1 10 14	military_boots_1 10 14	prison_reinforced_pants_1 10 14	science_chem_shirt_1 10 14	science_coat_2 10 14	human_skull 10 14	laborer_medium_pants_1 5 14
+science_chem_pants_1 10 14	science_reinforced_pants_1 10 14	science_chem_pants_1 10 14	military_light_boots_1 5 21	prison_light_pants_1 10 14	science_chem_helmet_1 10 14	medical_gasmask_1 10 14	human_ear 10 14	science_chem_shirt_1 10 14
+science_chem_boots_1 10 14	science_chem_pants_1 10 14	science_chem_boots_1 10 14	medical_medium_armor_1 3 21	prison_sneakers_1 10 14	science_chem_pants_1 10 14	science_chem_helmet_1 10 14	human_aye 10 14	laborer_medium_boots_1 5 14
+ddr_chem_coat_1 5 21	science_reinforced_boots_1 10 14	ddr_chem_coat_1 5 21	medical_medium_pants_1 3 21	prison_light_boots_1 10 14	science_chem_boots_1 10 14	science_gasmask_1 10 14		common_jacket_1 10 14
+ddr_reinforced_chem_coat_1 5 21	science_chem_boots_1 10 14	ddr_reinforced_chem_coat_1 5 21	medical_medium_boots_1 3 21	pirates_boots_1 10 14	ddr_chem_coat_1 5 21			pirates_boots_1 10 14
+	medical_medium_armor_1 3 21		ddr_chem_coat_1 5 21	pirates_light_boots_1 10 14	ddr_reinforced_chem_coat_1 5 21			pirates_light_boots_1 10 14
+	medical_medium_pants_1 3 21		ddr_reinforced_chem_coat_1 5 21	pirates_reinforced_shirt_1 10 14				science_gasmask_1 10 14
+	medical_medium_boots_1 3 21			pirates_reinforced_shirt_2 10 14				pirates_reinforced_shirt_2 10 14
+	ddr_chem_coat_1 5 21			medical_tshirt_1 10 14				
+	ddr_reinforced_chem_coat_1 5 21			medical_tshirt_2 10 14				
+#end								
+								
+#itemdrop_armorMilitarycontainer								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+police_medium_helmet_1 5 21	military_cap_1 10 14	police_medium_helmet_1 5 21	military_cap_1 10 14	police_cap_1 10 14	military_cap_1 5 14	military_cap_1 5 14	possesed_shirt_1 10 14	military_cap_1 5 14
+police_medium_armor_1 5 21	military_mask_1 10 14	police_medium_armor_1 5 21	military_mask_1 10 14	police_cap_2 10 14	military_mask_1 5 14	military_mask_1 5 14	possesed_shirt_2 10 14	military_mask_1 5 14
+police_medium_pants_1 5 21	military_light_helmet_1 10 14	police_medium_pants_1 5 21	military_light_helmet_1 10 14	police_shirt_1 10 14	military_light_helmet_1 5 14	military_light_helmet_1 5 14	possesed_shirt_3 10 14	military_light_helmet_1 5 14
+police_medium_boots_1 5 21	military_shirt_2 10 14	police_medium_boots_1 5 21	military_light_gasmask_1 10 14	police_pants_1 10 14	military_shirt_2 5 14	military_shirt_2 5 14	possesed_light_armor_1 10 14	military_shirt_2 5 14
+police_cap_1 10 14	military_shirt_3 10 14	police_cap_1 10 14	military_medium_helmet_1 5 21	police_pants_2 10 14	military_shirt_3 5 14	military_shirt_3 5 14	human_wrist 10 14	military_shirt_3 5 14
+police_cap_2 10 14	military_light_armor_1 10 14	police_cap_2 10 14	military_shirt_2 10 14	police_boots_2 10 14	military_light_armor_1 5 14	military_light_armor_1 5 14	human_feet 10 14	military_light_armor_1 5 14
+police_shirt_1 10 14	military_pants_1 10 14	police_shirt_1 10 14	military_shirt_3 10 14	prison_reinforced_shirt_1 10 14	military_pants_1 5 14	military_pants_1 5 14	human_skin 10 14	military_pants_1 5 14
+police_pants_1 10 14	military_pants_2 10 14	police_pants_1 10 14	military_light_armor_1 10 14	prison_light_armor_1 10 14	military_pants_2 5 14	military_pants_2 5 14	human_poop 10 14	military_pants_2 5 14
+police_pants_2 10 14	military_light_pants_1 10 14	police_pants_2 10 14	military_medium_armor_1 5 21	prison_reinforced_pants_1 10 14	military_light_pants_1 5 14	military_light_pants_1 5 14	human_rib 10 14	military_light_pants_1 5 14
+police_boots_2 10 14	military_boots_1 10 14	police_boots_2 10 14	military_pants_1 10 14	prison_light_pants_1 10 14	military_boots_1 5 14	military_boots_1 5 14	human_skull 10 14	military_boots_1 5 14
+pirates_gasmask_1 10 14	military_light_boots_1 10 14	pirates_gasmask_1 10 14	military_pants_2 10 14	prison_light_boots_1 10 14	military_light_boots_1 5 14	military_light_boots_1 5 14	human_ear 10 14	military_light_boots_1 5 14
+pirates_reinforced_cap_1 10 14	police_medium_helmet_1 5 21	pirates_reinforced_cap_1 10 14	military_light_pants_1 10 14	pirates_gasmask_1 10 14	police_medium_helmet_1 5 21	police_medium_helmet_1 5 21	human_aye 10 14	police_medium_helmet_1 5 21
+pirates_light_armor_1 10 14	police_heavy_helmet_2 5 21	pirates_light_armor_1 10 14	military_medium_pants_1 5 21	pirates_reinforced_cap_1 10 14	police_medium_armor_1 5 21	police_medium_armor_1 5 21		police_medium_armor_1 5 21
+pirates_light_pants_1 10 14	police_medium_armor_1 5 21	pirates_light_pants_1 10 14	military_boots_1 10 14	pirates_light_armor_1 10 14	police_medium_pants_1 5 21	police_medium_pants_1 5 21		police_medium_pants_1 5 21
+pirates_light_boots_1 10 14	police_heavy_armor_1 5 21	pirates_light_boots_1 10 14	military_light_boots_1 10 14	pirates_light_pants_1 10 14	police_medium_boots_1 5 21	police_medium_boots_1 5 21		police_medium_boots_1 5 21
+laborer_hard_cap_1 10 14	police_medium_pants_1 5 21	miner_hard_cap_1 10 14	military_medium_boots_1 5 21	pirates_light_boots_1 10 14	police_cap_1 10 14	police_cap_1 10 14		police_cap_1 10 14
+laborer_medium_helmet_1 5 21	police_heavy_pants_1 5 21	miner_hard_cap_2 10 14			police_cap_2 10 14	police_cap_2 10 14		police_cap_2 10 14
+laborer_medium_armor_1 5 21	police_medium_boots_1 5 21	miner_medium_helmet_1 5 21			police_shirt_1 10 14	police_shirt_1 10 14		police_shirt_1 10 14
+laborer_exoskeleton_1 3 21	police_heavy_boots_1 3 21	miner_reinforced_shirt_1 5 21			police_pants_1 10 14	police_pants_1 10 14		police_pants_1 10 14
+laborer_medium_pants_1 5 21	ddr_reinforced_chem_coat_1 5 21	miner_exoskeleton_1 3 21			police_pants_2 10 14	police_pants_2 10 14		police_pants_2 10 14
+laborer_medium_boots_1 5 21		miner_medium_pants_1 5 21			police_boots_2 10 14	police_boots_2 10 14		police_boots_2 10 14
+		miner_medium_boots_1 5 21						
+#end								
+								
+#itemdrop_armorIndustrycontainer								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+laborer_shirt_1 10 14	laborer_shirt_1 10 14	miner_gasmask_1 10 14	laborer_shirt_1 10 14	laborer_shirt_1 10 14	laborer_shirt_1 10 14	laborer_shirt_1 10 14	possesed_shirt_1 10 14	laborer_shirt_1 10 14
+laborer_shirt_2 10 14	laborer_shirt_2 10 14	miner_hard_cap_1 10 14	laborer_shirt_2 10 14	laborer_shirt_2 10 14	laborer_shirt_2 10 14	laborer_shirt_2 10 14	possesed_shirt_2 10 14	laborer_shirt_2 10 14
+laborer_shirt_3 10 14	laborer_shirt_3 10 14	miner_hard_cap_2 10 14	laborer_shirt_3 10 14	laborer_shirt_3 10 14	laborer_shirt_3 10 14	laborer_shirt_3 10 14	possesed_shirt_3 10 14	laborer_shirt_3 10 14
+laborer_warm_shirt_1 10 14	laborer_cap_1 10 14	miner_shirt_1 10 14	laborer_cap_1 10 14	laborer_cap_1 10 14	laborer_medium_armor_1 5 14	laborer_warm_shirt_1 10 14	possesed_light_armor_1 10 14	laborer_warm_shirt_1 10 14
+laborer_medium_armor_1 5 14	laborer_hard_cap_1 10 14	miner_reinforced_shirt_1 10 14	laborer_hard_cap_1 10 14	laborer_hard_cap_1 10 14	laborer_cap_1 10 14	laborer_medium_armor_1 5 14	human_wrist 10 14	laborer_medium_armor_1 5 14
+laborer_cap_1 10 14	laborer_pants_1 10 14	civ_shirt_1 10 14	laborer_pants_1 10 14	laborer_pants_1 10 14	laborer_hard_cap_1 10 14	laborer_cap_1 10 14	human_feet 10 14	laborer_cap_1 10 14
+laborer_warm_hat_1 10 14	laborer_pants_2 10 14	civ_shirt_2 10 14	laborer_pants_2 10 14	laborer_pants_2 10 14	laborer_medium_helmet_1 5 14	laborer_warm_hat_1 10 14	human_skin 10 14	laborer_warm_hat_1 10 14
+laborer_hard_cap_1 10 14	laborer_pants_3 10 14	miner_gasmask_1 10 14	laborer_pants_3 10 14	laborer_pants_3 10 14	laborer_pants_1 10 14	laborer_hard_cap_1 10 14	human_poop 10 14	laborer_hard_cap_1 10 14
+laborer_medium_helmet_1 5 14	laborer_boots_1 10 14	miner_hard_cap_1 10 14	laborer_boots_1 10 14	laborer_boots_1 10 14	laborer_pants_2 10 14	laborer_medium_helmet_1 5 14	human_rib 10 14	laborer_medium_helmet_1 5 14
+laborer_pants_1 10 14	science_chem_shirt_1 10 14	miner_hard_cap_2 10 14	science_chem_shirt_1 10 14	prison_reinforced_shirt_1 10 14	laborer_pants_3 10 14	laborer_pants_1 10 14	human_skull 10 14	laborer_pants_1 10 14
+laborer_pants_2 10 14	science_chem_helmet_1 10 14	miner_pants_1 10 14	science_chem_helmet_1 10 14	prison_light_armor_1 10 14	laborer_medium_pants_1 5 14	laborer_pants_2 10 14	human_ear 10 14	laborer_pants_2 10 14
+laborer_pants_3 10 14	medical_chem_helmet_1 10 14	civ_pants_1 10 14	medical_chem_helmet_1 10 14	prison_reinforced_pants_1 10 14	laborer_boots_1 10 14	laborer_pants_3 10 14	human_aye 10 14	laborer_pants_3 10 14
+laborer_warm_pants_1 10 14	science_chem_pants_1 10 14	civ_pants_2 10 14	science_chem_pants_1 10 14	prison_light_pants_1 10 14	laborer_medium_boots_1 5 14	laborer_warm_pants_1 10 14		laborer_warm_pants_1 10 14
+laborer_medium_pants_1 5 14	science_chem_boots_1 10 14	civ_boots_1 10 14	science_chem_boots_1 10 14	prison_light_boots_1 10 14	civ_medium_helmet_1 5 21	laborer_medium_pants_1 5 14		laborer_medium_pants_1 5 14
+laborer_boots_1 10 14		civ_boots_2 10 14	military_light_helmet_1 10 14	pirates_gasmask_1 10 14	civ_medium_armor_1 5 21	laborer_boots_1 10 14		laborer_boots_1 10 14
+laborer_warm_boots_1 10 14		miner_medium_helmet_1 5 21	military_light_gasmask_1 10 14	pirates_reinforced_cap_1 10 14	civ_medium_pants_1 5 21	laborer_warm_boots_1 10 14		laborer_warm_boots_1 10 14
+laborer_medium_boots_1 5 14		miner_reinforced_shirt_1 5 21	military_light_armor_1 10 14	pirates_light_armor_1 10 14	civ_medium_boots_1 5 21	laborer_medium_boots_1 5 14		laborer_medium_boots_1 5 14
+laborer_medium_helmet_1 5 21		miner_exoskeleton_1 3 21	military_light_pants_1 10 14	pirates_light_pants_1 10 14	pirates_light_armor_1 5 14	civ_medium_helmet_1 5 21		civ_medium_helmet_1 5 21
+laborer_medium_armor_1 5 21		miner_medium_pants_1 5 21	military_light_boots_1 10 14	pirates_light_boots_1 10 14	pirates_light_pants_1 5 14	civ_medium_armor_1 5 21		civ_medium_armor_1 5 21
+laborer_exoskeleton_1 3 21		miner_medium_boots_1 5 21		civ_medium_helmet_1 5 21	pirates_light_boots_1 5 14	civ_medium_pants_1 5 21		civ_medium_pants_1 5 21
+laborer_medium_pants_1 5 21		civ_medium_helmet_1 5 21		civ_medium_armor_1 5 21		civ_medium_boots_1 5 21		civ_medium_boots_1 5 21
+laborer_medium_boots_1 5 21		civ_medium_armor_1 5 21		civ_medium_pants_1 5 21				
+civ_medium_helmet_1 5 21		civ_medium_pants_1 5 21		civ_medium_boots_1 5 21				
+civ_medium_armor_1 5 21		civ_medium_boots_1 5 21						
+civ_medium_pants_1 5 21								
+civ_medium_boots_1 5 21								
+#end								
+								
+#itemdrop_watertankdrop								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+water_bottle_1 20 20	water_bottle_1 20 20	water_bottle_1 20 20	water_bottle_1 20 20	water_bottle_1 20 20	water_bottle_1 20 20	water_bottle_1 20 20	water_bottle_1 20 20	water_bottle_1 20 20
+#end								
+								
+#itemdrop_toxicbarreldrop								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+toxic_ammo 20 20	toxic_ammo 20 20	toxic_ammo 20 20	toxic_ammo 20 20	toxic_ammo 20 20	toxic_ammo 20 20	toxic_ammo 20 20	toxic_ammo 20 20	toxic_ammo 20 20
+#end								
+								
+#itemdrop_toiletdrop								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+water_bottle_1 80 20	water_bottle_1 80 20	water_bottle_1 80 20	water_bottle_1 80 20	water_bottle_1 80 20	water_bottle_1 80 20	water_bottle_1 80 20	water_bottle_1 80 20	water_bottle_1 80 20
+human_poop 20 20	human_poop 20 20	human_poop 20 20	human_poop 20 20	human_poop 20 20	human_poop 20 20	human_poop 20 20	human_poop 20 20	human_poop 20 20
+#end								
+								
+#itemdrop_bloodsinkdrop								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+syringe_bloodbag	syringe_bloodbag 20 20	syringe_bloodbag 20 20	syringe_bloodbag 20 20	syringe_bloodbag 20 20	syringe_bloodbag 20 20	syringe_bloodbag 20 20	syringe_bloodbag 20 20	syringe_bloodbag 20 20
+#end								
+								
+#itemdrop_poppycontainer								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+poppy_box 20 20	poppy_box 20 20	poppy_box 20 20	poppy_box 20 20	poppy_box 20 20	poppy_box 20 20	poppy_box 20 20	poppy_box 20 20	poppy_box 20 20
+#end								
+								
+#itemdrop_redbarreldrop								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+gas_ammo 20 20	gas_ammo 20 20	gas_ammo 20 20	gas_ammo 20 20	gas_ammo 20 20	gas_ammo 20 20	gas_ammo 20 20	gas_ammo 20 20	gas_ammo 20 20
+#end								
+								
+#itemdrop_VendingMachine								
+Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
+cigarettes_1 5 21	soda_can_1 5 14	cigarettes_1 5 21	soda_can_1 5 14	cigarettes_1 5 21	cigarettes_1 5 21	cigarettes_1 5 21	plastic 15 7	cigarettes_1 5 21
+soda_can_1 5 14	soda_can_2 5 14	soda_can_1 5 14	soda_can_2 5 14	soda_can_1 5 14	soda_can_1 5 14	soda_can_1 5 14	tin 15 14	soda_can_1 5 14
+soda_can_2 5 14	juice_pack_1 5 14	soda_can_2 5 14	juice_pack_1 5 14	soda_can_2 5 14	soda_can_2 5 14	soda_can_2 5 14	glassBottle 15 14	soda_can_2 5 14
+water_bottle_1 10 14	juice_pack_2 5 14	water_bottle_1 10 14	juice_pack_2 5 14	water_bottle_1 10 14	juice_pack_1 5 14	juice_pack_1 5 14	human_meat 5 14	juice_pack_1 5 14
+energy_can_1 10 14	water_bottle_1 10 14	beer_can_1 5 21	water_bottle_1 10 14	chips_pack_1 5 14	juice_pack_2 5 14	juice_pack_2 5 14	rotten_human_meat 15 14	juice_pack_2 5 14
+beer_can_1 5 21	ration_pack_1 5 21	chips_pack_1 5 14	ration_pack_1 5 21	chips_pack_2 5 14	water_bottle_1 10 14	water_bottle_1 10 14	human_wrist 5 14	water_bottle_1 10 14
+chips_pack_1 5 14	ration_pack_2 5 21	chips_pack_2 5 14	ration_pack_2 5 21	rotten_burger_pack_1 15 14	energy_can_1 10 14	energy_can_1 10 14	human_feet 5 14	energy_can_1 10 14
+chips_pack_2 5 14	chips_pack_1 5 14	burger_pack_1 5 14	chips_pack_1 5 14	rotten_burger_pack_2 15 14	ration_pack_1 5 21	ration_pack_1 5 21	human_skin 5 14	ration_pack_1 5 21
+burger_pack_1 5 14	chips_pack_2 5 14	rotten_burger_pack_1 15 14	chips_pack_2 5 14	plastic 15 7	ration_pack_2 5 21	ration_pack_2 5 21	human_rib 5 14	ration_pack_2 5 21
+rotten_burger_pack_1 15 14	burger_pack_1 5 14	burger_pack_2 5 14	burger_pack_1 5 14	tin 15 14	chips_pack_1 5 14	chips_pack_1 5 14	human_skull 5 14	chips_pack_1 5 14
+burger_pack_2 5 14	rotten_burger_pack_1 15 14	rotten_burger_pack_2 15 14	rotten_burger_pack_1 15 14	glassBottle 15 14	chips_pack_2 5 14	chips_pack_2 5 14	human_ear 5 14	chips_pack_2 5 14
+rotten_burger_pack_2 15 14	burger_pack_2 5 14		burger_pack_2 5 14	human_meat 5 14	burger_pack_1 5 14	burger_pack_1 5 14	human_aye 5 14	burger_pack_1 5 14
+	rotten_burger_pack_2 15 14		rotten_burger_pack_2 15 14	rotten_human_meat 15 14	rotten_burger_pack_1 15 14	rotten_burger_pack_1 15 14	rotten_human_skin 5 14	rotten_burger_pack_1 15 14
+				human_wrist 5 14	burger_pack_2 5 14	burger_pack_2 5 14	human_poop 5 14	burger_pack_2 5 14
+				human_feet 5 14	rotten_burger_pack_2 15 14	rotten_burger_pack_2 15 14		rotten_burger_pack_2 15 14
+				human_skin 5 14				
+				human_rib 5 14				
+				human_skull 5 14				
+				human_ear 5 14				
+				human_aye 5 14				
+				rotten_human_skin 5 14				
+				human_poop 15 14				
+#end								
