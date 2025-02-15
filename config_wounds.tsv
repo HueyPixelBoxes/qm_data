@@ -82,299 +82,193 @@ plasma	fire lacer	none	false	0	1	1
 #end																							
 																							
 #woundtypes																							
-Id	DamageType	OnWoundEffectId	StatusEffectApplyChance	FixableEffects	CoreEffects																		
-head_fracture	blunt		0	dot_dmg 4	vomiting 0.05 accuracy_reduce -0.2 los_reduce 1																		
-head_puncture	pierce	infectionEffect	0.15	apoint_dmg 2	accuracy_reduce -0.3 los_reduce 1																		
-head_laceration	lacer	infectionEffect	0.15	apoint_dmg 1	accuracy_reduce -0.1 los_reduce 1																		
-head_burn	fire	infectionEffect	0.15	pain_threshold_regen -2	income_dmg 0.2 los_reduce 1																		
-head_irradiation	beam		0	dot_dmg 2	vomiting 0.05 income_pain 0.5 los_reduce 2																		
-head_electrocution	shock		0	pain_threshold_regen -2	income_dmg 0.2 accuracy_reduce -0.3																		
-head_chemburn	poison	poisonEffect	0.25	apoint_dmg 1	income_pain 0.5 los_reduce 1																		
-head_freeze	cold		0	apoint_dmg 1	income_critchance 0.35 los_reduce 1																		
-head_shrapnel	explosion	infectionEffect	0.15	dot_dmg 4	accuracy_reduce -0.2 los_reduce 1																		
-head_hardburn	plasma	infectionEffect	0.15	pain_threshold_regen -2	income_dmg 0.3 los_reduce 1																		
-head_fracture_amputation	blunt		0		death 0																		
-head_puncture_amputation	pierce		0		death 0																		
-head_laceration_amputation	lacer		0		death 0																		
-head_burn_amputation	fire		0		death 0																		
-head_irradiation_amputation	beam		0		death 0																		
-head_electrocution_amputation	shock		0		death 0																		
-head_chemburn_amputation	poison		0		death 0																		
-head_freeze_amputation	cold		0		death 0																		
-head_shrapnel_amputation	explosion		0		death 0																		
-head_hardburn_amputation	plasma		0		death 0																		
-shoulder_fracture	blunt		0	action_dmg 1	accuracy_reduce -0.15 melee_dmg_reduce -0.2																		
-shoulder_puncture	pierce	infectionEffect	1	apoint_dmg 2	accuracy_reduce -0.05 melee_dmg_reduce -0.2																		
-shoulder_laceration	lacer	infectionEffect	1	apoint_dmg 1	accuracy_reduce -0.05 melee_dmg_reduce -0.2																		
-shoulder_burn	fire	infectionEffect	1	action_dmg 1	income_dmg 0.2 melee_dmg_reduce -0.2																		
-shoulder_irradiation	beam		0	pain_threshold_regen -1	income_pain 0.5 melee_dmg_reduce -0.2																		
-shoulder_electrocution	shock		0	pain_threshold_regen -1	accuracy_reduce -0.2 melee_dmg_reduce -0.2																		
-shoulder_chemburn	poison	poisonEffect	0.25	action_dmg 1	income_pain 0.5 melee_dmg_reduce -0.2																		
-shoulder_freeze	cold		0	action_dmg 1	income_critchance 0.3 melee_dmg_reduce -0.4																		
-shoulder_shrapnel	explosion	infectionEffect	1	action_dmg 1	accuracy_reduce -0.2 melee_dmg_reduce -0.2																		
-shoulder_hardburn	plasma	infectionEffect	0.15	pain_threshold_regen -2	income_dmg 0.3 melee_dmg_reduce -0.2																		
-shoulder_fracture_amputation	blunt		0	action_dmg 2	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5																		
-shoulder_puncture_amputation	pierce		0	apoint_dmg 2	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5																		
-shoulder_laceration_amputation	lacer		0	apoint_dmg 2	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5																		
-shoulder_burn_amputation	fire		0	action_dmg 2	arm_slot_unavailable 0 income_dmg 0.3 melee_dmg_reduce -0.5																		
-shoulder_irradiation_amputation	beam		0	action_dmg 2	arm_slot_unavailable 0 income_pain 0.7 melee_dmg_reduce -0.5																		
-shoulder_electrocution_amputation	shock		0	action_dmg 2	arm_slot_unavailable 0 income_dmg 0.3 melee_dmg_reduce -0.5																		
-shoulder_chemburn_amputation	poison		0	action_dmg 2	arm_slot_unavailable 0 income_dmg 0.3 melee_dmg_reduce -0.5																		
-shoulder_freeze_amputation	cold		0	action_dmg 2	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5																		
-shoulder_shrapnel_amputation	explosion		0	action_dmg 2	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5																		
-shoulder_hardburn_amputation	plasma		0	action_dmg 2	arm_slot_unavailable 0 pain_threshold_regen -2 income_dmg 0.3 melee_dmg_reduce -0.5																		
-arm_fracture	blunt		0	action_dmg 2	accuracy_reduce -0.15 melee_dmg_reduce -0.2																		
-arm_puncture	pierce	infectionEffect	1	apoint_dmg 2	accuracy_reduce -0.05 melee_dmg_reduce -0.2																		
-arm_laceration	lacer	infectionEffect	1	apoint_dmg 1	accuracy_reduce -0.05 melee_dmg_reduce -0.2																		
-arm_burn	fire	infectionEffect	1	action_dmg 1	income_dmg 0.2 melee_dmg_reduce -0.2																		
-arm_irradiation	beam		0	pain_threshold_regen -1	income_pain 0.5 melee_dmg_reduce -0.2																		
-arm_electrocution	shock		0	pain_threshold_regen -1	accuracy_reduce -0.2 melee_dmg_reduce -0.2																		
-arm_chemburn	poison	poisonEffect	0.25	action_dmg 1	income_pain 0.5 melee_dmg_reduce -0.2																		
-arm_freeze	cold		0	action_dmg 1	income_critchance 0.3 melee_dmg_reduce -0.4																		
-arm_shrapnel	explosion	infectionEffect	1	action_dmg 1	accuracy_reduce -0.2 melee_dmg_reduce -0.2																		
-arm_hardburn	plasma	infectionEffect	0.15	pain_threshold_regen -2	income_dmg 0.3 melee_dmg_reduce -0.2																		
-arm_fracture_amputation	blunt		0	action_dmg 2	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5																		
-arm_puncture_amputation	pierce		0	apoint_dmg 2	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5																		
-arm_laceration_amputation	lacer		0	apoint_dmg 2	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5																		
-arm_burn_amputation	fire		0	pain_threshold_regen -1	arm_slot_unavailable 0 income_dmg 0.3 melee_dmg_reduce -0.5																		
-arm_irradiation_amputation	beam		0	action_dmg 2	arm_slot_unavailable 0 income_pain 0.7 melee_dmg_reduce -0.5																		
-arm_electrocution_amputation	shock		0	action_dmg 2	arm_slot_unavailable 0 income_dmg 0.3 melee_dmg_reduce -0.5																		
-arm_chemburn_amputation	poison		0	action_dmg 2	arm_slot_unavailable 0 income_dmg 0.3 melee_dmg_reduce -0.5																		
-arm_freeze_amputation	cold		0	action_dmg 2	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5																		
-arm_shrapnel_amputation	explosion		0	action_dmg 2	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5																		
-arm_hardburn_amputation	plasma		0	pain_threshold_regen -2	arm_slot_unavailable 0 pain_threshold_regen -2 income_dmg 0.3 melee_dmg_reduce -0.5																		
-thigh_fracture	blunt		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.2																		
-thigh_puncture	pierce	infectionEffect	1	apoint_dmg 2	run_unavailable 0																		
-thigh_laceration	lacer	infectionEffect	1	apoint_dmg 1	run_unavailable 0																		
-thigh_burn	fire	infectionEffect	1	move_dmg 1	income_dmg 0.2																		
-thigh_irradiation	beam		0	pain_threshold_regen -1	income_pain 0.5																		
-thigh_electrocution	shock		0	pain_threshold_regen -1	dodge_reduce -0.2																		
-thigh_chemburn	poison	poisonEffect	0.25	move_dmg 1	income_dmg 0.2 income_pain 0.5																		
-thigh_freeze	cold		0	move_dmg 1	income_critchance 0.2																		
-thigh_shrapnel	explosion	infectionEffect	1	move_dmg 1	run_unavailable 0 dodge_reduce -0.2																		
-thigh_hardburn	plasma	infectionEffect	0.15	move_dmg 2	income_dmg 0.3 pain_threshold_regen -2																		
-thigh_fracture_amputation	blunt		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-thigh_puncture_amputation	pierce		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-thigh_laceration_amputation	lacer		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-thigh_burn_amputation	fire		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-thigh_irradiation_amputation	beam		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-thigh_electrocution_amputation	shock		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-thigh_chemburn_amputation	poison		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-thigh_freeze_amputation	cold		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-thigh_shrapnel_amputation	explosion		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-thigh_hardburn_amputation	plasma		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-feet_fracture	blunt		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.2																		
-feet_puncture	pierce	infectionEffect	1	apoint_dmg 2	run_unavailable 0																		
-feet_laceration	lacer	infectionEffect	1	apoint_dmg 1	run_unavailable 0																		
-feet_burn	fire	infectionEffect	0.15	move_dmg 1	income_dmg 0.2																		
-feet_irradiation	beam		0	pain_threshold_regen -1	income_pain 0.5																		
-feet_electrocution	shock		0	pain_threshold_regen -1	dodge_reduce -0.2																		
-feet_chemburn	poison	poisonEffect	0.25	move_dmg 1	income_dmg 0.2 income_pain 0.5																		
-feet_freeze	cold		0	move_dmg 1	income_critchance 0.2																		
-feet_shrapnel	explosion	infectionEffect	0.15	move_dmg 1	run_unavailable 0 dodge_reduce -0.2																		
-feet_hardburn	plasma	infectionEffect	0.15	move_dmg 2	income_dmg 0.3																		
-feet_fracture_amputation	blunt		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-feet_puncture_amputation	pierce		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-feet_laceration_amputation	lacer		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-feet_burn_amputation	fire		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-feet_irradiation_amputation	beam		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-feet_electrocution_amputation	shock		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-feet_chemburn_amputation	poison		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-feet_freeze_amputation	cold		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-feet_shrapnel_amputation	explosion		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-feet_hardburn_amputation	plasma		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-chest_fracture	blunt		0	action_dmg 3	dodge_reduce -0.2 income_pain 0.5																		
-chest_puncture	pierce	infectionEffect	0.15	apoint_dmg 3	dodge_reduce -0.2 income_pain 0.5																		
-chest_laceration	lacer	infectionEffect	0.15	apoint_dmg 2	dodge_reduce -0.2 income_pain 0.5																		
-chest_burn	fire	infectionEffect	0.15	pain_threshold_regen -2	income_dmg 0.2																		
-chest_irradiation	beam		0	pain_threshold_regen -1	income_dmg 0.2																		
-chest_electrocution	shock		0	pain_threshold_regen -2	accuracy_reduce -0.2																		
-chest_chemburn	poison	poisonEffect	0.25	pain_threshold_regen -1	income_dmg 0.4																		
-chest_freeze	cold		0	pain_threshold_regen -1	income_critchance 0.2																		
-chest_shrapnel	explosion	infectionEffect	0.15	action_dmg 2	dodge_reduce -0.2 income_pain 0.5																		
-chest_hardburn	plasma	infectionEffect	0.15	pain_threshold_regen -3	income_dmg 0.4																		
-chest_fracture_amputation	blunt		0		death 0																		
-chest_puncture_amputation	pierce		0		death 0																		
-chest_laceration_amputation	lacer		0		death 0																		
-chest_burn_amputation	fire		0		death 0																		
-chest_irradiation_amputation	beam		0		death 0																		
-chest_electrocution_amputation	shock		0		death 0																		
-chest_chemburn_amputation	poison		0		death 0																		
-chest_freeze_amputation	cold		0		death 0																		
-chest_shrapnel_amputation	explosion		0		death 0																		
-chest_hardburn_amputation	plasma		0		death 0																		
-body_fracture	blunt		0	action_dmg 2	dodge_reduce -0.2 income_pain 0.5																		
-body_puncture	pierce	infectionEffect	0.15	apoint_dmg 3	dodge_reduce -0.2 income_pain 0.5																		
-body_laceration	lacer	infectionEffect	0.15	apoint_dmg 2	dodge_reduce -0.2 income_pain 0.5																		
-body_burn	fire	infectionEffect	0.15	pain_threshold_regen -2	income_dmg 0.2																		
-body_irradiation	beam		0	pain_threshold_regen -2	income_dmg 0.2																		
-body_electrocution	shock		0	pain_threshold_regen -2	accuracy_reduce -0.2																		
-body_chemburn	poison	poisonEffect	0.25	pain_threshold_regen -1	income_dmg 0.4																		
-body_freeze	cold		0	pain_threshold_regen -1	income_critchance 0.2																		
-body_shrapnel	explosion	infectionEffect	0.15	action_dmg 2	dodge_reduce -0.2 income_pain 0.5																		
-body_hardburn	plasma	infectionEffect	0.15	pain_threshold_regen -3	income_dmg 0.4																		
-body_fracture_amputation	blunt		0		death 0																		
-body_puncture_amputation	pierce		0		death 0																		
-body_laceration_amputation	lacer		0		death 0																		
-body_burn_amputation	fire		0		death 0																		
-body_irradiation_amputation	beam		0		death 0																		
-body_electrocution_amputation	shock		0		death 0																		
-body_chemburn_amputation	poison		0		death 0																		
-body_freeze_amputation	cold		0		death 0																		
-body_shrapnel_amputation	explosion		0		death 0																		
-body_hardburn_amputation	plasma		0		death 0																		
-stomach_fracture	blunt		0	apoint_dmg 2	vomiting 0.05 food_unavailable 0																		
-stomach_puncture	pierce	infectionEffect	0.15	apoint_dmg 2	food_unavailable 0 vomiting 0.05																		
-stomach_laceration	lacer	infectionEffect	0.15	apoint_dmg 2	food_calories 0.5																		
-stomach_burn	fire	infectionEffect	0.15	pain_threshold_regen -2	income_dmg 0.2																		
-stomach_irradiation	beam		0	apoint_dmg 2	food_calories 0.5 vomiting 0.05																		
-stomach_electrocution	shock		0	pain_threshold_regen -2	food_calories 0.5																		
-stomach_chemburn	poison	poisonEffect	0	pain_threshold_regen -1	income_dmg 0.4																		
-stomach_freeze	cold		0	pain_threshold_regen -1	income_critchance 0.2																		
-stomach_shrapnel	explosion	infectionEffect	0.15	apoint_dmg 2	food_unavailable 0 vomiting 0.05																		
-stomach_hardburn	plasma	infectionEffect	0.15	pain_threshold_regen -3	income_dmg 0.3																		
-stomach_fracture_amputation	blunt		0		death 0																		
-stomach_puncture_amputation	pierce		0		death 0																		
-stomach_laceration_amputation	lacer		0		death 0																		
-stomach_burn_amputation	fire		0		death 0																		
-stomach_irradiation_amputation	beam		0		death 0																		
-stomach_electrocution_amputation	shock		0		death 0																		
-stomach_chemburn_amputation	poison		0		death 0																		
-stomach_freeze_amputation	cold		0		death 0																		
-stomach_shrapnel_amputation	explosion		0		death 0																		
-stomach_hardburn_amputation	plasma		0		death 0																		
-knee_fracture	blunt		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.2																		
-knee_puncture	pierce	infectionEffect	0.15	apoint_dmg 2	run_unavailable 0																		
-knee_laceration	lacer	infectionEffect	0.15	apoint_dmg 1	run_unavailable 0																		
-knee_burn	fire	infectionEffect	0.15	move_dmg 1	income_dmg 0.2																		
-knee_irradiation	beam		0		dodge_reduce -0.2																		
-knee_electrocution	shock		0	pain_threshold_regen -1	income_critchance 0.2																		
-knee_chemburn	poison	poisonEffect	0.25	move_dmg 1	run_unavailable 0 dodge_reduce -0.2																		
-knee_freeze	cold		0	move_dmg 1	income_dmg 0.3																		
-knee_shrapnel	explosion	infectionEffect	0.15	move_dmg 1	income_dmg 0.2 income_pain 0.5																		
-knee_hardburn	plasma	infectionEffect	0.15	pain_threshold_regen -2	income_pain 0.5																		
-knee_fracture_amputation	blunt		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-knee_puncture_amputation	pierce		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-knee_laceration_amputation	lacer		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-knee_burn_amputation	fire		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-knee_irradiation_amputation	beam		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-knee_electrocution_amputation	shock		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-knee_chemburn_amputation	poison		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-knee_freeze_amputation	cold		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-knee_shrapnel_amputation	explosion		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-knee_hardburn_amputation	plasma		0	move_dmg 2	run_unavailable 0 dodge_reduce -0.4																		
-minor_fracture	blunt		0		self_heal 0																		
-minor_puncture	pierce		0		self_heal 0																		
-minor_laceration	lacer		0		self_heal 0																		
-minor_burn	fire		0		self_heal 0																		
-minor_irradiation	beam		0		self_heal 0																		
-minor_electrocution	shock		0		self_heal 0																		
-minor_chemburn	poison	poisonEffect	0.25		self_heal 0																		
-minor_freeze	cold		0		self_heal 0																		
-minor_shrapnel	explosion		0		self_heal 0																		
-minor_hardburn	plasma		0		self_heal 0																		
+Id	DamageType	HumanWoundEffects	CyberWoundEffects	QuasimorphWoundEffects	AmputationEffects	StatusEffectApplyChance	OnWoundEffectId	MinorEffects															
+fracture	blunt	move_dmg 2 run_unavailable 0 dodge_reduce -0.1 food_unavailable 0	move_dmg 2 run_unavailable 0 dodge_reduce -0.1	move_dmg 2 run_unavailable 0 dodge_reduce -0.1	move_dmg 1	0		self_heal 0															
+puncture	pierce	dot_dmg 2 run_unavailable 0 food_unavailable 0	dot_dmg 2 run_unavailable 0	dot_dmg 2 run_unavailable 0	dot_dmg 2	0.1	infectionEffect	self_heal 0															
+laceration	lacer	apoint_dmg 1 run_unavailable 0	apoint_dmg 1 run_unavailable 0	apoint_dmg 1 run_unavailable 0	apoint_dmg 1	0.2	infectionEffect	self_heal 0															
+burn	fire	pain_threshold_regen -1 income_dmg 0.2	pain_threshold_regen -1 income_dmg 0.2	pain_threshold_regen -1 income_dmg 0.2	pain_threshold_regen -1	0.05	infectionEffect	self_heal 0															
+irradiation	beam	pain_threshold_regen -1 vomiting 0.05 income_pain 0.5 food_calories 0.5	pain_threshold_regen -1 income_pain 0.5	pain_threshold_regen -1 vomiting 0.05 income_pain 0.5 food_calories 0.5	pain_threshold_regen -1	0		self_heal 0															
+electrocution	shock	action_dmg 2 pain_threshold_regen -1 food_calories 0.5	action_dmg 2 pain_threshold_regen -1	action_dmg 2 pain_threshold_regen -1 food_calories 0.5	action_dmg 2 pain_threshold_regen -1	0		self_heal 0															
+chemburn	poison	dot_dmg 1 eat_dmg 3 vomiting 0.05	dot_dmg 1	dot_dmg 1 eat_dmg 3 vomiting 0.05	dot_dmg 2	0.25	poisonEffect	self_heal 0															
+freeze	cold	action_dmg 1 income_critchance 0.2	action_dmg 1 income_critchance 0.2	action_dmg 1 income_critchance 0.2	action_dmg 1	0		self_heal 0															
+shrapnel	explosion	dot_dmg 2 run_unavailable 0 food_unavailable 0	dot_dmg 2 run_unavailable 0	dot_dmg 2 run_unavailable 0	dot_dmg 2	0.15	infectionEffect	self_heal 0															
+hardburn	plasma	pain_threshold_regen -2 income_dmg 0.3	pain_threshold_regen -2 income_dmg 0.3	pain_threshold_regen -2 income_dmg 0.3	pain_threshold_regen -2	0.15	infectionEffect	self_heal 0															
 #end																							
 																							
 #woundslots																							
-Id	IsVital	SlotWeight	WoundsByDmgType	AmputatedDrop	AdditionalAmputation	IsGroundAffected																	
-HumanHead	TRUE	25	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	human_meat 0.1 human_skin 0.1 human_skull 0.1 human_ear 0.1 human_aye 0.1		FALSE																	
-HumanShoulder	FALSE	55	blunt shoulder_fracture pierce shoulder_puncture lacer shoulder_laceration fire shoulder_burn beam shoulder_irradiation shock shoulder_electrocution poison shoulder_chemburn cold shoulder_freeze explosion shoulder_shrapnel plasma shoulder_hardburn	human_meat 0.1 human_skin 0.1 human_hand 0.1 bone_knife 0.1	HumanArm	FALSE																	
-HumanArm	FALSE	50	blunt arm_fracture pierce arm_puncture lacer arm_laceration fire arm_burn beam arm_irradiation shock arm_electrocution poison arm_chemburn cold arm_freeze explosion arm_shrapnel plasma arm_hardburn	human_meat 0.1 human_wrist 0.1 human_skin 0.1 bone_knife 0.1		FALSE																	
-HumanThigh	FALSE	55	blunt thigh_fracture pierce thigh_puncture lacer thigh_laceration fire thigh_burn beam thigh_irradiation shock thigh_electrocution poison thigh_chemburn cold thigh_freeze explosion thigh_shrapnel plasma thigh_hardburn	human_meat 0.1 human_skin 0.1 human_leg 0.1 bone_knife 0.1	HumanFeet	FALSE																	
-HumanFeet	FALSE	50	blunt feet_fracture pierce feet_puncture lacer feet_laceration fire feet_burn beam feet_irradiation shock feet_electrocution poison feet_chemburn cold feet_freeze explosion feet_shrapnel plasma feet_hardburn	human_meat 0.1 human_feet 0.1 human_skin 0.1 bone_knife 0.1		TRUE																	
-HumanChest	TRUE	35	blunt chest_fracture pierce chest_puncture lacer chest_laceration fire chest_burn beam chest_irradiation shock chest_electrocution poison chest_chemburn cold chest_freeze explosion chest_shrapnel plasma chest_hardburn	human_meat 0.1 human_skin 0.1 human_rib 0.1 bone_knife 0.1		FALSE																	
-HumanBody	TRUE	45	blunt body_fracture pierce body_puncture lacer body_laceration fire body_burn beam body_irradiation shock body_electrocution poison body_chemburn cold body_freeze explosion body_shrapnel plasma body_hardburn	human_meat 0.1 trowable_heart 0.1 human_skin 0.1 human_rib 0.1 bone_knife 0.1		FALSE																	
-HumanStomach	TRUE	45	blunt stomach_fracture pierce stomach_puncture lacer stomach_laceration fire stomach_burn beam stomach_irradiation shock stomach_electrocution poison stomach_chemburn cold stomach_freeze explosion stomach_shrapnel plasma stomach_hardburn	human_meat 0.1 human_skin 0.1 human_poop 0.1 bone_knife 0.1		FALSE																	
-HumanKnee	FALSE	50	blunt knee_fracture pierce knee_puncture lacer knee_laceration fire knee_burn beam knee_irradiation shock knee_electrocution poison knee_chemburn cold knee_freeze explosion knee_shrapnel plasma knee_hardburn	human_meat 0.1 human_skin 0.1 bone_knife 0.1		FALSE																	
-SkinlessHead	TRUE	25	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	human_meat 0.1 human_skull 0.1 human_ear 0.1 human_aye 0.1		FALSE																	
-SkinlessShoulder	FALSE	55	blunt shoulder_fracture pierce shoulder_puncture lacer shoulder_laceration fire shoulder_burn beam shoulder_irradiation shock shoulder_electrocution poison shoulder_chemburn cold shoulder_freeze explosion shoulder_shrapnel plasma shoulder_hardburn	human_meat 0.1 human_hand 0.1 bone_knife 0.1	SkinlessArm	FALSE																	
-SkinlessArm	FALSE	50	blunt arm_fracture pierce arm_puncture lacer arm_laceration fire arm_burn beam arm_irradiation shock arm_electrocution poison arm_chemburn cold arm_freeze explosion arm_shrapnel plasma arm_hardburn	human_meat 0.1 human_wrist 0.1 bone_knife 0.1		FALSE																	
-SkinlessThigh	FALSE	55	blunt thigh_fracture pierce thigh_puncture lacer thigh_laceration fire thigh_burn beam thigh_irradiation shock thigh_electrocution poison thigh_chemburn cold thigh_freeze explosion thigh_shrapnel plasma thigh_hardburn	human_meat 0.1 human_leg 0.1 bone_knife 0.1	SkinlessFeet	FALSE																	
-SkinlessFeet	FALSE	50	blunt feet_fracture pierce feet_puncture lacer feet_laceration fire feet_burn beam feet_irradiation shock feet_electrocution poison feet_chemburn cold feet_freeze explosion feet_shrapnel plasma feet_hardburn	human_meat 0.1 human_feet 0.1 bone_knife 0.1		TRUE																	
-SkinlessChest	TRUE	35	blunt chest_fracture pierce chest_puncture lacer chest_laceration fire chest_burn beam chest_irradiation shock chest_electrocution poison chest_chemburn cold chest_freeze explosion chest_shrapnel plasma chest_hardburn	human_meat 0.1 human_rib 0.1 bone_knife 0.1		FALSE																	
-SkinlessBody	TRUE	45	blunt body_fracture pierce body_puncture lacer body_laceration fire body_burn beam body_irradiation shock body_electrocution poison body_chemburn cold body_freeze explosion body_shrapnel plasma body_hardburn	human_meat 0.1 trowable_heart 0.1 human_rib 0.1 bone_knife 0.1		FALSE																	
-SkinlessStomach	TRUE	45	blunt stomach_fracture pierce stomach_puncture lacer stomach_laceration fire stomach_burn beam stomach_irradiation shock stomach_electrocution poison stomach_chemburn cold stomach_freeze explosion stomach_shrapnel plasma stomach_hardburn	human_meat 0.1 human_poop 0.1 bone_knife 0.1		FALSE																	
-SkinlessKnee	FALSE	50	blunt knee_fracture pierce knee_puncture lacer knee_laceration fire knee_burn beam knee_irradiation shock knee_electrocution poison knee_chemburn cold knee_freeze explosion knee_shrapnel plasma knee_hardburn	human_meat 0.1 bone_knife 0.1		FALSE																	
-SpiderHead	TRUE	50	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	spider_meat 0.1 spider_chitin 0.1 spider_aye 0.1 spider_brain 0.1 spider_poisongland 0.2		FALSE																	
-SpiderBody	TRUE	45	blunt body_fracture pierce body_puncture lacer body_laceration fire body_burn beam body_irradiation shock body_electrocution poison body_chemburn cold body_freeze explosion body_shrapnel plasma body_hardburn	spider_meat 0.1 spider_chitin 0.1 spider_poisongland 0.1		FALSE																	
-SpiderFeet	FALSE	55	blunt feet_fracture pierce feet_puncture lacer feet_laceration fire feet_burn beam feet_irradiation shock feet_electrocution poison feet_chemburn cold feet_freeze explosion feet_shrapnel plasma feet_hardburn	spider_meat 0.1 spider_chitin 0.1 spider_joint 0.1 spider_claw 0.1		FALSE																	
-SpiderKnee	FALSE	55	blunt knee_fracture pierce knee_puncture lacer knee_laceration fire knee_burn beam knee_irradiation shock knee_electrocution poison knee_chemburn cold knee_freeze explosion knee_shrapnel plasma knee_hardburn	spider_meat 0.1 spider_chitin 0.1 spider_joint 0.1		FALSE																	
-SpiderStomach	TRUE	30	blunt stomach_fracture pierce stomach_puncture lacer stomach_laceration fire stomach_burn beam stomach_irradiation shock stomach_electrocution poison stomach_chemburn cold stomach_freeze explosion stomach_shrapnel plasma stomach_hardburn	spider_meat 0.1 spider_cocoon 0.1 spider_poisongland 0.1		FALSE																	
-SpiderThigh	FALSE	55	blunt thigh_fracture pierce thigh_puncture lacer thigh_laceration fire thigh_burn beam thigh_irradiation shock thigh_electrocution poison thigh_chemburn cold thigh_freeze explosion thigh_shrapnel plasma thigh_hardburn	spider_meat 0.1 spider_chitin 0.1 spider_joint 0.1 spider_claw 0.1	SpiderFeet	FALSE																	
-MoonHead	TRUE	25	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE																	
-MoonUpperMechanism	FALSE	45	blunt shoulder_fracture pierce shoulder_puncture lacer shoulder_laceration fire shoulder_burn beam shoulder_irradiation shock shoulder_electrocution poison shoulder_chemburn cold shoulder_freeze explosion shoulder_shrapnel plasma shoulder_hardburn	quasi_bolts_ammo 0.1 quasi_repair_kit 0.1 broken_weapon 0.1 quasi_medical_kit_1 0.1		FALSE																	
-MoonStomach	TRUE	50	blunt stomach_fracture pierce stomach_puncture lacer stomach_laceration fire stomach_burn beam stomach_irradiation shock stomach_electrocution poison stomach_chemburn cold stomach_freeze explosion stomach_shrapnel plasma stomach_hardburn	quasi_bolts_ammo 0.1 quasi_repair_kit 0.1 demonic_aye 0.1 moon_guts 0.1 moon_weapon_parts 0.1 quasi_medical_kit_1 0.1		FALSE																	
-MoonCarapace	FALSE	55	blunt chest_fracture pierce chest_puncture lacer chest_laceration fire chest_burn beam chest_irradiation shock chest_electrocution poison chest_chemburn cold chest_freeze explosion chest_shrapnel plasma chest_hardburn	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE																	
-MoonLowerMechanism	FALSE	45	blunt knee_fracture pierce knee_puncture lacer knee_laceration fire knee_burn beam knee_irradiation shock knee_electrocution poison knee_chemburn cold knee_freeze explosion knee_shrapnel plasma knee_hardburn	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE																	
-MoonBasement	FALSE	25	blunt feet_fracture pierce feet_puncture lacer feet_laceration fire feet_burn beam feet_irradiation shock feet_electrocution poison feet_chemburn cold feet_freeze explosion feet_shrapnel plasma feet_hardburn	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE																	
-MoonShoulder	FALSE	50	blunt shoulder_fracture pierce shoulder_puncture lacer shoulder_laceration fire shoulder_burn beam shoulder_irradiation shock shoulder_electrocution poison shoulder_chemburn cold shoulder_freeze explosion shoulder_shrapnel plasma shoulder_hardburn	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1	MoonArm MoonThorn	FALSE																	
-MoonThorn	FALSE	45	blunt arm_fracture pierce arm_puncture lacer arm_laceration fire arm_burn beam arm_irradiation shock arm_electrocution poison arm_chemburn cold arm_freeze explosion arm_shrapnel plasma arm_hardburn	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE																	
-MoonThigh	FALSE	55	blunt thigh_fracture pierce thigh_puncture lacer thigh_laceration fire thigh_burn beam thigh_irradiation shock thigh_electrocution poison thigh_chemburn cold thigh_freeze explosion thigh_shrapnel plasma thigh_hardburn	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1	MoonFeet	FALSE																	
-MoonWheel	FALSE	55	blunt feet_fracture pierce feet_puncture lacer feet_laceration fire feet_burn beam feet_irradiation shock feet_electrocution poison feet_chemburn cold feet_freeze explosion feet_shrapnel plasma feet_hardburn	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE																	
-MoonChest	TRUE	50	blunt chest_fracture pierce chest_puncture lacer chest_laceration fire chest_burn beam chest_irradiation shock chest_electrocution poison chest_chemburn cold chest_freeze explosion chest_shrapnel plasma chest_hardburn	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE																	
-MoonBody	TRUE	50	blunt body_fracture pierce body_puncture lacer body_laceration fire body_burn beam body_irradiation shock body_electrocution poison body_chemburn cold body_freeze explosion body_shrapnel plasma body_hardburn	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE																	
-MoonKnee	FALSE	45	blunt knee_fracture pierce knee_puncture lacer knee_laceration fire knee_burn beam knee_irradiation shock knee_electrocution poison knee_chemburn cold knee_freeze explosion knee_shrapnel plasma knee_hardburn	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE																	
-MoonFeet	FALSE	50	blunt feet_fracture pierce feet_puncture lacer feet_laceration fire feet_burn beam feet_irradiation shock feet_electrocution poison feet_chemburn cold feet_freeze explosion feet_shrapnel plasma feet_hardburn	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		TRUE																	
-MoonArm	FALSE	50	blunt arm_fracture pierce arm_puncture lacer arm_laceration fire arm_burn beam arm_irradiation shock arm_electrocution poison arm_chemburn cold arm_freeze explosion arm_shrapnel plasma arm_hardburn	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE																	
-CyborgHead	FALSE	35	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	cyborg_head 0.1 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 glass 0.1 weapon_parts 0.1		FALSE																	
-CyborgShoulder	FALSE	55	blunt shoulder_fracture pierce shoulder_puncture lacer shoulder_laceration fire shoulder_burn beam shoulder_irradiation shock shoulder_electrocution poison shoulder_chemburn cold shoulder_freeze explosion shoulder_shrapnel plasma shoulder_hardburn	broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1	CyborgArm	FALSE																	
-CyborgArm	FALSE	50	blunt arm_fracture pierce arm_puncture lacer arm_laceration fire arm_burn beam arm_irradiation shock arm_electrocution poison arm_chemburn cold arm_freeze explosion arm_shrapnel plasma arm_hardburn	broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1 trash_pipe_1 0.1		FALSE																	
-CyborgThigh	FALSE	55	blunt thigh_fracture pierce thigh_puncture lacer thigh_laceration fire thigh_burn beam thigh_irradiation shock thigh_electrocution poison thigh_chemburn cold thigh_freeze explosion thigh_shrapnel plasma thigh_hardburn	broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1 trash_pipe_1 0.1	CyborgFeet	FALSE																	
-CyborgFeet	FALSE	50	blunt feet_fracture pierce feet_puncture lacer feet_laceration fire feet_burn beam feet_irradiation shock feet_electrocution poison feet_chemburn cold feet_freeze explosion feet_shrapnel plasma feet_hardburn	broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1		TRUE																	
-CyborgChest	TRUE	35	blunt chest_fracture pierce chest_puncture lacer chest_laceration fire chest_burn beam chest_irradiation shock chest_electrocution poison chest_chemburn cold chest_freeze explosion chest_shrapnel plasma chest_hardburn	circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1		FALSE																	
-CyborgBody	TRUE	45	blunt body_fracture pierce body_puncture lacer body_laceration fire body_burn beam body_irradiation shock body_electrocution poison body_chemburn cold body_freeze explosion body_shrapnel plasma body_hardburn	circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1 trash_pipe_1 0.1		FALSE																	
-CyborgKnee	FALSE	50	blunt knee_fracture pierce knee_puncture lacer knee_laceration fire knee_burn beam knee_irradiation shock knee_electrocution poison knee_chemburn cold knee_freeze explosion knee_shrapnel plasma knee_hardburn	broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1 trash_pipe_1 0.1		FALSE																	
-MercuryHead	TRUE	35	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	quasi_energy_ammo 0.1 human_organ_1 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1 anulator 0.1		FALSE																	
-MercuryCentralAye	TRUE	35	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE																	
-MercuryRightAye	FALSE	45	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE																	
-MercuryLeftAye	FALSE	50	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE																	
-MercuryBottomAye	FALSE	50	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE																	
-MercuryShoulder	FALSE	35	blunt shoulder_fracture pierce shoulder_puncture lacer shoulder_laceration fire shoulder_burn beam shoulder_irradiation shock shoulder_electrocution poison shoulder_chemburn cold shoulder_freeze explosion shoulder_shrapnel plasma shoulder_hardburn	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1	MercuryArm	FALSE																	
-MercuryArm	FALSE	55	blunt arm_fracture pierce arm_puncture lacer arm_laceration fire arm_burn beam arm_irradiation shock arm_electrocution poison arm_chemburn cold arm_freeze explosion arm_shrapnel plasma arm_hardburn	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1 mercury_arm 0.1		FALSE																	
-MercuryThigh	FALSE	50	blunt thigh_fracture pierce thigh_puncture lacer thigh_laceration fire thigh_burn beam thigh_irradiation shock thigh_electrocution poison thigh_chemburn cold thigh_freeze explosion thigh_shrapnel plasma thigh_hardburn	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1	MercuryFeet	FALSE																	
-MercuryFeet	FALSE	55	blunt feet_fracture pierce feet_puncture lacer feet_laceration fire feet_burn beam feet_irradiation shock feet_electrocution poison feet_chemburn cold feet_freeze explosion feet_shrapnel plasma feet_hardburn	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		TRUE																	
-MercuryChest	TRUE	50	blunt chest_fracture pierce chest_puncture lacer chest_laceration fire chest_burn beam chest_irradiation shock chest_electrocution poison chest_chemburn cold chest_freeze explosion chest_shrapnel plasma chest_hardburn	human_organ_1 0.1 mercury_guts 0.1		FALSE																	
-MercuryBody	TRUE	55	blunt body_fracture pierce body_puncture lacer body_laceration fire body_burn beam body_irradiation shock body_electrocution poison body_chemburn cold body_freeze explosion body_shrapnel plasma body_hardburn	human_organ_1 0.1 mercury_guts 0.1		FALSE																	
-MercuryStomach	TRUE	55	blunt stomach_fracture pierce stomach_puncture lacer stomach_laceration fire stomach_burn beam stomach_irradiation shock stomach_electrocution poison stomach_chemburn cold stomach_freeze explosion stomach_shrapnel plasma stomach_hardburn	human_organ_1 0.1 mercury_guts 0.1		FALSE																	
-MercuryKnee	FALSE	45	blunt knee_fracture pierce knee_puncture lacer knee_laceration fire knee_burn beam knee_irradiation shock knee_electrocution poison knee_chemburn cold knee_freeze explosion knee_shrapnel plasma knee_hardburn	human_organ_1 0.1 mercury_guts 0.2		FALSE																	
-MercuryScroll	FALSE	40	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	anulator 1		FALSE																	
-VenusHead	TRUE	35	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn			FALSE																	
-VenusCatHead	TRUE	35	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	human_organ_1 0.1 demonic_aye 0.1 aztec_guts 0.1		FALSE																	
-VenusCatFeet	FALSE	55	blunt feet_fracture pierce feet_puncture lacer feet_laceration fire feet_burn beam feet_irradiation shock feet_electrocution poison feet_chemburn cold feet_freeze explosion feet_shrapnel plasma feet_hardburn			TRUE																	
-VenusSpiderThigh	FALSE	50	blunt thigh_fracture pierce thigh_puncture lacer thigh_laceration fire thigh_burn beam thigh_irradiation shock thigh_electrocution poison thigh_chemburn cold thigh_freeze explosion thigh_shrapnel plasma thigh_hardburn		VenusSpiderFeet	FALSE																	
-VenusSpiderFeet	FALSE	50	blunt feet_fracture pierce feet_puncture lacer feet_laceration fire feet_burn beam feet_irradiation shock feet_electrocution poison feet_chemburn cold feet_freeze explosion feet_shrapnel plasma feet_hardburn			FALSE																	
-VenusSpiderKnee	FALSE	50	blunt knee_fracture pierce knee_puncture lacer knee_laceration fire knee_burn beam knee_irradiation shock knee_electrocution poison knee_chemburn cold knee_freeze explosion knee_shrapnel plasma knee_hardburn			FALSE																	
-VenusCatSting	FALSE	55	blunt thigh_fracture pierce thigh_puncture lacer thigh_laceration fire thigh_burn beam thigh_irradiation shock thigh_electrocution poison thigh_chemburn cold thigh_freeze explosion thigh_shrapnel plasma thigh_hardburn	human_organ_1 0.1 aztec_guts 0.1		FALSE																	
-VenusShoulder	FALSE	55	blunt shoulder_fracture pierce shoulder_puncture lacer shoulder_laceration fire shoulder_burn beam shoulder_irradiation shock shoulder_electrocution poison shoulder_chemburn cold shoulder_freeze explosion shoulder_shrapnel plasma shoulder_hardburn		VenusArm	FALSE																	
-VenusArm	FALSE	50	blunt arm_fracture pierce arm_puncture lacer arm_laceration fire arm_burn beam arm_irradiation shock arm_electrocution poison arm_chemburn cold arm_freeze explosion arm_shrapnel plasma arm_hardburn			FALSE																	
-VenusChest	TRUE	50	blunt chest_fracture pierce chest_puncture lacer chest_laceration fire chest_burn beam chest_irradiation shock chest_electrocution poison chest_chemburn cold chest_freeze explosion chest_shrapnel plasma chest_hardburn	human_organ_1 0.1 aztec_guts 0.1		FALSE																	
-VenusStomach	TRUE	50	blunt stomach_fracture pierce stomach_puncture lacer stomach_laceration fire stomach_burn beam stomach_irradiation shock stomach_electrocution poison stomach_chemburn cold stomach_freeze explosion stomach_shrapnel plasma stomach_hardburn	human_organ_1 0.1 aztec_guts 0.1		FALSE																	
-VenusBody	TRUE	50	blunt body_fracture pierce body_puncture lacer body_laceration fire body_burn beam body_irradiation shock body_electrocution poison body_chemburn cold body_freeze explosion body_shrapnel plasma body_hardburn	human_organ_1 0.1 aztec_guts 0.1		FALSE																	
-VenusThigh	FALSE	50	blunt thigh_fracture pierce thigh_puncture lacer thigh_laceration fire thigh_burn beam thigh_irradiation shock thigh_electrocution poison thigh_chemburn cold thigh_freeze explosion thigh_shrapnel plasma thigh_hardburn		VenusCatFeet	FALSE																	
-VenusKnee	FALSE	45	blunt knee_fracture pierce knee_puncture lacer knee_laceration fire knee_burn beam knee_irradiation shock knee_electrocution poison knee_chemburn cold knee_freeze explosion knee_shrapnel plasma knee_hardburn			FALSE																	
-RonHead	TRUE	25	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	ron_mask_1 0.4 quasi_ron_medicine_1 0.1		FALSE																	
-RonCarapace	FALSE	55	blunt shoulder_fracture pierce shoulder_puncture lacer shoulder_laceration fire shoulder_burn beam shoulder_irradiation shock shoulder_electrocution poison shoulder_chemburn cold shoulder_freeze explosion shoulder_shrapnel plasma shoulder_hardburn	quasi_ron_medicine_1 0.1		FALSE																	
-RonTentacle	FALSE	50	blunt feet_fracture pierce feet_puncture lacer feet_laceration fire feet_burn beam feet_irradiation shock feet_electrocution poison feet_chemburn cold feet_freeze explosion feet_shrapnel plasma feet_hardburn	quasi_ron_medicine_1 0.1		FALSE																	
-RonKnifeArm	FALSE	45	blunt arm_fracture pierce arm_puncture lacer arm_laceration fire arm_burn beam arm_irradiation shock arm_electrocution poison arm_chemburn cold arm_freeze explosion arm_shrapnel plasma arm_hardburn	quasi_ron_medicine_1 0.1		FALSE																	
-RonStomach	TRUE	50	blunt stomach_fracture pierce stomach_puncture lacer stomach_laceration fire stomach_burn beam stomach_irradiation shock stomach_electrocution poison stomach_chemburn cold stomach_freeze explosion stomach_shrapnel plasma stomach_hardburn	quasi_ron_medicine_1 0.1		FALSE																	
-RonBody	TRUE	55	blunt body_fracture pierce body_puncture lacer body_laceration fire body_burn beam body_irradiation shock body_electrocution poison body_chemburn cold body_freeze explosion body_shrapnel plasma body_hardburn	quasi_ron_medicine_1 0.1		FALSE																	
-CattaramHead	TRUE	35	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	cattaram_mine 0.1 qwasi_grenade 0.1 precious_metals 0.1		FALSE																	
-CattaramDogHead	TRUE	35	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	cattaram_mine 0.1 qwasi_grenade 0.1 precious_metals 0.1		FALSE																	
-CattaramThigh	FALSE	50	blunt thigh_fracture pierce thigh_puncture lacer thigh_laceration fire thigh_burn beam thigh_irradiation shock thigh_electrocution poison thigh_chemburn cold thigh_freeze explosion thigh_shrapnel plasma thigh_hardburn	qwasi_grenade 0.1 precious_metals 0.1	CattaramFeet	FALSE																	
-CattaramShoulder	FALSE	55	blunt shoulder_fracture pierce shoulder_puncture lacer shoulder_laceration fire shoulder_burn beam shoulder_irradiation shock shoulder_electrocution poison shoulder_chemburn cold shoulder_freeze explosion shoulder_shrapnel plasma shoulder_hardburn	qwasi_grenade 0.1 precious_metals 0.1	CattaramArm	FALSE																	
-CattaramArm	FALSE	50	blunt arm_fracture pierce arm_puncture lacer arm_laceration fire arm_burn beam arm_irradiation shock arm_electrocution poison arm_chemburn cold arm_freeze explosion arm_shrapnel plasma arm_hardburn	qwasi_grenade 0.1 precious_metals 0.1		FALSE																	
-CattaramChest	TRUE	50	blunt chest_fracture pierce chest_puncture lacer chest_laceration fire chest_burn beam chest_irradiation shock chest_electrocution poison chest_chemburn cold chest_freeze explosion chest_shrapnel plasma chest_hardburn	qwasi_grenade 0.1 precious_metals 0.1		FALSE																	
-CattaramStomach	TRUE	50	blunt stomach_fracture pierce stomach_puncture lacer stomach_laceration fire stomach_burn beam stomach_irradiation shock stomach_electrocution poison stomach_chemburn cold stomach_freeze explosion stomach_shrapnel plasma stomach_hardburn	qwasi_grenade 0.1 precious_metals 0.1		FALSE																	
-CattaramBody	TRUE	50	blunt body_fracture pierce body_puncture lacer body_laceration fire body_burn beam body_irradiation shock body_electrocution poison body_chemburn cold body_freeze explosion body_shrapnel plasma body_hardburn	qwasi_grenade 0.1 precious_metals 0.1		FALSE																	
-CattaramFeet	FALSE	50	blunt feet_fracture pierce feet_puncture lacer feet_laceration fire feet_burn beam feet_irradiation shock feet_electrocution poison feet_chemburn cold feet_freeze explosion feet_shrapnel plasma feet_hardburn	qwasi_grenade 0.1 precious_metals 0.1		TRUE																	
-CattaramKnee	FALSE	45	blunt knee_fracture pierce knee_puncture lacer knee_laceration fire knee_burn beam knee_irradiation shock knee_electrocution poison knee_chemburn cold knee_freeze explosion knee_shrapnel plasma knee_hardburn	qwasi_grenade 0.1 precious_metals 0.1		FALSE																	
-ScrivnusHead	TRUE	35	blunt head_fracture pierce head_puncture lacer head_laceration fire head_burn beam head_irradiation shock head_electrocution poison head_chemburn cold head_freeze explosion head_shrapnel plasma head_hardburn	demonic_aye 0.1 quasi_repair_kit 0.1		FALSE																	
-ScrivnusThigh	FALSE	50	blunt thigh_fracture pierce thigh_puncture lacer thigh_laceration fire thigh_burn beam thigh_irradiation shock thigh_electrocution poison thigh_chemburn cold thigh_freeze explosion thigh_shrapnel plasma thigh_hardburn	quasi_repair_kit 0.1	ScrivnusFeet	FALSE																	
-ScrivnusShoulder	FALSE	55	blunt shoulder_fracture pierce shoulder_puncture lacer shoulder_laceration fire shoulder_burn beam shoulder_irradiation shock shoulder_electrocution poison shoulder_chemburn cold shoulder_freeze explosion shoulder_shrapnel plasma shoulder_hardburn	quasi_repair_kit 0.1	ScrivnusArm	FALSE																	
-ScrivnusArm	FALSE	50	blunt arm_fracture pierce arm_puncture lacer arm_laceration fire arm_burn beam arm_irradiation shock arm_electrocution poison arm_chemburn cold arm_freeze explosion arm_shrapnel plasma arm_hardburn	scrivnus_blade_1 0.1 skrivnus_knife 0.1 quasi_repair_kit 0.1		FALSE																	
-ScrivnusChest	TRUE	50	blunt chest_fracture pierce chest_puncture lacer chest_laceration fire chest_burn beam chest_irradiation shock chest_electrocution poison chest_chemburn cold chest_freeze explosion chest_shrapnel plasma chest_hardburn	quasi_repair_kit 0.1		FALSE																	
-ScrivnusStomach	TRUE	50	blunt stomach_fracture pierce stomach_puncture lacer stomach_laceration fire stomach_burn beam stomach_irradiation shock stomach_electrocution poison stomach_chemburn cold stomach_freeze explosion stomach_shrapnel plasma stomach_hardburn	quasi_repair_kit 0.1		FALSE																	
-ScrivnusBody	TRUE	50	blunt body_fracture pierce body_puncture lacer body_laceration fire body_burn beam body_irradiation shock body_electrocution poison body_chemburn cold body_freeze explosion body_shrapnel plasma body_hardburn	quasi_repair_kit 0.1		FALSE																	
-ScrivnusFeet	FALSE	50	blunt feet_fracture pierce feet_puncture lacer feet_laceration fire feet_burn beam feet_irradiation shock feet_electrocution poison feet_chemburn cold feet_freeze explosion feet_shrapnel plasma feet_hardburn	quasi_repair_kit 0.1		TRUE																	
-ScrivnusKnee	FALSE	45	blunt knee_fracture pierce knee_puncture lacer knee_laceration fire knee_burn beam knee_irradiation shock knee_electrocution poison knee_chemburn cold knee_freeze explosion knee_shrapnel plasma knee_hardburn	quasi_repair_kit 0.1		FALSE																	
+Id	SlotType	NatureType	CoreEffects	IgnoreEffects	IgnoreStatusEffects	AmputationCoreEffects	ImplicitBonusEffects	ImplicitPenaltyEffects	SlotWeight	AmputatedDrop	AdditionalAmputation	IsGroundAffected											
+HumanHead	Head	human	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		death 0 los_reduce 10			25	human_meat 0.1 human_skin 0.1 human_skull 0.1 human_ear 0.1 human_aye 0.1		FALSE											
+HumanShoulder	Shoulder	human	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			55	human_meat 0.1 human_skin 0.1 human_hand 0.1 bone_knife 0.1	Arm	FALSE											
+HumanArm	Arm	human	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			50	human_meat 0.1 human_wrist 0.1 human_skin 0.1 bone_knife 0.1		FALSE											
+HumanThigh	Thigh	human		eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			55	human_meat 0.1 human_skin 0.1 human_leg 0.1 bone_knife 0.1	Feet	FALSE											
+HumanFeet	Feet	human	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			50	human_meat 0.1 human_feet 0.1 human_skin 0.1 bone_knife 0.1		TRUE											
+HumanChest	Chest	human		run_unavailable food_calories food_unavailable		death 0			35	human_meat 0.1 human_skin 0.1 human_rib 0.1 bone_knife 0.1		FALSE											
+HumanBody	Body	human		run_unavailable food_calories food_unavailable		death 0			45	human_meat 0.1 trowable_heart 0.1 human_skin 0.1 human_rib 0.1 bone_knife 0.1		FALSE											
+HumanStomach	Stomach	human	vomiting 0.05	run_unavailable dodge_reduce move_dmg		death 0 food_unavailable 0			45	human_meat 0.1 human_skin 0.1 human_poop 0.1 bone_knife 0.1		FALSE											
+HumanKnee	Knee	human	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			50	human_meat 0.1 human_skin 0.1 bone_knife 0.1		FALSE											
+SkinlessHead	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		death 0 los_reduce 10			25	human_meat 0.1 human_skull 0.1 human_ear 0.1 human_aye 0.1		FALSE											
+SkinlessShoulder	Shoulder	quasimorph	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			55	human_meat 0.1 human_hand 0.1 bone_knife 0.1	Arm	FALSE											
+SkinlessArm	Arm	quasimorph	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			50	human_meat 0.1 human_wrist 0.1 bone_knife 0.1		FALSE											
+SkinlessThigh	Thigh	quasimorph		eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			55	human_meat 0.1 human_leg 0.1 bone_knife 0.1	Feet	FALSE											
+SkinlessFeet	Feet	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			50	human_meat 0.1 human_feet 0.1 bone_knife 0.1		TRUE											
+SkinlessChest	Chest	quasimorph		run_unavailable food_calories food_unavailable		death 0			35	human_meat 0.1 human_rib 0.1 bone_knife 0.1		FALSE											
+SkinlessBody	Body	quasimorph		run_unavailable food_calories food_unavailable		death 0			45	human_meat 0.1 trowable_heart 0.1 human_rib 0.1 bone_knife 0.1		FALSE											
+SkinlessStomach	Stomach	quasimorph	vomiting 0.05	run_unavailable dodge_reduce move_dmg		death 0			45	human_meat 0.1 human_poop 0.1 bone_knife 0.1		FALSE											
+SkinlessKnee	Knee	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			50	human_meat 0.1 bone_knife 0.1		FALSE											
+SpiderHead	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		death 0 los_reduce 10			50	spider_meat 0.1 spider_chitin 0.1 spider_aye 0.1 spider_brain 0.1 spider_poisongland 0.2		FALSE											
+SpiderBody	Body	quasimorph		run_unavailable food_calories food_unavailable		death 0			45	spider_meat 0.1 spider_chitin 0.1 spider_poisongland 0.1		FALSE											
+SpiderFeet	Feet	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			55	spider_meat 0.1 spider_chitin 0.1 spider_joint 0.1 spider_claw 0.1		FALSE											
+SpiderKnee	Knee	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			55	spider_meat 0.1 spider_chitin 0.1 spider_joint 0.1		FALSE											
+SpiderStomach	Stomach	quasimorph	vomiting 0.05	run_unavailable dodge_reduce move_dmg		death 0			30	spider_meat 0.1 spider_cocoon 0.1 spider_poisongland 0.1		FALSE											
+SpiderThigh	Thigh	quasimorph		eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			55	spider_meat 0.1 spider_chitin 0.1 spider_joint 0.1 spider_claw 0.1	Feet	FALSE											
+MoonHead	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		death 0 los_reduce 10			25	quasi_bolts_ammo 0.1 quasi_repair_kit 0.1 demonic_aye 0.1 moon_guts 0.1 moon_weapon_parts 0.1 quasi_medical_kit_1 0.1		FALSE											
+MoonUpperMechanism	Shoulder	quasimorph	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			45	quasi_bolts_ammo 0.1 quasi_repair_kit 0.1 broken_weapon 0.1 quasi_medical_kit_1 0.1		FALSE											
+MoonStomach	Stomach	quasimorph	vomiting 0.05	run_unavailable dodge_reduce		death 0			50	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE											
+MoonCarapace	Chest	quasimorph		run_unavailable food_calories food_unavailable		dodge_reduce -0.4			55	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE											
+MoonLowerMechanism	Knee	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			45	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE											
+MoonBasement	Feet	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			25	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE											
+MoonShoulder	Shoulder	quasimorph	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			50	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1	Arm	FALSE											
+MoonThorn	Arm	quasimorph	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			45	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE											
+MoonThigh	Thigh	quasimorph		eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			55	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1	Feet	FALSE											
+MoonWheel	Feet	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			55	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE											
+MoonChest	Chest	quasimorph		run_unavailable food_calories food_unavailable		death 0			50	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE											
+MoonBody	Body	quasimorph		run_unavailable food_calories food_unavailable		death 0			50	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE											
+MoonKnee	Knee	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			45	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE											
+MoonFeet	Feet	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			50	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		TRUE											
+MoonArm	Arm	quasimorph		eat_dmg vomiting food_calories move_dmg food_unavailable		run_unavailable 0 dodge_reduce -0.4			50	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE											
+CyborgHead	Head	cyborg	los_reduce 1 accuracy_reduce -0.2	run_unavailable food_calories eat_dmg vomiting move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	accuracy_reduce -0.3 los_reduce 5	resist_blunt 6	max_health -4 resist_shock -2	35	cyborg_head 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 glass 0.1 weapon_parts 0.1		FALSE											
+CyborgShoulder	Shoulder	cyborg	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	resist_blunt 8 melee_dmg_reduce 0.1	max_health -5 resist_shock -3	55	cyborg_hand 0.2 metal_tread 0.1 weapon_parts 0.1	Arm	FALSE											
+CyborgArm	Arm	cyborg	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	resist_blunt 4 melee_dmg_reduce 0.1	max_health -4 resist_shock -2	50	cyborg_wrist 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
+CyborgThigh	Thigh	cyborg		eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	run_unavailable 0 dodge_reduce -0.4	resist_blunt 8 wound_chance -0.05	max_health -5 resist_shock -3 dodge_reduce -0.1	55	cyborg_leg 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1	Feet	FALSE											
+CyborgFeet	Feet	cyborg	dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	run_unavailable 0 dodge_reduce -0.4	throwback_immune	run_unavailable	50	cyborg_feet 0.2 metal_tread 0.1 weapon_parts 0.1		TRUE											
+CyborgChest	Chest	cyborg		run_unavailable food_calories eat_dmg vomiting pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	death 0	resist_blunt 6	max_health -7 resist_shock -3	35	cyborg_chest 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1		FALSE											
+CyborgBody	Body	cyborg		run_unavailable food_calories eat_dmg vomiting pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	death 0		max_health -7 resist_shock -3	45	cyborg_guts 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
+CyborgKnee	Knee	cyborg	dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	run_unavailable 0 dodge_reduce -0.4	resist_blunt 6 wound_chance -0.05	max_health -4 resist_shock -2 dodge_reduce -0.1	50	cyborg_knee 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
+BattleCyborgHead	Head	cyborg	los_reduce 1 accuracy_reduce -0.2	run_unavailable food_calories eat_dmg vomiting move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	accuracy_reduce -0.3 los_reduce 5	los_reduce -1 firearm_range 1	resist_shock -2	35	battleCyborg_head 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 glass 0.1 weapon_parts 0.1		FALSE											
+BattleCyborgShoulder	Shoulder	cyborg	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	scatter_angle -0.3 resist_pierce 8 resist_lacer 4	resist_shock -3	55	battleCyborg_hand 0.2 metal_tread 0.1 weapon_parts 0.1	Arm	FALSE											
+BattleCyborgArm	Arm	cyborg	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	ranged_accuracy 0.2 added_projectile 1	resist_shock -2	50	battleCyborg_wrist 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
+BattleCyborgThigh	Thigh	cyborg		eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	run_unavailable 0 dodge_reduce -0.4	resist_pierce 8 resist_lacer 4	resist_shock -3	55	battleCyborg_leg 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1	Feet	FALSE											
+BattleCyborgFeet	Feet	cyborg	dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	run_unavailable 0 dodge_reduce -0.4	resist_pierce 8 resist_lacer 4 wound_chance -0.05	resist_shock -2	50	battleCyborg_feet 0.2 metal_tread 0.1 weapon_parts 0.1		TRUE											
+BattleCyborgChest	Chest	cyborg		run_unavailable food_calories eat_dmg vomiting pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	death 0	resist_blunt 12 resist_pierce 8 resist_lacer 4 wound_chance -0.1	resist_shock -3	35	battleCyborg_chest 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1		FALSE											
+BattleCyborgBody	Body	cyborg		run_unavailable food_calories eat_dmg vomiting pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	death 0	resist_blunt 12 resist_pierce 8 resist_lacer 4 max_health 20	resist_shock -3	45	battleCyborg_guts 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
+BattleCyborgKnee	Knee	cyborg	dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	run_unavailable 0 dodge_reduce -0.4	resist_pierce 8 resist_lacer 4 wound_chance -0.05	resist_shock -2	50	battleCyborg_knee 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
+RecreationCyborgHead	Head	cyborg	los_reduce 1 accuracy_reduce -0.2	run_unavailable food_calories eat_dmg vomiting move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	accuracy_reduce -0.3 los_reduce 5		max_health -4 ranged_accuracy -0.2 dodge_reduce -0.1	35	recreationCyborg_head 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 glass 0.1 weapon_parts 0.1		FALSE											
+RecreationCyborgShoulder	Shoulder	cyborg	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	multi_hit 1	max_health -4 resist_pierce -5	55	recreationCyborg_hand 0.2 metal_tread 0.1 weapon_parts 0.1	Arm	FALSE											
+RecreationCyborgArm	Arm	cyborg	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	melee_accuracy 0.2	max_health -4 resist_blunt -5	50	recreationCyborg_wrist 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
+RecreationCyborgThigh	Thigh	cyborg		eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	run_unavailable 0 dodge_reduce -0.4		max_health -5 resist_lacer -5	55	recreationCyborg_leg 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1	Feet	FALSE											
+RecreationCyborgFeet	Feet	cyborg	dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	run_unavailable 0 dodge_reduce -0.4	dodge_reduce 0.1	max_health -4 resist_blunt -5	50	recreationCyborg_feet 0.2 metal_tread 0.1 weapon_parts 0.1		TRUE											
+RecreationCyborgChest	Chest	cyborg		run_unavailable food_calories eat_dmg vomiting pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect			max_health -7 resist_lacer -5	25	recreationCyborg_chest 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1		FALSE											
+RecreationCyborgBody	Body	cyborg		run_unavailable food_calories eat_dmg vomiting pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect			max_health -7 resist_lacer -5	35	recreationCyborg_guts 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
+RecreationCyborgKnee	Knee	cyborg	dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	run_unavailable 0 dodge_reduce -0.4	dodge_reduce 0.1	max_health -4 resist_pierce -5	50	recreationCyborg_knee 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
+MercuryHead	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		death 0 los_reduce 10			35	quasi_energy_ammo 0.1 human_organ_1 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1 anulator 0.1		FALSE											
+MercuryCentralAye	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		death 0 los_reduce 3			35	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE											
+MercuryRightAye	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		accuracy_reduce -0.3 los_reduce 3			45	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE											
+MercuryLeftAye	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		accuracy_reduce -0.3 los_reduce 3			50	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE											
+MercuryBottomAye	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		accuracy_reduce -0.3 los_reduce 3			50	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE											
+MercuryShoulder	Shoulder	quasimorph	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			35	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1	Arm	FALSE											
+MercuryArm	Arm	quasimorph	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			55	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1 mercury_arm 0.1		FALSE											
+MercuryThigh	Thigh	quasimorph		eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			50	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1	Feet	FALSE											
+MercuryFeet	Feet	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			55	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		TRUE											
+MercuryChest	Chest	quasimorph		run_unavailable food_calories food_unavailable		death 0			50	human_organ_1 0.1 mercury_guts 0.1		FALSE											
+MercuryBody	Body	quasimorph		run_unavailable food_calories food_unavailable		death 0			55	human_organ_1 0.1 mercury_guts 0.1		FALSE											
+MercuryStomach	Stomach	quasimorph	vomiting 0.05	run_unavailable dodge_reduce move_dmg		death 0			55	human_organ_1 0.1 mercury_guts 0.1		FALSE											
+MercuryKnee	Knee	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			45	human_organ_1 0.1 mercury_guts 0.2		FALSE											
+MercuryScroll	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable					40	anulator 1		FALSE											
+VenusHead	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		death 0 los_reduce 10			35			FALSE											
+VenusCatHead	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		death 0 los_reduce 10			35	human_organ_1 0.1 demonic_aye 0.1 aztec_guts 0.1		FALSE											
+VenusCatFeet	Feet	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			55			TRUE											
+VenusSpiderThigh	Thigh	quasimorph		eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			50		Feet	FALSE											
+VenusSpiderFeet	Feet	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			50			FALSE											
+VenusSpiderKnee	Knee	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			50			FALSE											
+VenusCatSting	Tail	quasimorph		eat_dmg vomiting food_calories move_dmg food_unavailable		run_unavailable 0 dodge_reduce -0.4			55	human_organ_1 0.1 aztec_guts 0.1		FALSE											
+VenusShoulder	Shoulder	quasimorph	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			55		Arm	FALSE											
+VenusArm	Arm	quasimorph	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			50			FALSE											
+VenusChest	Chest	quasimorph		run_unavailable food_calories food_unavailable		death 0			50	human_organ_1 0.1 aztec_guts 0.1		FALSE											
+VenusStomach	Stomach	quasimorph	vomiting 0.05	run_unavailable dodge_reduce move_dmg		death 0			50	human_organ_1 0.1 aztec_guts 0.1		FALSE											
+VenusBody	Body	quasimorph		run_unavailable food_calories food_unavailable		death 0			50	human_organ_1 0.1 aztec_guts 0.1		FALSE											
+VenusThigh	Thigh	quasimorph		eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			50		Feet	FALSE											
+VenusKnee	Knee	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			45			FALSE											
+RonHead	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		death 0 los_reduce 10			25	ron_mask_1 0.4 quasi_ron_medicine_1 0.1		FALSE											
+RonCarapace	Shoulder	quasimorph	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			55	quasi_ron_medicine_1 0.1		FALSE											
+RonTentacle	Feet	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			50	quasi_ron_medicine_1 0.1		FALSE											
+RonKnifeArm	Arm	quasimorph	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			45	quasi_ron_medicine_1 0.1		FALSE											
+RonStomach	Stomach	quasimorph	vomiting 0.05	run_unavailable dodge_reduce move_dmg		death 0			50	quasi_ron_medicine_1 0.1		FALSE											
+RonBody	Body	quasimorph		run_unavailable food_calories food_unavailable		death 0			55	quasi_ron_medicine_1 0.1		FALSE											
+CattaramHead	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		death 0 los_reduce 10			35	cattaram_mine 0.1 qwasi_grenade 0.1 precious_metals 0.1		FALSE											
+CattaramDogHead	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		death 0 los_reduce 10			35	cattaram_mine 0.1 qwasi_grenade 0.1 precious_metals 0.1		FALSE											
+CattaramThigh	Thigh	quasimorph		eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			50	qwasi_grenade 0.1 precious_metals 0.1	Feet	FALSE											
+CattaramShoulder	Shoulder	quasimorph	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			55	qwasi_grenade 0.1 precious_metals 0.1	Arm	FALSE											
+CattaramArm	Arm	quasimorph	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			50	qwasi_grenade 0.1 precious_metals 0.1		FALSE											
+CattaramChest	Chest	quasimorph		run_unavailable food_calories food_unavailable		death 0			50	qwasi_grenade 0.1 precious_metals 0.1		FALSE											
+CattaramStomach	Stomach	quasimorph	vomiting 0.05	run_unavailable dodge_reduce move_dmg		death 0			50	qwasi_grenade 0.1 precious_metals 0.1		FALSE											
+CattaramBody	Body	quasimorph		run_unavailable food_calories food_unavailable		death 0			50	qwasi_grenade 0.1 precious_metals 0.1		FALSE											
+CattaramFeet	Feet	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			50	qwasi_grenade 0.1 precious_metals 0.1		TRUE											
+CattaramKnee	Knee	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			45	qwasi_grenade 0.1 precious_metals 0.1		FALSE											
+ScrivnusHead	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		death 0 los_reduce 10			35	demonic_aye 0.1 quasi_repair_kit 0.1		FALSE											
+ScrivnusThigh	Thigh	quasimorph		eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			50	quasi_repair_kit 0.1	Feet	FALSE											
+ScrivnusShoulder	Shoulder	quasimorph	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			55	quasi_repair_kit 0.1	Arm	FALSE											
+ScrivnusArm	Arm	quasimorph	melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			50	scrivnus_blade_1 0.1 skrivnus_knife 0.1 quasi_repair_kit 0.1		FALSE											
+ScrivnusChest	Chest	quasimorph		run_unavailable food_calories food_unavailable		death 0			50	quasi_repair_kit 0.1		FALSE											
+ScrivnusStomach	Stomach	quasimorph	vomiting 0.05	run_unavailable dodge_reduce move_dmg		death 0			50	quasi_repair_kit 0.1		FALSE											
+ScrivnusBody	Body	quasimorph		run_unavailable food_calories food_unavailable		death 0			50	quasi_repair_kit 0.1		FALSE											
+ScrivnusFeet	Feet	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			50	quasi_repair_kit 0.1		TRUE											
+ScrivnusKnee	Knee	quasimorph	dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		run_unavailable 0 dodge_reduce -0.4			45	quasi_repair_kit 0.1		FALSE											
+#end																							
+																							
+#woundeffects																							
+Id	IsFixable																						
+los_reduce	FALSE																						
+move_dmg	TRUE																						
+dot_dmg	TRUE																						
+apoint_dmg	TRUE																						
+action_dmg	TRUE																						
+eat_dmg	FALSE																						
+melee_dmg_reduce	FALSE																						
+income_dmg	FALSE																						
+income_critchance	FALSE																						
+accuracy_reduce	FALSE																						
+food_calories	FALSE																						
+satiety	FALSE																						
+vomiting	FALSE																						
+no_stealth	FALSE																						
+frozen_stun	FALSE																						
+shock_stun	FALSE																						
+self_heal	FALSE																						
+death	FALSE																						
+run_unavailable	FALSE																						
+consume_regen	FALSE																						
+hallucinations	FALSE																						
+max_health	FALSE																						
+pain_threshold_regen	TRUE																						
+qmorph	FALSE																						
+qmorph_summon	FALSE																						
+income_pain	FALSE																						
+arm_slot_unavailable	FALSE																						
+critchance_reduce	FALSE																						
+food_unavailable	FALSE																						
+dodge_reduce	FALSE																						
+resist_blunt	FALSE																						
+resist_pierce	FALSE																						
+resist_lacer	FALSE																						
+resist_fire	FALSE																						
+resist_beam	FALSE																						
+resist_shock	FALSE																						
+resist_poison	FALSE																						
+resist_cold	FALSE																						
+wound_chance	FALSE																						
+scatter_angle	FALSE																						
+melee_accuracy	FALSE																						
+ranged_accuracy	FALSE																						
+throwback_immune	FALSE																						
+firearm_range	FALSE																						
+multi_hit	FALSE																						
+added_projectile	FALSE																						
+immune_blunt	FALSE																						
+immune_pierce	FALSE																						
+immune_lacer	FALSE																						
+immune_fire	FALSE																						
+immune_beam	FALSE																						
+immune_shock	FALSE																						
+immune_poison	FALSE																						
+immune_cold	FALSE																						
 #end																							

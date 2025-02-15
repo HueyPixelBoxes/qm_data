@@ -310,7 +310,6 @@ TechLevel	ContentIds	Weight	Points
 5	ddr_reinforced_chem_helmet_1	50	750					
 5	ddr_reinforced_chem_pants_1	50	750					
 5	ddr_frost_pistol_1	50	750					
-6	common_assault_1	60	900					
 7	ddr_toxic_shotgun_1	70	1050					
 8	military_armored_vest_1	80	1200					
 9	ddr_power_armor_1	90	1350					
@@ -335,7 +334,7 @@ TechLevel	ContentIds	Weight	Points
 1	toxic_ammo	20	10					
 3	toxic_grenade	10	100					
 4	pills_painkillers	10	80					
-5	syringe_morphine	10	80					
+6	syringe_morphine	10	120					
 6	frost_grenade	10	120					
 8	surgicalKit	10	150					
 #end								
@@ -354,7 +353,6 @@ TechLevel	ContentIds	Weight	Points
 3	laborer_warm_pants_1	30	450					
 3	laborer_warm_hat_1	30	450					
 3	laborer_warm_boots_1	30	450					
-3	common_assault_1	30	450					
 3	medium_backpack_1	30	450					
 4	rail_pistol_3	40	600					
 4	laborer_medium_helmet_1	40	600					
@@ -534,6 +532,7 @@ TechLevel	ContentIds	Weight	Points
 6	chu_trucker_pistol_2	60	900					
 6	chu_meltatrower_1	60	900					
 7	plasma_assault_1	70	1050					
+8	plasma_shotgun_2	70	1050					
 8	chu_power_armor_1	80	1200					
 8	chu_power_helmet_1	80	1200					
 8	chu_power_pants_1	80	1200					
@@ -746,7 +745,7 @@ TechLevel	ContentIds	Weight	Points
 8	military_heavy_pants_1	80	1200					
 8	military_heavy_boots_1	80	1200					
 9	she_military_minigun_1	90	1350					
-10	she_common_assault_1	100	1500					
+10	military_minigun_1	100	1500					
 #end								
 								
 #factiondrop_SheduThousand_rewardChips								
@@ -830,6 +829,7 @@ TechLevel	ContentIds	Weight	Points
 1	rail_pistol_1	10	150					
 1	rail_pistol_2	10	150					
 1	common_axe_1	10	150					
+2	common_assault_1	20	300					
 2	pmc_shotgun_2	20	300					
 2	tech_blade_1	20	300					
 2	pmc_common_vest_1	20	300					
@@ -853,7 +853,6 @@ TechLevel	ContentIds	Weight	Points
 6	heavy_armored_vest_1	60	900					
 6	big_backpack_1	60	900					
 6	army_sniper_1	60	900					
-6	common_assault_1	60	900					
 6	chu_trucker_pistol_2	60	900					
 7	military_power_armor_1	70	1050					
 7	military_power_helmet_1	70	1050					

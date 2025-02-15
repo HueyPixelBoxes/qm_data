@@ -760,6 +760,26 @@ sbn_medium_helmet_1		armor_plates 1 rags 2 tread 1
 sbn_medium_armor_1		armor_plates 2 rags 2 capacitor_parts 1																					
 sbn_medium_pants_1		armor_plates 2 rags 2 capacitor_parts 1																					
 sbn_medium_boots_1		armor_plates 1 rags 2 tread 1																					
+cyborg_wrist		armor_plates 1 rusty_plates 1 plastic 1 circuit_board 1																					
+cyborg_feet		armor_plates 1 rusty_plates 1 plastic 1 circuit_board 1																					
+cyborg_chest		armor_plates 2 rusty_plates 2 wire 1 circuit_board 1																					
+cyborg_guts		armor_plates 1 rusty_plates 2 wire 1 circuit_board 1																					
+cyborg_shoulderPart		armor_plates 2 rusty_plates 2 plastic 1 circuit_board 1																					
+cyborg_knee		armor_plates 1 rusty_plates 1 plastic 1 circuit_board 1																					
+battleCyborg_head		ceramite_plates 1 plastic 1 glass 1 microelectronics_parts 1 wire 1																					
+battleCyborg_wrist		armor_plates 1 rusty_plates 1 capacitor_parts 1 circuit_board 1																					
+battleCyborg_feet		armor_plates 1 rusty_plates 1 capacitor_parts 1 circuit_board 1																					
+battleCyborg_chest		ceramite_plates 2 rusty_plates 2 capacitor_parts 1 circuit_board 1																					
+battleCyborg_guts		armor_plates 2 rusty_plates 2 transformer 1 circuit_board 1																					
+battleCyborg_shoulderPart		ceramite_plates 2 rusty_plates 2 capacitor_parts 1 circuit_board 1																					
+battleCyborg_knee		armor_plates 1 rusty_plates 1 capacitor_parts 1 circuit_board 1																					
+recreationCyborg_head		armor_plates 1 plastic 1 glass 1 circuit_board 1 wire 1																					
+recreationCyborg_wrist		rubber 1 plastic 1 glass 1 microelectronics_parts 1 wire 1																					
+recreationCyborg_feet		rubber 1 rusty_plates 1 plastic 1 circuit_board 1																					
+recreationCyborg_chest		rubber 2 rusty_plates 2 plastic 1 circuit_board 1																					
+recreationCyborg_guts		rubber 2 rusty_plates 2 plastic 1 circuit_board 1																					
+recreationCyborg_shoulderPart		rubber 2 rusty_plates 2 plastic 1 circuit_board 1																					
+recreationCyborg_knee		rubber 1 rusty_plates 1 plastic 1 circuit_board 1																					
 #end																							
 																							
 #workbenchreceipts																							
@@ -913,6 +933,7 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		army_sniper_2	ceramite_plates 1 weapon_parts 1 lens 1 microelectronics_parts 1	58	8	1.05	itemChip 1 weapon_container 8 mediumItemChip 10 highItemChip 20	35															
 		trucker_marksman_1	rubber 1 weapon_parts 1 blunt_parts 1	30	4	1.08	weapon_parts 1 lens 5 itemChip 7 mediumItemChip 15	10															
 		trucker_marksman_2	armor_plates 1 weapon_parts 1 lens 1 blunt_parts 2	40	5	1.08	lens 1 firearm_repair_kit 5 itemChip 7 mediumItemChip 15	15															
+		plasma_shotgun_2	ceramite_plates 2 circuit_board 1 microelectronics_parts 1 capacitor_parts 1	40	5	1.08	circuit_board 1 microelectronics_parts 5 mediumItemChip 7 highItemChip 15	10															
 		laser_sniper_1	plastic 1 microelectronics_parts 1 lens 1 bulb 1 transformer 1	60	1	1.06	itemChip 1 electrical_parts_container 8 mediumItemChip 10 highItemChip 20	25															
 		laser_marksman_1	plastic 1 microelectronics_parts 1 lens 1 bulb 1 capacitor_parts 1	44	1	1.08	itemChip 1 electrical_parts_container 8 mediumItemChip 10 highItemChip 20	15															
 		anc_marksman_1	ceramite_plates 1 weapon_parts 1 lens 1 microelectronics_parts 1 blunt_parts 1	62	1	1.05	lens 1 firearm_repair_kit 8 mediumItemChip 10 AncomItemChip 25	35															
@@ -1126,10 +1147,10 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		rwa_light_helmet_2	armor_plates 2 rags 1 metal_tread 1	28	1	1.05	rags 1 armor_plates 3 itemChip 7 mediumItemChip 15	20															
 		rwa_light_pants_1	armor_plates 2 rags 2 metal_tread 1	28	1	1.05	rags 1 armor_plates 3 itemChip 7 mediumItemChip 15	20															
 		rwa_light_boots_1	armor_plates 2 rags 2 metal_tread 1	28	1	1.05	rags 1 armor_plates 3 itemChip 7 mediumItemChip 15	20															
-		ddr_power_armor_1	ceramite_plates 2 armor_plates 1 microelectronics_parts 1 metal_tread 1	64	1	1.05	itemChip 1 armor_repair_kit 8 mediumItemChip 10 RealWareItemChip 25	40															
-		ddr_power_pants_1	ceramite_plates 1 armor_plates 2 microelectronics_parts 1 metal_tread 1	64	1	1.05	itemChip 1 armor_repair_kit 8 mediumItemChip 10 RealWareItemChip 25	40															
-		ddr_power_helmet_1	ceramite_plates 1 armor_plates 1 glass 1 microelectronics_parts 1 metal_tread 1	64	1	1.05	itemChip 1 armor_repair_kit 8 mediumItemChip 10 RealWareItemChip 25	40															
-		ddr_power_boots_1	ceramite_plates 1 armor_plates 2 microelectronics_parts 1 metal_tread 1	64	1	1.05	itemChip 1 armor_repair_kit 8 mediumItemChip 10 RealWareItemChip 25	40															
+		ddr_power_armor_1	ceramite_plates 2 armor_plates 1 microelectronics_parts 1 metal_tread 1	64	1	1.05	itemChip 1 armor_repair_kit 8 mediumItemChip 10 DayDreamItemChip 25	40															
+		ddr_power_pants_1	ceramite_plates 1 armor_plates 2 microelectronics_parts 1 metal_tread 1	64	1	1.05	itemChip 1 armor_repair_kit 8 mediumItemChip 10 DayDreamItemChip 25	40															
+		ddr_power_helmet_1	ceramite_plates 1 armor_plates 1 glass 1 microelectronics_parts 1 metal_tread 1	64	1	1.05	itemChip 1 armor_repair_kit 8 mediumItemChip 10 DayDreamItemChip 25	40															
+		ddr_power_boots_1	ceramite_plates 1 armor_plates 2 microelectronics_parts 1 metal_tread 1	64	1	1.05	itemChip 1 armor_repair_kit 8 mediumItemChip 10 DayDreamItemChip 25	40															
 		anc_medium_pants_2	armor_plates 1 ceramite_plates 1 metal_tread 1 capacitor_parts 1	34	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		anc_medium_boots_2	armor_plates 1 ceramite_plates 1 metal_tread 1 capacitor_parts 1	34	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		engineering_repair_kit	rod_parts 1 coarse_parts 2 capacitor_parts 1	24	1	1.05																	

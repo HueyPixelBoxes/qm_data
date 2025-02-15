@@ -1,0 +1,99 @@
+#keybinding														
+Id	Layout	OtherKeyIdToPress	Bind1	Bind2	ControllerBind1	ControllerBind2	ImmutableBind1	ImmutableBind2	ImmutableJoystickBind1	ImmutableJoystickBind2	AxisName	MovementVector	ExclusiveInputMode	ForbiddenKeysToBind
+PrimaryCursorAction			Mouse0	None	None	None							KeyboardAndMouse	
+SecondaryCursorAction			Mouse1	None	None	None							KeyboardAndMouse	
+PreciseCursorShoot		PrimaryCursorAction	LeftShift	None	None	None							KeyboardAndMouse	
+ForceCursorMove		PrimaryCursorAction	LeftControl	None	None	None							KeyboardAndMouse	
+MoveTowardsSight			None	None	RightShoulder2	None								
+MoveUp			UpArrow	Keypad8	None	None					Movement	0 1		
+MoveDown			DownArrow	Keypad2	None	None					Movement	0 -1		
+MoveLeft			LeftArrow	Keypad4	None	None					Movement	-1 0		
+MoveRight			RightArrow	Keypad6	None	None					Movement	1 0		
+MoveUpLeft			None	Keypad7	None	None					Movement	-1 1		
+MoveUpRight			None	Keypad9	None	None					Movement	1 1		
+MoveDownLeft			None	Keypad1	None	None					Movement	-1 -1		
+MoveDownRight			None	Keypad3	None	None					Movement	1 -1		
+LookUp			LeftShift UpArrow	LeftShift Keypad8	LeftStickYPos	None					LookAt	0 1		
+LookDown			LeftShift DownArrow	LeftShift Keypad2	LeftStickYNeg	None					LookAt	0 -1		
+LookLeft			LeftShift LeftArrow	LeftShift Keypad4	LeftStickXNeg	None					LookAt	-1 0		
+LookRight			LeftShift RightArrow	LeftShift Keypad6	LeftStickXPos	None					LookAt	1 0		
+LookUpLeft			None	LeftShift Keypad7	None	None					LookAt	-1 1		
+LookUpRight			None	LeftShift Keypad9	None	None					LookAt	1 1		
+LookDownLeft			None	LeftShift Keypad1	None	None					LookAt	-1 -1		
+LookDownRight			None	LeftShift Keypad3	None	None					LookAt	1 -1		
+MoveCameraUp			None	None	RightStickYPos	None					CamMovement	0 1	Controller KeyboardOnly	
+MoveCameraDown			None	None	RightStickYNeg	None					CamMovement	0 -1	Controller KeyboardOnly	
+MoveCameraLeft			None	None	RightStickXNeg	None					CamMovement	-1 0	Controller KeyboardOnly	
+MoveCameraRight			None	None	RightStickXPos	None					CamMovement	1 0	Controller KeyboardOnly	
+Inventory			I	Tab	ActionTopRow2	None								
+SwapWeapon			S	None	DPadDown	None								
+SwapAttackMode			E	None	DPadUp	None								
+SwapMoveMode			None	None	DPadLeft	None							Controller	
+MoveMode_Slowdown			Z	Comma	None	None								
+MoveMode_Speedup			X	Period	None	None								
+ReloadWeapon			R	None	ActionBottomRow2	None								
+SkipTurn			Space	None	RightShoulder1	None								
+Mercenary			C	None	Center1	None								
+Objectives			T	None	LeftStickButton	None								
+Map			M	None	RightStickButton	None								
+Health			H	None	ActionTopRow1	None								
+UseUltimate			Q	None	LeftShoulder1	None								
+Skull			V	None	Center3	None								
+Vest			None	None	DPadRight	None							Controller	
+Vest1			Alpha1	None	None	None							KeyboardAndMouse KeyboardOnly	
+Vest2			Alpha2	None	None	None							KeyboardAndMouse KeyboardOnly	
+Vest3			Alpha3	None	None	None							KeyboardAndMouse KeyboardOnly	
+Vest4			Alpha4	None	None	None							KeyboardAndMouse KeyboardOnly	
+Vest5			Alpha5	None	None	None							KeyboardAndMouse KeyboardOnly	
+ZoomIn			Greater	Equals	None	None								
+ZoomOut			Less	Minus	None	None								
+Shoot			F	None	LeftShoulder2	None								
+Interact			G	None	ActionBottomRow1	None								
+HighlightAllItems			LeftAlt	None	None	None								
+HighlightPreciseShoot			LeftShift	None	None	None								
+HighlightForceMove			LeftControl	None	None	None								
+Help			F1	None	None	None							KeyboardAndMouse KeyboardOnly	
+Menu	UI		Escape	None	Center2	None	TRUE		TRUE					Mouse0
+UI_MoveUp	UI		UpArrow	None	LeftStickYPos	DPadUp					Movement	0 1		
+UI_MoveDown	UI		DownArrow	None	LeftStickYNeg	DPadDown					Movement	0 -1		
+UI_MoveLeft	UI		LeftArrow	None	LeftStickXNeg	DPadLeft					Movement	-1 0		
+UI_MoveRight	UI		RightArrow	None	LeftStickXPos	DPadRight					Movement	1 0		
+UI_MoveUpLeft	UI		None	Keypad7	None	None					Movement	-1 1		
+UI_MoveUpRight	UI		None	Keypad9	None	None					Movement	1 1		
+UI_MoveDownLeft	UI		None	Keypad1	None	None					Movement	-1 -1		
+UI_MoveDownRight	UI		None	Keypad3	None	None					Movement	1 -1		
+Back	UI		N	Backspace	ActionBottomRow2	None		TRUE						Mouse0
+Confirm	UI		Y	Return	ActionBottomRow1	None		TRUE						Mouse0
+SlideLeft	Hotkeys		PageUp	None	LeftShoulder1	None								
+SlideRight	Hotkeys		PageDown	None	RightShoulder1	None								
+Continue	Hotkeys		Y	None	None	None								
+Ok	Hotkeys		Y	None	None	None								
+Cancel	Hotkeys		N	None	None	None								
+Yes	Hotkeys		Y	None	None	None								
+No	Hotkeys		N	None	None	None								
+Newsline	Hotkeys		H	None	None	None								
+Spaceship	Hotkeys		I	None	None	None								
+Starmap	Hotkeys		M	None	None	None								
+TradeShuttle	Hotkeys		Y	None	None	None								
+Departure	Hotkeys		Z	None	None	None								
+Raid_Start	Hotkeys		Y	None	None	None								
+Raid_Finish	Hotkeys		Y	None	None	None								
+SelectClass_Apply	Hotkeys		Y	None	None	None								
+Faction_Info	Hotkeys		I	None	None	None								
+Faction_Techology	Hotkeys		T	None	None	None								
+Faction_Subscribe	Hotkeys		S	None	None	None								
+SendShuttle	Hotkeys		Y	None	None	None								
+Trade_Exchange	Hotkeys		Y	None	None	None								
+Trade_Sell	Hotkeys		Y	None	None	None								
+Trade_Buy	Hotkeys		Y	None	None	None								
+Recycle	Hotkeys		E	None	None	None								
+UnloadAll	Hotkeys		G	None	None	None								
+SendReport	Hotkeys		Y	None	None	None								
+OpenLog	Hotkeys		O	None	None	None								
+Customize	Hotkeys		C	None	None	None								
+SkipCutscene	Hotkeys		Space	None	ActionTopRow1	None								
+TakeAll	Hotkeys		G	None	None	None								
+Evacuate	Hotkeys		E	None	None	None								
+CallCapsule	Hotkeys		Z	None	None	None								
+LeaveStation	Hotkeys		Y	None	None	None								
+#end														

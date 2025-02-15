@@ -4,16 +4,16 @@ AnCom	TRUE	0	1	20	Corp	Hexarchy	0.1	Expansion 25 Defense 35 Scouting 45	672	1344
 Tezctlan	TRUE	800	2	20	Tezctlan	TezctlanAliance	0.5	Expansion 70 Defense 10 Scouting 20	672	1344	venus_jaguar_knight	venus_acolyte	100	FALSE	FALSE	Tezctlan	
 XiomaraMasks	FALSE	0	1	0	Xiomara	XiomaraAliance	0.1	Expansion 70 Defense 10 Scouting 20	672	1344	venus_eagle_knight	venus_acolyte	100	FALSE	FALSE	Xiomara	
 SBN	TRUE	0	1	10	Corp	Hexarchy	0.1	Expansion 25 Defense 35 Scouting 45	672	1344	elite_sbn	manager	0	TRUE	FALSE	SBN	
-RealWare	TRUE	0	1	10	Corp	Hexarchy	0.1	Expansion 25 Defense 35 Scouting 45	672	1344	elite_rwa	enforcer	0	TRUE	FALSE	RealWare	
+RealWare	TRUE	0	1	10	Corp	Hexarchy	0.1	Expansion 25 Defense 35 Scouting 45	672	1344	elite_rwa	warden	0	TRUE	FALSE	RealWare	
 DaydreamChems	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_ddr	professor	0	TRUE	FALSE	DaydreamChems	
 PlanetBridge	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_pla	manager	0	TRUE	FALSE	PlanetBridge	
 Grasshopper	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_gra	agent	0	TRUE	FALSE	Grasshopper	
 Sunlight	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_sun	manager	0	TRUE	FALSE	Sunlight	
-FrancheComte	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_fra	security	0	TRUE	FALSE	FrancheComte	
+FrancheComte	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_fra	combatmedic	0	TRUE	FALSE	FrancheComte	
 ChurchRevelation	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_chu	manager	0	TRUE	FALSE	ChurchRevelation	
-CoreWard	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_cor	miner	0	TRUE	FALSE	CoreWard	
-CResistance	TRUE	0	1	-10	CivilRes	Resistance	0.5	Expansion 25 Defense 35 Scouting 40	672	1344	elite_civ	combatmedic	0	TRUE	FALSE	CResistance	
-Dilthey	TRUE	300	1	20	Corp	Hexarchy	0.1	Expansion 20 Defense 40 Scouting 45	672	1344	elite_dil	professor	0	TRUE	FALSE	Dilthey	
+CoreWard	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_cor	manager	0	TRUE	FALSE	CoreWard	
+CResistance	TRUE	0	1	-10	CivilRes	Resistance	0.5	Expansion 25 Defense 35 Scouting 40	672	1344	elite_civ	combatmedic_civ	0	TRUE	FALSE	CResistance	
+Dilthey	TRUE	300	1	20	Corp	Hexarchy	0.1	Expansion 20 Defense 40 Scouting 45	672	1344	elite_dil	manager	0	TRUE	FALSE	Dilthey	
 UnchainedBelt	TRUE	300	1	-10	Pirates	Pirates	0.5	Expansion 25 Defense 35 Scouting 40	672	1344	elite_pirates	soldier	0	TRUE	TRUE	UnchainedBelt	
 SheduThousand	FALSE	0	1	0	Shedu	SheduThousand	0.1	Expansion 70 Defense 10 Scouting 20	672	1344	elite_she	mars_crab	100	FALSE	FALSE	SheduThousand	
 EipschwitzHead	FALSE	0	1	0	Xiomara	XiomaraAliance	0	Expansion 25 Defense 25 Scouting 25	672	1344	heavypmc	professor	0	TRUE	FALSE	Common	
@@ -88,13 +88,13 @@ Rachmaninoff	mercury	CoreWard	SpaceStation	0.15	0	1	3	TRUE	0.2	orbit1	mercurySur
 Discovery	mercury	AnCom	Lab	0.05	0	2	3	FALSE	0.2	lab1	mercurySurfaceLevels	Mercury	28985	52700			
 CalorisPlanitia	mercury	RealWare	Mine	0.15	0	1	1	FALSE	0.2	mercury5	mercurySurfaceLevels	Mercury	7524	41800			
 Goethe	mercury	RealWare	Civilian	0.10	0	1	2	FALSE	0.2	military1	mercurySurfaceLevels	Mercury	17200	43000			
-Boethius	mercury	SBN	Industrial	0.15	0	1	3	FALSE	0.2	mercury4	mercurySurfaceLevels	Mercury	11240	56200			
+Boethius	mercury	SBN	Industrial	0.15	0	1	3	FALSE	0.2	industrial2	mercurySurfaceLevels	Mercury	11240	56200			
 Mammoth	mercury	PlanetBridge	SpaceStation	0.10	0	1	3	FALSE	0.2	mercury1	mercurySurfaceLevels	Mercury	17197	59300			
-Rhino	volcano	RealWare	Industrial	0.15	0	1	2	FALSE	0.2	mercury1	mercurySurfaceLevels	Mercury	29521	55700			
+Rhino	volcano	RealWare	Industrial	0.15	0	1	2	FALSE	0.2	industrial2	mercurySurfaceLevels	Mercury	29521	55700			
 Kizzuwatna	volcano	AnCom	ColonyFarm	0.10	0	1	3	FALSE	0.2	mercury1	mercurySurfaceLevels	Mercury	17777	61300			
 Lomonosov	volcano	PlanetBridge	Lab	0.05	0	1	3	FALSE	0.2	moon2	mercurySurfaceLevels	Mercury	10647	50700			
 GammaHydra	citadel	PlanetBridge	Lab	0.05	0	1	3	FALSE	0.2	lab1	mercurySurfaceLevels	Mercury	11115	58500			
-EnergyOne	citadel	ChurchRevelation	Industrial	0.15	0	1	3	FALSE	0.2	orbit1	mercurySurfaceLevels	Mercury	23638	44600			
+EnergyOne	citadel	ChurchRevelation	Industrial	0.15	0	1	3	FALSE	0.2	industrial1	mercurySurfaceLevels	Mercury	23638	44600			
 Photosphere	citadel	RealWare	ColonyFarm	0.10	0	1	3	FALSE	0.2	orbit1	mercurySurfaceLevels	Mercury	19364	41200			
 JourneyOfFire	citadel	AnCom	Civilian	0.10	0	2	2	FALSE	0.2	mercury4	mercurySurfaceLevels	Mercury	24596	57200			
 Campbell	citadel	DaydreamChems	Lab	0.05	0	2	3	FALSE	0.2	orbit1	mercurySurfaceLevels	Mercury	13392	55800			
@@ -105,7 +105,7 @@ FrescoPlatforms	venus	Tezctlan	SpaceStation	0.10	0	1	1	FALSE	0.2	venus3	mercuryS
 LouhiCity	venus	CoreWard	ColonyFarm	0.10	0	2	2	FALSE	0.2	venus1	mercurySurfaceLevels	Venus	35145	63900			
 Fortuna	venus	ChurchRevelation	Civilian	0.10	0	2	3	FALSE	0.2	venus2	mercurySurfaceLevels	Venus	14450	57800			
 Oddibjord	venus	Tezctlan	SpaceStation	0.10	0	1	1	TRUE	0.2	venus1	mercurySurfaceLevels	Venus	14056	50200			
-Clotho	venus	RealWare	Industrial	0.15	0	1	1	FALSE	0.2	venus3	mercurySurfaceLevels	Venus	18942	57400			
+Clotho	venus	RealWare	Industrial	0.15	0	1	1	FALSE	0.2	industrial2	mercurySurfaceLevels	Venus	18942	57400			
 FeatheredTemple	venus	Tezctlan	QuasimorphicTemple	0.35	0	5	5	TRUE	0.2	venus1	mercurySurfaceLevels	Venus	19320	69000			
 SubRosa	mechta	AnCom	Civilian	0.10	0	2	3	FALSE	0.2	orbit1	mercurySurfaceLevels	Venus	16140	53800			
 February	mechta	FrancheComte	Prison	0.20	0	1	2	TRUE	0.2	prison1	mercurySurfaceLevels	Venus	40474	68600			
@@ -116,11 +116,11 @@ EStation	mechta	Grasshopper	Civilian	0.10	0	1	1	FALSE	0.2	orbit1	mercurySurfaceL
 Purgatory	mechta	SBN	SpaceStation	0.10	0	1	3	FALSE	0.2	moon2	mercurySurfaceLevels	Venus	9265	54500			
 Edge	havoc	FrancheComte	Civilian	0.10	0	2	3	FALSE	0.2	mars1	mercurySurfaceLevels	Venus	7575	50500			
 Blade	havoc	Sunlight	Military	0.10	0	1	2	FALSE	0.2	mars1	mercurySurfaceLevels	Venus	16564	40400			
-SampoQuern	havoc	SBN	Industrial	0.15	0	2	2	FALSE	0.2	venus3	mercurySurfaceLevels	Venus	21240	35400			
+SampoQuern	havoc	SBN	Industrial	0.15	0	2	2	FALSE	0.2	industrial2	mercurySurfaceLevels	Venus	21240	35400			
 VenusTwo	havoc	AnCom	ColonyFarm	0.10	0	1	1	FALSE	0.2	moon1	mercurySurfaceLevels	Venus	13272	63200			
 PromisedLand	havoc	Grasshopper	ColonyFarm	0.10	0	1	1	FALSE	0.2	venus3	mercurySurfaceLevels	Venus	10098	37400			
 HeritageStation	earth	SBN	Civilian	0.10	0	1	2	TRUE	0.2	orbit1	mercurySurfaceLevels	Earth	24794	53900			
-ArcadisTerminal	earth	PlanetBridge	Industrial	0.15	0	1	3	TRUE	0.2	orbit1	mercurySurfaceLevels	Earth	31460	57200			
+ArcadisTerminal	earth	PlanetBridge	Industrial	0.15	0	1	3	TRUE	0.2	industrial1	mercurySurfaceLevels	Earth	31460	57200			
 PineGapTraining	earth	ChurchRevelation	Civilian	0.10	0	1	3	TRUE	0.2	military1	mercurySurfaceLevels	Earth	16380	36400			
 Skylab	earth	RealWare	Lab	0.05	0	1	3	TRUE	0.2	orbit1	mercurySurfaceLevels	Earth	14300	55000			
 ISSStation	earth	SBN	SpaceStation	0.10	0	2	2	TRUE	0.2	orbit1	mercurySurfaceLevels	Earth	18672	38900			
@@ -133,13 +133,13 @@ FullersCore	fuller	FrancheComte	Civilian	0.10	0	2	3	FALSE	0.2	orbit1	mercurySurf
 PlatosAcademy	fuller	AnCom	Civilian	0.10	0	1	2	FALSE	0.2	orbit1	mercurySurfaceLevels	Moon	24144	50300			
 AvicennasClinic	fuller	DaydreamChems	Lab	0.05	0	1	2	TRUE	0.2	orbit1	mercurySurfaceLevels	Moon	9280	58000			
 VanDeGraaff	tsiolkovsky	SBN	Lab	0.05	0	1	2	FALSE	0.3	orbit1	mercurySurfaceLevels	Earth	11252	38800			
-ChickMoo	tsiolkovsky	RealWare	Industrial	0.15	0	1	3	FALSE	0.4	orbit1	mercurySurfaceLevels	Earth	9816	40900			
+ChickMoo	tsiolkovsky	RealWare	Industrial	0.15	0	1	3	FALSE	0.4	industrial1	mercurySurfaceLevels	Earth	9816	40900			
 LandscronaCenter	tsiolkovsky	Sunlight	Civilian	0.10	0	2	1	FALSE	0.5	orbit1	mercurySurfaceLevels	Earth	12480	52000			
 CenterDefense	tsiolkovsky	DaydreamChems	Military	0.10	0	1	3	FALSE	0.6	orbit1	mercurySurfaceLevels	Earth	17808	37100			
 ZeroGravity	tsiolkovsky	SBN	Military	0.10	0	1	3	FALSE	0.7	orbit1	mercurySurfaceLevels	Earth	19769	37300			
 MTZ	moon	Sunlight	SpaceStation	0.10	0	2	2	FALSE	0.2	lab1	mercurySurfaceLevels	Moon	30660	73000			
-QiHelium	moon	FrancheComte	Industrial	0.15	0	1	3	FALSE	0.2	orbit3	mercurySurfaceLevels	Moon	21471	42100			
-AnCapDogma	moon	Grasshopper	Industrial	0.15	0	1	1	FALSE	0.2	orbit1	mercurySurfaceLevels	Moon	18011	58100			
+QiHelium	moon	FrancheComte	Industrial	0.15	0	1	3	FALSE	0.2	industrial1	mercurySurfaceLevels	Moon	21471	42100			
+AnCapDogma	moon	Grasshopper	Industrial	0.15	0	1	1	FALSE	0.2	industrial1	mercurySurfaceLevels	Moon	18011	58100			
 MoonTradeCenter	moon	SBN	Civilian	0.10	0	1	3	FALSE	0.2	moon2	mercurySurfaceLevels	Moon	26256	54700			
 Candle	moon	RealWare	Civilian	0.10	0	2	3	TRUE	0.2	military1	mercurySurfaceLevels	Moon	17197	59300			
 AllianceArcology	moon	ChurchRevelation	Civilian	0.10	0	2	2	FALSE	0.2	moon2	mercurySurfaceLevels	Moon	11020	58000			
@@ -153,7 +153,7 @@ SinkholeOasis	mars	FrancheComte	Military	0.10	0	2	3	TRUE	0.2	mars1	mercurySurfac
 Gloria	mars	Sunlight	SpaceStation	0.10	0	1	2	FALSE	0.2	mars1	mercurySurfaceLevels	Mars_Sleeping	27097	55300			
 IntercityTradeCenter	mars	SBN	Civilian	0.10	0	2	2	FALSE	0.2	mars3	mercurySurfaceLevels	Mars_Sleeping	22192	58400			
 Charon	phobos	PlanetBridge	SpaceStation	0.10	0	1	1	FALSE	0.2	moon1	mercurySurfaceLevels	Mars_Sleeping	29100	58200			
-Canaan	phobos	CoreWard	Industrial	0.15	0	1	1	FALSE	0.2	moon1	mercurySurfaceLevels	Mars_Sleeping	25429	43100			
+Canaan	phobos	CoreWard	Industrial	0.15	0	1	1	FALSE	0.2	industrial2	mercurySurfaceLevels	Mars_Sleeping	25429	43100			
 Hypnos	phobos	Sunlight	ColonyFarm	0.10	0	1	2	FALSE	0.2	moon3	mercurySurfaceLevels	Mars_Sleeping	23328	72900			
 Orphan	phobos	CResistance	Mine	0.15	0	1	3	FALSE	0.2	moon4	mercurySurfaceLevels	Mars_Sleeping	11178	41400			
 RogueCity	phobos	CResistance	ColonyFarm	0.10	0	4	2	TRUE	0.2	moon3	mercurySurfaceLevels	Mars_Sleeping	13300	66500			
@@ -161,9 +161,9 @@ SwiftAndVoltaire	deimos	ChurchRevelation	Lab	0.05	0	2	2	FALSE	0.2	moon2	mercuryS
 AresPost	deimos	RealWare	Military	0.10	0	1	1	FALSE	0.2	moon4	mercurySurfaceLevels	Mars_Sleeping	6912	38400			
 Warden	deimos	CResistance	ColonyFarm	0.10	0	1	3	FALSE	0.2	moon1	mercurySurfaceLevels	Mars_Sleeping	15550	62200			
 DarkFlora	deimos	Sunlight	Civilian	0.10	0	2	3	TRUE	0.2	military1	mercurySurfaceLevels	Mars_Sleeping	27000	60000			
-Sundog	deimos	CResistance	Industrial	0.15	0	1	1	FALSE	0.2	moon4	mercurySurfaceLevels	Mars_Sleeping	14619	44300			
+Sundog	deimos	CResistance	Industrial	0.15	0	1	1	FALSE	0.2	industrial2	mercurySurfaceLevels	Mars_Sleeping	14619	44300			
 Epitome	ceres	Dilthey	ColonyFarm	0.10	0	2	2	FALSE	0.2	cerera1	mercurySurfaceLevels	Cattaram	24124	65200			
-Angel	ceres	Grasshopper	Industrial	0.15	0	2	1	TRUE	0.2	cerera2	mercurySurfaceLevels	Cattaram	11220	37400			
+Angel	ceres	Grasshopper	Industrial	0.15	0	2	1	TRUE	0.2	industrial2	mercurySurfaceLevels	Cattaram	11220	37400			
 Eos	ceres	CoreWard	Mine	0.15	0	2	1	FALSE	0.2	cerera1	mercurySurfaceLevels	Cattaram	15906	72300			
 Lumina	ceres	Grasshopper	Mine	0.15	0	1	1	FALSE	0.2	cerera2	mercurySurfaceLevels	Cattaram	19656	35100			
 Oracle	ceres	RealWare	Military	0.10	0	1	1	FALSE	0.2	cerera1	mercurySurfaceLevels	Cattaram	26312	57200			
@@ -178,8 +178,8 @@ Carmel	vesta	CoreWard	Mine	0.15	0	1	1	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	1
 Lavinium	vesta	CoreWard	Mine	0.15	0	1	1	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	17602	67700			
 AriciaTholus	vesta	Dilthey	Mine	0.15	0	1	2	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	14355	43500			
 HISWoodpecker	vesta	CoreWard	SpaceStation	0.10	0	2	2	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	19504	36800			
-Bethlehem	pallas	UnchainedBelt	Industrial	0.15	0	1	1	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	9972	55400			
-TSWatcher	pallas	UnchainedBelt	Industrial	0.15	0	2	2	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	12672	39600			
+Bethlehem	pallas	UnchainedBelt	Industrial	0.15	0	1	1	FALSE	0.2	industrial2	mercurySurfaceLevels	Ron	9972	55400			
+TSWatcher	pallas	UnchainedBelt	Industrial	0.15	0	2	2	FALSE	0.2	industrial2	mercurySurfaceLevels	Ron	12672	39600			
 HumankindsHope	pallas	AnCom	Military	0.10	0	2	2	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	15531	50100			
 Origin	pallas	CoreWard	Mine	0.15	0	1	1	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	14665	41900			
 Vasa	geist	Dilthey	SpaceStation	0.10	0	2	3	TRUE	0.2	moon4	mercurySurfaceLevels	Scrivnus	37408	66800			
@@ -189,7 +189,7 @@ Hargeysa	interamnia	UnchainedBelt	Military	0.10	0	2	3	TRUE	0.2	moon4	mercurySurf
 Jamame	interamnia	CResistance	SpaceStation	0.10	0	1	1	FALSE	0.2	moon4	mercurySurfaceLevels	Scrivnus	25830	57400			
 Forward	hungary	DaydreamChems	Civilian	0.10	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Cattaram	24687	48400			
 Dubrovskiy	hungary	UnchainedBelt	ColonyFarm	0.10	0	2	3	FALSE	0.3	moon4	mercurySurfaceLevels	Cattaram	16537	52000			
-Budapest	hungary	PlanetBridge	Industrial	0.10	0	2	3	FALSE	0.4	moon4	mercurySurfaceLevels	Cattaram	13455	35500			
+Budapest	hungary	PlanetBridge	Industrial	0.10	0	2	3	FALSE	0.4	industrial2	mercurySurfaceLevels	Cattaram	13455	35500			
 Rommel	annaherman	DaydreamChems	Mine	0.15	0	2	3	FALSE	0.5	moon4	mercurySurfaceLevels	Ron	26678	56400			
 Patton	annaherman	ChurchRevelation	Mine	0.15	0	2	3	FALSE	0.6	moon4	mercurySurfaceLevels	Ron	9846	23900			
 Zhukov	annaherman	Dilthey	Mine	0.15	0	2	3	FALSE	0.7	moon4	mercurySurfaceLevels	Ron	11556	39800			
@@ -260,6 +260,8 @@ moon3	TRUE	100	65	MoonSurface MercuryStation	#8ba7bd	0.7	moon_surface_normal moo
 moon4	TRUE	100	65	MoonSurface MercuryStation	#8ba7bd	0.7	moon_surface_normal moon_surface_normal moon_surface_normal moon_surface_normal moon_surface_normal gray_metal_deep_draft	mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal mercury_metal_floor_normal	moon_rock_cornerwall_normal moon_rock_cornerwall_normal moon_rock_cornerwall_normal moon_rock_cornerwall_normal moon_rock_cornerwall_normal moon_rock_cornerwall_normal	gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal gray_metal_cornerwall_normal moon_rock_cornerwall_normal	FillBordersSolid	FillBordersSolid					
 cerera1	TRUE	100	65	CereraSurface CereraStation	#8ba7bd	0.7	cerera_nature_floor cerera_nature_floor cerera_nature_floor cerera_nature_floor cerera_nature_floor gray_metal_deep_draft	cerera_concrete_normal_floor cerera_concrete_normal_floor cerera_concrete_normal_floor cerera_concrete_normal_floor cerera_concrete_normal_floor cerera_concrete_normal_floor	cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall	cerera_metal_cornerwall cerera_metal_cornerwall cerera_metal_cornerwall cerera_metal_cornerwall cerera_metal_cornerwall cerera_metal_cornerwall	FillBordersSolid	FillBordersSolid					
 cerera2	TRUE	100	65	CereraSurface VenusLab	#8ba7bd	0.7	cerera_nature_floor cerera_nature_floor cerera_nature_floor cerera_nature_floor cerera_nature_floor gray_metal_deep_draft	lab_floor_normal lab_floor_normal lab_floor_normal lab_floor_normal lab_floor_normal lab_floor_normal	cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall	moon_metal_cornerwall_normal moon_metal_cornerwall_normal moon_metal_cornerwall_normal moon_metal_cornerwall_normal moon_metal_cornerwall_normal venera_surface_cave_cornerwall_normal	FillBordersSolid	FillBordersSolid					
+industrial1	TRUE	100	65	IndustrialSpace IndustrialStation	#b68080	0.7	cerera_nature_floor cerera_nature_floor cerera_nature_floor cerera_nature_floor cerera_nature_floor gray_metal_deep_draft	cerera_concrete_normal_floor cerera_concrete_normal_floor cerera_concrete_normal_floor cerera_concrete_normal_floor cerera_concrete_normal_floor cerera_concrete_normal_floor	cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall	cerera_metal_cornerwall cerera_metal_cornerwall cerera_metal_cornerwall cerera_metal_cornerwall cerera_metal_cornerwall cerera_metal_cornerwall	FillBordersAsteroid	FillBordersSolid					
+industrial2	TRUE	100	65	IndustrialStation	#b68080	0.7	cerera_nature_floor cerera_nature_floor cerera_nature_floor cerera_nature_floor cerera_nature_floor gray_metal_deep_draft	lab_floor_normal lab_floor_normal lab_floor_normal lab_floor_normal lab_floor_normal lab_floor_normal	cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall cerera_nature_cornerwall	moon_metal_cornerwall_normal moon_metal_cornerwall_normal moon_metal_cornerwall_normal moon_metal_cornerwall_normal moon_metal_cornerwall_normal venera_surface_cave_cornerwall_normal	FillBordersSolid	FillBordersSolid					
 #end																	
 																	
 #storymissions																	
