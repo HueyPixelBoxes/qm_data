@@ -5,12 +5,12 @@ military_knife_1		Soldier Agent SWAT UnchainedBelt CResistance SheduThousand	2	2
 miner_knife_1		Civilian Miner Prison UnchainedBelt CResistance	1	100	0.3	2	Weapon	Knife	Default	FALSE			implicted_knife	10 14 crit 1.50	knife_single knife_triple	0	1	FALSE	1	5	TRUE	75	0	FALSE	melee			
 trash_knife_1		Prison Possessed UnchainedBelt CResistance	1	10	0.1	1	Weapon	Knife	Default	FALSE			implicted_knife	10 12 crit 1.50	knife_single knife_triple	0	1	FALSE	1	5	TRUE	30	0	FALSE	nothing			
 venus_knife_1		Tezctlan XiomaraMasks	1	200	0.4	2	Weapon	Knife	Default	FALSE			implicted_knife	14 18 crit 1.50	knife_single knife_triple	0	1	FALSE	1	5	TRUE	30	0	FALSE	venus_weapon			
-mercury_sickle_1		Tezctlan XiomaraMasks	1	200	1.2	2	Weapon	Knife	Default	FALSE			implicted_combat_knife	12 24 crit 1.75	knife_single	0	1	FALSE	1	5	TRUE	90	0	FALSE	mercury_weapon			
+mercury_sickle_1		Mercury	1	200	1.2	2	Weapon	Knife	Default	FALSE			implicted_combat_knife	12 24 crit 1.75	knife_single	0	1	FALSE	1	5	TRUE	90	0	FALSE	mercury_weapon			
 venus_battlefist_1		Tezctlan XiomaraMasks	3	600	2.2	2	Weapon	Fist	Default	FALSE			implicted_combat_knife	24 48 crit 1.55	knife_single knife_triple	0	1	FALSE	1	0	TRUE	120	0	FALSE	venus_weapon			
 bone_knife		Possessed	1	10	1	2	Weapon	Knife	Default	FALSE			implicted_knife	8 12 crit 2.00	knife_single knife_triple	0	1	FALSE	1	5	TRUE	60	0	FALSE	nothing			
 spider_claw		Tezctlan XiomaraMasks	1	20	0.8	2	Weapon	Knife	Default	FALSE			implicted_knife	12 26 crit 1.75	knife_single	0	1	FALSE	1	5	TRUE	60	0	FALSE	nothing			
 trash_blade_1		SWAT UnchainedBelt SheduThousand CResistance	1	200	4	2	Weapon	Blade	Default	FALSE			implicted_katana	20 24 crit 1.50	blade_single	0	1	FALSE	1	0	TRUE	120	0	FALSE	melee			
-tech_blade_1		SWAT Managment AnCom SheduThousand	3	400	4	2	Weapon	Blade	Default	FALSE			implicted_katana	16 36 crit 1.75	blade_single blade_double	0	1	FALSE	1	0	TRUE	105	0	FALSE	melee			
+tech_blade_1		SWAT AnCom SheduThousand	3	400	4	2	Weapon	Blade	Default	FALSE			implicted_katana	16 36 crit 1.75	blade_single blade_double	0	1	FALSE	1	0	TRUE	105	0	FALSE	melee			
 mercury_blade_1		Mercury	1	200	4	2	Weapon	Blade	Default	FALSE			implicted_katana	20 24 crit 1.50	blade_single	0	1	FALSE	1	0	TRUE	120	0	FALSE	mercury_weapon			
 scrivnus_blade_1		Scrivnus	1	800	4	2	Weapon	Blade	Default	FALSE			implicted_katana	24 36 crit 1.75	blade_single blade_double	0	1	FALSE	1	0	TRUE	105	0	FALSE	nothing			
 moon_blade_1		Moon	1	800	4	2	Weapon	Blade	Default	FALSE			implicted_katana	30 44 crit 1.50	blade_single	0	1	FALSE	1	0	TRUE	120	0	FALSE	moon_weapon			
@@ -22,15 +22,15 @@ venus_mace_1		Tezctlan XiomaraMasks	1	200	3	2	Weapon	Club	Default	FALSE			implic
 moon_maul_1		Moon	1	200	3	2	Weapon	Club	Default	FALSE			implicted_club	28 36 crit 1.30	blunt_single blunt_heavy	0	1	FALSE	1	5	FALSE	120	0	FALSE	moon_weapon			
 human_hand		Prison Possessed	1	20	4	2	Weapon	Club	Default	FALSE			implicted_body_part	14 18 crit 1.40	blunt_single blunt_heavy	0	1	FALSE	1	5	FALSE	60	0	FALSE	nothing			
 human_leg		Prison Possessed	1	20	5	2	Weapon	Club	Default	FALSE			implicted_body_part	14 18 crit 1.40	blunt_single blunt_heavy	0	1	FALSE	1	5	FALSE	60	0	FALSE	nothing			
-cyborg_hand		none	1	200	4.5	2	Weapon	Club	Default	FALSE			implicted_body_part	16 22 crit 1.40	blunt_single blunt_heavy	0	1	FALSE	1	5	FALSE	60	0	FALSE	engineering_weapon			
-cyborg_leg		none	1	200	5.5	2	Weapon	Club	Default	FALSE			implicted_body_part	16 22 crit 1.40	blunt_single blunt_heavy	0	1	FALSE	1	5	FALSE	60	0	FALSE	engineering_weapon			
-battleCyborg_hand		none	1	650	7.5	2	Weapon	Club	Default	FALSE			implicted_body_part	18 24 crit 1.60	blunt_single blunt_heavy	0	1	FALSE	1	5	FALSE	60	0	FALSE	engineering_weapon			
-battleCyborg_leg		none	1	650	7.7	2	Weapon	Club	Default	FALSE			implicted_body_part	18 24 crit 1.60	blunt_single blunt_heavy	0	1	FALSE	1	5	FALSE	60	0	FALSE	engineering_weapon			
-recreationCyborg_hand		none	1	400	3.9	2	Weapon	Club	Default	FALSE			implicted_body_part	16 20 crit 1.50	blunt_single blunt_heavy	0	1	FALSE	1	5	FALSE	60	0	FALSE	engineering_weapon			
-recreationCyborg_leg		none	1	400	4	2	Weapon	Club	Default	FALSE			implicted_body_part	16 20 crit 1.50	blunt_single blunt_heavy	0	1	FALSE	1	5	FALSE	60	0	FALSE	engineering_weapon			
+cyborg_hand		Robot Possessed	1	200	4.5	2	Weapon	Club	Default	FALSE			implicted_body_part	16 22 crit 1.40	blunt_single blunt_heavy	0	1	FALSE	1	5	FALSE	60	0	FALSE	engineering_weapon			
+cyborg_leg		Robot Possessed	1	200	5.5	2	Weapon	Club	Default	FALSE			implicted_body_part	16 22 crit 1.40	blunt_single blunt_heavy	0	1	FALSE	1	5	FALSE	60	0	FALSE	engineering_weapon			
+battleCyborg_hand		Robot	1	650	7.5	2	Weapon	Club	Default	FALSE			implicted_body_part	18 24 crit 1.60	blunt_single blunt_heavy	0	1	FALSE	1	5	FALSE	60	0	FALSE	engineering_weapon			
+battleCyborg_leg		Robot	1	650	7.7	2	Weapon	Club	Default	FALSE			implicted_body_part	18 24 crit 1.60	blunt_single blunt_heavy	0	1	FALSE	1	5	FALSE	60	0	FALSE	engineering_weapon			
+recreationCyborg_hand		Robot Possessed	1	400	3.9	2	Weapon	Club	Default	FALSE			implicted_body_part	16 20 crit 1.50	blunt_single blunt_heavy	0	1	FALSE	1	5	FALSE	60	0	FALSE	engineering_weapon			
+recreationCyborg_leg		Robot Possessed	1	400	4	2	Weapon	Club	Default	FALSE			implicted_body_part	16 20 crit 1.50	blunt_single blunt_heavy	0	1	FALSE	1	5	FALSE	60	0	FALSE	engineering_weapon			
 trash_fist_1		Civilian Prison Bruiser UnchainedBelt	1	20	0.2	1	Weapon	Fist	Default	FALSE			implicted_club	10 14 crit 1.50	blunt_single blunt_duble	0	1	FALSE	1	0	FALSE	75	0	FALSE	melee			
 moon_fist_1		Moon	1	20	0.2	2	Weapon	Fist	Default	FALSE			implicted_club	18 24 crit 1.60	blunt_single blunt_duble	0	1	FALSE	1	0	FALSE	75	0	FALSE	moon_weapon			
-miner_breaker_1		Worker Miner	1	300	5	2	Weapon	Fist	Tool	FALSE	Gas	implicted_club	gas_ammo	16 24 crit 2.00	blunt_breaker	20	3	FALSE	1	0	FALSE	105	0	FALSE	engineering_weapon			
+miner_breaker_1		Worker Miner Coreward CResistance	1	300	5	2	Weapon	Fist	Tool	FALSE	Gas	implicted_club	gas_ammo	16 24 crit 2.00	blunt_breaker	20	3	FALSE	1	0	FALSE	105	0	FALSE	engineering_weapon			
 worker_crowbar_1		Worker Miner UnchainedBelt CResistance	1	200	1	2	Weapon	Club	Tool	FALSE			implicted_club	14 22 crit 2.00	blunt_single blunt_duble	0	1	FALSE	1	5	FALSE	120	0	FALSE	melee			
 worker_wrench_1		Worker Miner UnchainedBelt CResistance	1	200	2.8	2	Weapon	Club	Tool	FALSE			implicted_club	10 18 crit 2.00	blunt_single blunt_duble	0	1	FALSE	1	5	FALSE	105	0	FALSE	melee			
 fra_police_club_1		FrancheComte	1	400	2	2	Weapon	Club	Electric	FALSE	BatteryCells	implicted_shockclub	battery_basic_ammo	12 16 crit 1.75	blunt_ammo_single blunt_ammo_duble	6	1	FALSE	1	5	FALSE	120	0	FALSE	tech_weapon			
@@ -80,7 +80,7 @@ civ_plasma_pistol_1		CResistance	4	600	2.4	2	Weapon	Pistol	Plasma	FALSE	BatteryC
 cor_worker_pistol_1		CoreWard	1	400	1.8	2	Weapon	Pistol	Rail	FALSE	Bolts		nail_bolts_ammo		12 20 crit 1.75	basic_pistol_single basic_pistol_shortauto	4	20	10	3	0.9	FALSE	105	0	FALSE	engineering_weapon		FALSE
 anc_quasi_pistol_1		AnCom	4	800	1.2	2	Weapon	Pistol	Quasi	FALSE	QuasiCells	implicted_shockgun	quasi_basic_ammo		14 24 crit 2.00	quasi_pistol_single quasi_pistol_burst	5	16	8	4	0	FALSE	90	0	FALSE	tech_weapon		FALSE
 sbn_rail_pistol_1		SBN	2	800	0.8	2	Weapon	Pistol	Rail	FALSE			implicted_em_ammo		26 26 crit 1.75	advanced_pistol_single	6	1	0	0	0.9	FALSE	105	0	FALSE	rail_weapon		FALSE
-ddr_frost_pistol_1		DaydreamChems	4	800	0.9	2	Weapon	Pistol	Coldgun	FALSE	BatteryCells	implicted_coldgun	battery_basic_ammo		26 34 crit 1.70	advanced_energy_pistol_single	5	6	2	2	0	FALSE	75	0	FALSE	tech_weapon		FALSE
+ddr_frost_pistol_1		DaydreamChems	3	800	0.9	2	Weapon	Pistol	Coldgun	FALSE	BatteryCells	implicted_coldgun	battery_basic_ammo		26 34 crit 1.70	advanced_energy_pistol_single	5	6	2	2	0	FALSE	75	0	FALSE	tech_weapon		FALSE
 grh_revolver_pistol_1		Grasshopper	2	600	1.4	2	Weapon	Pistol	Firearm	FALSE	Heavy		rifle_basic_ammo		14 32 crit 2.00	advanced_pistol_single advanced_pistol_burst	4	4	2	1	0	TRUE	105	0	FALSE	firearms_weapon		FALSE
 sun_laser_pistol_1		Sunlight	3	600	0.7	2	Weapon	Pistol	Laser	FALSE	BatteryCells		battery_basic_ammo		24 34 crit 1.50	advanced_energy_pistol_single advanced_energy_pistol_burst	5	8	4	3	0	FALSE	90	0	FALSE	laser_weapon		FALSE
 fra_security_pistol_1		FrancheComte	1	400	1.1	2	Weapon	Pistol	Firearm	FALSE	Bullets		small_basic_ammo		26 32 crit 1.30	advanced_pistol_single advanced_pistol_burst	3	8	4	1	0	FALSE	90	0	FALSE	firearms_weapon		FALSE
@@ -140,7 +140,7 @@ sbn_rail_assault_1		SBN	9	2000	4	2	Weapon	AssaultRifle	Rail	FALSE			implicted_em
 moon_assault_1		Moon	1	200	3	2	Weapon	AssaultRifle	Quasi	FALSE	Bolts		quasi_bolts_ammo		22 40 crit 1.50	advanced_rifle_burst	6	18	9	3	0.8	FALSE	90	0	FALSE	moon_weapon		FALSE
 trash_assault_1		Soldier UnchainedBelt	1	200	3	2	Weapon	AssaultRifle	Firearm	FALSE	Heavy		rifle_basic_ammo		16 28 crit 1.75	basic_rifle_shortauto basic_rifle_burst	5	30	15	4	0	FALSE	90	0	FALSE	firearms_weapon		FALSE
 pirates_assault_1		UnchainedBelt	4	800	3	2	Weapon	AssaultRifle	Firearm	FALSE	Heavy		rifle_basic_ammo		18 40 crit 1.75	basic_rifle_shortauto basic_rifle_burst	5	30	15	4	0	FALSE	90	0	FALSE	firearms_weapon		FALSE
-pirates_assault_2		UnchainedBelt	6	1000	3.4	2	Weapon	AssaultRifle	Firearm	FALSE	Heavy		rifle_basic_ammo		20 46 crit 1.75	basic_rifle_shortauto basic_rifle_burst	6	30	15	4	0	FALSE	90	0	FALSE	firearms_weapon		FALSE
+pirates_assault_2		UnchainedBelt	7	1000	3.4	2	Weapon	AssaultRifle	Firearm	FALSE	Heavy		rifle_basic_ammo		20 46 crit 1.75	basic_rifle_shortauto basic_rifle_burst	6	30	15	4	0	FALSE	90	0	FALSE	firearms_weapon		FALSE
 common_assault_1		Soldier SBN CoreWard ChurchRevelation UnchainedBelt Grasshopper	1	600	3	2	Weapon	AssaultRifle	Firearm	FALSE	Heavy		rifle_basic_ammo		16 30 crit 1.75	basic_rifle_shortauto basic_rifle_burst	6	24	12	3	0	FALSE	135	0	FALSE	firearms_weapon		FALSE
 grh_trucker_marksman_1		Grasshopper	3	1200	3.9	2	Weapon	AssaultRifle	Firearm	FALSE	Heavy		rifle_basic_ammo		20 30 crit 1.50	advanced_rifle_shortauto advanced_rifle_burst	4	16	8	2	0	FALSE	210	0	FALSE	firearms_weapon		FALSE
 civ_common_assault_1		CResistance	4	800	3	2	Weapon	AssaultRifle	Firearm	FALSE	Heavy		rifle_basic_ammo		16 32 crit 1.75	basic_rifle_shortauto basic_rifle_burst	6	40	20	4	0	FALSE	135	0	FALSE	firearms_weapon		FALSE
@@ -714,9 +714,9 @@ syringe_red		none	100	10	0.29	1	Syringe		10	10	10	0	0	0
 syringe_yellow		none	100	10	0.30	1	Syringe		10	10	10	0	0	0	0													
 syringe_adrenaline		none	100	100	0.05	1	Syringe		5	10	10	0	10	3	0	-100	-20	3	0	0								
 cigarettes_1		Common Medical CResistance SheduThousand UnchainedBelt	1	40	0.1	1	Syringe		5	5	1	0	0	0	0	-50	0	0	0	0			nicotineAddiction 0.15					
-syringe_antidote		Medical AnCom SheduThousand RealWare SBN Dilthey CResistance ChurchRevelation DaydreamChems UnchainedBelt CoreWard FrancheComte Grasshopper PlanetBridge Sunlight	1	100	0.05	1	Syringe		5	10	10	0	0	10		0	0	0	0	0	poison 0.25	healEfficiency 1		poisonEffect -80 alcoholAddiction -40				
+syringe_antidote		Medical AnCom SheduThousand RealWare SBN Dilthey CResistance ChurchRevelation DaydreamChems UnchainedBelt CoreWard FrancheComte Grasshopper PlanetBridge Sunlight	1	100	0.05	1	Syringe		5	10	10	0	0	10	0	0	0	0	0	0	poison 0.25	healEfficiency 1		poisonEffect -80 alcoholAddiction -40				
 syringe_bloodbag		Common Medical CResistance SheduThousand UnchainedBelt	1	50	0.7	1	Syringe		5	10	10	0	10	10	0	50	0	0	0	0								
-syringe_nanoinjection		Common Medical Science CResistance SheduThousand UnchainedBelt	1	200	0.2	1	Syringe		5	10	10	0	8	6	0	0	-2	8	0	0	beam 0.65 shock 0.65 plasma 0.65			shockEffect -80				
+syringe_nanoinjection		Common Medical Science CResistance SheduThousand UnchainedBelt	1	200	0.2	1	Syringe		5	10	10	0	8	6	0	0	-2	8	1	0	beam 0.65 shock 0.65 plasma 0.65			shockEffect -80				
 quasi_ron_medicine_1		Ron	1	10	0.36	1	Syringe		10	10	10	0	10	0	0	0	-10	0	1	1			gavaahAddiction 0.15					
 #end																												
 																												
@@ -799,9 +799,10 @@ stationary_turret		Military CResistance SheduThousand	1	1000	10	2	Turret	1	10	10
 fire_turret		Military CResistance SheduThousand	3	1000	10	2	Turret	1	10	10	turretfire		0															
 energy_turret		AnCom SBN Sunlight	5	1000	10	2	Turret	1	10	10	turretenergy		0															
 quest_emiBurner			1	1000	10	2	Turret	1	10	10	turretempquest		0															
-packaged_industrial_robot		Common Worker Miner Security Military Science CResistance	1	93	10	2	Cyborg	1	10	10	workerrobot		0															
-packaged_security_robot		Security Military CResistance SheduThousand	3	124	10	2	Cyborg	1	10	10	warrobot		0															
-packaged_recreational_robot		Common Managment UnchainedBelt	2	118	10	2	Cyborg	1	10	10	recreationrobot		0															
+packaged_industrial_robot		Common Worker Miner Security Military Science CResistance	1	193	12	2	Cyborg	1	10	10	workerrobot		0															
+packaged_security_robot		Security Military CResistance SheduThousand	3	324	15	2	Cyborg	1	10	10	warrobot		0															
+packaged_recreational_robot		Common Managment UnchainedBelt	2	218	10	2	Cyborg	1	10	10	recreationrobot		0															
+spider_cocoon		Tezctlan XiomaraMasks	1	5	3	1	Cyborg	3	10	10	jungle_spider		0															
 frag_mine		CoreWard RealWare CResistance UnchainedBelt Dilthey Military SheduThousand	1	20	0.55	1	Mine	3	10	10	frag_mine	frag_big_explosion	1															
 cattaram_mine		Cattaram	1	80	0.55	1	Mine	3	10	10	cattaram_mine	cattaram_explosion	1															
 #end																												
@@ -862,32 +863,32 @@ human_ear		Common Possessed Medical Tezctlan XiomaraMasks Moon Mercury Ron Catta
 human_aye		Common Possessed Medical Tezctlan XiomaraMasks Moon Mercury Ron Cattaram Scrivnus CResistance UnchainedBelt SheduThousand	1	2	0.1	1	Organ	20	Resource																			
 spider_brain		Tezctlan XiomaraMasks	1	5	0.8	1	QuasiOrgan	10	Resource																			
 spider_joint		Tezctlan XiomaraMasks	1	5	0.3	1	QuasiOrgan	10	Resource																			
-spider_cocoon		Tezctlan XiomaraMasks	1	5	0.5	1	QuasiOrgan	10	Resource																			
+*spider_cocoon		Tezctlan XiomaraMasks	1	5	3	1	Cyborg	3	Resource																			
 spider_aye		Tezctlan XiomaraMasks	1	5	0.1	1	QuasiOrgan	20	Resource																			
 *spider_chitin		Tezctlan XiomaraMasks	1	5	0.5	1	QuasiOrgan	20	Resource																			
 spider_meat		Tezctlan XiomaraMasks	1	5	1	1	QuasiOrgan	10	Resource																			
 spider_poisongland		Tezctlan XiomaraMasks	1	20	0.1	1	QuasiOrgan	20	Resource																			
-cyborg_head		Worker Miner CResistance	1	200	3.5	1	Parts	5	Resource																			
-cyborg_wrist		Worker Miner CResistance	1	250	4.2	1	Parts	5	Resource																			
-cyborg_feet		Worker Miner CResistance	1	250	4.4	1	Parts	5	Resource																			
-cyborg_chest		Worker Miner CResistance	1	350	8.8	1	Parts	5	Resource																			
-cyborg_guts		Worker Miner CResistance	1	300	6.2	1	Parts	5	Resource																			
-cyborg_shoulderPart		Worker Miner CResistance	1	250	4.7	1	Parts	5	Resource																			
-cyborg_knee		Worker Miner CResistance	1	250	4.2	1	Parts	5	Resource																			
-battleCyborg_head		Military CResistance SheduThousand	1	520	6.2	1	Parts	5	Resource																			
-battleCyborg_wrist		Military CResistance SheduThousand	1	540	6.4	1	Parts	5	Resource																			
-battleCyborg_feet		Military CResistance SheduThousand	1	550	10.8	1	Parts	5	Resource																			
-battleCyborg_chest		Military CResistance SheduThousand	1	750	16.2	1	Parts	5	Resource																			
-battleCyborg_guts		Military CResistance SheduThousand	1	550	14.7	1	Parts	5	Resource																			
-battleCyborg_shoulderPart		Military CResistance SheduThousand	1	650	7.2	1	Parts	5	Resource																			
-battleCyborg_knee		Military CResistance SheduThousand	1	550	6.1	1	Parts	5	Resource																			
-recreationCyborg_head		Science SheduThousand UnchainedBelt	1	350	3.2	1	Parts	5	Resource																			
-recreationCyborg_wrist		Science SheduThousand UnchainedBelt	1	400	3.4	1	Parts	5	Resource																			
-recreationCyborg_feet		Science SheduThousand UnchainedBelt	1	400	7.8	1	Parts	5	Resource																			
-recreationCyborg_chest		Science SheduThousand UnchainedBelt	1	500	5.2	1	Parts	5	Resource																			
-recreationCyborg_guts		Science SheduThousand UnchainedBelt	1	450	3.7	1	Parts	5	Resource																			
-recreationCyborg_shoulderPart		Science SheduThousand UnchainedBelt	1	400	3.2	1	Parts	5	Resource																			
-recreationCyborg_knee		Science SheduThousand UnchainedBelt	1	400	2.7	1	Parts	5	Resource																			
+cyborg_head		Robot CResistance	1	200	1.5	1	Parts	1	Resource																			
+cyborg_wrist		Robot CResistance	1	250	1.2	1	Parts	1	Resource																			
+cyborg_feet		Robot CResistance	1	250	1.4	1	Parts	1	Resource																			
+cyborg_chest		Robot CResistance	1	350	2.4	1	Parts	1	Resource																			
+cyborg_guts		Robot CResistance	1	300	2.1	1	Parts	1	Resource																			
+cyborg_shoulderPart		Robot CResistance	1	250	1.3	1	Parts	1	Resource																			
+cyborg_knee		Robot CResistance	1	250	1.1	1	Parts	1	Resource																			
+battleCyborg_head		Robot CResistance SheduThousand	1	520	2.1	1	Parts	1	Resource																			
+battleCyborg_wrist		Robot CResistance SheduThousand	1	540	2.2	1	Parts	1	Resource																			
+battleCyborg_feet		Robot CResistance SheduThousand	1	550	2.4	1	Parts	1	Resource																			
+battleCyborg_chest		Robot CResistance SheduThousand	1	750	3.1	1	Parts	1	Resource																			
+battleCyborg_guts		Robot CResistance SheduThousand	1	550	2.1	1	Parts	1	Resource																			
+battleCyborg_shoulderPart		Robot CResistance SheduThousand	1	650	2.1	1	Parts	1	Resource																			
+battleCyborg_knee		Robot CResistance SheduThousand	1	550	2.0	1	Parts	1	Resource																			
+recreationCyborg_head		Robot SheduThousand	1	350	1.9	1	Parts	1	Resource																			
+recreationCyborg_wrist		Robot SheduThousand	1	400	1.4	1	Parts	1	Resource																			
+recreationCyborg_feet		Robot SheduThousand	1	400	1.8	1	Parts	1	Resource																			
+recreationCyborg_chest		Robot SheduThousand	1	500	2.2	1	Parts	1	Resource																			
+recreationCyborg_guts		Robot SheduThousand	1	450	1.5	1	Parts	1	Resource																			
+recreationCyborg_shoulderPart		Robot SheduThousand	1	400	1.5	1	Parts	1	Resource																			
+recreationCyborg_knee		Robot SheduThousand	1	400	1.7	1	Parts	1	Resource																			
 *broken_weapon		Common CResistance SheduThousand UnchainedBelt	1	5	0.1	1	Parts	50	Resource																			
 plastic		Common CResistance SheduThousand UnchainedBelt	1	5	0.1	1	Parts	20	Resource																			
 powder		Common CResistance SheduThousand UnchainedBelt	1	1	0.01	1	Parts	100	Resource																			
@@ -982,7 +983,7 @@ watermelon		Managment	1	120	0.4	1	Food	5	Container
 #datadisks																												
 Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	UnlockType	UnlockIds																			
 itemChip		Common	1	150	0.1	1	Blueprint	ProductionItem	worker_pistol_1 police_club_1 vodka_bottle_1 trash_common_vest_1 army_pistol_1 common_axe_1 army_pistol_2 pmc_pistol_2 military_pistol_2 trucker_pistol_2 rail_pistol_2 laser_pistol_2 common_pistol_2 common_pistol_3 pmc_shotgun_1 trucker_shotgun_1 pmc_smg_1 pmc_smg_2 police_smg_1 pmc_assault_1 common_assault_1 trucker_marksman_1 small_burst_ammo shotgun_bullet_ammo medicalClue mre_pack_1 pmc_common_vest_1 trash_armored_vest_1 military_common_vest_1 armored_vest_1 military_light_armor_1 military_light_gasmask_1 military_mask_1 military_light_pants_1 military_light_boots_1 frag_grenade thermal_grenade stun_grenade frag_mine nail_bolts_ammo police_reinforced_shirt_1 military_doc_helmet_1 military_doc_armor_1 military_doc_pants_1 miner_gasmask_1 laborer_warm_hat_1 laborer_warm_shirt_1 laborer_warm_pants_1 laborer_warm_boots_1 medical_medium_helmet_1 medical_medium_armor_1 medical_medium_pants_1 medical_medium_boots_1 common_reinforced_pants_1 common_gasmask_1 medical_gasmask_1 medical_chem_helmet_1 medical_chem_shirt_1 medical_chem_pants_1 science_gasmask_1 science_reinforced_shirt_1 science_reinforced_pants_1 science_reinforced_boots_1 science_chem_helmet_1 science_chem_shirt_1 science_chem_pants_1 science_chem_boots_1 goldenstar_balm engineering_repair_kit tech_repair_kit rail_repair_kit laser_repair_kit pills_fibromine pills_cryopentol pills_tranexam pills_osteodron																			
-mediumItemChip		Common	4	300	0.1	1	Blueprint	ProductionItem	tech_blade_1 army_pistol_3 pmc_pistol_3 military_pistol_3 trucker_pistol_3 rail_pistol_3 laser_smg_1 trucker_shotgun_2 common_shotgun_2 military_shotgun_1 military_smg_1 laser_smg_2 plasma_assault_1 military_assault_1 plasma_shotgun_1 army_sniper_1 trucker_marksman_2 laser_marksman_1 army_hmg_1 small_expansive_ammo shotgun_flechette_ammo shotgun_dragon_ammo medium_police_ammo surgicalKit syringe_antidote syringe_bloodbag pills_painkillers medium_backpack_1 servo_backpack_1 military_armored_vest_1 armored_expanded_vest_1 military_heavy_armor_1 military_heavy_helmet_1 military_heavy_pants_1 military_heavy_boots_1 stationary_turret fire_turret energy_turret medium_basic_ammo medium_police_ammo rifle_basic_ammo military_medium_helmet_1 military_medium_armor_1 military_medium_pants_1 military_medium_boots_1 miner_power_helmet_1 miner_power_armor_1 miner_power_pants_1 miner_power_boots_1 medical_heavy_armor_1 medical_heavy_pants_1 medical_heavy_boots_1 police_heavy_helmet_2 police_heavy_armor_1 police_heavy_pants_1 police_heavy_boots_1 miner_exoskeleton_1 laborer_medium_armor_1 laborer_medium_helmet_1 laborer_medium_pants_1 laborer_medium_boots_1 medical_heavy_helmet_1 laborer_exoskeleton_1 army_pistol_4																			
+mediumItemChip		Common	4	300	0.1	1	Blueprint	ProductionItem	tech_blade_1 army_pistol_3 pmc_pistol_3 military_pistol_3 trucker_pistol_3 rail_pistol_3 laser_smg_1 trucker_shotgun_2 common_shotgun_2 military_shotgun_1 military_smg_1 laser_smg_2 plasma_assault_1 military_assault_1 plasma_shotgun_1 army_sniper_1 trucker_marksman_2 laser_marksman_1 army_hmg_1 small_expansive_ammo shotgun_flechette_ammo shotgun_dragon_ammo medium_police_ammo surgicalKit syringe_antidote syringe_bloodbag pills_painkillers medium_backpack_1 servo_backpack_1 military_armored_vest_1 armored_expanded_vest_1 military_heavy_armor_1 military_heavy_helmet_1 military_heavy_pants_1 military_heavy_boots_1 stationary_turret fire_turret energy_turret medium_police_ammo rifle_basic_ammo military_medium_helmet_1 military_medium_armor_1 military_medium_pants_1 military_medium_boots_1 miner_power_helmet_1 miner_power_armor_1 miner_power_pants_1 miner_power_boots_1 medical_heavy_armor_1 medical_heavy_pants_1 medical_heavy_boots_1 police_heavy_helmet_2 police_heavy_armor_1 police_heavy_pants_1 police_heavy_boots_1 miner_exoskeleton_1 laborer_medium_armor_1 laborer_medium_helmet_1 laborer_medium_pants_1 laborer_medium_boots_1 medical_heavy_helmet_1 laborer_exoskeleton_1 army_pistol_4																			
 highItemChip		Common	7	550	0.1	1	Blueprint	ProductionItem	medical_kit_2 plasma_shotgun_1 army_sniper_2 laser_sniper_1 plasma_hmg_1 military_minigun_1 rifle_armorpierce_ammo big_backpack_1 heavy_armored_vest_1 automap rifle_plasma_ammo military_power_armor_1 military_power_helmet_1 military_power_pants_1 military_power_boots_1																			
 RealWareItemChip		RealWare	10	750	0.1	1	Blueprint	ProductionItem	military_axe_1 rwa_military_pistol_1 rwa_military_smg_1 rwa_military_assault_1 rwa_heavy_armor_1 military_shirt_3 rwa_power_armor_1 rwa_heavy_helmet_1 military_light_helmet_1 rwa_power_helmet_1 rwa_heavy_pants_1 military_pants_2 rwa_power_pants_1 rwa_heavy_boots_1 rwa_power_boots_1 rwa_light_armor_1 rwa_light_helmet_2 rwa_light_pants_1 rwa_light_boots_1																			
 SBNItemChip		SBN	10	750	0.1	1	Blueprint	ProductionItem	sbn_rail_pistol_1 sbn_rail_shotgun_1 sbn_rail_smg_1 sbn_light_armor_1 sbn_heavy_armor_1 sbn_light_helmet_1 sbn_heavy_helmet_1 sbn_light_pants_1 sbn_heavy_pants_1 sbn_light_boots_1 sbn_heavy_boots_1 sbn_rail_assault_1 sbn_medium_helmet_1 sbn_medium_armor_1 sbn_medium_pants_1 sbn_medium_boots_1																			

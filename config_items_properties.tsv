@@ -780,6 +780,9 @@ recreationCyborg_chest		rubber 2 rusty_plates 2 plastic 1 circuit_board 1
 recreationCyborg_guts		rubber 2 rusty_plates 2 plastic 1 circuit_board 1																					
 recreationCyborg_shoulderPart		rubber 2 rusty_plates 2 plastic 1 circuit_board 1																					
 recreationCyborg_knee		rubber 1 rusty_plates 1 plastic 1 circuit_board 1																					
+packaged_industrial_robot		cyborg_head 1 cyborg_wrist 1 cyborg_feet 1 cyborg_chest 1 cyborg_guts 1 cyborg_shoulderPart 1 cyborg_knee 1																					
+packaged_security_robot		battleCyborg_head 1 battleCyborg_wrist 1 battleCyborg_feet 1 battleCyborg_chest 1 battleCyborg_guts 1 battleCyborg_shoulderPart 1 battleCyborg_knee 1																					
+packaged_recreational_robot		recreationCyborg_head 1 recreationCyborg_wrist 1 recreationCyborg_feet 1 recreationCyborg_chest 1 recreationCyborg_guts 1 recreationCyborg_shoulderPart 1 recreationCyborg_knee 1																					
 #end																							
 																							
 #workbenchreceipts																							
