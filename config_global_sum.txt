@@ -1,0 +1,125 @@
+GLOBAL 
+//BUILD INFO
+BuildVersion: what version is the build: 0.8.6 now
+SaveVersion: what version is the save: 46?
+Console: using console? FALSE
+SkipIntro: skip intro option? FALSE
+SkipStartTutorialDialog:skip tutorial dialogue? FALSE
+DateFormats: format of date ingame: dd.MM.yyyy, MM/dd/yyyy, yyyy-MM-dd
+
+//OTHER
+LosLookAngle: line of sight look angle
+NotifyHiddenEnemiesRadius: how many tile can stealth detect enemies
+BrokenWeaponItemId:id of broken item
+SummonedExpireTurns: how many turn will summoned quazi allies expired
+StartSpaceObjectId: starting planet's orbit of the spacecraft
+SpawnItemOnDisassembleChance: chance for disassemble to yield items
+StartGameDate: starting date
+StartMercenaries: starting mercenaries id
+StartClasses: starting classes id
+StartReceipts: starting items id
+AllowEvacuationItems: which items for evac?
+DefaultDifficulty: base diff - Normal
+DefaultDifficultyPage: page for diff change - General
+DeathGiftId: id of giftbox after death
+
+//TUTORIAL: exclusive for tutorial (CivilRes assault on HIS MAGNUM and after revenge mission)
+TutorialItemsInLocker: Items id in locker
+TutorialItemsOnCharacter: Items id in controlled merc
+TutorialAncomRewardItems: (items id) reward for giving ancom data to other corps, change in later version
+TutorialAncomRewardItemsTezctlan: (items id) reward for giving ancom data to teztclan
+TutorialAncomRewardItemsRealWare: (items id) reward for giving ancom data to realware
+TutorialAncomRewardItemsAnCom: (items id) reward for giving ancom data to ancom
+TutorialMachineBlockWait: unknown purpose, duration of revenge mission? or how long til the wall in last stand against civilres blasted open
+TutorialAncomQuestItemId: id or ancom data
+
+//SANDBOX
+ResetIncomeDeltaDay: Set to Monday, when the income of station will be reset?
+ResetIncomeDeltaHours: Set to 0, when the income of station will be reset?
+GrabTechLevelDay: day tech level change
+GrabTechLevelHours: hour tech level change
+FactionTickIntervalHours: Hours for faction change?
+MissionAddTimeHours: Time added into clock after a mission is finished
+StationVisitAddTimeHours: Time added into clock after visit stations
+TechLevelToPower: convert tech level to base power (?), from 100, 200, 300 to 1000.
+StationChangeOwnerCooldownHours: cooldown time after station change owner (time conquest mission cannot be spawn here)
+StationAttackTargetCooldownMinHours: cooldown minimum time after stations are attacked (no missions spawned here passively)
+StationAttackTargetCooldownMaxHours: cooldown maximum time after stations are attacked (no missions spawned here passively)
+MissionMinLifeTimeHours: minimum hours until missions expired
+MissionMaxLifeTimeHours:  maximum hours until missions expired
+StationProduceTimeInHours: time for stations to restock produce
+StationProducePopulationMult: time for stations to increase population (float)
+StationReplacingRandomItemIntervalHours: time interval for stations to randomize additional demanded items
+StationShippingMinHours: unsure, time for trade shuttle travel at minimum
+StationShippingMaxHours: unsure, time for trade shuttle travel at minimum
+StationStorageLimit: how much items a station store, incase a quasi faction seize it and sell all produce
+StationProductionTimeRatio: 
+FactionDefenseBonusGainIntervalHours
+FactionDefenseBonusGainVal
+PowerToRepMult
+MinReputation
+MaxReputation
+ReputationRewardLimit
+TimeScaleX1Mult/ TimeScaleX4Mult/ TimeScaleX10Mult/TimeScaleX100Mult: time scale speed
+DistanceToHours
+NewsLifetimeInHours
+FactionPowerGainNews
+FactionTechLevelGainNews
+MaxShippingCountForStation
+StationShippingMaxStack
+StationShippingMaxItemsCount
+StationShippingLeftNumber
+StationShippingMonthConsumeThreshold
+StationStartItemsCount
+MaxBarterPrice
+FlightTimeToPlanet
+FlightTimeToSatelite
+MissionRewardMaxConsumables
+MaxTechLevel
+FactionAbsorbTechLevelMult
+WorldPriceUpdateIntervalMonths
+WorldPriceOvergrowthPercent
+WorldPriceOvergrowthBonusItems
+WipeRelationsReputationThreshold
+CounterattackMissionDurationTurns
+CounterattackMonsterGroupTechLevelBonus
+InfiltrationMonsterGroupTechLevelBonus
+RitualMonsterGroupTechLevelBonus
+RitualMissionDefenseDurationTurns
+DefenseMissionDurationTurns
+DefenseMissionsBramfaturaId
+DefenseMissionWavePowerMults
+
+//PRICE MULTIPLIERS
+
+//TRADE
+
+//MERCENARY
+
+//DUNGEON GENERATION
+
+//MOVEMENT
+
+//AI
+
+//OBSTACLES
+
+//QUAZIMORPHOSIS
+
+//FIRE
+
+//TOXIC
+
+//DAMAGE
+
+//STARVATION
+
+//PAIN THRESHOLD
+
+//MEDICINE
+
+//WOUNDEFFECTS
+
+//REPAIRS
+
+//STARTING ITEMS
