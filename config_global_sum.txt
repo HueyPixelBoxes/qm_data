@@ -1,125 +1,217 @@
 GLOBAL 
 //BUILD INFO
-BuildVersion: what version is the build: 0.8.6 now
-SaveVersion: what version is the save: 46?
-Console: using console? FALSE
-SkipIntro: skip intro option? FALSE
-SkipStartTutorialDialog:skip tutorial dialogue? FALSE
-DateFormats: format of date ingame: dd.MM.yyyy, MM/dd/yyyy, yyyy-MM-dd
+- BuildVersion: what version is the build: 0.8.6 now
+- SaveVersion: what version is the save: 46?
+- Console: using console? FALSE
+- SkipIntro: skip intro option? FALSE
+- SkipStartTutorialDialog:skip tutorial dialogue? FALSE
+- DateFormats: format of date ingame: dd.MM.yyyy, MM/dd/yyyy, yyyy-MM-dd
 
 //OTHER
-LosLookAngle: line of sight look angle
-NotifyHiddenEnemiesRadius: how many tile can stealth detect enemies
-BrokenWeaponItemId:id of broken item
-SummonedExpireTurns: how many turn will summoned quazi allies expired
-StartSpaceObjectId: starting planet's orbit of the spacecraft
-SpawnItemOnDisassembleChance: chance for disassemble to yield items
-StartGameDate: starting date
-StartMercenaries: starting mercenaries id
-StartClasses: starting classes id
-StartReceipts: starting items id
-AllowEvacuationItems: which items for evac?
-DefaultDifficulty: base diff - Normal
-DefaultDifficultyPage: page for diff change - General
-DeathGiftId: id of giftbox after death
+- LosLookAngle: line of sight look angle, your vision cone that light up the environment in front of you
+- NotifyHiddenEnemiesRadius: how many tile can stealth detect enemies
+- BrokenWeaponItemId:id of broken item
+- SummonedExpireTurns: how many turn will summoned quazi allies expired
+- StartSpaceObjectId: starting planet's orbit of the spacecraft
+- SpawnItemOnDisassembleChance: chance for disassemble to yield items
+- StartGameDate: starting date
+- StartMercenaries: starting mercenaries id
+- StartClasses: starting classes id
+- StartReceipts: starting items id
+- AllowEvacuationItems: which items for evac?
+- DefaultDifficulty: base diff - Normal
+- DefaultDifficultyPage: page for diff change - General
+- DeathGiftId: id of giftbox after death
 
 //TUTORIAL: exclusive for tutorial (CivilRes assault on HIS MAGNUM and after revenge mission)
-TutorialItemsInLocker: Items id in locker
-TutorialItemsOnCharacter: Items id in controlled merc
-TutorialAncomRewardItems: (items id) reward for giving ancom data to other corps, change in later version
-TutorialAncomRewardItemsTezctlan: (items id) reward for giving ancom data to teztclan
-TutorialAncomRewardItemsRealWare: (items id) reward for giving ancom data to realware
-TutorialAncomRewardItemsAnCom: (items id) reward for giving ancom data to ancom
-TutorialMachineBlockWait: unknown purpose, duration of revenge mission? or how long til the wall in last stand against civilres blasted open
-TutorialAncomQuestItemId: id or ancom data
+- TutorialItemsInLocker: Items id in locker
+- TutorialItemsOnCharacter: Items id in controlled merc
+- TutorialAncomRewardItems: (items id) reward for giving ancom data to other corps, change in later version
+- TutorialAncomRewardItemsTezctlan: (items id) reward for giving ancom data to teztclan
+- TutorialAncomRewardItemsRealWare: (items id) reward for giving ancom data to realware
+- TutorialAncomRewardItemsAnCom: (items id) reward for giving ancom data to ancom
+- TutorialMachineBlockWait: unknown purpose, duration of revenge mission? or how long til the wall in last stand against civilres blasted open
+- TutorialAncomQuestItemId: id or ancom data
 
-//SANDBOX
-ResetIncomeDeltaDay: Set to Monday, when the income of station will be reset?
-ResetIncomeDeltaHours: Set to 0, when the income of station will be reset?
-GrabTechLevelDay: day tech level change
-GrabTechLevelHours: hour tech level change
-FactionTickIntervalHours: Hours for faction change?
-MissionAddTimeHours: Time added into clock after a mission is finished
-StationVisitAddTimeHours: Time added into clock after visit stations
-TechLevelToPower: convert tech level to base power (?), from 100, 200, 300 to 1000.
-StationChangeOwnerCooldownHours: cooldown time after station change owner (time conquest mission cannot be spawn here)
-StationAttackTargetCooldownMinHours: cooldown minimum time after stations are attacked (no missions spawned here passively)
-StationAttackTargetCooldownMaxHours: cooldown maximum time after stations are attacked (no missions spawned here passively)
-MissionMinLifeTimeHours: minimum hours until missions expired
-MissionMaxLifeTimeHours:  maximum hours until missions expired
-StationProduceTimeInHours: time for stations to restock produce
-StationProducePopulationMult: time for stations to increase population (float)
-StationReplacingRandomItemIntervalHours: time interval for stations to randomize additional demanded items
-StationShippingMinHours: unsure, time for trade shuttle travel at minimum
-StationShippingMaxHours: unsure, time for trade shuttle travel at minimum
-StationStorageLimit: how much items a station store, incase a quasi faction seize it and sell all produce
-StationProductionTimeRatio: 
-FactionDefenseBonusGainIntervalHours
-FactionDefenseBonusGainVal
-PowerToRepMult
-MinReputation
-MaxReputation
-ReputationRewardLimit
-TimeScaleX1Mult/ TimeScaleX4Mult/ TimeScaleX10Mult/TimeScaleX100Mult: time scale speed
-DistanceToHours
-NewsLifetimeInHours
-FactionPowerGainNews
-FactionTechLevelGainNews
-MaxShippingCountForStation
-StationShippingMaxStack
-StationShippingMaxItemsCount
-StationShippingLeftNumber
-StationShippingMonthConsumeThreshold
-StationStartItemsCount
-MaxBarterPrice
-FlightTimeToPlanet
-FlightTimeToSatelite
-MissionRewardMaxConsumables
-MaxTechLevel
-FactionAbsorbTechLevelMult
-WorldPriceUpdateIntervalMonths
-WorldPriceOvergrowthPercent
-WorldPriceOvergrowthBonusItems
-WipeRelationsReputationThreshold
-CounterattackMissionDurationTurns
-CounterattackMonsterGroupTechLevelBonus
-InfiltrationMonsterGroupTechLevelBonus
-RitualMonsterGroupTechLevelBonus
-RitualMissionDefenseDurationTurns
-DefenseMissionDurationTurns
-DefenseMissionsBramfaturaId
-DefenseMissionWavePowerMults
+//SANDBOX - stations passively produce goods & increase population, ship goods to other stations with matching demands
+- ResetIncomeDeltaDay: Set to Monday, when the income of station will be reset?
+- ResetIncomeDeltaHours: Set to 0, when the income of station will be reset?
+- GrabTechLevelDay: day tech level change
+- GrabTechLevelHours: hour tech level change
+- FactionTickIntervalHours: Hours for faction change?
+- MissionAddTimeHours: Time added into clock after a mission is finished
+- StationVisitAddTimeHours: Time added into clock after visit stations
+- TechLevelToPower: convert tech level to base power (?), from 100, 200, 300 to 1000.
+- StationChangeOwnerCooldownHours: cooldown time after station change owner (time conquest mission cannot be spawn here)
+- StationAttackTargetCooldownMinHours: cooldown minimum time after stations are attacked (no missions spawned here passively)
+- StationAttackTargetCooldownMaxHours: cooldown maximum time after stations are attacked (no missions spawned here passively)
+- MissionMinLifeTimeHours: minimum hours until missions expired
+- MissionMaxLifeTimeHours:  maximum hours until missions expired
+- StationProduceTimeInHours: time for stations to restock produce
+- StationProducePopulationMult: time for stations to increase population (float)
+- StationReplacingRandomItemIntervalHours: time interval for stations to randomize additional demanded items
+- StationShippingMinHours: time stations deliver goods to demanded stations, at minimum, in hours
+- StationShippingMaxHours: time stations deliver goods to demanded stations, at maximum, in hours
+- StationStorageLimit: how much items a station store, incase a quasi faction seize it and sell all produce
+- StationProductionTimeRatio: how much items will restock in one hours? unsure
+- FactionDefenseBonusGainIntervalHours: Defense bonus for victim faction's station will gained after this amount of hours
+- FactionDefenseBonusGainVal: How much defense bonus gained
+- PowerToRepMult: Multiplier to how much rep gained after doing mission for a faction, based on that faction's power
+- MinReputation/ MaxReputation: reputation limits
+- ReputationRewardLimit: how much items will be rewards after missions
+- TimeScaleX1Mult/ TimeScaleX4Mult/ TimeScaleX10Mult/TimeScaleX100Mult: in-game time-scale tick speed
+- DistanceToHours: Ratio of distance to hours
+- NewsLifetimeInHours: Lifetime of news (the notifications appear on bottom left)
+- FactionPowerGainNews: The news appears when factions' power reach listed milestones
+- FactionTechLevelGainNews: The news appears when factions' tech level reach listed milestones
+- MaxShippingCountForStation: max shipping times for shipping from stations to stations
+- StationShippingMaxStack: stack limits for items for shipping from stations to stations
+- StationShippingMaxItemsCount: max items delivered from stations to stations
+- StationShippingLeftNumber: How many items of that type station will keep in its inventory
+- StationShippingMonthConsumeThreshold: How many items stations will ship at most per month
+- StationStartItemsCount: How many items station will start with
+- MaxBarterPrice: Maximum price for a bartering item
+- FlightTimeToPlanet: Flight time from stations to stations across planets
+- FlightTimeToSatelite: Flight time from stations to stations across satellite
+- MissionRewardMaxConsumables: Maximum consumable rewarded after missions
+- MaxTechLevel: Maximum tech level
+- FactionAbsorbTechLevelMult: unsure, multiplier for faction to conquer other base on their tech level
+- WorldPriceUpdateIntervalMonths: monthly interval for global items 'price to update
+- WorldPriceOvergrowthPercent: percentage of items' price when items are made too much or population is too high (?unsure)
+- WorldPriceOvergrowthBonusItems: amount of bonus items when items are made too much or population is too high (?unsure)
+- WipeRelationsReputationThreshold: The reputation's threshold to make trade break with factions & erase your stored trade credits with them
+- CounterattackMissionDurationTurns: turns until counterattack missions failed
+- CounterattackMonsterGroupTechLevelBonus: bonus tech level for counterattack's targets
+- InfiltrationMonsterGroupTechLevelBonus: bonus tech level for infiltration's targets
+- RitualMonsterGroupTechLevelBonus: bonus tech level for ritual's targets
+- RitualMissionDefenseDurationTurns:turns until ritual missions end
+- DefenseMissionDurationTurns: turns until ritual missions end
+- DefenseMissionsBramfaturaIdL: bramfatura id or Absentia/Defense
+- DefenseMissionWavePowerMults: multiplier for enemies spawn (apply to gears & numbers) in wave in defense
 
-//PRICE MULTIPLIERS
+//PRICE MULTIPLIERS - item's price for trading with stations
+- PriceMultipliersNoStock: price mult to station with no stock - selling best
+- PriceMultipliersLowStock: price mult to station with low stock - selling 2nd best
+- PriceMultipliersMeidumStock: price mult to station with enough stock
+- PriceMultipliersHighStock: price mult to station with a lot of stock - buying 2nd best
+- PriceMultipliersExcessStock: price mult to station with too much stock - buying best
 
-//TRADE
+
+//TRADE - reputation for trading with factions' station. 3 FUNCT: HOSTILE: BAN, GOOD: SELL, GREAT: BUY
+- TradeMinReputationToExchange: Minimum reputation limit for sell/ trading indirectly (go below disable trading with said faction, -20 rep point)
+- TradeMinReputationToSell/TradeMinReputationToBuy: Minimum reputation limit for buying and selling directly (25 rep point)
+- TradeBuyItemRepThreshold: Maximum rep for buying items directly, use this to dictate selling & buying percentage (more rep when more credit selling, less credit buying)
+- TradeSellItemRepThreshold:  Maximum rep for selling/trading items
+- TradeSellItemMult1: Selling items multiplier (0.7) - medium to high rep?
+- TradeSellItemMult2: Selling items multiplier (0.2) - 0 to low rep?
 
 //MERCENARY
+- TrainingPerkInHours: Base perk training mercenary hours
+- CloneMercDurationInHours: Cloning hours
+- RestoreMercHealthHours: Restore mercenary in hours - if extract with less health
+- RestoreMercWoundInHours: Restore mercenary in hours- if extract wounded
+- RestoreMercAmpInHours: Restore mercenary in hours- if extract with amputation
 
 //DUNGEON GENERATION
+- CorridorWeightInDropMult: chance for corridor to spawn  in dungeon
 
-//MOVEMENT
+//MOVEMENT- movement for players & monsters(enemies)
+- SlowMoveStarvationMult/ NormalMoveStarvationMult/ RunMoveStarvationMult: calorie depletion rate multiplier for sneak/walk/run mode
+- RunAccuracyDebuff:running accuracy penalty 
+- PlayerSlowMoveTimeScale/ PlayerNormalMoveTimeScale/ PlayerRunMoveTimeScale: sneak/walk/run mode have different player's animation time 
+- MonsterSlowMoveTimeScale/ MonsterNormalMoveTimeScale/ MonsterRunMoveTimeScale: sneak/walk/run mode have different enemies' animation time 
 
 //AI
+- SomniaMoveTimerMin/ SomniaMoveTimerMax: enemies like spider, possessed will sleep until  quazimorphosis go above SomniaMoveTimerMax.
+- AggroExplosionChance: How likely will a exploded grenade attract nearby enemies
+- AggroExplosionRadius: The radius from said grenade that will attract enemies
+- AggroGunshotRadius: The radius from a gunshot that will attract enemies
 
 //OBSTACLES
+- MapObstacleDamageWhitefadeDuration: when an obstacle damage, it will look like blinking ->whiteface. This dictate duration of obstacles turn white on damage
+- MaxCorpsesInTile: how much corpse are in a tile until it turns into corpse pile
+- ValidRechargeBatteries: valid items to recharge stations
 
 //QUAZIMORPHOSIS
+- QmorphosMaxLevel: max quazi level
+- QmorphosPerTurnPoints: ranging between -1, 1 to 2, Qmorphos value will increase or reduce per turns
+- QmorphosPerTurnWeights: ranging between 20, 50, 30, this is weight to decide how often which qmorph value will chosen per turn -> increase 1Q/turn will be most often (50%) then 2Q/turn (30%) then -1Q/turn (20%)
+- Qmorphos2PhaseOstMinLevel: past this threshold (200Q), 2nd soundtrack will play - GRASP phase
+- Qmorphos3PhaseOstMinLevel: past this threshold (800Q), 3rd soundtrack will play - Q-MORPHOS phase
+- MutateMobClassId: possessed - for mob turn into possessed
 
 //FIRE
+- StrongFireDuration/ WeakFireDuration: how many turns should strong/weak fire whisker displayed on floor
+- SpawnWeakFireDuringLifetime: between 1-0.8-0.6-0.4-0.2, this dictate chance for fire spread from existing fire tile during its life time
+- BurningCreatureSpawnFireChance: chance for burning entities to spawn fire near it
+- BurningDamagePerTurnMin/ BurningDamagePerTurnMax: fire damage range per turn before resistance
+- BurningEffectWoundChance: after fire wear off, chance for fire to give wounds 
+- OilSpawnFireChance: chance for oil tile to catch fire
+- FireDamageToItemPerTurn: fire damage items on floor per turn (may burn it)
+- FireItemConvertsFrom: valid items to be convert in fire (human_meat, spider_meat)
+- FireItemConvertsTo: result items converted from fire (roasted_human_meat, roasted_spider_meat)
 
 //TOXIC
+- ToxicDamagePerPuddleSize: with 5 puddle sizes, its damage: 4, 6, 10, 14, 18
+- ToxicDamageToItemPerTurn: toxic damag to item on floors
+- ToxicDamageType: poison, no idea why this is here
+- ToxicDamageMulti: toxic damage multiplier
+- ToxicPuddleLifeTime: how much poison puddle remain in turns
 
 //DAMAGE
+- MinHitChance: minimum chance for something to be hit
+- CapAccuracy: cap accuracy for player's mercenary
+- CapDodge: cap dodge for player's mercenary
+- OvercapCritModifier: with accuracy above cap give more 0.1 crits
+- CurveSmoothingCoef: smooth curve coefficient = 0.025
+- ExponentCoef: exponenet coefficient = 2.718 
+- WoundChanceModifier: base wound chance = 0.35
 
-//STARVATION
+//STARVATION - no idea what this used for
+- StarvationRegenWeights: between 0-0.01-61-81, dictate how often starve regen value will be chosen
+- StarvationRegenValues: value chosen by weights
 
 //PAIN THRESHOLD
+- PainThresholdYellowPercent: 70%, percent for pain threshold display to turn yellow
+- PainThresholdRedPercent: 25%, percent for pain threshold display to turn red
+- PainThresholdGlobalDmgMult: 0.3, multiplier convert damage into pain
 
 //MEDICINE
+- WoundFixedResolutionPeriod: after 10 turns wounds should be fixed globally
+- WoundDefaultResolutionChance: there is 0.05 or 5% chance for wound to default fixed
 
 //WOUNDEFFECTS
+- FrozenStunAfterProgressionLevel: froze for 50 turns after freezing status reach 100%
+- ShockStunAfterProgressionLevel: shock stun after shock reach 100% ? (why value 0)
+- QmorphSummonCountMin/Max: when baron are summoned, an enemy is selected and receive baron wounds and become the baron, and with player with the transform pact can become baron -> at least 1 baron and at most 2 with player vs monster
 
 //REPAIRS
+- RepairsAllWeaponsCategory: categories of weapons
+    engineering_weapon: tools, range from nail gun to repentance(Church exclusive)
+    melee: self-explain, melee like knife axe
+    firearms_weapon: common firearm like gun, shotgun, rifle
+    tech_weapon: cover plasma gun and related tech weapon that does not fire laser and rail
+    rail_weapon: guns that does not use armor like SBN silver series
+    laser_weapon: weapon shot laser like mining laser and shot beam 
+    venus_weapon: weapon from gannix
+    moon_weapon: weapon from duggur
+
+- RepairsAllArmorsCategory: categories of armors that can be seen underneath their names
+    cloth: normal clothes
+    sint_cloth: synthetic clothing
+    workwear: self-explain
+    plastic_workwear: like workwear but from plastic
+    comp_workwear: company exclusive workwear
+    armored_workwear: self-explain
+    spacesuit: self-explain
+    industr_spacesuit: self-explain
+    metal_armor: self-explain
+    aram_armor: aramite armor
+    kevlar_armor: self-explain
+    ceramite_shell: self-explain
+    chobham_shell: self-explain
 
 //STARTING ITEMS
+- Id(starting mode id): none(or custom), low, normal, high
+- Items: list of starter items' id
+- Points: power of lowest-ranking faciton, higher for more difficult mode

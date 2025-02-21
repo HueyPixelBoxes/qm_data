@@ -1,43 +1,43 @@
 STATION BARTER
 Table has 9 columns, revolve around corp, civres, quasi and pirate demands and exports:
-Id: station id
-CorpProduceItems: Items that corps produces & consume, might have 1 to 6 receipts (see below) together in one station
-CorpAdditionalConsumeItems:Items that corp consume, change periodically
-CivResProduceItems:Items Items that civil resistance produces & consume 
-CivResAdditionalConsumeItems: Items that civil resistance consume, change periodically
-QuasiProduceItems: Items that quasimorph (Tezt, Feather, Shedu) produces & consume (now quasimorph produce nothing)
-QuasiAdditionalConsumeItems: Items that quasimorph (Tezt, Feather, Shedu) produces & consume
-PiratesProduceItems: Items that pirate (Unchained Belts) produces & consume
-PiratesAdditionalConsumeItems: Items that pirate (Unchained Belts) produces & consume
+- Id: station id
+- CorpProduceItems: Items that corps produces & consume, might have 1 to 6 receipts (see below) together in one station
+- CorpAdditionalConsumeItems:Items that corp consume, change periodically
+- CivResProduceItems:Items Items that civil resistance produces & consume 
+- CivResAdditionalConsumeItems: Items that civil resistance consume, change periodically
+- QuasiProduceItems: Items that quasimorph (Tezt, Feather, Shedu) produces & consume (now quasimorph produce nothing)
+- QuasiAdditionalConsumeItems: Items that quasimorph (Tezt, Feather, Shedu) produces & consume
+- PiratesProduceItems: Items that pirate (Unchained Belts) produces & consume
+- PiratesAdditionalConsumeItems: Items that pirate (Unchained Belts) produces & consume
 
 BARTER RECEIPTS
 Each receipt corresponds with produce & consume items
-Id: receipt id, with n as number of the variation:
-+ prod_mining_n/ science_mining_n/ food_mining_n/ spy_mining_n
-+ prod_industry_n/ science_industry_n/ food_industry_n/ other_industry_n
-+ prod_devices_n/ military_devices_n/ science_devices_n
-+ power_action_n/ entertaiment_action_n/ spy_action_n
-+ transit_n
-+ capital_asset_n
-+ quasi_prod_n/ resistant_prod_n
-+ pop_mining_n/ melee_prod_n
-+ fire_prod_pist_n/ fire_prod_shotg_n/ fire_prod_smg_n/ fire_prod_rifl_n/ fire_prod_mark_n
-+ civil_ammo_depo_n/ mil_ammo_depo_n/ tech_ammo_depo_n
-+ vest_prod_n/ armor_prod_n
-+ med_prod_n
-+ food_prod_n
-InputItems: Items demanded of the receipt
-InputPopulation: Population demanded of the receipt (for quasimorph only - sacrifice people)
-OutputItems: Items exported of the receipt
-OutputTechLevelGain: Tech level increase of the receipt (science often has highest tech gain), not sure if trigger after trade, after change demands or smt else
-OutputPowerGain: Power gain of the receipt
-ProduceTimeInHours: Time till stations change produce in hours?
+- Id: receipt id, with n as number of the variation:
+    prod_mining_n/ science_mining_n/ food_mining_n/ spy_mining_n
+    prod_industry_n/ science_industry_n/ food_industry_n/ other_industry_n
+    prod_devices_n/ military_devices_n/ science_devices_n
+    power_action_n/ entertaiment_action_n/ spy_action_n
+    transit_n
+    capital_asset_n
+    quasi_prod_n/ resistant_prod_n
+    pop_mining_n/ melee_prod_n
+    fire_prod_pist_n/ fire_prod_shotg_n/ fire_prod_smg_n/ fire_prod_rifl_n/ fire_prod_mark_n
+    civil_ammo_depo_n/ mil_ammo_depo_n/ tech_ammo_depo_n
+    vest_prod_n/ armor_prod_n
+    med_prod_n
+    food_prod_n
+- InputItems: Items demanded of the receipt
+- InputPopulation: Population demanded of the receipt (for quasimorph only - sacrifice people)
+- OutputItems: Items exported of the receipt
+- OutputTechLevelGain: Tech level increase of the receipt (science often has highest tech gain), not sure if trigger after trade, after change demands or smt else
+- OutputPowerGain: Power gain of the receipt
+- ProduceTimeInHours: Time for stations to produce items
 
 POPULATION RECEIPTS
-Id: receipt id, for population
-FactionType: namely Corp, CivilRes, Pirates, Teztclan, Xiaomara, Shedu
-MinPopulationPercent: minimum population percent, from 0, 0.25, 0.5, 0.75, not sure its purpose
-BartherReceiptId: for pop_mining_n id go here
-ProduceTimeInHours: time to produce population in hours
-SuccessPopAdd: If station successfully add population, add by this amount
-FailPopStepLoss:If not, reduce by this amount
+- Id: receipt id, for population
+- FactionType: namely Corp, CivilRes, Pirates, Teztclan, Xiaomara, Shedu
+- MinPopulationPercent: minimum population percent, from 0, 0.25, 0.5, 0.75, not sure its purpose
+- BartherReceiptId: for pop_mining_n id go here
+- ProduceTimeInHours: time to produce population in hours
+- SuccessPopAdd: If station successfully add population, add by this amount
+- FailPopStepLoss: If station not successfully add population, reduce by this amount

@@ -1,0 +1,276 @@
+QUAZIMORPHOSIS- NONE: ABSENTIA, 0 - 199: SOMNIA, 200-399: GRASP, 3: 400-599: INTRUSION, 600-799: PLENUM, 800-899: ALTERATION, 800-999: Q MORPHOS, 1000: RAPTURE
+- Id: q-morphos stage, catalog by bramfatura & stage level (0 (somnia) - 6(baron))
+- BramfaturaId: name of bramfatura, contain planet names + notable exception: Defense, Earth, Mars_Sleeping, Mars_Awaken. 
+- AllyFactionIds: Ally quazi factions that can be spawn: Tezctlan, XiomaraMasks & SheduThousand
+- StageLocTag: stage tag for q levels?, from stage 0(somnia) to stage 5 (include stage6_baron)
+- MaxLevel: Q-morphos threshold: ABSENTIA (0), SOMNIA (99), GRASP (249), INTRUSION (449), PLENUM (699), ALTERATION (800), Q-MORPHOS (999), RAPTURE (1000)
+- EcolapseChanceAfterDeath: chance to ecolapse on enemy's death, higher q-morphos the higher this chance, from 0 to 0.8 (*100%)
+- EcolapseChance: spontanous ecolapse chance, from 0 to 0.5 (no spon eco before PLENUM - 699 - stage3)
+- MutateChance: chance for enemies to be possessed, from 0.01 to 0.05, only stage 3, 4, 5.
+- BaronPhase: boolean, only TRUE for stage6
+- BaronCreatureId: id for baron creature
+- BaronSkullsDrop: id for baron's pacts and its drop rate
+- BaronMessageTag: id for rapture's message
+- BaronFriendlyMessageTag: id for rapture's message from friendly quazi allies
+- Somnia: boolean value if this stage is somnia
+- QmorphLevelGrow: boolean value if this stage allow q-morphos level rise
+- EndlessHunt: boolean value, TRUE allow all quazi know player's location at all time
+- HuntMemoryMult: multiplier for how much turns quazi will remember and hunt players
+- CanMeleeAttackDoor: boolean, can quazi allow to attack doors
+- HealthMult: multiplier to increase quazi's max health
+- DamageMult: multiplier to increase quazi's base damage
+- ReplicChanceMult: multiplier for chance to replicate?
+- AllResistBonus: flat resistance bonus for quazi per stage
+- EcolapseCreatureDrop: list of quazi creature's ids and their drop rate
+- ForceEcolapseAll: Boolean, TRUE makes all enemies not quazi dies and ecolapse all
+
+STATUSEFFECTS - HAS DIFFERENT STAGE OF PROGRESSION
+- Id: id for status effects in-game, so far:
+    infectionEffect
+    poisonEffect
+    morphineAddiction
+    alcoholAddiction
+    nicotineAddiction
+    gavaahAddiction
+    coldEffect
+    beamEffect
+    shockEffect
+- ProgressionType	
+    PeakHold: status effect escalate until go to 100% then drop down steadily - poison, infection
+    Increment: will rise until 100% and does not decrease unless refresh or cure - addiction
+    Decrement: will reduce after not receiving external elements - cold, shock
+    None: no progression: beam
+- RenewalType: how status effects will be reapply: 
+Refresh: getting infection/poison status even when infection go down will make itgo back up
+Reset: status effect will be reset to 1% and rise again
+Damage: status effect apply through damage type
+- Stage1/2/3/4WoundEffects: woundeffects' ids and their corresponding values
+- IncrementModifier: modifier for incrementing of status effects
+- DecrementModifier: modifier for decrementing of status effects, most in beam
+- ResistModifier: modifier for resisting status effect, for beam, shock and cold
+- HoldDurationMin/Max: duration for peakhold of status effects - how long until decrement of status effect kick in
+- VisualState: visual indicator of status effect - for Poisoned only
+- BadLuckStep: bad luck's increment value for addiction - bad luck is additional chance to get addiction that will be increased after every use of addictive items
+- BadLuckCap: bad luck's maximum value for addiction - chance for addiction effects to be apllied 
+
+DAMAGETYPES
+- Id - ResistTypes	
+    blunt
+    pierce
+    lacer - lacer(cut)
+    fire
+    beam
+    shock
+    poison
+    cold
+    explosion - blunt & pierce
+    plasma - fire & lacer
+- StatusEffect: status effect applied on damage: either none or beamEffect, shockEffect, coldEffect
+- IsPhysical: is physical damage: blunt, pierce, lacer(cut) and explosion
+- ChanceToApply: chance to apply status effect for shock, beam, cold
+- StatusDamageModifier: modifier for status damage - for beam, shock, cold & hybrid damage
+- StatusResistModifier: modifer for status resistance - for beam, shock, cold & hybrid damage
+
+WOUNDTYPES
+- Id-DamageType
+    fracture-blunt
+    puncture-pierce
+    laceration-lacer
+    burn-fire
+    irradiation-beam
+    electrocution-shock
+    chemburn-poison
+    freeze-cold
+    shrapnel-explosion
+    hardburn-plasma
+- Human/Cyber/QuasimorphWoundEffects: lists of woundeffects' ids & their corresponding values apply to human, robots and quasimorphs
+- AmputationEffects: each damage type can inflict amputation, this lists woundeffects' ids and its corresponding values
+- StatusEffectApplyChance: chance to apply status effects
+- OnWoundEffectId: ids for effect when wounded - infection & poison
+- MinorEffects: additional woundeffects's ids - no self heal
+
+WOUNDSLOTS
+- Id: ids for body slots, seperated by species(human, animal, cyber-robot, quasimorph) and their bramfatura(mercury, Venus, Moon, Mars, Belts)
+    + HUMAN - SKINLESS
+        Human/SkinlessHead
+        Human/SkinlessShoulder
+        Human/SkinlessArm
+        Human/SkinlessThigh
+        Human/SkinlessFeet
+        Human/SkinlessChest
+        Human/SkinlessBody
+        Human/SkinlessStomach
+        Human/SkinlessKnee
+    + SPIDER - ANIMAL
+        SpiderHead
+        SpiderBody
+        SpiderFeet
+        SpiderKnee
+        SpiderStomach
+        SpiderThigh
+    + ROBOT - MINING - COMBAT - RECREATIONAL
+        Cyborg/RecreationCyborg/BattleCyborgHead
+        Cyborg/RecreationCyborg/BattleCyborgShoulder
+        Cyborg/RecreationCyborg/BattleCyborgArm
+        Cyborg/RecreationCyborg/BattleCyborgThigh
+        Cyborg/RecreationCyborg/BattleCyborgFeet
+        Cyborg/RecreationCyborg/BattleCyborgChest
+        Cyborg/RecreationCyborg/BattleCyborgBody
+        Cyborg/RecreationCyborg/BattleCyborgKnee
+    + DUGGUR - MOON
+        MoonHead
+        MoonUpperMechanism
+        MoonStomach
+        MoonCarapace
+        MoonLowerMechanism
+        MoonBasement
+        MoonShoulder
+        MoonThorn
+        MoonThigh
+        MoonWheel
+        MoonChest
+        MoonBody
+        MoonKnee
+        MoonFeet
+        MoonArm
+    + SHARTAMAKUM - MERCURY
+        MercuryHead
+        MercuryCentralAye
+        MercuryRightAye
+        MercuryLeftAye
+        MercuryBottomAye
+        MercuryShoulder
+        MercuryArm
+        MercuryThigh
+        MercuryFeet
+        MercuryChest
+        MercuryBody
+        MercuryStomach
+        MercuryKnee
+        MercuryScroll
+    + GANNIX = VENUS
+        VenusHead
+        VenusCatHead
+        VenusCatFeet
+        VenusSpiderThigh
+        VenusSpiderFeet
+        VenusSpiderKnee
+        VenusCatSting
+        VenusShoulder
+        VenusArm
+        VenusChest
+        VenusStomach
+        VenusBody
+        VenusThigh
+        VenusKnee
+    + RON - BELTS
+        RonHead
+        RonCarapace
+        RonTentacle
+        RonKnifeArm
+        RonStomach
+        RonBody
+    + K/CATTARAM - BELTS
+        CattaramHead
+        CattaramDogHead
+        CattaramThigh
+        CattaramShoulder
+        CattaramArm
+        CattaramChest
+        CattaramStomach
+        CattaramBody
+        CattaramFeet
+        CattaramKnee
+    + SCRIVNUS - BELTS
+        ScrivnusHead
+        ScrivnusThigh
+        ScrivnusShoulder
+        ScrivnusArm
+        ScrivnusChest
+        ScrivnusStomach
+        ScrivnusBody
+        ScrivnusFeet
+        ScrivnusKnee
+- SlotType: body slots ids:
+    Head
+    Shoulder
+    Arm
+    Thigh
+    Feet
+    Chest
+    Body
+    Stomach
+    Knee
+    Tail
+- NatureType: body types - human - cyborg - quasimorphs
+- CoreEffects: core woundeffects' ids & corresponding values
+- IgnoreEffects: invalid woundeffects' ids
+- IgnoreStatusEffects: invalid statyseffects' ids
+- AmputationCoreEffects: core amputation woundeffects' ids & corresponding values
+- ImplicitBonusEffects: inherent bonus effects of body slots - mostly for cyborg now
+- ImplicitPenaltyEffects: inherent penalty effects of body slots - mostly for cyborg now
+- SlotWeight: body slots weight - if amputated, subtract that body weight from total weight 
+- AmputatedDrop: dropped items' ids and loot weight if amputated
+- AdditionalAmputation: additional drops when amputated
+- IsGroundAffected: affected by ground hazard aka poison and fire tiles
+
+WOUNDEFFECTS
+- Id: for woundeffects:
+    + FALSE:
+        los_reduce
+        eat_dmg
+        melee_dmg_reduce
+        income_dmg
+        income_critchance
+        accuracy_reduce
+        food_calories
+        satiety
+        vomiting
+        no_stealth
+        frozen_stun
+        shock_stun
+        self_heal
+        death
+        run_unavailable
+        consume_regen
+        hallucinations
+        max_health
+        qmorph
+        qmorph_summon
+        income_pain
+        arm_slot_unavailable
+        critchance_reduce
+        food_unavailable
+        dodge_reduce
+        resist_blunt
+        resist_pierce
+        resist_lacer
+        resist_fire
+        resist_beam
+        resist_shock
+        resist_poison
+        resist_cold
+        wound_chance
+        scatter_angle
+        melee_accuracy
+        ranged_accuracy
+        throwback_immune
+        firearm_range
+        multi_hit
+        added_projectile
+        immune_blunt
+        immune_pierce
+        immune_lacer
+        immune_fire
+        immune_beam
+        immune_shock
+        immune_poison
+        immune_cold
+    + TRUE:
+        move_dmg
+        dot_dmg
+        apoint_dmg
+        action_dmg
+        pain_threshold_regen
+- IsFixable: boolean, does fixing wounds temporarily stop the effects TRUE if it will stop effects and FALSE if not
+

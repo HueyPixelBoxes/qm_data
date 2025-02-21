@@ -1,9 +1,9 @@
 #global		
 Parameter	Value	
 // Build info		
-BuildVersion	0.8.6.329s.550245d
+BuildVersion	0.8.6.329s.550245d	
 SaveVersion	46	
-Console	false
+Console	FALSE	
 SkipIntro	FALSE	
 SkipStartTutorialDialog	FALSE	
 DateFormats	dd.MM.yyyy MM/dd/yyyy yyyy-MM-dd	
@@ -15,7 +15,7 @@ BrokenWeaponItemId	broken_weapon
 SummonedExpireTurns	15	
 StartSpaceObjectId	phobos	
 SpawnItemOnDisassembleChance	0.5	
-StartGameDate	2200-09-13 12:00:00	
+StartGameDate	9/13/2200 12:00	
 StartMercenaries	francis_reid_daly victoria_boudicca persival_fawcett Isabella_capet maximilian_rohr priya_marlon	
 StartClasses	scouts_of_hades ecclipse_blades tifton_elite phoenix_brigade	
 StartReceipts	ration_pack_3 ration_pack_4 small_backpack_1 trash_common_vest_1 common_shirt_2 common_pants_3 common_sneakers_1 common_knife_1 pmc_pistol_1 military_pistol_1 small_basic_ammo medium_basic_ammo shotgun_shrapnel_ammo bandage splint hydrogel_bandage medical_kit_1 syringe_morphine pills_sorbent pills_antibiotics armor_repair_kit firearm_repair_kit melee_repair_kit	
@@ -107,8 +107,8 @@ TradeMinReputationToSell	25
 TradeMinReputationToBuy	25	
 TradeBuyItemRepThreshold	75	
 TradeSellItemRepThreshold	100	
-TradeSellItemMult1	0.70	
-TradeSellItemMult2	0.20	
+TradeSellItemMult1	0.7	
+TradeSellItemMult2	0.2	
 		
 // Mercenary		
 TrainingPerkInHours	36	
