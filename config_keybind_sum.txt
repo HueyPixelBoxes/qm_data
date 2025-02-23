@@ -1,0 +1,108 @@
+//KEYBINDING
+- Id: ids for binding options
+    PrimaryCursorAction
+    SecondaryCursorAction
+    PreciseCursorShoot
+    ForceCursorMove
+    MoveTowardsSight
+    MoveUp
+    MoveDown
+    MoveLeft
+    MoveRight
+    MoveUpLeft
+    MoveUpRight
+    MoveDownLeft
+    MoveDownRight
+    LookUp
+    LookDown
+    LookLeft
+    LookRight
+    LookUpLeft
+    LookUpRight
+    LookDownLeft
+    LookDownRight
+    MoveCameraUp
+    MoveCameraDown
+    MoveCameraLeft
+    MoveCameraRight
+    Inventory
+    SwapWeapon
+    SwapAttackMode
+    SwapMoveMode
+    MoveMode_Slowdown
+    MoveMode_Speedup
+    ReloadWeapon
+    SkipTurn
+    Mercenary
+    Objectives
+    Map
+    Health
+    UseUltimate
+    Skull
+    Vest
+    Vest1
+    Vest2
+    Vest3
+    Vest4
+    Vest5
+    ZoomIn
+    ZoomOut
+    Shoot
+    Interact
+    HighlightAllItems
+    HighlightPreciseShoot
+    HighlightForceMove
+    Help
+    Menu
+    UI_MoveUp
+    UI_MoveDown
+    UI_MoveLeft
+    UI_MoveRight
+    UI_MoveUpLeft
+    UI_MoveUpRight
+    UI_MoveDownLeft
+    UI_MoveDownRight
+    Back
+    Confirm
+    SlideLeft
+    SlideRight
+    Continue
+    Ok
+    Cancel
+    Yes
+    No
+    Newsline
+    Spaceship
+    Starmap
+    TradeShuttle
+    Departure
+    Raid_Start
+    Raid_Finish
+    SelectClass_Apply
+    Faction_Info
+    Faction_Techology
+    Faction_Subscribe
+    SendShuttle
+    Trade_Exchange
+    Trade_Sell
+    Trade_Buy
+    Recycle
+    UnloadAll
+    SendReport
+    OpenLog
+    Customize
+    SkipCutscene
+    TakeAll
+    Evacuate
+    CallCapsule
+    LeaveStation
+- Layout: for layout binding, UI or Hotkeys
+- OtherKeyIdToPress: alternative key's id
+- Bind1/2: 1st & 2nd binding, None if no keys assigned
+- ControllerBind1/2: 1st & 2nd controller binding, None if no button assigned
+- ImmutableBind1/2: only TRUE value accepted, key here cannot be changed
+- ImmutableJoystickBind1/2: only TRUE value accepted, joystick option here cannot be changed
+- AxisName: Axis ids - Movement, CamMovement, LookAt
+- MovementVector: vector x y for movement
+- ExclusiveInputMode: can only use this option in either keyboard & mouse or controller
+- ForbiddenKeysToBind: cannot use this key to bind

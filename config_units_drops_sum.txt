@@ -1,0 +1,28 @@
+//UNIT TABLE DROP - ALL POSSIBLE LOOT POOLS - STORY MISSION + UNIT POOL BASE ON STATION TYPES
+#units_crtutorial2 - civil resistance tutorial
+#units_ComAndAnarchy1 - Story mission: Communnity & Anarchy: Floor 1, 2, 3: Realware & Fresco Floors
+#units_ComAndAnarchy2 - Story mission: Communnity & Anarchy: FLoor 4: Quasi Temple Floor
+#units_ManifestoElites - Story mission: Manifesto: Elite Troops
+#units_ManifestoPmc - Story mission: Manifesto: PMC Soldier
+#units_ManifestoDefence - Story mission: Manifesto: Final Floor
+#units_GhoulshipRegular - Story mission: Ship of Ghoul: Coreward Troops
+#units_GhoulShipPirates - Story mission: Ship of Ghoul: Unchained Belts Troops
+#units_GhoulShipDilthey - Story mission: Ship of Ghoul: Dilthey Troops
+#units_PoisonTrial - Story mission: Poison Trial: Teztclan Troops
+#units_CoverOps - Story mission: Covert Operation REALWARE VS ANCOM: Ancom Troops
+#units_Prison
+#units_Mine 
+#units_Industrial
+#units_Civilian
+#units_Military
+#units_Lab
+#units_SpaceStation
+#units_ColonyFarm
+#units_QuasimorphicTemple
+- TechLevel: Spawn unit's  tech level - tech level dictate their chance of appearance + their gears
+- UnitSize: range of size of spawn enemies per unit aka how much enemies this unit will spawn, example: "1 2" mean 1 or 2 enemies will be spawn
+- LeaderSpawn: leader's id of the unit and their chance to be choose, example: "elite1 0.5 elite2 0.5" mean 50 % chance for elite1 to appear
+- MobClasses: mob's id of the unit just like LeaderSpawn
+- AllowedFactions: factions that are allowed to have this unit in their pools
+- Weight: chance for this unit to spawn is (weight_of_this_unit/total_weight_from_all_units)
+- Points: unit poinnt to be deducted from unit spawn total points

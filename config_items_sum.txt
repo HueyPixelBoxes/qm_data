@@ -1,0 +1,197 @@
+//COMMON ATTRIBUTES
+- Id: melee weapon ids
+- Categories: contain unit's ids that will spawn with said weapon
+- TechLevel: tech level that spawn this weapon in enemies
+- Price: set trading price for said weapon, if empty, price are subject to market price
+- Weight: its weight in kg
+- InventoryWidthSize: tile size in inventory - max is 2 due to code limitations
+- ItemClass: class ids, list: 
+    Weapon
+    Ammo
+    Backpack
+    Vest
+    Armor
+    Helmet
+    Leggings
+    Boots
+    Drink
+    Alcohol
+    Food
+    Medpack
+    QuasiArtefact
+    Pills
+    Syringe
+    Dressing
+    Parts
+    RepairKit
+    MilitaryBarter
+    ScienceBarter
+    IndustrialBarter
+    ValuableBarter
+    Turret
+    Cyborg
+    Mine
+    QuasiPact
+    Grenade
+    ThrowableWeapon
+    Organ
+    QuasiOrgan
+    QuestItem
+    Data
+    Blueprint
+
+//WEAPON-ONLY ATTRIBUTES
+- WeaponClass: weapon class, range & melee: 
+    M: Knife, Club, Fist, Blade, Axe, Chainsaw 
+    R: Pistol, AssaultRifle, DiscThrower, Flamethrower, GrenadeLauncher, Harpoonthrower, HFG, Machinegun, MarksmanRifle, Minigun, Shotgun, Smg, Turret
+- WeaponSubClass: subclasses for weapon type at the bottom of weapon name, range & melee:
+    M: Default, Tool, Eletric
+    R: Firearm, Launcher, Rail, Coldgun, Eletric, Laser, Plasma, Quasi, Tool, Toxic
+- IsImplicit: boolean: TRUE: Weapon only by carried by entities other than player and cannot be dropped
+- RequiredAmmo: listed ammo's ids for this weapon and can be empty
+- OverrideAmmo: instead of using the inputted ammo's damagetype id , use their own - implicted_club for Hangover or implicted_chainblade for sawblade
+- DefaultAmmoId: default ammo's id, in melee is fill with damgetype exlusive to that weapon's class, in weapon with ammo it fill with ammo's id
+- Damage: min and max damage dealt plus crit modifier
+- Firemodes: lists of firemode' ids
+- MagazineCapacity: weapon maximum ammo capacity, 0 for melee and 999 for infinite ammo
+- ReloadDuration: AP cost of reloading weapons
+- ReloadOneClip: boolean, TRUE for tube-feed, reload one bullet per reload, FALSE for reload whole magazine
+- MaxDurability: maximum durability of weapons, lose a bit when use right parts and restore a bit when use repair kits
+- MinDurabilityAfterRepair: minimum durability of weapon after repair, cannot lose more durability past this limit, all is set to 0
+- Unbreakable: boolean, TRUE: this weapon cannot lose durability per shot, FALSE: this weapon does lose durability
+- RepairCategory: repair's category's ids, often named after their WeaponSubClass with exception of quasi weapon
+
+//MELEE
+- DurabilityLossOnThrow: melee weapon, upon thrown and hit enemies, will lose durability by this amount
+- ThrowRange: weapon's throw range, 0 for weapon that cannot be taken off and 5 tiles for all, is not affected by range modification from boudica
+- MeleeCanAmputate: what melee can amputate
+
+//RANGE
+- DefaultGrenadeId: default grenade's id for launcher
+- Range: range weapon's effective range, past this range weapon will not apply their special modifiers and lose damage & accuracy over tiles past range
+- MinRandomAmmoCount: when weapons spawn naturally, they will have MinRandomAmmoCount to MagazineCapacity ammon in their magazine, often is half of MagazineCapacity
+- SilencerShotChance: Shot has chance of not alerting neavrby enemies: 
+    0 for most
+    0.15 for laser/shock marksman rifle
+    0.25 for smg
+    0.5 for nail machinegun
+    0.8 for moon nailer, sbn EM assult, daydream's Spit 
+    0.9 for silenced pistol, rail guns and Gannix's blowpipes
+- AllowedGrenadeIds: valid grenade's ids: frag_grenade, qwasi_grenade, thermal_grenade, stun_grenade, hellfire_grenade
+- IsSelfCharge: does not use ammo, for Coreward's mining laser only, due to they use default ammo as battery but has to selfcharge to never ran out of ammo -> possible ammoless weapon with other projectile
+
+//WEARABLE-ONLY ATTRIBUTES - FOR ARMOR, BOOTS, LEGGINGS, HELMET, BACKPACK & VESTS
+- ArmorClass: body-slots armor only, armor class's ids
+- ArmorSubClass: body-slots armor only, armor subclass's ids - Default for human's and Quasi for Quasimorphs'
+- MaxDurability:  maximum durability of armors/wearable
+- MinDurabilityAfterRepair: minimum durability of wearable after repair, cannot lose more durability past this limit, all is set to 0
+- Unbreakable: boolean, TRUE: cannot lose durability, FALSE: does lose durability
+- RepairCategory: repair's category's ids
+
+//BACKPACK
+- Width: inventory's height
+- Height: inventory's height
+- DropChanceOnBroken: when at MinDurabilityAfterRepair, chance for backpacks to fall off players - 0.08 chance for all
+- AddServoArm: will add another weapon slot
+- TotalItemsWeightMult: multiplier for total inventory weights, often in float < 1
+- ReloadTurnBonus: weapon in servo slot will spend less AP reloading by this amount
+
+//VEST
+- SlotCapacity: capacity of vest slots
+- ReloadTurnBonus: ammo in vest slots will spend less AP reloading by this amount
+- DropChanceOnBroken: when at MinDurabilityAfterRepair, chance for backpacks to fall off players - 0.08 chance for all
+
+//HELMET
+- HideHair: boolean,  TRUE for helmet will not draw hair above this, FALSE for helmet will draw hair above
+
+////////APPLY TO ALL ITEMS BELOW
+////STACKABLE: AMMO, CONSUMABLE, FIX_BODYSLOT_MED, REPAIR, GENERAL_DEVICE, PLACEABLE_DEVICE, GRENADE, TRASH, EXPGAINER
+- MaxStack: stack limit for items
+////USAGABLE: CONSUMABLE, FIX_BODYSLOT_MED, REPAIR, GENERAL_DEVICE, PLACEABLE_DEVICE
+- MaxUsage: usage limit for items
+- UsageCost: how much does one use will take away from current use amounts
+
+//AMMO
+*Id: ammo id - implicted_{ammo} reserve for weapona with override ammo types (like Hangover, melees and quasi + igav)
+- BallisticType: projectile types: Ballistic for bullet, Ricochet for bouncing shots, Flame for Flamethrower, ToxicFlame for ToxicLauncher
+- Min/MaxAmmoAmount: when ammo spawn naturally, they will have MinAmmoAmount to MaxAmmoAmount in their stacks
+- AmmoType: ammo type - Bullets (9mm - pistol, SMG), Shells (shotgun), Medium (.42 - SMG), Heavy (7.97 - Rifle), SuperHeavy (12.7), BatteryCells, Bolts (nail), Gas (Gasoline), Toxic
+- DmgType: damage type ids
+- DmgCritChance: damage crit chance, float and < 1
+- AccuracyMult: accuracy multiplier, most are 1
+- DamageMult: damage multiplier
+- BulletCastsPerShot: amount of fragments per shot
+- Target/TileBurningChance: chance to set target and tiles on fire
+- TileToxicLiquidChance: chance to set tile on toxic puddles
+- PierceCreaturesChance: chance for shot to go through an enemy
+- ThrowBackChance: knockback chance per shot
+- StunChance: stun chance per shot - not used
+- StunDuration: stun duration if stunned - not used
+- ChanceToApply: chance to apply - not used
+- StatusDamage/ResistModifier: modifier to status damage or resist	
+
+//COMSUMABLE
+- GarbageItemId: item's ids discarded after used
+- StarvationValue: replenish calorie by this amount on use
+- HealthValue: heal by this amount on use
+- HealDuration: duration of healing
+- MaxHealthValue: increase max health of player by this amount on use
+- QmorphosValue: increase q morphos value by this amount on use
+- PainValue: increase pain value by this amount on use
+- PainDuration: duration of pain-relate effect of items
+- FixAllWoundsChance: 1 to fix all wounds, 0 to not fix all wounds
+- HealAllWoundsChance: 1 to heal all wounds, 0 to not heal all wounds
+- FixWeights: chance for wounds to be fixed, apply to medical items + pills to increase heal chance
+- Buffs: buff's ids + buff weight
+- EffectChance: effect's ids + effect weight
+- EffectProgression: effectprogression's ids + effect progression value, use for medicine that reduce infection, addiction and poison progrssion
+
+//FIX_BODYSLOT_MED
+- FixWeights: valid repairable wound'ids with their chance or repair
+- NatureTypes: nature types? species that can  be fixed - all rows has "cyborg human quasimorph"
+- HealthValue: heal player by this amount
+- QmorphosValue: raise q-morphos value when used by this amount
+- PainValue: raise pain value when used by this amount (most are < 0)
+- FixResolutionTurns: amount of turns repair will be done, fixed or not
+- EffectChance: effect's ids and their chance to apply to player
+- EffectProgression: effect's ids and their progression, used for items that reduce negative status effects
+
+//REPAIR
+- RepairCategories: repair category's ids
+- RestoreAmount: restore repaired items' durability bu this amount
+- MaxCapacity: < 0: reudce repaired items MaxDurability, > 0, restore repaired items MaxDurability
+
+//GENERAL_DEVICE
+- ShowConfirmBox: show confirm box if TRUE, else FALSE - example: break the pact item will show confirm box
+- UseEffect: give effect' ids when used
+- Duration: duration of UseEffect
+
+//PLACEABLE_DEVICE
+- TargetObjectId: deployed entity's ids
+- Explosion: for mines, explosion's ids
+- TurnsToActivation: turns for mines to primed
+
+//SKULL
+- PerkId: pact power's ids
+- CanBaronUse: can be used by or spawn with barons
+- Unbreakable: TRUE for cannot lose durability or burnt, FALSE for can lose durability and burnt
+
+//GRENADE
+- TurnsToExplode: how many turns for grenades to explode
+- RicochetTrajectory: will they ricochet off walls
+- Range: grenade thrown range
+- MaxUnder/OverthrowDistance: distance of inaccuracy, example: grenade is aim 5 tiles away, grenade can land 5 - 1 = 4 tiles away or 5 + 2 = 7 tiles away from thrower
+- IgnorePenaltyChance: chance to ignore MaxUnder/OverthrowDistance
+- Explosion: explosion's ids
+
+//TRASH - Trash, queset items, container and others
+- SubType: item's subtype - Resource, QuestItem, Container, BarterResource
+
+//DATADISK - ITEM CHIPS
+- UnlockType: item chips' unlock type: ProductionItem(Item chips) - Mercenary (Merc chips) - MercenaryClass (Class chips)
+- UnlockIds: item's ids that will be unlocked
+
+//EXPGAINER
+- ExpAmount: experience gain amount on use - most are 300 points
+- ExpPerkCount: max perks affected by using EXPGAINER - most are 3
+- AllowedPerkIds: list of affected perk's ids

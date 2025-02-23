@@ -1,0 +1,255 @@
+//MAGNUM DEFAULT PARAMETERS
+- Parameter: magnum's default parameters for different funtions
+    //Navigation 1st power - Monitoring
+    NDSkillChargeBonus
+    NDCooldownTimeReduce
+    NDRewardPointPerFloor
+    NDReputationBonus
+    //Navigation 2nd power - Terrain Decoder
+    HWSCScanFloorBonus
+    HWSCEnemyFloorBonus
+    HWSCItemDropScanFloorBonus
+    HWSCItemLevelDropBonus
+    //Engineering 1st power - Weapon Workshop
+    WPSTWeaponUpgradeSpeed
+    WPSTUpgradeWeaponCostReduce
+    WPSTUpgradeMoreWeapon
+    WPSTAdditGradeUpgrade
+    //Engineering 2nd power - Armor Workshop
+    ARMSTUpgradeMoreArmors
+    ARMSTUpgradeSpeed
+    ARMSTUpgradeArmorCostReduce
+    ARMSTAdditGrade
+    // Supply 1st power - Production Line
+    PRLNProduceSpeed
+    PRLNItemSlotCount
+    PRLNQueueSlotCount
+    // Suppply 2nd power - Resource Extraction/Scavenger
+    PUBGBonusResources
+    PUBGBonusFoodMeds
+    PUBGBonusAmmoGrenades
+    PUBGBonusArmorWeapons
+    //Supply 3rd power - Disassembly
+    StoreConstructorDepartment
+    STCONDisassemblyItemsSpeed
+    STCONMoreCompsOnDisassembly
+    STCONAdditMDCompOnDisassembly
+    // Cloning 1st power - Clone Enhancement
+    GNEDOperatorsToUpgrade
+    GNEDOperatorUpgradeSpeed
+    // Research 1st power - Memory Improvement
+    MEMDFfClassesToModify
+    MEMDFClassUpgradeSpeed
+    MEMDFPerkCountToSwitch
+    // Cloning 3rd power - Hierarchy/Ranking
+    BTEXCRankUpgradeLimit
+    // Cloning 2nd power - Training
+    TRCNOperatorsCountLimit
+    TRCNPerkUpgradeLevel
+    // Hangar 3rd power - Barter/Trading shuttle
+    TRDSHShuttleMoveSpeed
+    TRDSHShuttleRestoreSpeed
+    // Hangar 2nd power - Shuttle
+    CGSHSTShuttleInventorySize
+    // Hanger 1st power - Evacutation/Droppod Capsule
+    AUCAPChargesCount
+    AUCAPCapsuleInventorySize
+    AUCAPCapsuleRestoreSpeed
+- Value: Valye assign to parameters, in interger
+
+//MAGNUM PERKS DISPLAYER
+- Id: 
+    // MONITOR
+    news_department - department id
+    nd_charge_bonus
+    nd_cooldown_time_reduce
+    nd_reward_points_per_floor
+    nd_reputation_bonus
+    nd_reputation_bonus_2
+    nd_cooldown_time_reduce_2
+    nd_charge_bonus_2
+    nd_reward_points_per_floor_2
+    // FLOOR SCANNER
+    hyperwave_scanner_department - department id
+    hwsc_scan_floor_bonus
+    hwsc_enemy_floor_bonus
+    hwsc_itemdrop_scanfloor_bonus
+    hwsc_enemy_floor_bonus_2
+    hwsc_itemdrop_scanfloor_bonus_2
+    hwsc_scan_floor_bonus_2
+    hwsc_item_tlevel_drop_bonus
+    hwsc_item_tlevel_drop_bonus_2
+    // PROXY CORP
+    proxycorp_department - department id
+    prco_corp_inventory
+    prco_corp_strategy
+    prco_gain_techlevel_bonus
+    prco_item_prodspeed_bonus
+    // WEAPON STATION
+    weaponstation_department - department id
+    wpst_weapon_upgrade_speed
+    wpst_upg_weapon_cost_reduce
+    wpst_upg_more_weapons
+    wpst_upg_weapon_cost_reduce_2
+    wpst_upg_more_weapons_2
+    wpst_weapon_upgrade_speed_2
+    wpst_weapon_upgrade_speed_3
+    wpst_addit_grade_upgrade
+    // ARMOR STATION
+    armorstation_department - department id
+    armst_upg_more_armors
+    armst_armor_upgrade_speed
+    armst_armor_upgrade_speed_2
+    armst_armor_upgrade_speed_3
+    armst_upg_armor_cost_reduce
+    armst_upg_more_armors_2
+    armst_upg_armor_cost_reduce_2
+    armst_addit_grade_upgrade
+    // AUGMENT STATION
+    augmentstation_department - department id
+    augst_augmenic_upgrade_speed
+    augst_upg_augmenic_cost_reduce
+    augst_addit_grade_upgrade
+    augst_upg_more_augmentics
+    // PRODUCTION LINE
+    prodline_department - department id
+    prln_magnum_produce_speed
+    prln_magnum_produce_speed_2
+    prln_produce_item_slot_count
+    prln_produce_queue_slot_count
+    prln_produce_item_slot_count_2
+    prln_magnum_produce_speed_3
+    prln_produce_item_slot_count_3
+    prln_magnum_produce_speed_4
+    // PUBG/SCAVENGER
+    purge_brigade_department - department id
+    pubg_bonus_resources
+    pubg_bonus_food_meds
+    pubg_bonus_ammo_grenades
+    pubg_bonus_armors_weapons
+    pubg_bonus_food_meds_2
+    pubg_bonus_resources_2
+    pubg_bonus_armors_weapons_2
+    pubg_bonus_ammo_grenades_2
+    // DISASSEMBLY
+    store_constructor_department - department id
+    stcon_disassembly_items_speed
+    stcon_more_comps_on_disasm
+    stcon_disassembly_items_speed_2
+    stcon_more_comps_on_disasm_2
+    stcon_addit_rnd_comp_on_disasm
+    // MEMORY/CLASS UPGRADE
+    memdefrag_department - department id
+    memdf_classes_to_modify
+    memdf_class_upgrade_speed
+    memdf_class_upgrade_speed_2
+    memdf_perks_count_to_switch
+    memdf_perks_count_to_switch_2
+    memdf_classes_to_modify_2
+    memdf_perks_count_to_switch_3
+    memdf_classes_to_modify_3
+    // MORPHO ANALYSIS - PACT MODIFIER
+    morphanal_department - department id
+    moranl_pacts_to_modify
+    moranl_pact_upgrade_speed
+    moranl_pact_upgrade_speed_2
+    moranl_pacts_to_modify_2
+    moranl_pacts_to_modify_3
+    moranl_pact_addit_props
+    // BRAMFATURA ENGINE
+    bramengine_department - department id
+    breng_reduce_reload_duration
+    breng_reduce_reload_duration_2
+    breng_reduce_reload_duration_3
+    breng_reduce_reload_duration_4
+    // AUTONOMOUS CAPSULE - DROP POD
+    autonomcapsule_department - department id
+    aucap_capsule_inventory_size
+    aucap_capsule_restore_speed
+    aucap_capsule_inventory_size_2
+    aucap_capsule_inventory_size_3
+    aucap_capsule_restore_speed_2
+    aucap_capsule_charges_count
+    // SHUTTLE CARGO
+    cargoshuttle_department - department id
+    cgsht_shuttle_inventory_size
+    cgsht_shuttle_inventory_size_2
+    // TRADING SHUTTLE
+    tradeshuttle_department - department id
+    trdsh_shuttle_move_speed
+    trdsh_value_of_shuttle_items
+    trdsh_shuttle_restore_speed
+    trdsh_shuttle_move_speed_2
+    trdsh_shuttle_restore_speed_2
+    trdsh_value_of_shuttle_items_2
+    trdsh_shuttle_move_speed_3
+    // GENOME/MERCENARY UPGRADE
+    genomeeditor_department - department id
+    gned_operator_upgrade_speed
+    gned_operators_to_upgrade
+    gned_operator_upgrade_speed_2
+    gned_operators_to_upgrade_2
+    gned_operator_upgrade_speed_3
+    gned_operators_to_upgrade_3
+    gned_operator_upgrade_speed_4
+    gned_operators_to_upgrade_4
+    // TRAINING UPGRADE
+    trainingcenter_department - department id
+    trcn_operators_count_limit
+    trcn_operators_count_limit_2
+    trcn_perk_upgrade_level_limit
+    trcn_perk_upgrade_level_limit_2
+    // RANK UPGRADE
+    battleexpcond_department - department id
+    btexc_rank_uprade_limit
+    btexc_rank_uprade_limit_2
+    btexc_rank_uprade_limit_3
+    btexc_kill_count_to_ugprade
+    btexc_kill_count_to_ugprade_2
+- Enabled: TRUE is perks is enabled (Augenment, Proxy Corp, Pact edit and engine is not upgradable)
+- ModuleId: id of the module the respective nodes are in: navigation, engineer, supply, research, hangar, cloning
+- DepartmentId: ids of the department for respecitve nodes, check Id columns above
+- IsDepartment: TRUE if id is department Id, see above
+- PositionInGraph: 	position of the perks/nodes in technology tree
+- Parents: perks/nodes that are connected before this one
+- Modifiers: what parameters will be modifier and their modification value
+- UpgradePrice: price to update department or purchase perks/nodes, is a list of required item's ids 
+
+//MAGNUM PROJECT PARAMETERS - FOR ENGINEERING, RESEARCH AND CLONING - WEAPON, ARMRO, MERC, CLASS
+- Id: modifier's ids
+- ParameterNam: name of the parameter:
+    // WEAPONS
+    Damage
+    MaxDurability
+    BonusAccuracy
+    BonusScatterAngle
+    Weight
+    ReloadDuration
+    MagazineCapacity
+    SpecialAbility
+    // ARMOR
+    ResistSheet
+    // MERC
+    Health
+    PainThresholdLimit
+    StarvationLimit
+    TalentPerkId
+    Dodge
+    Los
+    RangeAccuracy
+    MeleeAccuracy
+    MeleeDamage
+    // CLASS
+    PerkIds
+- ParameterType: Types of parameters, either exclusive to modifying's types (RangeWeaponTrait) or just data types (Weight: Float)
+- ProjectType: Types of projecct: RangeWeapon, MeleeWeapon, Helmet, Armor, Leggings, Boots, Mercenary, MercenaryClass
+- ViewType: Display types: Damage, Angle, Percent, Interger, Float0_0, None
+- MinValue:	minimum value for modification
+- MaxValue:	maximum value for modification
+- Step: incrementing value
+- TooltipTag: tags for icons of the project parameters
+
+//MAGNUM PROJECT PRICE
+- ProjectType: project types
+- ItemsGrades: a list of item's id and their respective grade will the item will be included in: example: for range, weapon part will be use from grade 1 until the project reach grade 3, then springs will be included along parts and so on
+- ModifyLevelLimit: level limits of project

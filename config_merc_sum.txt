@@ -1,0 +1,44 @@
+// MERCENARY PROFILES
+- Id: mercenary id
+- ModifyStartCost: starting cost for modification in integer
+- ModifyStep: cost for modification steps in float
+- ModifyLevelLimit: level limit of modification
+- Health: merc health
+- ResistSheet: resistance's ids and their value
+- WoundSlots: default body slot's ids
+- MeleeDamage: starting melee damage of merc
+- MeleeAccuracy: starting melee accuracy of merc
+- RangeAccuracy: starting range accuracy of merc
+- ReceiveAmputationChance: chance to get wounds on hit
+- ReceiveWoundChanceMult: ReceiveWoundChance multiplier
+- AttackWoundChanceMult: on attack others, chance to inflict wounds
+- Dodge: base dodge chance
+- Los: base max seeing distance
+- StarvationLimit: calorie limit of merc
+- PainThresholdLimit: maxmum pain of a merc, merc will lose one of their AP when current pain level past pain threshold
+- PainThresholdRegen: pain level loss when not hurt
+- TalentPerkId: merc's talent ids
+- ActorId: entity ids - between human_male/female
+- SkinIndex: skin index for skin color
+- HairType: empty for bald, hair1, 2, 3 for different hairtype
+- HairColorHex: hair color in RGB hex code
+- VoiceBank: ids for player voice bank
+- Immunity: Merc immunity, empty?
+- CreatureClass: createclass's ids - Human
+
+// MERCENARY CLASSES
+- Id: class's ids
+- ModifyStartCost: starting modification costs in integer
+- ModifyStep: cost for modification steps in float
+- PerkIds: perk's ids
+
+// PERKS - INCLUDING PACT POWER, RANK AND TALENT
+- Id: perk's ids, incuding different level of perks
+- PerkType: perk types: Talent (merc's talent), Trigger, Passive, Rank (ranking), Ultimate (pacts)
+- LevelUpActionType: type of actions that will level up perks
+- ActiveWeaponClassLimit: only weapon of this class will upgrade the perk when fired
+- ActiveWeaponSubClassLimit: only weapon of this subclass will upgrade the perk when fired
+- ExpPointsPerAction: experience points per actions
+- ExpToLevelUp: how much exp to level up
+- NextPerkId: next level of the perks, only for power that can level up
+- Parameters: parameters that perks can modify

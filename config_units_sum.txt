@@ -1,0 +1,99 @@
+#bodytypes																															
+Id: creature's id, from human to robots to quasi
+ActorId: actor's id
+CreatureClass: creature classes: Human, Quasimorph, Cyborg, Fauna, Illusion
+Eccolapse: TRUE if can be ecolapsed into Quasimorph
+MutateBodyTypeId: possessed's id for Human
+Health: base health
+PainThresholdLimit: base pain limit
+PainThresholdRegen: base pain relieve steps value
+MeleeDamage: base melee damage
+ResistSheet: base resistance
+WoundSlots: body slots
+BaseActionPoints: base AP
+MeleeAccuracy: base melee accuracy
+RangeAccuracy: base range accuracy
+Dodge: dodge percent
+MeleeThrowbackChance: base melee knockback chance
+ReceiveAmputationChance: base receive amputation chance multiplier
+ReceiveWoundChanceMult: base receive wound chance multiplier
+AttackWoundChanceMult: chance to inflict wound multiplier
+QuazimorphosisReward: bonus value apply to the body type when quasimorphosis rise
+ScaleQuasimorphStats: body stat scale with quasimorphosis if TRUE
+IgnoreThrowback: cannot be knock back
+HasInventoryWeaponSlots: has inventory slots
+HasInventoryEquipmentSlots: has vest slots
+DeathExplosionRadius: explosion on death radius
+DeathExplosionDamageType: explosion on death damage type
+DeathExplosionDamage: explosion on death damage dealt
+Immunity: body immunity - cannot take damage from immuned damage type
+Immobile: do not move
+CanFly: can fly
+HairTypesList: list of hair type ids
+HairColorsList: list of color in hexadecimal color codes
+
+#mobclasses																															
+Id: mob class id
+BodyTypes: body type id
+PortraitId: portrait id
+VoiceBank: voice bank id
+AiPresetId: ai preset id
+ItemCategoriesWhitelist: item category's id that is to spawn with the mob
+ItemConditionPercent: minimum and maximum percentage of spawn equipments' durability
+PrimaryWeapon: weapon on primary hands and their weight
+SecondaryWeapon: weapon on other hands and their weight
+Head: armor category id and their weight
+Armor: armor category id and their weight
+Leggings: armor category id and their weight
+Boots: armor category id and their weight
+AdditAmmo: max and min amount of additional ammo in inventory
+AdditItemCount: max and min amount of additional items in inventory
+AdditItemClasses: item category ids and their weight
+GrantedItems: item id that must be presented in the mob class
+Los: line of sight distance
+HealthMod: health modification
+PainLimitMod: pain limit modification
+PainRegenMod: pain relief over time modification
+MeleeDamageMod: melee damage modification
+ResistMod: resistance modification
+MeleeAccuracyMod: melee accuracy modification
+RangeAccuracyMod: range accuracy modification
+DodgeMod: dodge modification
+ActionPointsMod: AP modification
+MutateBonusChance: additional chance to be possessed
+AdditImmunity: default immunity must be presented in mob
+AllowEccolapse: can be ecolapsed if TRUE
+AllowMutate: can be possessed if TRUE
+DefaultItemFactionTag: default item in mob tag - for quasimorph
+
+#ai-presets																															
+Id: ai preset id
+ShootChance: chance to shoot on sight
+GrenadeChance: chnace to throw grenades
+UltimateChance: chance to use pacts
+HuntMemory: how many tile can mob hunt players
+SomniaBehave: behaviour of enemies in somnia phase: Ignore, Sleep, EcolapseBlack
+EndlessHuntBehave: Hunt: will never stop hunting, Ignore: will not hunt
+CoverBehave: TakeCover: will go to cover if near one, None: do not find cover
+IgnoreAllies: TRUE if ignore allies and attack through them
+CanBeTraitor: TRUE if can attack each others
+CanOpenDoor: TRUE if can open door
+CanMeleeAttackDoor: TRUE if can melee door
+AvoidMineChance: chance to avoid mines
+AvoidDangerTerrainChances: chance to avoid danger tiles, different weight on fire and poison
+Min/MaxMigratePause: minimal and maximum pause time between patrol
+Min/MaxMigrateDistance: minimal and maximum patrol distance
+IdleFollowDistance: distance for enemies during idle to follow player
+MigrateFollowDistance: distance for enemies during patrol to follow player
+FollowLatency: follow delay
+BestFiremodeChance:	chance to choosen best fire mode								
+
+#actors	
+Id: actor ids
+Gender: actor gender: Male, Female, None
+
+#voicebanks
+Id: voice bank id
+
+#portraits
+Id: portrait id
