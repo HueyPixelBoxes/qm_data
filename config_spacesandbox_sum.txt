@@ -1,0 +1,170 @@
+//FACTIONS
+- Id: ids for faction
+    AnCom
+    Tezctlan
+    XiomaraMasks
+    SBN
+    RealWare
+    DaydreamChems
+    PlanetBridge
+    Grasshopper
+    Sunlight
+    FrancheComte
+    ChurchRevelation
+    CoreWard
+    CResistance
+    Dilthey
+    UnchainedBelt
+    SheduThousand
+    EipschwitzHead
+    Unknown
+    Magnum
+- Enabled: starting boolean state, TRUE mean it exist in game
+- InitialPower: iniital power for factions
+- InitialTechLevelL initial tech level
+- InitialPlayerReputation: starting reputation with Magnum
+- FactionType: faction type, either corp or special factions
+- AllianceType: Alliance type, eitherhexarch, corp or special factions
+- SpawnMissionChance: chance to spawn missions
+- Strategies: different modes for factions with their weight, distribute between Expansion, Defense, Scouting
+- StrategyDurationMinHours: how long until strategy chance at least
+- StrategyDurationMaxHours: how long until strategy chance at most
+- Guard/AgentCreatureId: unit's ids for guard and agent of factions
+- MinQmorphosWhenVictims: minimum q-morphos level when faction are attacked
+- UseGeneralRewards: take reward item's from same pool as corp, for quasi factions
+- PortraitsByStrategy: chance portrait by strategy
+- ItemDropCategories: catgories of dropped items which are named after factions
+
+//ALLIANCES
+- Id: allliance ids
+- AllowStrife: TRUE: will factions in the alliances attack each other 
+- TradeFactionLists: list of ally factions
+
+//SPACE OBJECTS
+- Id: ids for planets & satelites 
+- Available: TRUE if planet avaible for travel and do missions in it, aka Enabled
+- SpaceObjectType: space object types: Planet or Satelite
+- ParentId: planet's ids the satelite follow
+- RootNeighbourIndex: the order of planet from Sun to outer rims
+- ItemDropCategories: category of item drops in the location
+- ForbiddenItemClasses: item classes that cannot be dropped
+
+//STATIONS
+- Id: station's ids
+- SpaceObjectId: where the station is, denote by space object ids (see SPACE OBJECTS)
+- InitialOwnerFactionId: starting owner faction of the station, denote with faction's ids
+- StationType: type of industry station focus on, see below
+- SpaceObjectItemDropPercent: percentage of item dropped depend on planet and satelite the station reside
+- Power: station's power
+- PowerGain: station's power gain
+- TechLevelGain: station tech level gain
+- UncapturableByDefault: by default, cannot be conquered and turn to different factions' stations
+- CaptureChance: chance for this station to be conquered
+- MissionTemplateId: template id for mission tilemap & layout
+- MissionNameTemplateId: ids of name of mission template
+- BramfaturaId: id of bramfatura
+- InitialPopulation: starting population amounts 
+- MaxPopulation: possible maximum population
+
+//STATION TYPES
+- Id: id of station type
+    Industrial
+    Lab
+    Mine
+    Military
+    Prison
+    ColonyFarm
+    Civilian
+    QuasimorphicTemple
+    SpaceStation
+- ItemDropCategories: categories of possible dropped loots
+
+//PROC MISSIONS
+- ProcMissionType: 
+    RaiderCapture(Conquest)
+    Elimination
+    Sabotage
+    Espionage
+    Ritual
+    Robbery
+    Defense
+    Infiltration
+    Control
+    Escort
+    Counterattack
+    Security
+- WeightsByStrategy: chance for the missison type to be spawn in each strategy
+- ReverseMissionType: opposite mission type ids
+- PowerCost: cost for this mission to spawn
+- MinObjectivesCount: minimum objectives spawn
+- MaxObjectivesCount: maximum objectives spawn
+- CapturesStationOnWin: TRUE: will turn the owner of the station to victor faction
+- LosesStationOnLose: TRUE: will turn the owner of the station to victor faction
+- StationPopulationDebuffRange: range of population will be reduce to loser station if mission success
+- StationPowerDebuff: power will be reduced to loser station if mission success
+- PowerBuff: power buff to victor
+- PowerDebuff: power debuff to loser
+- StationTechLevelDebuff: station tech level debuff to loser's station
+- TechLevelBuff: tech level buff to victor
+- TechLevelDebuff: tech level debuff to loser
+- NewsTypeStart: id of news to announce when mission spawn
+- NewsTypeEndGood: ids of news to annount when mission success
+- NewsTypeEndFail: ids of news to annount when mission fail
+
+//PROC MISSION TEMPLATES
+- Id: mission template ids
+- StartFromSpaceship: will show mission intro with flying shuttle 
+- GridWidth: mission grid width
+- GridHeight: mission grid height
+- PresetFolders: name of preset folders
+- GlobalLight: global light in hexadecimal color code
+- GlobalLightIntensity: light intensity
+- SurfaceTilsets: tilesets name in 1st floor
+- SurfaceTilsetsAlt: alternative tilesets name in 1st floor
+- CornerWallTilesets: corner wall tilesets
+- CornerWallTilesetsAlt: alternative corner wall tilesets
+- FillType: type of filling inside wall tiles
+- FillTypeAlt: alternative type of filling inside wall tiles
+
+//STORY MISSIONS
+- Id: mission ids
+- StationId: where mission will be spawn - station's id
+- Beneficiary/VictimFactionId: victor and loser faction ids of the mission
+- PrizeItems: rewards for complete mission
+- WinCondition: mission's objective
+- WinConditionParameters: mission's objectives parameters:
+    for KillAllPercent: 1 = 100% of enemies
+    for KillObstacle & ItemInInventoryId: name of objectives & name of extracted items respectively
+    for Custom: values is mostly set to 1 
+- MinTechLevel: minimum tech level for spawn enemies 
+- UseBiomeDropLists: TRUE if missions use tileset of the biome
+- ItemsPointsByStages: dropped item points per stage: format is "stage1 {points_in_stage1} stage2 {points_in_stage2}...etc"
+- MonsterPointsByStages: monster spawn points per stage, format like ItemsPointsByStages
+- ItemsRequirement: requried item ids to enter the mission - case such as phase bombs for Mars missions and EMP burner for Realware vs Ancom
+
+//TILESET TRANSFORM - LOOK AT EXPIRE ITEMS AS EXAMPLE
+- Id: tile ids
+- Health: tile health
+- Armor: shot fire into this tile must have damage larger than armor value to deplete the tile health
+- TilesetToMutateName:	what tileset will transform into when their health is 0
+
+//MISSION OBJECTIVES
+- BeneficiaryFactionType: faction type ids that wil benefit from mission
+- VictimFactionType: faction type ids that wil benefit from mission
+- ValidProcMissionTypes: list of valid spawn mission types
+- MonsterVariants: list of spawn enemies variants
+- ItemVariants: list of spawn objective's ids to extract
+- ObstacleVariants:	list of spawn obstacle's ids to destroy
+
+//TECH LEVELS
+- TechLevel: level of tech for faction, from 1 to 10
+- ExperienceToLevelUp: EXP point to level up tech
+- MaxMissionsCount: for each tech level, max missions active
+
+//PRIZES BY RATINGS
+- ProcMissionType: mission type's id
+- DifficultyRating: skull nunmber from 1 to 5, denote mission difficulty
+- MinPrizePoints: minimum reward points
+- MaxPrizePoints: maximum reward points
+- PowerToPrizePointsMult: power to reward multiplier, set to 0.1 and used to add more rewards depend on faction power
+- PowerToMonsterPointsMult: power to enemies deploy points multiplier, set to 0.1 in most and 0.25 to Control & Defense missions

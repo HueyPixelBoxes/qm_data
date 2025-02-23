@@ -1,0 +1,66 @@
+PROGRESSION DIFFICULTY
+For adjusting mission if player enabled difficulty curve option
+- CompletedMissionNumber: number of completed mission so that the lesser missions you did, the easier for player to do missions.
+- MonsterPoints: Monster point to spawn in a mission, less point in earlier missions
+- ItemPoints: Item point to spawn in a mission, less point in earlier missions
+- PlayerDodgeBonus: give player more dodge chance in earlier missions
+- MaxRoomsPerFloor: limit of rooms per floor a mission (-1 means no limit)
+- MaxCreaturesGroupSize: limit of creatures per group (-1 means no limit)
+
+MISSION DIFFICULTY
+- DifficultyRating: Number of skulls in a mission, mostly dictate number of floors
+- MonsterPointsPerStage: monster points per floor to spawn enemies
+- ItemPointsPerStage:item points per floor to spawn items in boxes and floor
+- MinStages: minimum number of floors in missions
+- MaxStages: maximum number of floor in missions
+- MinRooms: minimum rooms per floor
+- MaxRooms: maximum rooms per floor
+- MinCorridors: minimum corridors per floor
+- MaxCorridors: maximum corridors per floor
+
+DIFFICULTY SETTINGS
+- Id: tag for difficulty option
+- Type: data + display type, categories into
++ Number-Float:
+    EnemyHealth
+    ExpMult
+    FactionGrowthSpeed
+    FactionReputation
+    MissionRewardPoints
+    BarterValue
+    MonsterPoints
+    ItemPoints
+    EnemyDamageMult
+    EnemyResistance
+    QmorphLevelGrowth
+    QmorphStatsAffect
+    MagnumCraftingTime
++ Number-Int:
+    EnemyLos
+    EnemyActionPoint
+    StartingMercCount
+    StartingClassesCount
++ Toggle:
+    DeathGift: insurance package options
+    Autosave: autosave either after shuttle leave, exit elevator. Fail mission due to "termination" of mission will not reset from last autosave
+    LosePerks
+    LoseRank
+    RndMercsAtStart: randomized starting mercenary chips
+    RndClassesAtStart: randomized starting class chips
+    RndStartingEquip: randomized starting equipments
+    EquipRepairAfterMission
+    SmoothProgression: make earlier missions easier
+    Tutorial: start with tutorial
+    RndStartLocation: instead of start in phobos, start in anywhere
++ Dropdown: 
+    EvacRules: evacuation is possible after listed options is completed
+    RevivePenalty: penalty for clones' death
+    DropPenalty: penalty for stored loots in clone's inventory upon death
+    StartingEquip: starting equipments amount
+- MinValue/MaxValue: for Slider-type option, minimum & maximum value of slide
+- Options: for dropdown, possible options for mod
+- Page: which page this setting is: general, combat, sandbox
+- Customizable: is the option customizable? (most are TRUE)
+
+DIFFICULTY PRESETS - EASY - NORMAL - HARD
+Depend on presets, above parameters (1st column) will have its value (2nd+ column) changed according to its mode

@@ -1,0 +1,64 @@
+//EXPLOSION
+- Id: explosion's ids
+- Parameters.VisualExplosion: TRUE for displaying explosion when in contact
+- Parameters.Radius: explosion radius
+- Parameters.GainDmgToCreature: deal damage to creatures on radius
+- Parameters.GainDmgToLocation: deal damage to locations on radius
+- Parameters.GainDmgToMonolith: for phase bomb only, deal damage to Ur monolith on radius
+- Parameters.Damage: dasmage value of explosion
+- Parameters.DamageType: damage type of explosion
+- Parameters.WoundChance: chance to create wounds on explosion
+- Parameters.Throwback: TRUE if explosion knock back creature
+- Parameters.ThrowbackChance: chance to knock back creatures on explosion
+- Parameters.ThrowbackDependOnRadius: all are FALSE, FALSE if throwback does not depend on radius
+### STUN GRENADE
+- Parameters.Stun: TRUE for stun grenade 
+- Parameters.StunChance: on explosion, chance to stun
+- Parameters.StunDuration: stun duration in turns
+- Parameters.StunDependOnRadius: TRUE for stun grenade, stun depend on radius
+### GRENADE THAT CAN PRODUCE FIRE
+- Parameters.PropagateFire: TRUE if explosion create fire
+- Parameters.PropagateFireChance: fire create chance
+- Parameters.LargeFireChance: create big fire tile chance
+- Parameters.FireDependOnRadius: TRUE if explosion create fire depend on radius
+### TOXIC, FIRE GRENADE AND HEART
+- Parameters.PropagateLiquid: create liquid on explosion
+- Parameters.LiquidType: liquid type on explosion
+### NANO/PLASMA GRENADE
+- Parameters.Disintegrate: TRUE for plasma/nano grenade
+
+//FIREMODES
+- Id: fire mode's ids
+- AmmoPerShot: ammo consumption per shot
+- WeaponCastsCount: Number of attacks/bullets fired
+- RequiredAllAmmoToShot: TRUE if fire mode need all ammo in magazine
+- Accuracy: fire mode accuracy modifier
+- DamageMult: fire mode damage multiplier
+- ScatterAngle: fire mode scatter angle
+- DelayInSecsBetweenShots: delay between attacks/shots in seconds
+
+//ITEM DISMANTLE/TRANSFORMATION
+- Id: item's ids
+- OutputItems: dismantled item's ids
+
+//WORKBENCH RECIPE/RECEIPTS
+- Id: empty?
+- AllowedWorkbenches: crafting station's ids
+- OutputItem: crafted item' ids
+- RequiredItems: required item's ids & the amount
+
+//ITEM RECEIPTS
+- Id: empty?
+- OutputItem: crafted item' ids
+- RequiredItems: required item's ids & the amount
+- ProduceTimeInHours: crafting time
+- ModifyStartCost: for Engineering modification, modification start costs
+- ModifyStep: incrementing value for modification
+- ModifyItemsGrades: costs for upgrade armors and weapons in Engineering modification
+- ModifyLevelLimit: Engineering modification level limit
+
+//ITEM EXPRIE
+- Id: item's id
+- ExpiresAfterHours: hours til item expire
+- ConvertedItemId: item's id after it expire
+

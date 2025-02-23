@@ -1,0 +1,30 @@
+//CONTAINER
+- Id: container's ids
+- StorageSize: storage tile size in "width height" configuration
+- DropItemsOnHealthChanged: TRUE then drop items on health depleted
+- UseForSpawnItems: TRUE for place to spawning items
+- AllowedItemClasses: not empty for TRUE rows, this column has lists of valid Itemclass' ids to be spawned inside containers
+- ManualDropId: ids for container that can spawn with items inside
+- ManualDropItemCount: "min max" number of items can be spawn inside
+
+//FACTION_{CORPID}_DROP_REWARD_EQUIPMENT
+//FACTION_{CORPID}__DROP_REWARD_CHIPS
+//FACTION_{CORPID}__DROP_REWARD_CONSUME
+- TechLevel: tech level that items can drop
+- ContentIds: ids of items that can drop
+- Weight: chance of items to drop
+- Points: item's drop price - when player are rewards, the reward will roll for an item to drop within the max reward's point, minus points of a picked item then do it all over until reward point is 0
+{CORPID} = AnCom, SBN, RealWare, Dilthey, DaydreamChems, PlanetBridge, Grasshopper, Sunlight, Franche-Comte, Coreward, Church of Revelation, CResistance, UnchainedBelt, Tezctlan, XiaomaraMasks, SheduThousand
+
+//ITEMDROP_{OBJECT}
+- Industrial: dropped item's ids for this location along with weights and points of drops, chance to spawn = (weight of this item/sum of all weight if there are other  items in the same location column)
+- Lab: same as above
+- Mine: same as above
+- Military: same as above
+- Prison: same as above
+- ColonyFarm: same as above
+- Civilian: same as above
+- QuasimorphicTemple: same as above
+- SpaceStation: same as above
+{OBJECT} = look inside ManualDropId lists: AZTEC ALTAR, TRASHBIN, BOOKCASE, SCIENCE, INDUSTRY, MEDICAL, AMMO, AMPLIFIER, SMALL WEAPON, BIG WEAPON, ELITE WEAPON
+ARMOR LAB, ARMOR MILITARY, ARMOR INDUSTRY, WATER BOX, TOXIC, TOILET, BLOODSINK, POPPY CONTAINER, RED BARREL, VENDING MACHINE

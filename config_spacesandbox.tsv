@@ -144,7 +144,8 @@ MoonTradeCenter	moon	SBN	Civilian	0.10	0	1	3	FALSE	0.2	moon2	mercurySurfaceLevel
 Candle	moon	RealWare	Civilian	0.10	0	2	3	TRUE	0.2	military1	mercurySurfaceLevels	Moon	17197	59300			
 AllianceArcology	moon	ChurchRevelation	Civilian	0.10	0	2	2	FALSE	0.2	moon2	mercurySurfaceLevels	Moon	11020	58000			
 Tycho	moon	PlanetBridge	SpaceStation	0.10	0	2	1	FALSE	0.2	moon1	mercurySurfaceLevels	Moon	20736	57600			
-ShuCenter	mars	SBN	Civilian	0.10	0	1	2	FALSE	0.2	lab1	mercurySurfaceLevels	Mars_Sleeping	34980	58300			
+ShuCenter
+	mars	SBN	Civilian	0.10	0	1	2	FALSE	0.2	lab1	mercurySurfaceLevels	Mars_Sleeping	34980	58300			
 RedTiangong	mars	CoreWard	SpaceStation	0.10	0	2	2	FALSE	0.2	mars5	mercurySurfaceLevels	Mars_Sleeping	14328	39800			
 RebusSkyCity	mars	AnCom	SpaceStation	0.10	0	2	3	FALSE	0.2	mars3	mercurySurfaceLevels	Mars_Sleeping	38760	64600			
 HISAres	mars	RealWare	SpaceStation	0.10	0	2	2	TRUE	0.2	orbit1	mercurySurfaceLevels	Mars_Sleeping	22440	44000			
@@ -452,4 +453,4 @@ Security	2	700	800	0.1	0.1
 Security	3	1000	1200	0.1	0.1												
 Security	4	1500	1800	0.1	0.1												
 Security	5	2200	2700	0.1	0.1												
-#end																	
+#end
