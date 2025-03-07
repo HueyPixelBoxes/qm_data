@@ -100,6 +100,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	venus_acolyte 1	bigpossessed_centaur 0.5 venus_acolyte 0.5 venus_slave 0.25		60	45
 	2 3	bigpossessed_centaur 1	bigpossessed_blob 1		60	45
 #end						
+						
 #units_CoverOps						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 3	elite_anc 1	elite_anc 1		60	45
@@ -150,7 +151,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	2 2	professor 1	swat 0.25 prisoner 0.25 testsubject 0.5	DaydreamChems	5	60
 1	1 3	prisoner 1	prisoner 1	UnchainedBelt	5	60
 1	1 3	psycho 1	prisoner 0.75 berserk 0.25	UnchainedBelt	5	60
-1	1 3	berserk 1	prisoner 0.5 berserk 0.5	UnchainedBelt	5	60
+1	1 3	soldier 1	prisoner 0.5 berserk 0.5	UnchainedBelt	5	60
 1	1 3	bruiser 1	bruiser 0.5 berserk 0.5	UnchainedBelt	5	60
 1	1 3	manager 1	prisoner 0.5 workerrobot 0.5	CoreWard	5	60
 1	1 3	scientist 1	workerrobot 0.55 prisoner 0.25	CoreWard	5	60
@@ -202,13 +203,13 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 2	2 3	professor 1	swat 0.25 prisoner 0.25 testsubject 0.5	DaydreamChems	10	90
 2	2 3	enforcer_pirates 1	psycho 1	UnchainedBelt	10	90
 2	2 3	enforcer_pirates 1	enforcer_pirates 0.3 prisoner 0.7	UnchainedBelt	10	90
-2	2 3	bruiser 1	psycho 0.5 berserk 0.5	UnchainedBelt	10	90
+2	2 3	bruiser 1	psycho 0.5 soldier 0.5	UnchainedBelt	10	90
 2	2 3	swat 1	soldier 0.45 workerrobot 0.55	CoreWard	10	90
 2	2 3	soldier 1	swat 0.5 prisoner 0.5	CoreWard	10	90
 2	2 3	pyromancer 1	workerrobot 0.5 prisoner 0.5	CoreWard	10	90
 2	2 3	warden 1	prisoner 0.5 warden 0.5	FrancheComte	10	90
 2	2 3	swat 1	prisoner 0.5 combatmedic 0.5	FrancheComte	10	90
-2	1 1	warrobot 1	warrobot 1	FrancheComte	10	90
+2	2 2	swat 1	warden 1	FrancheComte	10	90
 2	2 3	manager 1	agent 0.5 prisoner 0.5	Grasshopper	10	90
 2	2 3	agent 1	agent 0.5 prisoner 0.5	Grasshopper	10	90
 2	2 3	agent 1	agent 1	Grasshopper	10	90
@@ -224,7 +225,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 3	swat 1	swat 1	AnCom	15	120
 3	2 2	agent 1	turretbalistic 0.15 agent 0.85	AnCom	15	120
 3	2 2	grenadier 1	turretbalistic 1	RealWare	15	120
-3	2 2	soldier 1	warrobot 1	RealWare	15	120
+3	1 1	soldier 1	warrobot 1	RealWare	15	120
 3	1 1	professor 1	turretenergy 1	SBN	15	120
 3	2 2	pmc 1	agent 0.75 medic 0.25	SBN	15	120
 3	2 2	manager 1	recreationrobot 0.5 workerrobot 0.5 security 0.5	Dilthey	15	120
@@ -237,12 +238,12 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 2	soldier 1	mindcontrolled 1	ChurchRevelation	15	120
 3	2 2	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	15	120
 3	2 2	professor 1	testsubject 1	DaydreamChems	15	120
-3	2 5	enforcer_pirates 1	prisoner 1	UnchainedBelt	15	120
+3	2 3	enforcer_pirates 1	prisoner 1	UnchainedBelt	15	120
 3	1 1	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	15	120
 3	2 2	swat 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	15	120
 3	2 2	pyromancer 1	workerrobot 1	CoreWard	15	120
 3	2 2	heavypmc 1	warden 1	FrancheComte	15	120
-3	2 3	heavypmc 1	warrobot 1	FrancheComte	15	120
+3	1 1	heavypmc 1	warrobot 1	FrancheComte	15	120
 3	1 1	agent 1	turretfire 1	Grasshopper	15	120
 3	2 2	agent 1	agent 1	Grasshopper	15	120
 3	2 2	pmc 1	pmc 1	PlanetBridge	15	120
@@ -254,7 +255,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	3 3	swat 1	swat 1	AnCom	20	150
 4	3 3	agent 1	turretbalistic 0.15 agent 0.85	AnCom	20	150
 4	2 2	grenadier 1	turretbalistic 0.5 warrobot 0.5	RealWare	20	150
-4	3 3	soldier 1	warrobot 1	RealWare	20	150
+4	1 2	soldier 1	warrobot 1	RealWare	20	150
 4	1 1	professor 1	turretenergy 1	SBN	20	150
 4	3 3	pmc 1	agent 0.75 medic 0.25	SBN	20	150
 4	3 3	manager 1	recreationrobot 0.5 workerrobot 0.5 security 0.5	Dilthey	20	150
@@ -267,12 +268,12 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	3 3	soldier 1	sniper 1	ChurchRevelation	20	150
 4	3 3	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	20	150
 4	2 2	testsubject 1	testsubject 1	DaydreamChems	20	150
-4	2 3	enforcer_pirates 1	psycho 1	UnchainedBelt	20	150
+4	2 3	enforcer_pirates 1	soldier 1	UnchainedBelt	20	150
 4	1 1	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	20	150
 4	2 2	pyromancer 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	20	150
 4	3 3	pyromancer 1	workerrobot 1	CoreWard	20	150
 4	3 3	heavypmc 1	heavypmc 1	FrancheComte	20	150
-4	2 3	heavypmc 1	warrobot 1	FrancheComte	20	150
+4	1 2	heavypmc 1	warrobot 1	FrancheComte	20	150
 4	2 2	agent 1	turretfire 1	Grasshopper	20	150
 4	2 2	agent 1	agent 0.9 turretfire 0.1	Grasshopper	20	150
 4	3 3	pmc 1	pmc 1	PlanetBridge	20	150
@@ -284,7 +285,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 3	swat 1	swat 1	AnCom	25	180
 5	2 3	agent 1	agent 1	AnCom	25	180
 5	2 2	grenadier 1	turretbalistic 0.5 warrobot 0.5	RealWare	25	180
-5	2 3	soldier 1	warrobot 1	RealWare	25	180
+5	2 2	soldier 1	warrobot 1	RealWare	25	180
 5	1 1	professor 1	turretenergy 1	SBN	25	180
 5	2 3	pmc 1	agent 0.75 medic 0.25	SBN	25	180
 5	2 3	manager 1	recreationrobot 0.5 workerrobot 0.5 security 0.5	Dilthey	25	180
@@ -314,7 +315,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 6	3 4	swat 1	swat 1	AnCom	30	210
 6	2 4	agent 1	agent 1	AnCom	30	210
 6	2 2	grenadier 1	turretbalistic 0.5 warrobot 0.5	RealWare	30	210
-6	3 3	soldier 1	warrobot 1	RealWare	30	210
+6	1 3	soldier 1	warrobot 1	RealWare	30	210
 6	1 1	professor 1	turretenergy 1	SBN	30	210
 6	3 3	pmc 1	agent 0.75 medic 0.25	SBN	30	210
 6	3 3	manager 1	recreationrobot 0.5 workerrobot 0.5 security 0.5	Dilthey	30	210
@@ -331,8 +332,8 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 6	2 2	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	30	210
 6	2 2	pyromancer 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	30	210
 6	3 3	pyromancer 1	swat 1	CoreWard	30	210
-6	3 3	heavypmc 1	heavypmc 0.5 warrobot 0.5	FrancheComte	30	210
-6	3 3	heavypmc 1	warrobot 1	FrancheComte	30	210
+6	3 3	heavypmc 1	heavypmc 0.5 warden 0.5	FrancheComte	30	210
+6	2 3	heavypmc 1	warrobot 1	FrancheComte	30	210
 6	3 4	agent 1	sniper 1	Grasshopper	30	210
 6	3 4	agent 1	agent 0.9 turretfire 0.1	Grasshopper	30	210
 6	3 3	pmc 1	pmc 1	PlanetBridge	30	210
@@ -344,7 +345,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 7	3 4	swat 1	swat 1	AnCom	35	240
 7	2 4	agent 1	agent 1	AnCom	35	240
 7	2 2	grenadier 1	turretbalistic 0.5 warrobot 0.5	RealWare	35	240
-7	3 3	soldier 1	warrobot 1	RealWare	35	240
+7	2 3	soldier 1	warrobot 1	RealWare	35	240
 7	1 1	professor 1	turretenergy 1	SBN	35	240
 7	3 3	pmc 1	agent 0.75 medic 0.25	SBN	35	240
 7	3 3	manager 1	recreationrobot 0.5 workerrobot 0.5 security 0.5	Dilthey	35	240
@@ -357,7 +358,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 7	3 3	soldier 1	sniper 1	ChurchRevelation	35	240
 7	3 3	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	35	240
 7	2 2	testsubject 1	testsubject 1	DaydreamChems	35	240
-7	2 3	enforcer_pirates 1	psycho 1	UnchainedBelt	35	240
+7	2 3	enforcer_pirates 1	soldier 1	UnchainedBelt	35	240
 7	2 2	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	35	240
 7	2 2	pyromancer 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	35	240
 7	3 3	pyromancer 1	soldier 1	CoreWard	35	240
@@ -457,7 +458,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	1 3	professor 1	medic 0.5 workerrobot 0.5	DaydreamChems	5	60
 1	2 2	scientist 1	workerrobot 0.25 testsubject 0.75	DaydreamChems	5	60
 1	2 2	professor 1	swat 0.25 workerrobot 0.25 testsubject 0.5	DaydreamChems	5	60
-1	1 3	miner 1	miner 1	UnchainedBelt	5	60
+1	1 3	soldier 1	miner 1	UnchainedBelt	5	60
 1	1 3	psycho 1	miner 0.75 berserk 0.25	UnchainedBelt	5	60
 1	1 3	berserk 1	miner 0.5 berserk 0.5	UnchainedBelt	5	60
 1	1 3	bruiser 1	bruiser 0.5 berserk 0.5	UnchainedBelt	5	60
@@ -510,14 +511,14 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 2	2 3	scientist 1	miner 0.25 testsubject 0.75	DaydreamChems	10	90
 2	2 3	professor 1	swat 0.25 miner 0.25 testsubject 0.5	DaydreamChems	10	90
 2	2 3	enforcer_pirates 1	psycho 1	UnchainedBelt	10	90
-2	2 3	enforcer_pirates 1	enforcer_pirates 0.3 miner 0.7	UnchainedBelt	10	90
+2	2 3	soldier 1	enforcer_pirates 0.3 miner 0.7	UnchainedBelt	10	90
 2	2 3	bruiser 1	psycho 0.5 berserk 0.5	UnchainedBelt	10	90
 2	2 3	swat 1	swat 0.45 workerrobot 0.55	CoreWard	10	90
 2	2 3	soldier 1	swat 0.5 miner 0.5	CoreWard	10	90
 2	2 3	pyromancer 1	workerrobot 0.5 miner 0.5	CoreWard	10	90
 2	2 3	warden 1	miner 0.5 warden 0.5	FrancheComte	10	90
 2	2 3	swat 1	miner 0.5 combatmedic 0.5	FrancheComte	10	90
-2	1 1	warrobot 1	warrobot 1	FrancheComte	10	90
+2	2 3	warden 1	swat 1	FrancheComte	10	90
 2	2 3	manager 1	agent 0.5 miner 0.5	Grasshopper	10	90
 2	2 3	agent 1	agent 0.5 miner 0.5	Grasshopper	10	90
 2	2 3	agent 1	agent 1	Grasshopper	10	90
@@ -533,7 +534,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 3	swat 1	swat 1	AnCom	15	120
 3	2 2	agent 1	turretbalistic 0.15 agent 0.85	AnCom	15	120
 3	2 2	grenadier 1	turretbalistic 1	RealWare	15	120
-3	2 2	soldier 1	warrobot 1	RealWare	15	120
+3	2 2	soldier 1	soldier 1	RealWare	15	120
 3	1 1	professor 1	turretenergy 1	SBN	15	120
 3	2 2	pmc 1	agent 0.75 medic 0.25	SBN	15	120
 3	2 2	manager 1	workerrobot 1	Dilthey	15	120
@@ -546,12 +547,12 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 2	soldier 1	mindcontrolled 1	ChurchRevelation	15	120
 3	2 2	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	15	120
 3	2 2	professor 1	testsubject 1	DaydreamChems	15	120
-3	2 5	enforcer_pirates 1	miner 1	UnchainedBelt	15	120
+3	2 3	enforcer_pirates 1	miner 1	UnchainedBelt	15	120
 3	1 1	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	15	120
 3	2 2	swat 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	15	120
 3	2 2	pyromancer 1	swat 1	CoreWard	15	120
 3	2 2	heavypmc 1	warden 1	FrancheComte	15	120
-3	2 3	heavypmc 1	warrobot 1	FrancheComte	15	120
+3	2 3	heavypmc 1	swat 1	FrancheComte	15	120
 3	1 1	agent 1	turretfire 1	Grasshopper	15	120
 3	2 2	agent 1	agent 1	Grasshopper	15	120
 3	2 2	pmc 1	pmc 1	PlanetBridge	15	120
@@ -563,7 +564,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	3 3	swat 1	swat 1	AnCom	20	150
 4	3 3	agent 1	turretbalistic 0.15 agent 0.85	AnCom	20	150
 4	2 2	grenadier 1	turretbalistic 0.5 warrobot 0.5	RealWare	20	150
-4	3 3	soldier 1	warrobot 1	RealWare	20	150
+4	3 3	soldier 1	soldier 1	RealWare	20	150
 4	1 1	professor 1	turretenergy 1	SBN	20	150
 4	3 3	pmc 1	agent 0.75 medic 0.25	SBN	20	150
 4	3 3	manager 1	workerrobot 1	Dilthey	20	150
@@ -577,11 +578,11 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	3 3	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	20	150
 4	2 2	testsubject 1	testsubject 1	DaydreamChems	20	150
 4	2 3	enforcer_pirates 1	psycho 1	UnchainedBelt	20	150
-4	1 1	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	20	150
+4	1 1	soldier 1	turretbalistic 1	UnchainedBelt	20	150
 4	2 2	pyromancer 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	20	150
 4	3 3	pyromancer 1	swat 1	CoreWard	20	150
 4	3 3	heavypmc 1	heavypmc 1	FrancheComte	20	150
-4	2 3	heavypmc 1	warrobot 1	FrancheComte	20	150
+4	2 3	heavypmc 1	swat 1	FrancheComte	20	150
 4	2 2	agent 1	turretfire 1	Grasshopper	20	150
 4	2 2	agent 1	agent 0.9 turretfire 0.1	Grasshopper	20	150
 4	3 3	pmc 1	pmc 1	PlanetBridge	20	150
@@ -592,7 +593,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	3 3	venus_jaguar_knight 1	venus_demon_cat 0.5 bigpossessed_blob 0.5	Tezctlan XiomaraMasks	20	150
 5	2 3	swat 1	swat 1	AnCom	25	180
 5	2 3	agent 1	agent 1	AnCom	25	180
-5	2 2	grenadier 1	turretbalistic 0.5 warrobot 0.5	RealWare	25	180
+5	1 2	grenadier 1	turretbalistic 0.5 warrobot 0.5	RealWare	25	180
 5	2 3	soldier 1	warrobot 1	RealWare	25	180
 5	1 1	professor 1	turretenergy 1	SBN	25	180
 5	2 3	pmc 1	agent 0.75 medic 0.25	SBN	25	180
@@ -610,8 +611,8 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 2	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	25	180
 5	2 2	pyromancer 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	25	180
 5	2 3	pyromancer 1	swat 1	CoreWard	25	180
-5	2 3	heavypmc 1	heavypmc 0.5 warrobot 0.5	FrancheComte	25	180
-5	2 3	heavypmc 1	warrobot 1	FrancheComte	25	180
+5	2 2	heavypmc 1	heavypmc 0.5 warrobot 0.5	FrancheComte	25	180
+5	1 1	heavypmc 1	warrobot 1	FrancheComte	25	180
 5	2 2	agent 1	turretfire 1	Grasshopper	25	180
 5	2 2	agent 1	agent 0.9 turretfire 0.1	Grasshopper	25	180
 5	2 3	pmc 1	pmc 1	PlanetBridge	25	180
@@ -623,7 +624,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 6	3 4	swat 1	swat 1	AnCom	30	210
 6	2 4	agent 1	agent 1	AnCom	30	210
 6	2 2	grenadier 1	turretbalistic 0.5 warrobot 0.5	RealWare	30	210
-6	3 3	soldier 1	warrobot 1	RealWare	30	210
+6	3 3	soldier 1	soldier 1	RealWare	30	210
 6	1 1	professor 1	turretenergy 1	SBN	30	210
 6	3 3	pmc 1	agent 0.75 medic 0.25	SBN	30	210
 6	3 3	manager 1	combatmedic 0.5 security 0.5	Dilthey	30	210
@@ -636,12 +637,12 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 6	3 3	soldier 1	sniper 1	ChurchRevelation	30	210
 6	3 3	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	30	210
 6	2 2	testsubject 1	testsubject 1	DaydreamChems	30	210
-6	3 3	enforcer_pirates 1	psycho 1	UnchainedBelt	30	210
+6	3 3	soldier 1	psycho 1	UnchainedBelt	30	210
 6	2 2	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	30	210
 6	2 2	pyromancer 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	30	210
 6	3 3	pyromancer 1	swat 1	CoreWard	30	210
 6	3 3	heavypmc 1	heavypmc 0.5 warrobot 0.5	FrancheComte	30	210
-6	3 3	heavypmc 1	warrobot 1	FrancheComte	30	210
+6	3 3	heavypmc 1	warden 1	FrancheComte	30	210
 6	3 4	agent 1	sniper 1	Grasshopper	30	210
 6	3 4	agent 1	agent 0.9 turretfire 0.1	Grasshopper	30	210
 6	3 3	pmc 1	pmc 1	PlanetBridge	30	210
@@ -653,7 +654,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 7	3 4	swat 1	swat 1	AnCom	35	240
 7	2 4	agent 1	agent 1	AnCom	35	240
 7	2 2	grenadier 1	turretbalistic 0.5 warrobot 0.5	RealWare	35	240
-7	3 3	soldier 1	warrobot 1	RealWare	35	240
+7	3 3	soldier 1	soldier 1	RealWare	35	240
 7	1 1	professor 1	turretenergy 1	SBN	35	240
 7	3 3	pmc 1	agent 0.75 medic 0.25	SBN	35	240
 7	3 3	manager 1	combatmedic 0.5 security 0.5	Dilthey	35	240
@@ -671,7 +672,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 7	2 2	pyromancer 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	35	240
 7	3 3	pyromancer 1	swat 1	CoreWard	35	240
 7	3 3	heavypmc 1	heavypmc 0.5 warrobot 0.5	FrancheComte	35	240
-7	2 3	heavypmc 1	warrobot 1	FrancheComte	35	240
+7	2 3	heavypmc 1	swat 1	FrancheComte	35	240
 7	3 4	agent 1	sniper 1	Grasshopper	35	240
 7	3 4	agent 1	agent 0.9 turretfire 0.1	Grasshopper	35	240
 7	3 3	pmc 1	pmc 1	PlanetBridge	35	240
@@ -765,7 +766,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	1 3	professor 1	medic 0.5 scientist 0.5	DaydreamChems	5	60
 1	2 2	scientist 1	scientist 0.25 testsubject 0.75	DaydreamChems	5	60
 1	2 2	professor 1	swat 0.25 scientist 0.25 testsubject 0.5	DaydreamChems	5	60
-1	1 3	bruiser 1	bruiser 1	UnchainedBelt	5	60
+1	1 3	soldier 1	bruiser 1	UnchainedBelt	5	60
 1	1 3	psycho 1	bruiser 0.75 berserk 0.25	UnchainedBelt	5	60
 1	1 3	berserk 1	soldier 0.5 berserk 0.5	UnchainedBelt	5	60
 1	1 3	bruiser 1	bruiser 0.5 berserk 0.5	UnchainedBelt	5	60
@@ -841,7 +842,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 3	swat 1	swat 1	AnCom	15	120
 3	2 2	agent 1	turretbalistic 0.15 agent 0.85	AnCom	15	120
 3	2 2	grenadier 1	turretbalistic 1	RealWare	15	120
-3	2 2	soldier 1	warrobot 1	RealWare	15	120
+3	2 2	soldier 1	soldier 1	RealWare	15	120
 3	1 1	professor 1	turretenergy 1	SBN	15	120
 3	2 2	pmc 1	agent 0.75 medic 0.25	SBN	15	120
 3	2 2	manager 1	combatmedic 0.5 security 0.5	Dilthey	15	120
@@ -854,7 +855,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 2	soldier 1	mindcontrolled 1	ChurchRevelation	15	120
 3	2 2	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	15	120
 3	2 2	professor 1	testsubject 1	DaydreamChems	15	120
-3	2 5	enforcer_pirates 1	psycho 1	UnchainedBelt	15	120
+3	2 3	enforcer_pirates 1	psycho 1	UnchainedBelt	15	120
 3	1 1	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	15	120
 3	2 2	swat 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	15	120
 3	2 2	pyromancer 1	swat 1	CoreWard	15	120
@@ -871,7 +872,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	3 3	swat 1	swat 1	AnCom	20	150
 4	3 3	agent 1	turretbalistic 0.15 agent 0.85	AnCom	20	150
 4	2 2	grenadier 1	turretbalistic 0.5 warrobot 0.5	RealWare	20	150
-4	3 3	soldier 1	warrobot 1	RealWare	20	150
+4	3 3	soldier 1	soldier 1	RealWare	20	150
 4	1 1	professor 1	turretenergy 1	SBN	20	150
 4	3 3	pmc 1	agent 0.75 medic 0.25	SBN	20	150
 4	3 3	manager 1	combatmedic 0.5 security 0.5	Dilthey	20	150
@@ -889,7 +890,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	2 2	pyromancer 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	20	150
 4	3 3	pyromancer 1	swat 1	CoreWard	20	150
 4	3 3	heavypmc 1	heavypmc 1	FrancheComte	20	150
-4	2 3	heavypmc 1	warrobot 1	FrancheComte	20	150
+4	2 3	heavypmc 1	swat 1	FrancheComte	20	150
 4	2 2	agent 1	turretfire 1	Grasshopper	20	150
 4	2 2	agent 1	agent 0.9 turretfire 0.1	Grasshopper	20	150
 4	3 3	pmc 1	pmc 1	PlanetBridge	20	150
@@ -914,7 +915,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 3	soldier 1	sniper 1	ChurchRevelation	25	180
 5	2 3	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	25	180
 5	2 2	testsubject 1	testsubject 1	DaydreamChems	25	180
-5	2 3	enforcer_pirates 1	psycho 1	UnchainedBelt	25	180
+5	2 3	enforcer_pirates 1	soldier 1	UnchainedBelt	25	180
 5	2 2	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	25	180
 5	2 2	pyromancer 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	25	180
 5	2 3	pyromancer 1	swat 1	CoreWard	25	180
@@ -944,7 +945,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 6	3 3	soldier 1	sniper 1	ChurchRevelation	30	210
 6	3 3	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	30	210
 6	2 2	testsubject 1	testsubject 1	DaydreamChems	30	210
-6	3 3	enforcer_pirates 1	psycho 1	UnchainedBelt	30	210
+6	3 3	enforcer_pirates 1	soldier 1	UnchainedBelt	30	210
 6	2 2	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	30	210
 6	2 2	pyromancer 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	30	210
 6	3 3	pyromancer 1	swat 1	CoreWard	30	210
@@ -1073,9 +1074,9 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	1 3	professor 1	medic 0.5 civilian 0.5	DaydreamChems	5	60
 1	2 2	scientist 1	scientist 0.25 testsubject 0.75	DaydreamChems	5	60
 1	2 2	professor 1	swat 0.25 scientist 0.25 testsubject 0.5	DaydreamChems	5	60
-1	1 3	bruiser 1	bruiser 1	UnchainedBelt	5	60
+1	1 3	soldier 1	bruiser 1	UnchainedBelt	5	60
 1	1 3	psycho 1	bruiser 0.75 berserk 0.25	UnchainedBelt	5	60
-1	1 3	berserk 1	soldier 0.5 berserk 0.5	UnchainedBelt	5	60
+1	1 3	soldier 1	soldier 0.5 berserk 0.5	UnchainedBelt	5	60
 1	1 3	bruiser 1	bruiser 0.5 berserk 0.5	UnchainedBelt	5	60
 1	1 3	manager 1	workerrobot 0.5 civilian 0.5	CoreWard	5	60
 1	1 3	scientist 1	swat 0.25 civilian 0.75	CoreWard	5	60
@@ -1126,14 +1127,14 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 2	2 3	scientist 1	scientist 0.25 testsubject 0.75 civilian 0.25	DaydreamChems	10	90
 2	2 3	professor 1	swat 0.25 scientist 0.25 testsubject 0.5 civilian 0.25	DaydreamChems	10	90
 2	2 3	enforcer_pirates 1	psycho 1	UnchainedBelt	10	90
-2	2 3	enforcer_pirates 1	enforcer_pirates 0.3 bruiser 0.7	UnchainedBelt	10	90
+2	2 3	soldier 1	enforcer_pirates 0.3 bruiser 0.7	UnchainedBelt	10	90
 2	2 3	bruiser 1	psycho 0.5 berserk 0.5	UnchainedBelt	10	90
 2	2 3	swat 1	swat 0.45 workerrobot 0.55 civilian 0.25	CoreWard	10	90
 2	2 3	soldier 1	swat 0.5 workerrobot 0.5 civilian 0.25	CoreWard	10	90
 2	2 3	pyromancer 1	workerrobot 0.75 civilian 0.25	CoreWard	10	90
 2	2 3	warden 1	swat 0.5 warden 0.5 civilian 0.25	FrancheComte	10	90
 2	2 3	swat 1	warden 0.5 combatmedic 0.5 civilian 0.25	FrancheComte	10	90
-2	1 1		warrobot 1	FrancheComte	10	90
+2	2 2	swat 1	warden 1	FrancheComte	10	90
 2	2 3	manager 1	agent 0.5 worker 0.5 civilian 0.25	Grasshopper	10	90
 2	2 3	agent 1	agent 0.5 worker 0.5 civilian 0.25	Grasshopper	10	90
 2	2 3	agent 1	agent 0.75 civilian 0.25	Grasshopper	10	90
@@ -1149,7 +1150,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 3	swat 1	swat 1	AnCom	15	120
 3	2 2	agent 1	turretbalistic 0.15 agent 0.85	AnCom	15	120
 3	2 2	grenadier 1	turretbalistic 1	RealWare	15	120
-3	2 2	soldier 1	warrobot 1	RealWare	15	120
+3	2 2	soldier 1	soldier 1	RealWare	15	120
 3	1 1	professor 1	turretenergy 1	SBN	15	120
 3	2 2	pmc 1	agent 0.75 medic 0.25	SBN	15	120
 3	2 2	manager 1	combatmedic 0.5 security 0.5	Dilthey	15	120
@@ -1162,12 +1163,12 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 2	soldier 1	mindcontrolled 1	ChurchRevelation	15	120
 3	2 2	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	15	120
 3	2 2	professor 1	testsubject 1	DaydreamChems	15	120
-3	2 5	enforcer_pirates 1	psycho 1	UnchainedBelt	15	120
+3	2 3	soldier 1	psycho 1	UnchainedBelt	15	120
 3	1 1	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	15	120
 3	2 2	swat 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	15	120
 3	2 2	pyromancer 1	swat 1	CoreWard	15	120
 3	2 2	heavypmc 1	warden 1	FrancheComte	15	120
-3	2 3	heavypmc 1	warrobot 1	FrancheComte	15	120
+3	2 3	heavypmc 1	warden 1	FrancheComte	15	120
 3	1 1	agent 1	turretfire 1	Grasshopper	15	120
 3	2 2	agent 1	agent 1	Grasshopper	15	120
 3	2 2	pmc 1	pmc 1	PlanetBridge	15	120
@@ -1178,8 +1179,8 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 2	venus_taskmaster 1	venus_slave 0.9 bigpossessed_blob 0.1	Tezctlan XiomaraMasks	15	120
 4	3 3	swat 1	swat 1	AnCom	20	150
 4	3 3	agent 1	turretbalistic 0.15 agent 0.85	AnCom	20	150
-4	2 2	grenadier 1	turretbalistic 0.5 warrobot 0.5	RealWare	20	150
-4	3 3	soldier 1	warrobot 1	RealWare	20	150
+4	2 2	grenadier 1	turretbalistic 0.5 soldier 0.5	RealWare	20	150
+4	3 3	soldier 1	soldier 1	RealWare	20	150
 4	1 1	professor 1	turretenergy 1	SBN	20	150
 4	3 3	pmc 1	agent 0.75 medic 0.25	SBN	20	150
 4	3 3	manager 1	combatmedic 0.5 security 0.5	Dilthey	20	150
@@ -1192,12 +1193,12 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	3 3	soldier 1	sniper 1	ChurchRevelation	20	150
 4	3 3	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	20	150
 4	2 2	testsubject 1	testsubject 1	DaydreamChems	20	150
-4	2 3	enforcer_pirates 1	psycho 1	UnchainedBelt	20	150
+4	2 3	soldier 1	psycho 1	UnchainedBelt	20	150
 4	1 1	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	20	150
 4	2 2	pyromancer 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	20	150
 4	3 3	pyromancer 1	swat 1	CoreWard	20	150
 4	3 3	heavypmc 1	heavypmc 1	FrancheComte	20	150
-4	2 3	heavypmc 1	warrobot 1	FrancheComte	20	150
+4	2 3	heavypmc 1	swat 1	FrancheComte	20	150
 4	2 2	agent 1	turretfire 1	Grasshopper	20	150
 4	2 2	agent 1	agent 0.9 turretfire 0.1	Grasshopper	20	150
 4	3 3	pmc 1	pmc 1	PlanetBridge	20	150
@@ -1253,7 +1254,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 6	3 3	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	30	210
 6	2 2	testsubject 1	testsubject 1	DaydreamChems	30	210
 6	3 3	enforcer_pirates 1	psycho 1	UnchainedBelt	30	210
-6	2 2	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	30	210
+6	2 2	soldier 1	turretbalistic 1	UnchainedBelt	30	210
 6	2 2	pyromancer 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	30	210
 6	3 3	pyromancer 1	swat 1	CoreWard	30	210
 6	3 3	heavypmc 1	heavypmc 0.5 warrobot 0.5	FrancheComte	30	210
@@ -1381,7 +1382,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	2 3	professor 1	medic 0.5 swat 0.5 testsubject 0.25	DaydreamChems	5	60
 1	2 2	scientist 1	swat 0.55 testsubject 0.25	DaydreamChems	5	60
 1	2 2	professor 1	swat 1	DaydreamChems	5	60
-1	2 3		turretbalistic 1	UnchainedBelt	5	60
+1	2 3	soldier 1	turretbalistic 1	UnchainedBelt	5	60
 1	2 3	psycho 1	bruiser 0.75 berserk 0.25	UnchainedBelt	5	60
 1	2 3	berserk 1	soldier 0.5 berserk 0.5	UnchainedBelt	5	60
 1	2 3	bruiser 1	bruiser 0.5 soldier 0.5	UnchainedBelt	5	60
@@ -1392,7 +1393,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	3 4	manager 1	swat 0.5 warden 0.5	FrancheComte	5	60
 1	3 4	warden 1	swat 0.5 warden 0.5	FrancheComte	5	60
 1	3 4	swat 1	swat 0.5 combatmedic 0.5	FrancheComte	5	60
-1	2 2	warden 1	warrobot 1	FrancheComte	5	60
+1	2 2	warden 1	warden 1	FrancheComte	5	60
 1	2 3	manager 1	turretfire 0.75 recreationrobot 0.25	Grasshopper	5	60
 1	2 3	manager 1	agent 1	Grasshopper	5	60
 1	2 3	scientist 1	scientist 0.25 agent 0.75	Grasshopper	5	60
@@ -1433,7 +1434,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 2	3 4	manager 1	swat 1	DaydreamChems	10	90
 2	3 4	scientist 1	swat 0.75 testsubject 0.25	DaydreamChems	10	90
 2	3 34	professor 1	swat 0.25 testsubject 0.5	DaydreamChems	10	90
-2	3 3	enforcer_pirates 1	psycho 1	UnchainedBelt	10	90
+2	3 3	soldier 1	psycho 0.5 soldier 0.5	UnchainedBelt	10	90
 2	3 3	enforcer_pirates 1	enforcer_pirates 0.3 bruiser 0.7	UnchainedBelt	10	90
 2	3 3	bruiser 1	psycho 0.5 berserk 0.5	UnchainedBelt	10	90
 2	3 3	swat 1	pyromancer 0.45 soldier 0.55	CoreWard	10	90
@@ -1441,7 +1442,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 2	3 3	pyromancer 1	swat1	CoreWard	10	90
 2	3 4	warden 1	swat 0.5 warden 0.5	FrancheComte	10	90
 2	3 4	swat 1	warden 0.5 combatmedic 0.5	FrancheComte	10	90
-2	2 2		warrobot 1	FrancheComte	10	90
+2	2 2	swat 1	swat 1	FrancheComte	10	90
 2	3 3	manager 1	agent 0.5 worker 0.5	Grasshopper	10	90
 2	3 3	agent 1	agent 1	Grasshopper	10	90
 2	3 3	manager 1	warden 0.5 pmc 0.25	PlanetBridge	10	90
@@ -1456,7 +1457,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	3 4	swat 1	swat 1	AnCom	15	120
 3	2 2	agent 1	turretbalistic 0.15 agent 0.85	AnCom	15	120
 3	1 2	grenadier 1	turretbalistic 1	RealWare	15	120
-3	3 3	soldier 1	warrobot 1	RealWare	15	120
+3	3 3	soldier 1	soldier 1	RealWare	15	120
 3	1 1	sniper 1	turretenergy 1	SBN	15	120
 3	3 3	pmc 1	agent 0.75 medic 0.25	SBN	15	120
 3	3 3	manager 1	combatmedic 0.5 security 0.5	Dilthey	15	120
@@ -1469,12 +1470,12 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	3 3	soldier 1	mindcontrolled 1	ChurchRevelation	15	120
 3	3 3	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	15	120
 3	3 3	professor 1	testsubject 1	DaydreamChems	15	120
-3	2 5	enforcer_pirates 1	psycho 1	UnchainedBelt	15	120
+3	2 3	enforcer_pirates 1	psycho 1	UnchainedBelt	15	120
 3	1 1	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	15	120
 3	2 2	swat 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	15	120
 3	3 3	pyromancer 1	swat 1	CoreWard	15	120
 3	3 3	heavypmc 1	warden 1	FrancheComte	15	120
-3	2 3	heavypmc 1	warrobot 1	FrancheComte	15	120
+3	2 3	heavypmc 1	swat 1	FrancheComte	15	120
 3	1 1	agent 1	turretfire 1	Grasshopper	15	120
 3	3 3	agent 1	agent 1	Grasshopper	15	120
 3	3 3	pmc 1	pmc 1	PlanetBridge	15	120
@@ -1748,7 +1749,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 2	2 3	pyromancer 1	workerrobot 0.5 scientist 0.5	CoreWard	10	90
 2	2 3	warden 1	swat 0.5 warden 0.5	FrancheComte	10	90
 2	2 3	swat 1	swat 0.5 combatmedic 0.5	FrancheComte	10	90
-2	1 1	warrobot 1	warrobot 1	FrancheComte	10	90
+2	2 3	swat 1	warden 1	FrancheComte	10	90
 2	2 3	manager 1	agent 0.5 scientist 0.5	Grasshopper	10	90
 2	2 3	agent 1	agent 0.5 scientist 0.5	Grasshopper	10	90
 2	2 3	agent 1	agent 1	Grasshopper	10	90
@@ -1764,7 +1765,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 3	swat 1	swat 1	AnCom	15	120
 3	2 2	agent 1	turretbalistic 0.15 agent 0.85	AnCom	15	120
 3	2 2	grenadier 1	turretbalistic 1	RealWare	15	120
-3	2 2	soldier 1	warrobot 1	RealWare	15	120
+3	2 2	soldier 1	soldier 1	RealWare	15	120
 3	1 1	professor 1	turretenergy 1	SBN	15	120
 3	2 2	pmc 1	agent 0.75 medic 0.25	SBN	15	120
 3	2 2	manager 1	recreationrobot 0.5 workerrobot 0.5 security 0.5	Dilthey	15	120
@@ -1777,12 +1778,12 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 2	soldier 1	mindcontrolled 1	ChurchRevelation	15	120
 3	2 2	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	15	120
 3	2 2	professor 1	testsubject 1	DaydreamChems	15	120
-3	2 5	enforcer_pirates 1	prisoner 1	UnchainedBelt	15	120
+3	2 3	enforcer_pirates 1	prisoner 1	UnchainedBelt	15	120
 3	1 1	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	15	120
 3	2 2	swat 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	15	120
 3	2 2	pyromancer 1	swat 1	CoreWard	15	120
 3	2 2	heavypmc 1	warden 1	FrancheComte	15	120
-3	2 3	heavypmc 1	warrobot 1	FrancheComte	15	120
+3	2 3	heavypmc 1	swat 1	FrancheComte	15	120
 3	1 1	agent 1	turretfire 1	Grasshopper	15	120
 3	2 2	agent 1	agent 1	Grasshopper	15	120
 3	2 2	pmc 1	pmc 1	PlanetBridge	15	120
@@ -1793,8 +1794,8 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 2	venus_taskmaster 1	venus_slave 0.9 bigpossessed_blob 0.1	Tezctlan XiomaraMasks	15	120
 4	3 3	swat 1	swat 1	AnCom	20	150
 4	3 3	agent 1	turretbalistic 0.15 agent 0.85	AnCom	20	150
-4	2 2	grenadier 1	turretbalistic 0.5 warrobot 0.5	RealWare	20	150
-4	3 3	soldier 1	warrobot 1	RealWare	20	150
+4	2 2	grenadier 1	turretbalistic 0.5 grenadier 0.5	RealWare	20	150
+4	3 3	soldier 1	soldier 1	RealWare	20	150
 4	1 1	professor 1	turretenergy 1	SBN	20	150
 4	3 3	pmc 1	agent 0.75 medic 0.25	SBN	20	150
 4	3 3	manager 1	recreationrobot 0.5 workerrobot 0.5 security 0.5	Dilthey	20	150
@@ -1812,7 +1813,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	2 2	pyromancer 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	20	150
 4	3 3	pyromancer 1	swat 1	CoreWard	20	150
 4	3 3	heavypmc 1	heavypmc 1	FrancheComte	20	150
-4	2 3	heavypmc 1	warrobot 1	FrancheComte	20	150
+4	2 3	heavypmc 1	swat 1	FrancheComte	20	150
 4	2 2	agent 1	turretfire 1	Grasshopper	20	150
 4	2 2	agent 1	agent 0.9 turretfire 0.1	Grasshopper	20	150
 4	3 3	pmc 1	pmc 1	PlanetBridge	20	150
@@ -2007,7 +2008,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	2 3	manager 1	swat 0.5 warden 0.5	FrancheComte	5	60
 1	2 3	warden 1	swat 0.5 warden 0.5	FrancheComte	5	60
 1	2 3	swat 1	swat 0.5 combatmedic 0.5	FrancheComte	5	60
-1	1 1	warden 1	warrobot 1	FrancheComte	5	60
+1	2 3	warden 1	swat 1	FrancheComte	5	60
 1	2 3	manager 1	worker 0.75 recreationrobot 0.25	Grasshopper	5	60
 1	2 3	worker 1	agent 0.25 worker 0.75	Grasshopper	5	60
 1	2 3	scientist 1	scientist 0.25 worker 0.75	Grasshopper	5	60
@@ -2056,7 +2057,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 2	3 3	pyromancer 1	workerrobot 1	CoreWard	10	90
 2	3 3	warden 1	swat 0.5 warden 0.5	FrancheComte	10	90
 2	3 3	swat 1	warden 0.5 combatmedic 0.5	FrancheComte	10	90
-2	1 1		warrobot 1	FrancheComte	10	90
+2	2 2	swat 1	swat 1	FrancheComte	10	90
 2	3 3	manager 1	agent 0.5 worker 0.5	Grasshopper	10	90
 2	3 3	agent 1	agent 0.5 worker 0.5	Grasshopper	10	90
 2	3 3	agent 1	agent 1	Grasshopper	10	90
@@ -2072,7 +2073,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	3 4	swat 1	swat 1	AnCom	15	120
 3	2 2	agent 1	turretbalistic 0.15 agent 0.85	AnCom	15	120
 3	1 2	grenadier 1	turretbalistic 1	RealWare	15	120
-3	3 3	soldier 1	warrobot 1	RealWare	15	120
+3	3 3	soldier 1	soldier 1	RealWare	15	120
 3	1 1	professor 1	turretenergy 1	SBN	15	120
 3	3 3	pmc 1	agent 0.75 medic 0.25	SBN	15	120
 3	3 3	manager 1	combatmedic 0.5 security 0.5	Dilthey	15	120
@@ -2085,12 +2086,12 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	3 3	soldier 1	mindcontrolled 1	ChurchRevelation	15	120
 3	3 3	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	15	120
 3	3 3	professor 1	testsubject 1	DaydreamChems	15	120
-3	2 5	enforcer_pirates 1	psycho 1	UnchainedBelt	15	120
+3	2 3	enforcer_pirates 1	psycho 1	UnchainedBelt	15	120
 3	1 1	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	15	120
 3	2 2	swat 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	15	120
 3	3 3	pyromancer 1	swat 1	CoreWard	15	120
 3	3 3	heavypmc 1	warden 1	FrancheComte	15	120
-3	2 3	heavypmc 1	warrobot 1	FrancheComte	15	120
+3	2 3	heavypmc 1	swat 1	FrancheComte	15	120
 3	1 1	agent 1	turretfire 1	Grasshopper	15	120
 3	3 3	agent 1	agent 1	Grasshopper	15	120
 3	3 3	pmc 1	pmc 1	PlanetBridge	15	120
@@ -2102,7 +2103,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	3 4	swat 1	swat 1	AnCom	20	150
 4	3 3	agent 1	turretbalistic 0.15 agent 0.85	AnCom	20	150
 4	2 2	grenadier 1	turretbalistic 0.5 warrobot 0.5	RealWare	20	150
-4	3 3	soldier 1	warrobot 1	RealWare	20	150
+4	3 3	soldier 1	soldier 1	RealWare	20	150
 4	1 1	professor 1	turretenergy 1	SBN	20	150
 4	3 3	pmc 1	agent 0.75 medic 0.25	SBN	20	150
 4	3 3	manager 1	combatmedic 0.5 security 0.5	Dilthey	20	150
@@ -2316,7 +2317,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	1 3	manager 1	swat 0.5 warden 0.5	FrancheComte	5	60
 1	1 3	warden 1	swat 0.5 warden 0.5	FrancheComte	5	60
 1	1 3	swat 1	swat 0.5 combatmedic 0.5	FrancheComte	5	60
-1	1 1	warden 1	warrobot 1	FrancheComte	5	60
+1	1 1	warden 1	swat 1	FrancheComte	5	60
 1	1 3	manager 1	worker 0.75 recreationrobot 0.25	Grasshopper	5	60
 1	1 3	worker 1	agent 0.25 worker 0.75	Grasshopper	5	60
 1	1 3		worker 1	Grasshopper	5	60
@@ -2365,7 +2366,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 2	2 3	pyromancer 1	workerrobot 1	CoreWard	10	90
 2	2 3	warden 1	swat 0.5 warden 0.5	FrancheComte	10	90
 2	2 3	swat 1	warden 0.5 combatmedic 0.5	FrancheComte	10	90
-2	1 1		warrobot 1	FrancheComte	10	90
+2	2 2		warden 1	FrancheComte	10	90
 2	2 3	manager 1	agent 0.5 worker 0.5	Grasshopper	10	90
 2	2 3	agent 1	agent 0.5 worker 0.5	Grasshopper	10	90
 2	2 3	agent 1	agent 1	Grasshopper	10	90
@@ -2381,7 +2382,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 3	swat 1	swat 1	AnCom	15	120
 3	2 2	agent 1	turretbalistic 0.15 agent 0.85	AnCom	15	120
 3	2 2	grenadier 1	turretbalistic 1	RealWare	15	120
-3	2 2	soldier 1	warrobot 1	RealWare	15	120
+3	2 2	soldier 1	soldier 1	RealWare	15	120
 3	1 1		turretenergy 1	SBN	15	120
 3	2 2	pmc 1	agent 0.75 medic 0.25	SBN	15	120
 3	2 2	manager 1	combatmedic 0.5 security 0.5	Dilthey	15	120
@@ -2394,12 +2395,12 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 2	soldier 1	mindcontrolled 1	ChurchRevelation	15	120
 3	2 2	swat 1	manager 0.25 swat 0.5 testsubject 0.25	DaydreamChems	15	120
 3	2 2		testsubject 1	DaydreamChems	15	120
-3	2 5	enforcer_pirates 1	psycho 1	UnchainedBelt	15	120
+3	2 3	enforcer_pirates 1	psycho 1	UnchainedBelt	15	120
 3	1 1	enforcer_pirates 1	turretbalistic 1	UnchainedBelt	15	120
 3	2 2	swat 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	15	120
 3	2 2	pyromancer 1	swat 1	CoreWard	15	120
 3	2 2	heavypmc 1	warden 1	FrancheComte	15	120
-3	2 3	heavypmc 1	warrobot 1	FrancheComte	15	120
+3	2 3	heavypmc 1	swat 1	FrancheComte	15	120
 3	1 1	agent 1	turretfire 1	Grasshopper	15	120
 3	2 2	agent 1	agent 1	Grasshopper	15	120
 3	2 2	pmc 1	pmc 1	PlanetBridge	15	120
@@ -2429,7 +2430,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	2 2	pyromancer 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	20	150
 4	3 3	pyromancer 1	swat 1	CoreWard	20	150
 4	3 3	heavypmc 1	heavypmc 1	FrancheComte	20	150
-4	2 3	heavypmc 1	warrobot 1	FrancheComte	20	150
+4	2 3	heavypmc 1	swat 1	FrancheComte	20	150
 4	2 2	agent 1	turretfire 1	Grasshopper	20	150
 4	2 2	agent 1	agent 0.9 turretfire 0.1	Grasshopper	20	150
 4	3 3	pmc 1	pmc 1	PlanetBridge	20	150
@@ -2440,8 +2441,8 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	3 3	venus_jaguar_knight 1	venus_demon_cat 0.5 bigpossessed_blob 0.5	Tezctlan XiomaraMasks	20	150
 5	2 3	swat 1	swat 1	AnCom	25	180
 5	2 3	agent 1	agent 1	AnCom	25	180
-5	2 2	grenadier 1	turretbalistic 0.5 warrobot 0.5	RealWare	25	180
-5	2 3	soldier 1	warrobot 1	RealWare	25	180
+5	2 2	grenadier 1	turretbalistic 0.5 soldier 0.5	RealWare	25	180
+5	2 3	soldier 1	soldier 1	RealWare	25	180
 5	1 1	pmc 1	turretenergy 1	SBN	25	180
 5	2 3	pmc 1	agent 0.75 medic 0.25	SBN	25	180
 5	2 3	manager 1	security 0.5 recreationrobot 0.5	Dilthey	25	180
@@ -2587,8 +2588,8 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	2 2	medic 1	swat 0.5 workerrobot 0.75	AnCom	5	60
 1	2 2		turretbalistic 1	AnCom	5	60
 1	2 3	manager 1	warden 0.5 worker 0.5	RealWare	5	60
-1	2 3	soldier 1	warden 0.75 warrobot 0.25	RealWare	5	60
-1	2 3	warden 1	soldier 0.75 warrobot 0.25	RealWare	5	60
+1	2 3	soldier 1	warden 0.75 soldier 0.25	RealWare	5	60
+1	2 3	warden 1	soldier 0.75 soldier 0.25	RealWare	5	60
 1	1 1		turretbalistic 1	RealWare	5	60
 1	2 3	manager 1	medic 0.5 recreationrobot 0.25	SBN	5	60
 1	2 3	professor 1	agent 0.5 pmc 0.25	SBN	5	60
@@ -2625,7 +2626,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	3 4	manager 1	swat 0.5 warden 0.5	FrancheComte	5	60
 1	3 4	warden 1	swat 0.5 warden 0.5	FrancheComte	5	60
 1	3 4	swat 1	swat 0.5 combatmedic 0.5	FrancheComte	5	60
-1	2 2	warden 1	warrobot 1	FrancheComte	5	60
+1	2 2	warden 1	warden 1	FrancheComte	5	60
 1	2 3	manager 1	turretfire 0.75 recreationrobot 0.25	Grasshopper	5	60
 1	2 3	manager 1	agent 1	Grasshopper	5	60
 1	2 3	scientist 1	scientist 0.25 agent 0.75	Grasshopper	5	60
@@ -2689,7 +2690,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	3 4	swat 1	swat 1	AnCom	15	120
 3	2 2	agent 1	turretbalistic 0.15 agent 0.85	AnCom	15	120
 3	1 2	grenadier 1	turretbalistic 1	RealWare	15	120
-3	3 3	soldier 1	warrobot 1	RealWare	15	120
+3	3 3	soldier 1	soldier 1	RealWare	15	120
 3	1 1	professor 1	turretenergy 1	SBN	15	120
 3	3 3	pmc 1	agent 0.75 medic 0.25	SBN	15	120
 3	3 3	manager 1	combatmedic 0.5 security 0.5	Dilthey	15	120
@@ -2707,7 +2708,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 3	2 2	swat 1	pyromancer 0.35 workerrobot 0.35 turretfire 0.15	CoreWard	15	120
 3	3 3	pyromancer 1	swat 1	CoreWard	15	120
 3	3 3	heavypmc 1	warden 1	FrancheComte	15	120
-3	2 3	heavypmc 1	warrobot 1	FrancheComte	15	120
+3	2 3	heavypmc 1	swat 1	FrancheComte	15	120
 3	1 1	agent 1	turretfire 1	Grasshopper	15	120
 3	3 3	agent 1	agent 1	Grasshopper	15	120
 3	3 3	pmc 1	pmc 1	PlanetBridge	15	120
@@ -2719,7 +2720,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	3 4	swat 1	swat 1	AnCom	20	150
 4	3 3	agent 1	turretbalistic 0.15 agent 0.85	AnCom	20	150
 4	2 2	grenadier 1	turretbalistic 0.5 warrobot 0.5	RealWare	20	150
-4	3 3	soldier 1	warrobot 1	RealWare	20	150
+4	3 3	soldier 1	soldier 1	RealWare	20	150
 4	1 1	professor 1	turretenergy 1	SBN	20	150
 4	3 3	pmc 1	agent 0.75 medic 0.25	SBN	20	150
 4	3 3	manager 1	combatmedic 0.5 security 0.5	Dilthey	20	150
@@ -2754,7 +2755,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	3 3	pmc 1	agent 0.75 medic 0.25	SBN	25	180
 5	3 3	manager 1	security 0.5 recreationrobot 0.5	Dilthey	25	180
 5	3 4	combatmedic 1	workerrobot 0.25 security 0.75	Dilthey	25	180
-5	2 5	soldier_civ 1	soldier_civ 1	CResistance	25	180
+5	2 4	soldier_civ 1	soldier_civ 1	CResistance	25	180
 5	3 3	soldier_civ 1	agent_civ 0.25 drone_civ 0.1 combatmedic_civ 0.15	CResistance	25	180
 5	2 4	enforcer_she 1	mars_battle_gun 0.25 mars_battle_flame 0.25 mars_support 0.5	SheduThousand	25	180
 5	3 4	security_she 1	mars_crab 1	SheduThousand	25	180

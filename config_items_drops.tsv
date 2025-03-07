@@ -308,6 +308,7 @@ TechLevel	ContentIds	Weight	Points
 3	science_gasmask_1	30	450					
 3	science_reinforced_pants_1	30	450					
 3	science_reinforced_boots_1	30	450					
+4	ddr_disraptor_pistol_1	20	300					
 4	ddr_chem_coat_1	20	300					
 4	ddr_chem_helmet_1	20	300					
 4	ddr_chem_pants_1	20	300					
@@ -317,7 +318,7 @@ TechLevel	ContentIds	Weight	Points
 5	ddr_reinforced_chem_pants_1	50	750					
 7	ddr_toxic_shotgun_1	70	1050					
 8	military_armored_vest_1	80	1200					
-8	army_hmg_1	80	1200					
+8	ddr_disraptor_marksman_1	80	1200					
 9	ddr_power_armor_1	90	1350					
 9	ddr_power_pants_1	90	1350					
 9	ddr_power_helmet_1	90	1350					
@@ -328,7 +329,7 @@ TechLevel	ContentIds	Weight	Points
 #factiondrop_DaydreamChems_rewardChips								
 TechLevel	ContentIds	Weight	Points					
 1	itemChip	20	120					
-4	mediumItemChip	10	180					
+5	mediumItemChip	10	180					
 8	highItemChip	10	80					
 10	DayDreamItemChip	10	100					
 #end								
@@ -407,6 +408,7 @@ TechLevel	ContentIds	Weight	Points
 5	grh_trucker_assault_1	50	750					
 6	grh_common_smg_1	50	750					
 6	laborer_exoskeleton_1	60	900					
+8	grh_microwave_marksman_1	80	1200					
 9	military_heavy_armor_1	90	1350					
 9	military_heavy_helmet_1	90	1350					
 9	military_heavy_pants_1	90	1350					
@@ -465,10 +467,11 @@ TechLevel	ContentIds	Weight	Points
 #factiondrop_Sunlight_rewardConsumables								
 TechLevel	ContentIds	Weight	Points					
 1	soda_can_2	10	60					
-1	burger_pack_1	10	60					
+1	chips_pack_1	10	60					
+1	chips_pack_2	10	60					
 4	armor_repair_kit	40	80					
 5	melee_repair_kit	50	80					
-6	firearm_repair_kit	60	160					
+6	laser_repair_kit	60	160					
 7	surgicalKit	70	100					
 7	energy_turret	5	600					
 10	anulator	100	400					
@@ -589,7 +592,7 @@ TechLevel	ContentIds	Weight	Points
 7	miner_power_pants_1	70	1050					
 7	miner_power_boots_1	70	1050					
 8	grenade_launcher_1	80	1200					
-9	army_hmg_1	90	1350					
+9	cor_hmg_1	90	1350					
 #end								
 								
 #factiondrop_CoreWard_rewardChips								
@@ -664,7 +667,7 @@ TechLevel	ContentIds	Weight	Points
 TechLevel	ContentIds	Weight	Points					
 1	military_common_vest_1	10	150					
 1	common_axe_1	10	150					
-1	trash_assault_1	10	150					
+1	pirates_pistol_1	10	150					
 2	pirates_gasmask_1	20	300					
 2	pirates_reinforced_shirt_1	20	300					
 2	pirates_reinforced_pants_1	20	300					
@@ -672,7 +675,7 @@ TechLevel	ContentIds	Weight	Points
 3	pirates_reinforced_cap_1	30	450					
 3	pirates_reinforced_shirt_2	30	450					
 3	pirates_reinforced_pants_2	30	450					
-3	army_pistol_4	30	450					
+3	pirates_pistol_2	30	450					
 3	trash_armored_vest_1	30	450					
 4	pirates_light_helmet_1	40	600					
 4	pirates_light_armor_1	40	600					
@@ -735,19 +738,19 @@ TechLevel	ContentIds	Weight	Points
 3	military_light_pants_1	30	450					
 3	military_light_boots_1	30	450					
 4	she_gas_shotgun_1	40	600					
-5	military_smg_1	50	750					
+5	she_smg_1	50	750					
 5	posessed_medium_boots_1	50	750					
 5	posessed_medium_pants_1	50	750					
 5	posessed_medium_helmet_1	50	750					
 5	posessed_medium_armor_1	50	750					
-6	military_assault_1	60	900					
+6	she_common_assault_1	60	900					
 7	rwa_military_pistol_1	70	1050					
 8	military_heavy_armor_1	80	1200					
 8	military_heavy_helmet_1	80	1200					
 8	military_heavy_pants_1	80	1200					
 8	military_heavy_boots_1	80	1200					
 9	she_military_minigun_1	90	1350					
-10	military_minigun_1	100	1500					
+10	she_plasma_assault_1	100	1500					
 #end								
 								
 #factiondrop_SheduThousand_rewardChips								
@@ -779,7 +782,7 @@ TechLevel	ContentIds	Weight	Points
 2	dil_sound_pistol_1	20	300					
 2	tech_blade_1	20	300					
 3	dil_shock_smg_1	30	450					
-4	pmc_assault_1	40	600					
+4	armored_expanded_vest_1	40	600					
 5	dil_sound_shotgun_1	50	750					
 6	dil_sound_pistol_2	60	900					
 7	dil_light_armor_1	70	1050					
@@ -797,7 +800,7 @@ TechLevel	ContentIds	Weight	Points
 1	classUSB	5	120					
 3	itemChip	20	150					
 5	mediumItemChip	10	300					
-6	highItemChip	15	400					
+7	highItemChip	15	400					
 10	DiltheyItemChip	20	500					
 #end								
 								
@@ -806,7 +809,7 @@ TechLevel	ContentIds	Weight	Points
 2	dil_battery_ammo	15	100					
 2	frag_mine	10	120					
 3	frag_grenade	10	150					
-4	gas_ammo	15	50					
+4	tech_repair_kit	15	50					
 6	thermal_grenade	10	150					
 6	vodka_bottle_1	10	80					
 8	nanorobot_grenade	20	300					
@@ -837,6 +840,7 @@ TechLevel	ContentIds	Weight	Points
 2	trucker_marksman_2	20	300					
 2	trucker_shotgun_1	20	300					
 3	armored_vest_1	30	450					
+3	pmc_smg_4	30	450					
 3	army_pistol_4	30	450					
 3	military_shotgun_1	30	450					
 3	pmc_smg_2	30	450					
@@ -887,8 +891,6 @@ TechLevel	ContentIds	Weight	Points
 2	ration_pack_1	4	28					
 2	ration_pack_2	4	28					
 2	water_bottle_1	5	14					
-2	burger_pack_1	3	28					
-2	burger_pack_2	3	28					
 2	vodka_bottle_1	3	78					
 2	pills_antibiotics	3	16					
 2	pills_sorbent	3	24					

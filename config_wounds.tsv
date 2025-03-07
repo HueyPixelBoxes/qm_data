@@ -58,7 +58,7 @@ scrivnus_stage6_baron	Scrivnus		stage5	1000	0.8	0.5	0	TRUE	scrivnus_baron	skull_
 Id	ProgressionType	RenewalType	Stage1WoundEffects	Stage2WoundEffects	Stage3WoundEffects	Stage4WoundEffects	IncrementModifier	DecrementModifier	ResistModifier	HoldDurationMin	HoldDurationMax	VisualState	BadLuckStep	BadLuckCap									
 infectionEffect	PeakHold	Refresh		satiety 0.5 consume_regen 0	satiety 0.5 consume_regen 0	satiety 0.5 consume_regen 0 dot_dmg 1	1	1	1	5	30	None	0	1									
 poisonEffect	PeakHold	Refresh	food_calories 0.15	food_calories 0.20 satiety 0.5	food_calories 0.30 satiety 0.5 dot_dmg 1	food_calories 0.30 satiety 0.5 dot_dmg 1 vomiting 0.05	1	1	1	5	30	Poisoned	0	1									
-morphineAddiction	Increment	Reset	accuracy_reduce -0.1	accuracy_reduce -0.1 food_calories 0.50	accuracy_reduce -0.15 food_calories 0.75 los_reduce 1	accuracy_reduce -0.15 food_calories 1.00 los_reduce 2 no_stealth 1	1	1	1	0	0	None	0.15	0.85									
+morphineAddiction	Increment	Reset	accuracy_reduce -0.1	accuracy_reduce -0.1 food_calories 0.50	accuracy_reduce -0.15 food_calories 0.75 los_reduce -1	accuracy_reduce -0.15 food_calories 1.00 los_reduce -2 no_stealth 1	1	1	1	0	0	None	0.15	0.85									
 alcoholAddiction	Increment	Reset	accuracy_reduce -0.1	accuracy_reduce -0.1 dodge_reduce -0.15	accuracy_reduce -0.15 dodge_reduce -0.20 dot_dmg 1	accuracy_reduce -0.15 dodge_reduce -0.20 vomiting 0.05 qmorph_summon 0.01	1	1	1	0	0	None	0.05	0.85									
 nicotineAddiction	Increment	Reset	max_health -5	max_health -5 pain_threshold_regen -1	max_health -5 pain_threshold_regen -1 accuracy_reduce -0.05	max_health -10 pain_threshold_regen -1 accuracy_reduce -0.1 run_unavailable 0	1	1	1	0	0	None	0.05	0.85									
 gavaahAddiction	Increment	Reset	qmorph_summon 0.01	qmorph_summon 0.01 qmorph 4	qmorph_summon 0.01 qmorph 6 vomiting 0.05	qmorph 8 vomiting 0.05 qmorph_summon 0.02	1	1	1	0	0	None	0.05	0.85									
@@ -97,7 +97,7 @@ hardburn	plasma	pain_threshold_regen -2 income_dmg 0.3	pain_threshold_regen -2 i
 																							
 #woundslots																							
 Id	SlotType	NatureType	CoreEffects	IgnoreEffects	IgnoreStatusEffects	AmputationCoreEffects	ImplicitBonusEffects	ImplicitPenaltyEffects	SlotWeight	AmputatedDrop	AdditionalAmputation	IsGroundAffected											
-HumanHead	Head	human	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce 10 accuracy_reduce -0.3			25	human_meat 0.1 human_skin 0.1 human_skull 0.1 human_ear 0.1 human_aye 0.1		FALSE											
+HumanHead	Head	human	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce -99 accuracy_reduce -0.3			25	human_meat 0.1 human_skin 0.1 human_skull 0.1 human_ear 0.1 human_aye 0.1		FALSE											
 HumanShoulder	Shoulder	human	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			55	human_meat 0.1 human_skin 0.1 human_hand 0.1 bone_knife 0.1	Arm	FALSE											
 HumanArm	Arm	human	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			50	human_meat 0.1 human_wrist 0.1 human_skin 0.1 bone_knife 0.1		FALSE											
 HumanThigh	Thigh	human	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			55	human_meat 0.1 human_skin 0.1 human_leg 0.1 bone_knife 0.1	Feet	FALSE											
@@ -106,7 +106,7 @@ HumanChest	Chest	human	dot_dmg 1	run_unavailable food_calories food_unavailable	
 HumanBody	Body	human	dot_dmg 1	run_unavailable food_calories food_unavailable		dot_dmg 1 death 0			45	human_meat 0.1 trowable_heart 0.1 human_skin 0.1 human_rib 0.1 bone_knife 0.1		FALSE											
 HumanStomach	Stomach	human	dot_dmg 1 vomiting 0.05	run_unavailable dodge_reduce move_dmg		dot_dmg 1 death 0 food_unavailable 0 vomiting 0.1			45	human_meat 0.1 human_skin 0.1 human_poop 0.1 bone_knife 0.1		FALSE											
 HumanKnee	Knee	human	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			50	human_meat 0.1 human_skin 0.1 bone_knife 0.1		FALSE											
-SkinlessHead	Head	quasimorph	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce 10 accuracy_reduce -0.3			25	human_meat 0.1 human_skull 0.1 human_ear 0.1 human_aye 0.1		FALSE											
+SkinlessHead	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce -10 accuracy_reduce -0.3			25	human_meat 0.1 human_skull 0.1 human_ear 0.1 human_aye 0.1		FALSE											
 SkinlessShoulder	Shoulder	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			55	human_meat 0.1 human_hand 0.1 bone_knife 0.1	Arm	FALSE											
 SkinlessArm	Arm	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			50	human_meat 0.1 human_wrist 0.1 bone_knife 0.1		FALSE											
 SkinlessThigh	Thigh	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			55	human_meat 0.1 human_leg 0.1 bone_knife 0.1	Feet	FALSE											
@@ -115,13 +115,13 @@ SkinlessChest	Chest	quasimorph	dot_dmg 1	run_unavailable food_calories food_unav
 SkinlessBody	Body	quasimorph	dot_dmg 1	run_unavailable food_calories food_unavailable		dot_dmg 1 death 0			45	human_meat 0.1 trowable_heart 0.1 human_rib 0.1 bone_knife 0.1		FALSE											
 SkinlessStomach	Stomach	quasimorph	dot_dmg 1 vomiting 0.05	run_unavailable dodge_reduce move_dmg		dot_dmg 1 death 0 food_unavailable 0 vomiting 0.1			45	human_meat 0.1 human_poop 0.1 bone_knife 0.1		FALSE											
 SkinlessKnee	Knee	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			50	human_meat 0.1 bone_knife 0.1		FALSE											
-SpiderHead	Head	quasimorph	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce 10 accuracy_reduce -0.3			50	spider_meat 0.1 spider_chitin 0.1 spider_aye 0.1 spider_brain 0.1 spider_poisongland 0.2		FALSE											
+SpiderHead	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce -10 accuracy_reduce -0.3			50	spider_meat 0.1 spider_chitin 0.1 spider_aye 0.1 spider_brain 0.1 spider_poisongland 0.2		FALSE											
 SpiderBody	Body	quasimorph	dot_dmg 1	run_unavailable food_calories food_unavailable		dot_dmg 1 death 0			45	spider_meat 0.1 spider_chitin 0.1 spider_poisongland 0.1		FALSE											
-SpiderFeet	Feet	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			55	spider_meat 0.1 spider_chitin 0.1 spider_joint 0.1 spider_claw 0.1		FALSE											
+SpiderFeet	Feet	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			55	spider_meat 0.1 spider_chitin 0.1 spider_joint 0.1		FALSE											
 SpiderKnee	Knee	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			55	spider_meat 0.1 spider_chitin 0.1 spider_joint 0.1		FALSE											
 SpiderStomach	Stomach	quasimorph	dot_dmg 1 vomiting 0.05	run_unavailable dodge_reduce move_dmg		dot_dmg 1 death 0 food_unavailable 0 vomiting 0.1			30	spider_meat 0.1 spider_cocoon 0.1 spider_poisongland 0.1		FALSE											
 SpiderThigh	Thigh	quasimorph	move_dmg 1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			55	spider_meat 0.1 spider_chitin 0.1 spider_joint 0.1 spider_claw 0.1	Feet	FALSE											
-MoonHead	Head	quasimorph	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce 10 accuracy_reduce -0.3			25	quasi_bolts_ammo 0.1 quasi_repair_kit 0.1 demonic_aye 0.1 moon_guts 0.1 moon_weapon_parts 0.1 quasi_medical_kit_1 0.1		FALSE											
+MoonHead	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce -10 accuracy_reduce -0.3			25	quasi_bolts_ammo 0.1 quasi_repair_kit 0.1 demonic_aye 0.1 moon_guts 0.1 moon_weapon_parts 0.1 quasi_medical_kit_1 0.1		FALSE											
 MoonUpperMechanism	Shoulder	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			45	quasi_bolts_ammo 0.1 quasi_repair_kit 0.1 broken_weapon 0.1 quasi_medical_kit_1 0.1		FALSE											
 MoonStomach	Stomach	quasimorph	dot_dmg 1 vomiting 0.05	run_unavailable dodge_reduce		dot_dmg 1 death 0 food_unavailable 0 vomiting 0.1			50	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE											
 MoonCarapace	Chest	quasimorph	dot_dmg 1	run_unavailable food_calories food_unavailable		dot_dmg 1 dodge_reduce -0.4			55	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE											
@@ -136,7 +136,7 @@ MoonBody	Body	quasimorph	dot_dmg 1	run_unavailable food_calories food_unavailabl
 MoonKnee	Knee	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			45	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE											
 MoonFeet	Feet	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			50	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		TRUE											
 MoonArm	Arm	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting food_calories move_dmg food_unavailable		action_dmg 1 run_unavailable 0 dodge_reduce -0.4			50	quasi_bolts_ammo 0.1 human_organ_1 0.1 quasi_repair_kit 0.1 quasi_medical_kit_1 0.1 moon_guts 0.1		FALSE											
-CyborgHead	Head	cyborg	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2	run_unavailable food_calories eat_dmg vomiting move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	dot_dmg 1 accuracy_reduce -0.3 los_reduce 5	resist_blunt 6	max_health -4 resist_shock -2	35	cyborg_head 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 glass 0.1 weapon_parts 0.1		FALSE											
+CyborgHead	Head	cyborg	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2	run_unavailable food_calories eat_dmg vomiting move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	dot_dmg 1 accuracy_reduce -0.3 los_reduce -5	resist_blunt 6	max_health -4 resist_shock -2	35	cyborg_head 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 glass 0.1 weapon_parts 0.1		FALSE											
 CyborgShoulder	Shoulder	cyborg	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	resist_blunt 8 melee_dmg_reduce 0.1	max_health -5 resist_shock -3	55	cyborg_hand 0.2 metal_tread 0.1 weapon_parts 0.1	Arm	FALSE											
 CyborgArm	Arm	cyborg	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	resist_blunt 4 melee_dmg_reduce 0.1	max_health -4 resist_shock -2	50	cyborg_wrist 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
 CyborgThigh	Thigh	cyborg	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	move_dmg 1 run_unavailable 0 dodge_reduce -0.4	resist_blunt 8 wound_chance -0.05	max_health -5 resist_shock -3 dodge_reduce -0.1	55	cyborg_leg 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1	Feet	FALSE											
@@ -144,7 +144,7 @@ CyborgFeet	Feet	cyborg	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calori
 CyborgChest	Chest	cyborg	dot_dmg 1	run_unavailable food_calories eat_dmg vomiting pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	dot_dmg 1 death 0	resist_blunt 6	max_health -7 resist_shock -3	35	cyborg_chest 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1		FALSE											
 CyborgBody	Body	cyborg	dot_dmg 1	run_unavailable food_calories eat_dmg vomiting pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	dot_dmg 1 death 0		max_health -7 resist_shock -3	45	cyborg_guts 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
 CyborgKnee	Knee	cyborg	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	move_dmg 1 run_unavailable 0 dodge_reduce -0.4	resist_blunt 6 wound_chance -0.05	max_health -4 resist_shock -2 dodge_reduce -0.1	50	cyborg_knee 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
-BattleCyborgHead	Head	cyborg	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2	run_unavailable food_calories eat_dmg vomiting move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	dot_dmg 1 accuracy_reduce -0.3 los_reduce 5	los_reduce -1 firearm_range 1	resist_shock -2	35	battleCyborg_head 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 glass 0.1 weapon_parts 0.1		FALSE											
+BattleCyborgHead	Head	cyborg	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2	run_unavailable food_calories eat_dmg vomiting move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	dot_dmg 1 accuracy_reduce -0.3 los_reduce -5	los_reduce 1 firearm_range 1	resist_shock -2	35	battleCyborg_head 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 glass 0.1 weapon_parts 0.1		FALSE											
 BattleCyborgShoulder	Shoulder	cyborg	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	scatter_angle -0.3 resist_pierce 8 resist_lacer 4	resist_shock -3	55	battleCyborg_hand 0.2 metal_tread 0.1 weapon_parts 0.1	Arm	FALSE											
 BattleCyborgArm	Arm	cyborg	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	ranged_accuracy 0.2 added_projectile 1	resist_shock -2	50	battleCyborg_wrist 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
 BattleCyborgThigh	Thigh	cyborg	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	move_dmg 1 run_unavailable 0 dodge_reduce -0.4	resist_pierce 8 resist_lacer 4	resist_shock -3	55	battleCyborg_leg 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1	Feet	FALSE											
@@ -152,19 +152,19 @@ BattleCyborgFeet	Feet	cyborg	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_
 BattleCyborgChest	Chest	cyborg	dot_dmg 1	run_unavailable food_calories eat_dmg vomiting pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	dot_dmg 1 death 0	resist_blunt 12 resist_pierce 8 resist_lacer 4 wound_chance -0.1	resist_shock -3	35	battleCyborg_chest 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1		FALSE											
 BattleCyborgBody	Body	cyborg	dot_dmg 1	run_unavailable food_calories eat_dmg vomiting pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	dot_dmg 1 death 0	resist_blunt 12 resist_pierce 8 resist_lacer 4 max_health 20	resist_shock -3	45	battleCyborg_guts 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
 BattleCyborgKnee	Knee	cyborg	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	move_dmg 1 run_unavailable 0 dodge_reduce -0.4	resist_pierce 8 resist_lacer 4 wound_chance -0.05	resist_shock -2	50	battleCyborg_knee 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
-RecreationCyborgHead	Head	cyborg	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2	run_unavailable food_calories eat_dmg vomiting move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	dot_dmg 1 accuracy_reduce -0.3 los_reduce 5		max_health -4 ranged_accuracy -0.2 dodge_reduce -0.1	35	recreationCyborg_head 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 glass 0.1 weapon_parts 0.1		FALSE											
-RecreationCyborgShoulder	Shoulder	cyborg	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	multi_hit 1	max_health -4 resist_pierce -5	55	recreationCyborg_hand 0.2 metal_tread 0.1 weapon_parts 0.1	Arm	FALSE											
-RecreationCyborgArm	Arm	cyborg	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	melee_accuracy 0.2	max_health -4 resist_blunt -5	50	recreationCyborg_wrist 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
-RecreationCyborgThigh	Thigh	cyborg	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	move_dmg 1 run_unavailable 0 dodge_reduce -0.4		max_health -5 resist_lacer -5	55	recreationCyborg_leg 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1	Feet	FALSE											
-RecreationCyborgFeet	Feet	cyborg	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	move_dmg 1 run_unavailable 0 dodge_reduce -0.4	dodge_reduce 0.1	max_health -4 resist_blunt -5	50	recreationCyborg_feet 0.2 metal_tread 0.1 weapon_parts 0.1		TRUE											
-RecreationCyborgChest	Chest	cyborg	dot_dmg 1	run_unavailable food_calories eat_dmg vomiting pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	dot_dmg 1		max_health -7 resist_lacer -5	25	recreationCyborg_chest 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1		FALSE											
-RecreationCyborgBody	Body	cyborg	dot_dmg 1	run_unavailable food_calories eat_dmg vomiting pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	dot_dmg 1		max_health -7 resist_lacer -5	35	recreationCyborg_guts 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
-RecreationCyborgKnee	Knee	cyborg	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	move_dmg 1 run_unavailable 0 dodge_reduce -0.4	dodge_reduce 0.1	max_health -4 resist_pierce -5	50	recreationCyborg_knee 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
-MercuryHead	Head	quasimorph	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce 10 accuracy_reduce -0.3			35	quasi_energy_ammo 0.1 human_organ_1 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1 anulator 0.1		FALSE											
-MercuryCentralAye	Head	quasimorph	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce 3 accuracy_reduce -0.3			35	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE											
-MercuryRightAye	Head	quasimorph	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 accuracy_reduce -0.3 los_reduce 3			45	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE											
-MercuryLeftAye	Head	quasimorph	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 accuracy_reduce -0.3 los_reduce 3			50	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE											
-MercuryBottomAye	Head	quasimorph	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 accuracy_reduce -0.3 los_reduce 3			50	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE											
+RecreationCyborgHead	Head	cyborg	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2	run_unavailable food_calories eat_dmg vomiting move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	dot_dmg 1 accuracy_reduce -0.3 los_reduce -5		max_health -4 ranged_accuracy -0.2 dodge_reduce -0.1	35	recreationCyborg_head 0.2 circuit_board 0.1 broken_weapon 0.1 rubber 0.1 glass 0.1 weapon_parts 0.1		FALSE											
+RecreationCyborgShoulder	Shoulder	cyborg	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	multi_hit 1	max_health -4 resist_pierce -5	55	recreationCyborg_hand 0.2 rubber 0.1 weapon_parts 0.1	Arm	FALSE											
+RecreationCyborgArm	Arm	cyborg	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	melee_accuracy 0.2	max_health -4 resist_blunt -5	50	recreationCyborg_wrist 0.2 rubber 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
+RecreationCyborgThigh	Thigh	cyborg	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	move_dmg 1 run_unavailable 0 dodge_reduce -0.4		max_health -5 resist_lacer -5	55	recreationCyborg_leg 0.2 rubber 0.1 weapon_parts 0.1 blunt_parts 0.1	Feet	FALSE											
+RecreationCyborgFeet	Feet	cyborg	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	move_dmg 1 run_unavailable 0 dodge_reduce -0.4	dodge_reduce 0.1	max_health -4 resist_blunt -5	50	recreationCyborg_feet 0.2 rubber 0.1 weapon_parts 0.1		TRUE											
+RecreationCyborgChest	Chest	cyborg	dot_dmg 1	run_unavailable food_calories eat_dmg vomiting pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	dot_dmg 1		max_health -7 resist_lacer -5	25	recreationCyborg_chest 0.2 circuit_board 0.1 broken_weapon 0.1 rubber 0.1 weapon_parts 0.1		FALSE											
+RecreationCyborgBody	Body	cyborg	dot_dmg 1	run_unavailable food_calories eat_dmg vomiting pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	dot_dmg 1		max_health -7 resist_lacer -5	35	recreationCyborg_guts 0.2 circuit_board 0.1 broken_weapon 0.1 rubber 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
+RecreationCyborgKnee	Knee	cyborg	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	move_dmg 1 run_unavailable 0 dodge_reduce -0.4	dodge_reduce 0.1	max_health -4 resist_pierce -5	50	recreationCyborg_knee 0.2 rubber 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE											
+MercuryHead	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce -10 accuracy_reduce -0.3			35	quasi_energy_ammo 0.1 human_organ_1 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1 anulator 0.1		FALSE											
+MercuryCentralAye	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce -3 accuracy_reduce -0.3			35	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE											
+MercuryRightAye	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 accuracy_reduce -0.3 los_reduce -3			45	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE											
+MercuryLeftAye	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 accuracy_reduce -0.3 los_reduce -3			50	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE											
+MercuryBottomAye	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 accuracy_reduce -0.3 los_reduce -3			50	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1		FALSE											
 MercuryShoulder	Shoulder	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			35	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1	Arm	FALSE											
 MercuryArm	Arm	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			55	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1 mercury_arm 0.1		FALSE											
 MercuryThigh	Thigh	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			50	quasi_energy_ammo 0.1 demonic_aye 0.1 qwasi_grenade 0.1 quasi_medical_kit_1 0.1	Feet	FALSE											
@@ -173,9 +173,9 @@ MercuryChest	Chest	quasimorph	dot_dmg 1	run_unavailable food_calories food_unava
 MercuryBody	Body	quasimorph	dot_dmg 1	run_unavailable food_calories food_unavailable		dot_dmg 1 death 0			55	human_organ_1 0.1 mercury_guts 0.1		FALSE											
 MercuryStomach	Stomach	quasimorph	dot_dmg 1 vomiting 0.05	run_unavailable dodge_reduce move_dmg		dot_dmg 1 death 0 food_unavailable 0 vomiting 0.1			55	human_organ_1 0.1 mercury_guts 0.1		FALSE											
 MercuryKnee	Knee	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			45	human_organ_1 0.1 mercury_guts 0.2		FALSE											
-MercuryScroll	Head	quasimorph	los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable					40	anulator 1		FALSE											
-VenusHead	Head	quasimorph	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce 10 accuracy_reduce -0.3			35			FALSE											
-VenusCatHead	Head	quasimorph	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce 10 accuracy_reduce -0.3			35	human_organ_1 0.1 demonic_aye 0.1 aztec_guts 0.1		FALSE											
+MercuryScroll	Head	quasimorph	los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable					40	anulator 1		FALSE											
+VenusHead	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce -10 accuracy_reduce -0.3			35			FALSE											
+VenusCatHead	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce -10 accuracy_reduce -0.3			35	human_organ_1 0.1 demonic_aye 0.1 aztec_guts 0.1		FALSE											
 VenusCatFeet	Feet	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			55			TRUE											
 VenusSpiderThigh	Thigh	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			50		Feet	FALSE											
 VenusSpiderFeet	Feet	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			50			FALSE											
@@ -188,14 +188,14 @@ VenusStomach	Stomach	quasimorph	dot_dmg 1 vomiting 0.05	run_unavailable dodge_re
 VenusBody	Body	quasimorph	dot_dmg 1	run_unavailable food_calories food_unavailable		dot_dmg 1 death 0			50	human_organ_1 0.1 aztec_guts 0.1		FALSE											
 VenusThigh	Thigh	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			50		Feet	FALSE											
 VenusKnee	Knee	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			45			FALSE											
-RonHead	Head	quasimorph	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce 10 accuracy_reduce -0.3			25	ron_mask_1 0.4 quasi_ron_medicine_1 0.1		FALSE											
+RonHead	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce -10 accuracy_reduce -0.3			25	ron_mask_1 0.4 quasi_ron_medicine_1 0.1		FALSE											
 RonCarapace	Shoulder	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			55	quasi_ron_medicine_1 0.1		FALSE											
 RonTentacle	Feet	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			50	quasi_ron_medicine_1 0.1		FALSE											
 RonKnifeArm	Arm	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			45	quasi_ron_medicine_1 0.1		FALSE											
 RonStomach	Stomach	quasimorph	dot_dmg 1 vomiting 0.05	run_unavailable dodge_reduce move_dmg		dot_dmg 1 death 0 food_unavailable 0 vomiting 0.1			50	quasi_ron_medicine_1 0.1		FALSE											
 RonBody	Body	quasimorph	dot_dmg 1	run_unavailable food_calories food_unavailable		dot_dmg 1 death 0			55	quasi_ron_medicine_1 0.1		FALSE											
-CattaramHead	Head	quasimorph	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce 10 accuracy_reduce -0.3			35	cattaram_mine 0.1 qwasi_grenade 0.1 precious_metals 0.1		FALSE											
-CattaramDogHead	Head	quasimorph	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce 10 accuracy_reduce -0.3			35	cattaram_mine 0.1 qwasi_grenade 0.1 precious_metals 0.1		FALSE											
+CattaramHead	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce -10 accuracy_reduce -0.3			35	cattaram_mine 0.1 qwasi_grenade 0.1 precious_metals 0.1		FALSE											
+CattaramDogHead	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce -10 accuracy_reduce -0.3			35	cattaram_mine 0.1 qwasi_grenade 0.1 precious_metals 0.1		FALSE											
 CattaramThigh	Thigh	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			50	qwasi_grenade 0.1 precious_metals 0.1	Feet	FALSE											
 CattaramShoulder	Shoulder	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			55	qwasi_grenade 0.1 precious_metals 0.1	Arm	FALSE											
 CattaramArm	Arm	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			50	qwasi_grenade 0.1 precious_metals 0.1		FALSE											
@@ -204,7 +204,7 @@ CattaramStomach	Stomach	quasimorph	dot_dmg 1 vomiting 0.05	run_unavailable dodge
 CattaramBody	Body	quasimorph	dot_dmg 1	run_unavailable food_calories food_unavailable		dot_dmg 1 death 0			50	qwasi_grenade 0.1 precious_metals 0.1		FALSE											
 CattaramFeet	Feet	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			50	qwasi_grenade 0.1 precious_metals 0.1		TRUE											
 CattaramKnee	Knee	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			45	qwasi_grenade 0.1 precious_metals 0.1		FALSE											
-ScrivnusHead	Head	quasimorph	dot_dmg 1 los_reduce 1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce 10 accuracy_reduce -0.3			35	demonic_aye 0.1 quasi_repair_kit 0.1		FALSE											
+ScrivnusHead	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce -10 accuracy_reduce -0.3			35	demonic_aye 0.1 quasi_repair_kit 0.1		FALSE											
 ScrivnusThigh	Thigh	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			50	quasi_repair_kit 0.1	Feet	FALSE											
 ScrivnusShoulder	Shoulder	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			55	quasi_repair_kit 0.1	Arm	FALSE											
 ScrivnusArm	Arm	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			50	scrivnus_blade_1 0.1 skrivnus_knife 0.1 quasi_repair_kit 0.1		FALSE											
@@ -216,59 +216,59 @@ ScrivnusKnee	Knee	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_
 #end																							
 																							
 #woundeffects																							
-Id	IsFixable																						
-los_reduce	FALSE																						
-move_dmg	TRUE																						
-dot_dmg	TRUE																						
-apoint_dmg	TRUE																						
-action_dmg	TRUE																						
-eat_dmg	FALSE																						
-melee_dmg_reduce	FALSE																						
-income_dmg	FALSE																						
-income_critchance	FALSE																						
-accuracy_reduce	FALSE																						
-food_calories	FALSE																						
-satiety	FALSE																						
-vomiting	FALSE																						
-no_stealth	FALSE																						
-frozen_stun	FALSE																						
-shock_stun	FALSE																						
-self_heal	FALSE																						
-death	FALSE																						
-run_unavailable	FALSE																						
-consume_regen	FALSE																						
-hallucinations	FALSE																						
-max_health	FALSE																						
-pain_threshold_regen	TRUE																						
-qmorph	FALSE																						
-qmorph_summon	FALSE																						
-income_pain	FALSE																						
-arm_slot_unavailable	FALSE																						
-critchance_reduce	FALSE																						
-food_unavailable	FALSE																						
-dodge_reduce	FALSE																						
-resist_blunt	FALSE																						
-resist_pierce	FALSE																						
-resist_lacer	FALSE																						
-resist_fire	FALSE																						
-resist_beam	FALSE																						
-resist_shock	FALSE																						
-resist_poison	FALSE																						
-resist_cold	FALSE																						
-wound_chance	FALSE																						
-scatter_angle	FALSE																						
-melee_accuracy	FALSE																						
-ranged_accuracy	FALSE																						
-throwback_immune	FALSE																						
-firearm_range	FALSE																						
-multi_hit	FALSE																						
-added_projectile	FALSE																						
-immune_blunt	FALSE																						
-immune_pierce	FALSE																						
-immune_lacer	FALSE																						
-immune_fire	FALSE																						
-immune_beam	FALSE																						
-immune_shock	FALSE																						
-immune_poison	FALSE																						
-immune_cold	FALSE																						
+Id	IsFixable	ValueFormat																					
+los_reduce	FALSE	Raw																					
+move_dmg	TRUE	MinusDamage																					
+dot_dmg	TRUE	MinusDamage																					
+apoint_dmg	TRUE	MinusDamage																					
+action_dmg	TRUE	MinusDamage																					
+eat_dmg	FALSE	MinusDamage																					
+melee_dmg_reduce	FALSE	Percent100																					
+income_dmg	FALSE	Percent100																					
+income_critchance	FALSE	Percent100																					
+accuracy_reduce	FALSE	Percent100																					
+food_calories	FALSE	Percent100																					
+satiety	FALSE	Percent100																					
+vomiting	FALSE	Percent100																					
+no_stealth	FALSE	None																					
+frozen_stun	FALSE	Raw																					
+shock_stun	FALSE	Raw																					
+self_heal	FALSE	None																					
+death	FALSE	None																					
+run_unavailable	FALSE	None																					
+consume_regen	FALSE	None																					
+hallucinations	FALSE	Percent100																					
+max_health	FALSE	Raw																					
+pain_threshold_regen	TRUE	Raw																					
+qmorph	FALSE	Raw																					
+qmorph_summon	FALSE	Percent100																					
+income_pain	FALSE	Percent100																					
+arm_slot_unavailable	FALSE	None																					
+critchance_reduce	FALSE	Percent100																					
+food_unavailable	FALSE	None																					
+dodge_reduce	FALSE	Percent100																					
+resist_blunt	FALSE	Raw																					
+resist_pierce	FALSE	Raw																					
+resist_lacer	FALSE	Raw																					
+resist_fire	FALSE	Raw																					
+resist_beam	FALSE	Raw																					
+resist_shock	FALSE	Raw																					
+resist_poison	FALSE	Raw																					
+resist_cold	FALSE	Raw																					
+wound_chance	FALSE	Percent100																					
+scatter_angle	FALSE	Percent100																					
+melee_accuracy	FALSE	Percent100																					
+ranged_accuracy	FALSE	Percent100																					
+throwback_immune	FALSE	None																					
+firearm_range	FALSE	Raw																					
+multi_hit	FALSE	Raw																					
+added_projectile	FALSE	Raw																					
+immune_blunt	FALSE	None																					
+immune_pierce	FALSE	None																					
+immune_lacer	FALSE	None																					
+immune_fire	FALSE	None																					
+immune_beam	FALSE	None																					
+immune_shock	FALSE	None																					
+immune_poison	FALSE	None																					
+immune_cold	FALSE	None																					
 #end																							

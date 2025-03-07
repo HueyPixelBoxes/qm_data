@@ -132,11 +132,11 @@ HartsWarehouse	fuller	CoreWard	SpaceStation	0.10	0	1	1	FALSE	0.2	orbit1	mercuryS
 FullersCore	fuller	FrancheComte	Civilian	0.10	0	2	3	FALSE	0.2	orbit1	mercurySurfaceLevels	Moon	16260	54200			
 PlatosAcademy	fuller	AnCom	Civilian	0.10	0	1	2	FALSE	0.2	orbit1	mercurySurfaceLevels	Moon	24144	50300			
 AvicennasClinic	fuller	DaydreamChems	Lab	0.05	0	1	2	TRUE	0.2	orbit1	mercurySurfaceLevels	Moon	9280	58000			
-VanDeGraaff	tsiolkovsky	SBN	Lab	0.05	0	1	2	FALSE	0.3	orbit1	mercurySurfaceLevels	Earth	11252	38800			
-ChickMoo	tsiolkovsky	RealWare	Industrial	0.15	0	1	3	FALSE	0.4	industrial1	mercurySurfaceLevels	Earth	9816	40900			
-LandscronaCenter	tsiolkovsky	Sunlight	Civilian	0.10	0	2	1	FALSE	0.5	orbit1	mercurySurfaceLevels	Earth	12480	52000			
-CenterDefense	tsiolkovsky	DaydreamChems	Military	0.10	0	1	3	FALSE	0.6	orbit1	mercurySurfaceLevels	Earth	17808	37100			
-ZeroGravity	tsiolkovsky	SBN	Military	0.10	0	1	3	FALSE	0.7	orbit1	mercurySurfaceLevels	Earth	19769	37300			
+VanDeGraaff	tsiolkovsky	SBN	Lab	0.05	0	1	2	FALSE	0.2	orbit1	mercurySurfaceLevels	Earth	11252	38800			
+ChickMoo	tsiolkovsky	RealWare	Industrial	0.15	0	1	3	FALSE	0.2	industrial1	mercurySurfaceLevels	Earth	9816	40900			
+LandscronaCenter	tsiolkovsky	Sunlight	Civilian	0.10	0	2	1	FALSE	0.2	orbit1	mercurySurfaceLevels	Earth	12480	52000			
+CenterDefense	tsiolkovsky	DaydreamChems	Military	0.10	0	1	3	FALSE	0.2	orbit1	mercurySurfaceLevels	Earth	17808	37100			
+ZeroGravity	tsiolkovsky	SBN	Military	0.10	0	1	3	FALSE	0.2	orbit1	mercurySurfaceLevels	Earth	19769	37300			
 MTZ	moon	Sunlight	SpaceStation	0.10	0	2	2	FALSE	0.2	lab1	mercurySurfaceLevels	Moon	30660	73000			
 QiHelium	moon	FrancheComte	Industrial	0.15	0	1	3	FALSE	0.2	industrial1	mercurySurfaceLevels	Moon	21471	42100			
 AnCapDogma	moon	Grasshopper	Industrial	0.15	0	1	1	FALSE	0.2	industrial1	mercurySurfaceLevels	Moon	18011	58100			
@@ -144,8 +144,7 @@ MoonTradeCenter	moon	SBN	Civilian	0.10	0	1	3	FALSE	0.2	moon2	mercurySurfaceLevel
 Candle	moon	RealWare	Civilian	0.10	0	2	3	TRUE	0.2	military1	mercurySurfaceLevels	Moon	17197	59300			
 AllianceArcology	moon	ChurchRevelation	Civilian	0.10	0	2	2	FALSE	0.2	moon2	mercurySurfaceLevels	Moon	11020	58000			
 Tycho	moon	PlanetBridge	SpaceStation	0.10	0	2	1	FALSE	0.2	moon1	mercurySurfaceLevels	Moon	20736	57600			
-ShuCenter
-	mars	SBN	Civilian	0.10	0	1	2	FALSE	0.2	lab1	mercurySurfaceLevels	Mars_Sleeping	34980	58300			
+ShuCenter	mars	SBN	Civilian	0.10	0	1	2	FALSE	0.2	lab1	mercurySurfaceLevels	Mars_Sleeping	34980	58300			
 RedTiangong	mars	CoreWard	SpaceStation	0.10	0	2	2	FALSE	0.2	mars5	mercurySurfaceLevels	Mars_Sleeping	14328	39800			
 RebusSkyCity	mars	AnCom	SpaceStation	0.10	0	2	3	FALSE	0.2	mars3	mercurySurfaceLevels	Mars_Sleeping	38760	64600			
 HISAres	mars	RealWare	SpaceStation	0.10	0	2	2	TRUE	0.2	orbit1	mercurySurfaceLevels	Mars_Sleeping	22440	44000			
@@ -189,23 +188,23 @@ Schwerin	geist	UnchainedBelt	SpaceStation	0.10	0	1	1	FALSE	0.2	moon4	mercurySurf
 Hargeysa	interamnia	UnchainedBelt	Military	0.10	0	2	3	TRUE	0.2	moon4	mercurySurfaceLevels	Scrivnus	41325	72500			
 Jamame	interamnia	CResistance	SpaceStation	0.10	0	1	1	FALSE	0.2	moon4	mercurySurfaceLevels	Scrivnus	25830	57400			
 Forward	hungary	DaydreamChems	Civilian	0.10	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Cattaram	24687	48400			
-Dubrovskiy	hungary	UnchainedBelt	ColonyFarm	0.10	0	2	3	FALSE	0.3	moon4	mercurySurfaceLevels	Cattaram	16537	52000			
-Budapest	hungary	PlanetBridge	Industrial	0.10	0	2	3	FALSE	0.4	industrial2	mercurySurfaceLevels	Cattaram	13455	35500			
-Rommel	annaherman	DaydreamChems	Mine	0.15	0	2	3	FALSE	0.5	moon4	mercurySurfaceLevels	Ron	26678	56400			
-Patton	annaherman	ChurchRevelation	Mine	0.15	0	2	3	FALSE	0.6	moon4	mercurySurfaceLevels	Ron	9846	23900			
-Zhukov	annaherman	Dilthey	Mine	0.15	0	2	3	FALSE	0.7	moon4	mercurySurfaceLevels	Ron	11556	39800			
-Montgomery	annaherman	FrancheComte	Prison	0.15	0	2	3	FALSE	0.8	moon4	mercurySurfaceLevels	Ron	6742	24500			
-Connelly	hygeia	Dilthey	ColonyFarm	0.10	0	2	3	FALSE	0.9	moon4	mercurySurfaceLevels	Scrivnus	12456	42420			
-Sewell	hygeia	ChurchRevelation	Civilian	0.10	0	2	3	FALSE	0.10	moon4	mercurySurfaceLevels	Scrivnus	14856	36200			
-Proyas	hygeia	CResistance	Lab	0.05	0	2	3	FALSE	0.11	moon4	mercurySurfaceLevels	Scrivnus	8566	24600			
+Dubrovskiy	hungary	UnchainedBelt	ColonyFarm	0.10	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Cattaram	16537	52000			
+Budapest	hungary	PlanetBridge	Industrial	0.10	0	2	3	FALSE	0.2	industrial2	mercurySurfaceLevels	Cattaram	13455	35500			
+Rommel	annaherman	DaydreamChems	Mine	0.15	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	26678	56400			
+Patton	annaherman	ChurchRevelation	Mine	0.15	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	9846	23900			
+Zhukov	annaherman	Dilthey	Mine	0.15	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	11556	39800			
+Montgomery	annaherman	FrancheComte	Prison	0.15	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	6742	24500			
+Connelly	hygeia	Dilthey	ColonyFarm	0.10	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Scrivnus	12456	42420			
+Sewell	hygeia	ChurchRevelation	Civilian	0.10	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Scrivnus	14856	36200			
+Proyas	hygeia	CResistance	Lab	0.05	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Scrivnus	8566	24600			
 RedThrone	hekate	CResistance	SpaceStation	0.10	0	2	3	TRUE	0.2	moon4	mercurySurfaceLevels	Earth	43542	73800			
 #end																	
 																	
 #stationtypes																	
 Id	ItemDropCategories																
-Industrial	Common Worker																
-Lab	Common Science Medical Military																
-Mine	Common Miner																
+Industrial	Common Worker Robot																
+Lab	Common Science Medical Military Robot																
+Mine	Common Miner Robot																
 Military	Common Police Military																
 Prison	Common Prison Police																
 ColonyFarm	Common Managment Worker Police																
@@ -223,7 +222,7 @@ Espionage	Scouting 65 Defense 35	Infiltration	150	1	1	FALSE	FALSE	100 250	0	200	
 Ritual	Expansion 65 Scouting 35	Counterattack	150	0	0	FALSE	FALSE	200 500	100	200	200	0	20	0	RitualStart	RitualEndGood	RitualEndFail
 Robbery	Expansion 33 Scouting 33 Defense 33	Security	150	2	6	FALSE	FALSE	100 250	200	400	400	0	0	0	RobberyStart	RobberyEndGood	RobberyEndFail
 Defense		RaiderCapture	0	0	0	FALSE	TRUE	0 100	0	200	0	0	5	0	DefenseStart	DefenseEndGood	DefenseEndFail
-Infiltration		Espionage	0	2	4	FALSE	FALSE	0 50	0	200	0	0	0	0	InfiltrationStart	InfiltrationEndGood	InfiltrationEndFail
+Infiltration		Espionage	0	2	5	FALSE	FALSE	0 50	0	200	0	0	0	0	InfiltrationStart	InfiltrationEndGood	InfiltrationEndFail
 Control		Sabotage	0	2	3	FALSE	FALSE	0 50	0	400	0	0	0	0	ControlStart	ControlEndGood	ControlEndFail
 Escort		Elimination	0	0	0	FALSE	FALSE	0 50	0	200	0	0	0	0	EscortStart	EscortEndGood	EscortEndFail
 Counterattack		Ritual	0	0	0	FALSE	FALSE	0 100	0	200	0	0	0	10	CounterattackStart	CounterattackEndGood	CounterattackEndFail
@@ -266,19 +265,19 @@ industrial2	TRUE	100	65	IndustrialStation	#b68080	0.7	indus_floor_normal indus_f
 #end																	
 																	
 #storymissions																	
-Id	StationId	BeneficiaryFactionId	VictimFactionId	PrizeItems	WinCondition	WinConditionParameters	MinTechLevel	UseBiomeDropLists	ItemsPointsByStages	MonsterPointsByStages	ItemsRequirement						
+Id	StationId	BeneficiaryFactionId	VictimFactionId	PrizeItems	WinCondition	WinConditionParameters	MinTechLevel	UseBiomeDropLists	ItemsPointsByStages	MonsterPointsByStages	FactionIdsByStages	ItemsRequirement					
 Tutorial	Orphan	Magnum	CResistance		KillAllPercent	1	1	FALSE									
 SecondTutorial	RogueCity	Magnum	CResistance	quest_AncomData small_basic_ammo medical_kit_1 rags rags small_backpack_1 frag_grenade frag_grenade armor_plates armor_plates weapon_parts weapon_parts	KillObstacle	serverStation 1	3	FALSE	stage1 300 stage2 300 stage3 300	stage1 300 stage2 300 stage3 300							
 SinkholePeaceVisit	SinkholeOasis	XiomaraMasks	RealWare		Custom		5	TRUE	stage1 300	stage1 300							
 UseYourHead	FlatObsidian	Magnum	CResistance	phase_bomb	Custom		5	TRUE	stage1 500 stage2 500 stage3 600 stage4 600	stage1 400 stage2 400 stage3 400 stage4 500							
-RuinsOfAncientBramfaturas	SinkholeOasis	XiomaraMasks	RealWare	venus_spear_hmg_1	ItemInInventoryById	venus_spear_hmg_1 1	5	TRUE	stage1 200 stage2 800 stage3 1000 stage4 0	stage1 400 stage2 400 stage3 600 stage4 0	phase_bomb						
-CommunityAndAnarchy	Oddibjord	AnCom	Unknown		ItemInInventoryById	quest_goldenSkull 1	6	FALSE	stage1 800 stage2 800 stage3 800 stage4 1000 stage5 1000	stage1 600 stage2 800 stage3 800 stage4 400 stage5 1200							
+RuinsOfAncientBramfaturas	SinkholeOasis	XiomaraMasks	RealWare	venus_spear_hmg_1	ItemInInventoryById	venus_spear_hmg_1 1	5	TRUE	stage1 200 stage2 800 stage3 1000 stage4 0	stage1 400 stage2 400 stage3 600 stage4 0		phase_bomb					
+CommunityAndAnarchy	Oddibjord	AnCom	Unknown		ItemInInventoryById	quest_goldenSkull 1	6	FALSE	stage1 800 stage2 800 stage3 800 stage4 1000 stage5 1000	stage1 600 stage2 800 stage3 800 stage4 400 stage5 1200	stage1 RealWare stage2 RealWare stage3 RealWare stage4 Tezctlan stage5 RealWare						
 UnitedForever	HISUnveiled	CResistance		military_heavy_helmet_1	KillAllPercent	0.25	5	TRUE	stage1 100	stage1 100							
 HumansAreSuchEasyPrey	Candle	Tezctlan		military_heavy_helmet_1	KillAllPercent	0.25	5	TRUE	stage1 100	stage1 100							
 LesserEvil	Oddibjord	XiomaraMasks		military_heavy_helmet_1	KillAllPercent	0.25	5	TRUE	stage1 100	stage1 100							
 Manifesto	HeritageStation	CResistance	SBN	civ_marksman_1 rifle_basic_ammo servo_backpack_1 civ_medium_armor_2 civ_medium_helmet_2 firearm_repair_kit automap thermal_grenade tool_container engineering_parts_container welding_machine_device	Custom	1	6	FALSE	stage1 300 stage2 300 stage3 300	stage1 300 stage2 400 stage3 500							
 PoisonTrial	FeatheredTemple	Magnum	Tezctlan	skull_blood_revival	Custom	1	6	FALSE	stage1 100	stage1 100							
-CovertOps	HumankindsHope	RealWare	AnCom	military_heavy_helmet_1 rwa_heavy_helmet_1 big_backpack_1 medical_kit_2 medical_kit_2 medical_kit_2 medium_basic_ammo medium_basic_ammo	Custom	1	6	TRUE	stage1 500 stage2 500 stage3 600 stage4 600	stage1 400 stage2 400 stage3 400 stage4 500	quest_emiBurner						
+CovertOps	HumankindsHope	RealWare	AnCom	military_heavy_helmet_1 rwa_heavy_helmet_1 big_backpack_1 medical_kit_2 medical_kit_2 medical_kit_2 medium_basic_ammo medium_basic_ammo	Custom	1	6	TRUE	stage1 500 stage2 500 stage3 600 stage4 600	stage1 400 stage2 400 stage3 400 stage4 500		quest_emiBurner					
 GhoulShip	HISWoodpecker	UnchainedBelt	CoreWard	pirates_assault_1 trash_armored_vest_1 rifle_basic_ammo rifle_basic_ammo alcogol_container alcogol_container	Custom	1	6	TRUE	stage1 500 stage2 500 stage3 600 stage4 600 stage5 600	stage1 400 stage2 400 stage3 400 stage4 500 stage5 600							
 Raid	Schwerin	SBN	Dilthey	sbn_heavy_armor_1 sbn_rail_shotgun_1 energy_turret battery_basic_ammo battery_basic_ammo	Custom	1	5	TRUE	stage1 100	stage1 100							
 TestingGround	LouhiCity	AnCom		military_heavy_helmet_1	KillAllPercent	0.25	5	TRUE	stage1 100	stage1 100							
@@ -393,64 +392,64 @@ TechLevel	ExperienceToLevelUp	MaxMissionsСount
 																	
 #prizes_by_rating																	
 ProcMissionType	DifficultyRating	MinPrizePoints	MaxPrizePoints	PowerToPrizePointsMult	PowerToMonsterPointsMult												
-RaiderCapture	1	450	600	0.1	0.1												
-RaiderCapture	2	750	900	0.1	0.1												
-RaiderCapture	3	1150	1400	0.1	0.1												
-RaiderCapture	4	1700	2000	0.1	0.1												
-RaiderCapture	5	2500	3000	0.1	0.1												
-Elimination	1	400	500	0.1	0.1												
-Elimination	2	700	800	0.1	0.1												
-Elimination	3	1000	1200	0.1	0.1												
-Elimination	4	1500	1800	0.1	0.1												
-Elimination	5	2200	2700	0.1	0.1												
-Sabotage	1	400	500	0.1	0.1												
-Sabotage	2	700	800	0.1	0.1												
-Sabotage	3	1000	1200	0.1	0.1												
-Sabotage	4	1500	1800	0.1	0.1												
-Sabotage	5	2200	2700	0.1	0.1												
-Espionage	1	400	500	0.1	0.1												
-Espionage	2	700	800	0.1	0.1												
-Espionage	3	1000	1200	0.1	0.1												
-Espionage	4	1500	1800	0.1	0.1												
-Espionage	5	2200	2700	0.1	0.1												
-Defense	1	300	450	0.1	0.25												
-Defense	2	600	750	0.1	0.25												
-Defense	3	900	1150	0.1	0.25												
-Defense	4	1400	1700	0.1	0.25												
-Defense	5	2000	2500	0.1	0.25												
-Ritual	1	400	500	0.1	0.1												
-Ritual	2	700	800	0.1	0.1												
-Ritual	3	1000	1200	0.1	0.1												
-Ritual	4	1500	1800	0.1	0.1												
-Ritual	5	2200	2700	0.1	0.1												
-Robbery	1	400	500	0.1	0.1												
-Robbery	2	700	800	0.1	0.1												
-Robbery	3	1000	1200	0.1	0.1												
-Robbery	4	1500	1800	0.1	0.1												
-Robbery	5	2200	2700	0.1	0.1												
-Infiltration	1	400	500	0.1	0.1												
-Infiltration	2	700	800	0.1	0.1												
-Infiltration	3	1000	1200	0.1	0.1												
-Infiltration	4	1500	1800	0.1	0.1												
-Infiltration	5	2200	2700	0.1	0.1												
-Control	1	400	500	0.1	0.25												
-Control	2	700	800	0.1	0.25												
-Control	3	1000	1200	0.1	0.25												
-Control	4	1500	1800	0.1	0.25												
-Control	5	2200	2700	0.1	0.25												
-Escort	1	400	500	0.1	0.1												
-Escort	2	700	800	0.1	0.1												
-Escort	3	1000	1200	0.1	0.1												
-Escort	4	1500	1800	0.1	0.1												
-Escort	5	2200	2700	0.1	0.1												
-Counterattack	1	400	500	0.1	0.1												
-Counterattack	2	700	800	0.1	0.1												
-Counterattack	3	1000	1200	0.1	0.1												
-Counterattack	4	1500	1800	0.1	0.1												
-Counterattack	5	2200	2700	0.1	0.1												
-Security	1	400	500	0.1	0.1												
-Security	2	700	800	0.1	0.1												
-Security	3	1000	1200	0.1	0.1												
-Security	4	1500	1800	0.1	0.1												
-Security	5	2200	2700	0.1	0.1												
-#end
+RaiderCapture	1	500	750	0.07	0.1												
+RaiderCapture	2	900	1100	0.08	0.12												
+RaiderCapture	3	1300	1800	0.09	0.14												
+RaiderCapture	4	2100	2800	0.1	0.16												
+RaiderCapture	5	3200	3900	0.11	0.18												
+Elimination	1	350	500	0.07	0.08												
+Elimination	2	600	800	0.08	0.09												
+Elimination	3	1000	1300	0.09	0.1												
+Elimination	4	1600	2000	0.1	0.11												
+Elimination	5	2400	2900	0.11	0.12												
+Sabotage	1	350	500	0.07	0.09												
+Sabotage	2	600	800	0.08	0.1												
+Sabotage	3	1000	1300	0.09	0.11												
+Sabotage	4	1600	2000	0.1	0.12												
+Sabotage	5	2400	2900	0.11	0.13												
+Espionage	1	300	500	0.07	0.08												
+Espionage	2	500	800	0.08	0.09												
+Espionage	3	900	1300	0.09	0.1												
+Espionage	4	1400	1900	0.1	0.11												
+Espionage	5	2000	2600	0.11	0.12												
+Defense	1	350	500	0.07	0.21												
+Defense	2	600	800	0.08	0.22												
+Defense	3	1000	1300	0.09	0.23												
+Defense	4	1600	2000	0.1	0.24												
+Defense	5	2400	2900	0.11	0.25												
+Ritual	1	350	500	0.07	0.08												
+Ritual	2	600	800	0.08	0.09												
+Ritual	3	1000	1300	0.09	0.1												
+Ritual	4	1600	2000	0.1	0.11												
+Ritual	5	2400	2900	0.11	0.12												
+Robbery	1	400	500	0.07	0.08												
+Robbery	2	700	800	0.08	0.09												
+Robbery	3	1000	1200	0.09	0.1												
+Robbery	4	1500	1800	0.1	0.11												
+Robbery	5	2200	2700	0.11	0.12												
+Infiltration	1	350	500	0.07	0.08												
+Infiltration	2	600	800	0.08	0.09												
+Infiltration	3	900	1300	0.09	0.1												
+Infiltration	4	1400	2000	0.1	0.11												
+Infiltration	5	2200	2900	0.11	0.12												
+Control	1	350	500	0.07	0.21												
+Control	2	600	800	0.08	0.22												
+Control	3	1000	1300	0.09	0.23												
+Control	4	1600	2000	0.1	0.24												
+Control	5	2400	2900	0.11	0.25												
+Escort	1	500	750	0.07	0.06												
+Escort	2	900	1100	0.08	0.07												
+Escort	3	1300	1800	0.09	0.08												
+Escort	4	2100	2800	0.1	0.09												
+Escort	5	3200	3900	0.11	0.1												
+Counterattack	1	400	500	0.07	0.08												
+Counterattack	2	700	800	0.08	0.09												
+Counterattack	3	1100	1200	0.09	0.1												
+Counterattack	4	1700	2000	0.1	0.11												
+Counterattack	5	2500	2900	0.11	0.12												
+Security	1	350	500	0.07	0.21												
+Security	2	600	800	0.08	0.22												
+Security	3	1000	1300	0.09	0.23												
+Security	4	1600	2000	0.1	0.24												
+Security	5	2400	2900	0.11	0.25												
+#end																	

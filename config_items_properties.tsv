@@ -25,6 +25,8 @@ skrivnus_explosion		FALSE	1	TRUE	FALSE	FALSE	60	pierce	10	FALSE	0	FALSE	FALSE	0	
 Id		AmmoPerShot	WeaponCastsCount	RequiredAllAmmoToShot	Accuracy	DamageMult	ScatterAngle	DelayInSecsBetweenShots															
 knife_single		0	1	FALSE	0.25	1	0	0															
 knife_triple		0	3	FALSE	0.1	0.6	0	0.4															
+knife_ammo_single		1	1	FALSE	0.25	1	0	0															
+knife_ammo_triple		3	3	FALSE	0.1	0.6	0	0.4															
 blunt_single		0	1	FALSE	0.25	1	0	0															
 blunt_heavy		0	1	FALSE	0.15	1.5	0	0															
 blunt_duble		0	2	FALSE	0.12	0.8	0	0.5															
@@ -32,10 +34,13 @@ blunt_breaker		1	4	FALSE	0.15	1	0	0.5
 blunt_ammo_single		1	1	FALSE	0.25	1	0	0															
 blunt_ammo_duble		2	2	FALSE	0.15	1	0	0.5															
 blunt_ammo_triple		3	3	FALSE	0.1	1	0	0.5															
+blunt_ammo_heavy		1	1	FALSE	0.15	1.5	0	0															
 axe_single		0	1	FALSE	0.2	1	0	0															
 axe_heavy		0	1	FALSE	0.1	1.5	0	0															
 sawsword_single		1	1	FALSE	0.2	1	0	0															
 sawsword_heavy		1	1	FALSE	0.05	1.5	0	0															
+blade_ammo_single		1	1	FALSE	0.25	1	0	0															
+blade_ammo_double		2	2	FALSE	0.15	0.9	0	0.5															
 blade_single		0	1	FALSE	0.25	1	0	0															
 blade_double		0	2	FALSE	0.15	0.9	0	0.5															
 basic_pistol_single		1	1	FALSE	0.2	1	4	0															
@@ -45,7 +50,7 @@ advanced_pistol_single		1	1	FALSE	0.25	1	3	0
 advanced_pistol_burst		2	2	FALSE	0.2	1	4	0.06															
 advanced_pistol_shortauto		3	3	FALSE	0.15	1	6	0.05															
 basic_smg_single		1	1	FALSE	0.25	1	3	0															
-basic_smg_shortauto		3	3	FALSE	0.2	1	4	0.05															
+basic_smg_shortauto		3	3	FALSE	0.20	1	4	0.05															
 basic_smg_auto		6	6	FALSE	0.15	1	6	0.045															
 advanced_smg_single		1	1	FALSE	0.3	1	2.5	0															
 advanced_smg_shortauto		4	4	FALSE	0.25	1	3.5	0.05															
@@ -314,61 +319,61 @@ nail_bolts_ammo		broken_weapon 2
 sawblade_ammo		broken_weapon 2																					
 surgicalKit		medical_kit_1 2 syringe_morphine 1 medicalClue 1 syringe_naloxone 1																					
 mre_pack_1		canned_food_1 2 ration_pack_4 1 chocolate_pack_1 1																					
-small_backpack_1		rags 2 tread 1																					
-medium_backpack_1		rags 2 plastic 1 rubber 1 tread 1																					
-big_backpack_1		rags 2 plastic 1 rubber 1 armor_plates 1 tread 1																					
+small_backpack_1		rags 3																					
+medium_backpack_1		rags 3 plastic 1 rubber 1																					
+big_backpack_1		rags 3 plastic 1 rubber 1 armor_plates 1																					
 servo_backpack_1		coarse_parts 2 rubber 1 metal_tread 1 wire 1																					
 sun_servo_backpack_1		coarse_parts 2 ceramite_plates 1 armor_plates 1 wire 1																					
-pmc_common_vest_1		rags 2 metal_tread 1 tread 1																					
+pmc_common_vest_1		rags 3 metal_tread 1																					
 military_armored_vest_1		armor_plates 2 metal_tread 1																					
-trash_common_vest_1		rags 2 tread 1																					
+trash_common_vest_1		rags 3																					
 trash_armored_vest_1		rusty_plates 2 metal_tread 1																					
-military_common_vest_1		rags 2 tread 1																					
+military_common_vest_1		rags 3																					
 armored_vest_1		armor_plates 2 rubber 1 metal_tread 1																					
-armored_expanded_vest_1		armor_plates 2 rags 1 tread 1																					
+armored_expanded_vest_1		armor_plates 2 rags 2																					
 heavy_armored_vest_1		ceramite_plates 2 rubber 1 metal_tread 1																					
 military_heavy_armor_1		armor_plates 2 ceramite_plates 1 capacitor_parts 1 metal_tread 1																					
 anc_medium_armor_1		rusty_plates 2 ceramite_plates 1 rubber 1 capacitor_parts 1																					
-prison_light_armor_1		rusty_plates 1 rags 2 tread 1																					
+prison_light_armor_1		rusty_plates 1 rags 3																					
 civ_medium_armor_2		armor_plates 2 ceramite_plates 1 rubber 1 capacitor_parts 1																					
 posessed_medium_armor_1		quasi_repair_kit 1 rusty_plates 1 capacitor_parts 1 transformer 1 metal_tread 1																					
 military_power_armor_1		armor_plates 2 capacitor_parts 1 metal_tread 1																					
 rwa_heavy_armor_1		armor_plates 2 ceramite_plates 1 rusty_plates 1 capacitor_parts 1																					
-pirates_medium_armor_1		rusty_plates 2 rubber 1 tread 1																					
+pirates_medium_armor_1		rusty_plates 2 rubber 1 rags 1																					
 sbn_light_armor_1		armor_plates 2 ceramite_plates 1 rubber 1 capacitor_parts 1																					
-civ_medium_armor_1		rusty_plates 2 rubber 1 tread 1																					
-military_light_armor_1		rusty_plates 2 rags 1 tread 1																					
-police_medium_armor_1		armor_plates 2 rags 1 tread 1																					
-military_shirt_3		armor_plates 1 rags 2 tread 1																					
+civ_medium_armor_1		rusty_plates 2 rubber 1 rags 1																					
+military_light_armor_1		rusty_plates 2 rags 2																					
+police_medium_armor_1		armor_plates 2 rags 2																					
+military_shirt_3		armor_plates 1 rags 3																					
 rwa_power_armor_1		ceramite_plates 2 armor_plates 1 rusty_plates 1 capacitor_parts 1																					
-anc_reinforced_shirt_1		rags 1 rubber 1 plastic 1 tread 1																					
+anc_reinforced_shirt_1		rags 2 rubber 1 plastic 1																					
 sbn_heavy_armor_1		ceramite_plates 2 armor_plates 1 rubber 1 capacitor_parts 1																					
-ddr_chem_coat_1		rubber 2 plastic 1 tread 1																					
-ddr_reinforced_chem_coat_1		armor_plates 2 rubber 1 plastic 1 tread 1																					
+ddr_chem_coat_1		rubber 2 plastic 1 rags 1																					
+ddr_reinforced_chem_coat_1		armor_plates 2 rubber 1 plastic 1 rags 1																					
 sun_power_armor_1		armor_plates 2 ceramite_plates 1 rubber 1 capacitor_parts 1																					
 anc_medium_armor_2		ceramite_plates 2 armor_plates 2 metal_tread 1																					
-anc_agent_armor_1		rags 2 rubber 1 plastic 1 tread 1																					
-chu_manager_shirt_1		rags 2 rubber 1 plastic 1 tread 1																					
+anc_agent_armor_1		rags 3 rubber 1 plastic 1																					
+chu_manager_shirt_1		rags 3 rubber 1 plastic 1																					
 chu_power_armor_1		ceramite_plates 1 armor_plates 1 capacitor_parts 1 metal_tread 1																					
-miner_shirt_1		rags 2 rubber 1 tread 1																					
+miner_shirt_1		rags 3 rubber 1																					
 miner_medium_armor_1		armor_plates 2 ceramite_plates 1 capacitor_parts 1 metal_tread 1																					
 fra_heavy_armor_1		armor_plates 1 ceramite_plates 1 rusty_plates 1 capacitor_parts 1																					
 moon_medium_armor_2		moon_weapon_parts 1 moon_armor_plates 2 quasi_repair_kit 1																					
 moon_medium_armor_1		moon_weapon_parts 1 moon_armor_plates 2 moon_armor_plates																					
-miner_reinforced_shirt_1		rags 1 rubber 1 rusty_plates 1 tread 1																					
-miner_reinforced_pants_1		rags 1 rubber 1 rusty_plates 1 tread 1																					
-miner_reinforced_boots_1		rags 1 rubber 1 tread 1																					
+miner_reinforced_shirt_1		rags 2 rubber 1 rusty_plates 1																					
+miner_reinforced_pants_1		rags 2 rubber 1 rusty_plates 1																					
+miner_reinforced_boots_1		rags 2 rubber 1																					
 miner_power_armor_1		ceramite_plates 2 armor_plates 1 capacitor_parts 1																					
-laborer_shirt_1		rags 2 plastic 1 tread 2																					
-spider_light_armor_1		rags 1 tread 1 spider_chitin 2																					
-civ_reinforced_shirt_1		rags 2 armor_plates 1 tread 1																					
-common_shirt_3		rags 2 tread 2																					
-military_shirt_2		rags 2 tread 2																					
-common_shirt_2		rags 2 tread 2																					
-prison_tshirt_1		rags 1 tread 1																					
-common_shirt_1		rags 2 tread 2																					
-science_coat_1		rags 1 plastic 1 tread 1 rubber 1																					
-common_hybershirt_1		rubber 1 rags 1 tread 2																					
+laborer_shirt_1		rags 4 plastic 1																					
+spider_light_armor_1		rags 2 spider_chitin 2																					
+civ_reinforced_shirt_1		rags 3 armor_plates 1																					
+common_shirt_3		rags 4																					
+military_shirt_2		rags 4																					
+common_shirt_2		rags 4																					
+prison_tshirt_1		rags 2																					
+common_shirt_1		rags 4																					
+science_coat_1		rags 2 plastic 1 rubber 1																					
+common_hybershirt_1		rubber 1 rags 3																					
 venusXsi_light_armor_3		quasi_venus_rags 1 venus_armor_plates 1																					
 venusTez_heavy_armor_1		quasi_venus_rags 1 venus_armor_plates 2																					
 military_heavy_helmet_1		armor_plates 2 ceramite_plates 1 glass 1 circuit_board 1																					
@@ -384,7 +389,7 @@ civ_medium_helmet_1		rusty_plates 2 rubber 1 glass 1
 military_light_gasmask_1		rusty_plates 2 plastic 1 glass 1																					
 military_light_helmet_1		rusty_plates 2 rags 1 plastic 1																					
 rwa_power_helmet_1		ceramite_plates 2 armor_plates 1 rusty_plates 1 glass 1 microelectronics_parts 1																					
-anc_reinforced_hat_1		rags 2 tread 1																					
+anc_reinforced_hat_1		rags 3																					
 sbn_heavy_helmet_1		ceramite_plates 2 rusty_plates 2 glass 1 microelectronics_parts 1																					
 ddr_chem_helmet_1		rubber 1 rusty_plates 1 plastic 1 glass 1																					
 ddr_reinforced_chem_helmet_1		rusty_plates 2 glass 1																					
@@ -394,56 +399,56 @@ anc_agent_mask_1		rusty_plates 1 rubber 2 glass 1
 chu_manager_mask_1		armor_plates 1 rubber 1 glass 1 rags 1																					
 chu_power_helmet_1		ceramite_plates 1 armor_plates 1 plastic 1 glass 1 circuit_board 1																					
 chu_head_device_1		rags 1 rusty_plates 1 circuit_board 1																					
-miner_hard_cap_1		rags 1 rubber 1 rusty_plates 1 tread 1																					
+miner_hard_cap_1		rags 2 rubber 1 rusty_plates 1																					
 miner_medium_helmet_1		armor_plates 2 ceramite_plates 1 glass 1 circuit_board 1																					
 police_medium_helmet_1		rusty_plates 1 rubber 1 plastic 1 glass 1																					
 fra_heavy_mask_1		rusty_plates 1 armor_plates 1 ceramite_plates 1 glass 1 microelectronics_parts 1																					
 moon_medium_helmet_1		moon_weapon_parts 1 moon_armor_plates 2																					
-miner_hard_cap_2		rubber 1 plastic 1 rusty_plates 1 tread 1																					
+miner_hard_cap_2		rubber 1 plastic 1 rusty_plates 1 rags 1																					
 miner_power_helmet_1		ceramite_plates 2 rusty_plates 1 rags 1 glass 1 microelectronics_parts 1																					
-laborer_cap_1		rags 1 plastic 1 tread 1																					
-spider_light_helmet_1		rags 1 tread 1 spider_chitin 2																					
+laborer_cap_1		rags 2 plastic 1																					
+spider_light_helmet_1		rags 2 spider_chitin 2																					
 civ_gasmask_1		rusty_plates 2 plastic 1 glass 1																					
-military_mask_1		rags 2 tread 2																					
+military_mask_1		rags 4																					
 venusXsi_light_helmet_3		quasi_venus_rags 1 venus_armor_plates 1																					
 venusTez_heavy_helmet_1		quasi_venus_rags 1 venus_armor_plates 2																					
 military_heavy_pants_1		armor_plates 2 ceramite_plates 1 rags 1 metal_tread 1																					
 anc_medium_pants_1		armor_plates 2 ceramite_plates 1 rubber 1 plastic 1																					
-prison_light_pants_1		rusty_plates 2 rags 1 tread 1																					
+prison_light_pants_1		rusty_plates 2 rags 2																					
 civ_medium_pants_2		rusty_plates 2 ceramite_plates 1 rubber 1 plastic 1																					
 posessed_medium_pants_1		quasi_repair_kit 1 rusty_plates 1 capacitor_parts 1 metal_tread 1 plastic 1																					
 military_power_pants_1		rusty_plates 2 rubber 1 metal_tread 1																					
 rwa_heavy_pants_1		armor_plates 2 ceramite_plates 1 rubber 1 plastic 1																					
-pirates_medium_pants_1		rusty_plates 2 rubber 1 tread 1																					
+pirates_medium_pants_1		rusty_plates 2 rubber 1 rags 1																					
 sbn_light_pants_1		armor_plates 2 ceramite_plates 1 rubber 1 plastic 1																					
-civ_medium_pants_1		rusty_plates 2 rubber 1 tread 1																					
-military_light_pants_1		rusty_plates 2 rags 1 tread 1																					
-military_pants_2		rags 2 armor_plates 1 tread 2																					
+civ_medium_pants_1		rusty_plates 2 rubber 1 rags 1																					
+military_light_pants_1		rusty_plates 2 rags 2																					
+military_pants_2		rags 4 armor_plates 1																					
 rwa_power_pants_1		ceramite_plates 2 armor_plates 2 rusty_plates 1																					
-anc_reinforced_pants_1		rags 1 rubber 1 plastic 1 tread 2																					
+anc_reinforced_pants_1		rags 3 rubber 1 plastic 1																					
 sbn_heavy_pants_1		ceramite_plates 2 armor_plates 2 plastic 1																					
-ddr_chem_pants_1		rubber 2 tread 1 rusty_plates 1																					
+ddr_chem_pants_1		rubber 2 rags 1 rusty_plates 1																					
 ddr_reinforced_chem_pants_1		rusty_plates 1 rubber 3 plastic 1																					
 sun_power_pants_1		armor_plates 2 ceramite_plates 1 rubber 1 plastic 1																					
-police_pants_2		armor_plates 2 rags 1 tread 1																					
-anc_agent_pants_1		plastic 1 rubber 1 rags 1 tread 1																					
-chu_manager_pants_1		rags 2 rubber 1 tread 1																					
+police_pants_2		armor_plates 2 rags 2																					
+anc_agent_pants_1		plastic 1 rubber 1 rags 2																					
+chu_manager_pants_1		rags 3 rubber 1																					
 chu_power_pants_1		armor_plates 1 ceramite_plates 1 plastic 1 metal_tread 1																					
-miner_pants_1		rusty_plates 1 rags 2 tread 1																					
+miner_pants_1		rusty_plates 1 rags 3																					
 miner_medium_pants_1		armor_plates 2 ceramite_plates 1 rubber 1 metal_tread 1																					
-police_medium_pants_1		armor_plates 2 rags 1 tread 1																					
+police_medium_pants_1		armor_plates 2 rags 2																					
 fra_heavy_pants_1		armor_plates 1 ceramite_plates 1 rusty_plates 1 plastic 1																					
 moon_medium_pants_1		moon_weapon_parts 1 moon_armor_plates 2																					
 miner_power_pants_1		ceramite_plates 2 rusty_plates 2 rags 1																					
-laborer_pants_1		rags 2 plastic 1 tread 1																					
-spider_light_pants_1		rags 1 tread 1 spider_chitin 2																					
-civ_pants_4		rusty_plates 2 rags 1 tread 1																					
-common_pants_4		rags 2 tread 2																					
-common_pants_5		rags 2 tread 2																					
-common_pants_1		rags 2 tread 2																					
-common_pants_3		rags 2 tread 2																					
-prison_pants_1		rags 2 tread 2																					
-common_hyber_pants_1		rags 1 rubber 1 tread 2																					
+laborer_pants_1		rags 3 plastic 1																					
+spider_light_pants_1		rags 2 spider_chitin 2																					
+civ_pants_4		rusty_plates 2 rags 2																					
+common_pants_4		rags 4																					
+common_pants_5		rags 4																					
+common_pants_1		rags 4																					
+common_pants_3		rags 4																					
+prison_pants_1		rags 4																					
+common_hyber_pants_1		rags 3 rubber 1																					
 venusXsi_pants_1		quasi_venus_rags 1 venus_armor_plates 1																					
 military_heavy_boots_1		armor_plates 2 ceramite_plates 1 rubber 1 metal_tread 1																					
 anc_medium_boots_1		rusty_plates 2 ceramite_plates 1 rubber 1 plastic 1																					
@@ -471,16 +476,16 @@ fra_heavy_boots_1		rusty_plates 1 armor_plates 1 ceramite_plates 1 plastic 2
 moon_medium_boots_1		moon_weapon_parts 1 moon_armor_plates 2																					
 common_boots_1		plastic 2 rubber 2																					
 miner_power_boots_1		ceramite_plates 1 rusty_plates 2 rubber 1 rags 1																					
-spider_light_boots_1		rags 1 tread 1 spider_chitin 2																					
+spider_light_boots_1		rags 2 spider_chitin 2																					
 civ_boots_2		rusty_plates 1 rags 2 rubber 1																					
-common_sneakers_1		rags 2 tread 2 plastic 1																					
-common_sneakers_2		rags 2 tread 2 plastic 1																					
+common_sneakers_1		rags 4 plastic 1																					
+common_sneakers_2		rags 4 plastic 1																					
 venus_boots_1		quasi_venus_rags 1 venus_armor_plates 1																					
 dil_light_helmet_1		armor_plates 1 ceramite_plates 1 glass 1 microelectronics_parts 1 metal_tread 1 plastic 1																					
 dil_light_armor_1		armor_plates 1 ceramite_plates 1 capacitor_parts 1 transformer 1 metal_tread 1 plastic 1																					
 dil_light_pants_1		armor_plates 1 ceramite_plates 1 capacitor_parts 1 metal_tread 1 plastic 1																					
 dil_light_boots_1		armor_plates 1 ceramite_plates 1 capacitor_parts 1 metal_tread 1 plastic 1																					
-armor_repair_kit		tread 1 rubber 1 armor_plates 1 ceramite_plates 1																					
+armor_repair_kit		rags 1 rubber 1 armor_plates 1 ceramite_plates 1																					
 firearm_repair_kit		plastic 2 weapon_parts 1 spring 1																					
 melee_repair_kit		pierce_parts 2 blunt_parts 1 rod_parts 1																					
 automap		circuit_board 2 microelectronics_parts 1 bulb 1																					
@@ -541,9 +546,9 @@ biomass_tank		spider_brain 1 spider_aye 1 spider_meat 1 spider_poisongland 1 hum
 drug_cargo		syringe_morphine 2 pills_antiradin 2 syringe_naloxone 2 syringe_antidote 2 pills_painkillers 2 syringe_nanoinjection 2 pills_steroids 2																					
 medical_components		medical_kit_1 1 syringe_morphine 1 pills_antibiotics 1 pills_antiradin 1 syringe_naloxone 1 pills_sorbent 1 syringe_antidote 1 syringe_bloodbag 1 pills_painkillers 1 syringe_nanoinjection 1 plaster 1 medical_kit_2 1																					
 watermelon		watermelon_slice 4																					
-prison_medium_armor_1		rags 2 rusty_plates 1 tread 1																					
-prison_medium_pants_1		rags 2 rusty_plates 1 tread 1																					
-prison_medium_boots_1		rags 2 rubber 1 tread 1																					
+prison_medium_armor_1		rags 3 rusty_plates 1																					
+prison_medium_pants_1		rags 3 rusty_plates 1																					
+prison_medium_boots_1		rags 3 rubber 1																					
 prison_heavy_helmet_1		rubber 1 rusty_plates 1 metal_tread 1																					
 prison_heavy_armor_1		rubber 1 rusty_plates 1 metal_tread 1																					
 prison_heavy_pants_1		rubber 1 rusty_plates 1 metal_tread 1																					
@@ -554,23 +559,23 @@ military_medium_helmet_1		armor_plates 1 rags 2 metal_tread 1
 military_medium_armor_1		armor_plates 1 rags 2 metal_tread 1																					
 military_medium_pants_1		armor_plates 1 rags 2 metal_tread 1																					
 military_medium_boots_1		rusty_plates 1 rags 2 metal_tread 1																					
-military_boots_1		rags 2 rubber 1 tread 1																					
-police_cap_1		rags 2 plastic 1 tread 1																					
-police_shirt_1		rags 2 tread 1 tread 1																					
-police_pants_1		rags 2 tread 1 tread 1																					
-military_cap_1		rags 2 plastic 1 tread 1																					
-military_pants_1		rags 2 plastic 1 tread 1																					
-prison_hat_1		rags 2 tread 1																					
-prison_reinforced_shirt_1		rusty_plates 1 rags 2 tread 1																					
-prison_reinforced_pants_1		rusty_plates 1 rags 2 tread 1																					
-police_cap_2		rags 2 plastic 1 tread 1																					
-police_reinforced_shirt_1		rags 2 rusty_plates 1 tread 1																					
+military_boots_1		rags 3 rubber 1																					
+police_cap_1		rags 3 plastic 1																					
+police_shirt_1		rags 4																					
+police_pants_1		rags 4																					
+military_cap_1		rags 3 plastic 1																					
+military_pants_1		rags 3 plastic 1																					
+prison_hat_1		rags 3																					
+prison_reinforced_shirt_1		rusty_plates 1 rags 3																					
+prison_reinforced_pants_1		rusty_plates 1 rags 3																					
+police_cap_2		rags 3 plastic 1																					
+police_reinforced_shirt_1		rags 3 rusty_plates 1																					
 military_doc_helmet_1		rags 2 rusty_plates 1 metal_tread 1																					
 military_doc_armor_1		rags 2 rusty_plates 1 metal_tread 1																					
 military_doc_pants_1		rags 2 rusty_plates 1 metal_tread 1																					
-civ_cap_1		plastic 1 tread 1																					
-civ_shirt_2		plastic 1 rubber 1 tread 1																					
-civ_pants_2		plastic 1 rubber 1 tread 1																					
+civ_cap_1		plastic 1 rags 1																					
+civ_shirt_2		plastic 1 rubber 1 rags 1																					
+civ_pants_2		plastic 1 rubber 1 rags 1																					
 venusTez_heavy_pants_1		quasi_venus_rags 2 venus_armor_plates 1																					
 venusTez_heavy_boots_1		quasi_venus_rags 2 venus_armor_plates 1																					
 venusTez_heavy_helmet_2		quasi_venus_rags 2 venus_armor_plates 1 quasi_venus_feather 1																					
@@ -578,27 +583,27 @@ venusTez_heavy_armor_2		quasi_venus_rags 2 venus_armor_plates 1
 venusTez_heavy_pants_2		quasi_venus_rags 2 venus_armor_plates 1																					
 venusTez_heavy_helmet_3		quasi_venus_rags 2 venus_armor_plates 1																					
 venusTez_heavy_armor_3		quasi_venus_rags 2 venus_armor_plates 1																					
-civ_shirt_1		rubber 1 rags 2 tread 1																					
-civ_pants_1		rubber 1 rags 2 tread 1																					
-miner_gasmask_1		rubber 1 rags 2 tread 1																					
-laborer_shirt_3		rags 2 rubber 1 tread 1																					
-laborer_pants_3		rags 2 rubber 1 tread 1																					
-laborer_warm_hat_1		rags 2 rubber 1 tread 1																					
-laborer_warm_shirt_1		rags 2 rubber 1 tread 1																					
-laborer_warm_pants_1		rags 2 rubber 1 tread 1																					
-laborer_warm_boots_1		rags 2 rubber 1 tread 1																					
-christmas_hat		rags 2 tread 1																					
-common_hat_3		rags 2 tread 1																					
-common_hoodie_1		rags 2 tread 1																					
-common_hat_4		rags 2 tread 1																					
-common_hoodie_2		rags 2 tread 1																					
-pirates_reinforced_shirt_2		rusty_plates 1 rags 2 tread 1																					
-pirates_reinforced_pants_2		rusty_plates 1 rags 2 tread 1																					
-pirates_boots_1		rusty_plates 1 rags 2 tread 1																					
-pirates_light_helmet_1		rusty_plates 1 rags 2 tread 1																					
-pirates_light_armor_1		rusty_plates 1 rags 2 tread 1																					
-pirates_light_pants_1		rusty_plates 1 rags 2 tread 1																					
-pirates_light_boots_1		rusty_plates 1 rags 2 tread 1																					
+civ_shirt_1		rubber 1 rags 3																					
+civ_pants_1		rubber 1 rags 3																					
+miner_gasmask_1		rubber 1 rags 3																					
+laborer_shirt_3		rags 3 rubber 1																					
+laborer_pants_3		rags 3 rubber 1																					
+laborer_warm_hat_1		rags 3 rubber 1																					
+laborer_warm_shirt_1		rags 3 rubber 1																					
+laborer_warm_pants_1		rags 3 rubber 1																					
+laborer_warm_boots_1		rags 3 rubber 1																					
+christmas_hat		rags 3																					
+common_hat_3		rags 3																					
+common_hoodie_1		rags 3																					
+common_hat_4		rags 3																					
+common_hoodie_2		rags 3																					
+pirates_reinforced_shirt_2		rusty_plates 1 rags 3																					
+pirates_reinforced_pants_2		rusty_plates 1 rags 3																					
+pirates_boots_1		rusty_plates 1 rags 3																					
+pirates_light_helmet_1		rusty_plates 1 rags 3																					
+pirates_light_armor_1		rusty_plates 1 rags 3																					
+pirates_light_pants_1		rusty_plates 1 rags 3																					
+pirates_light_boots_1		rusty_plates 1 rags 3																					
 laborer_exoskeleton_1		rusty_plates 1 rags 2 rubber 1 armor_plates 1 metal_tread 1																					
 medical_medium_helmet_1		armor_plates 1 plastic 1 metal_tread 1																					
 medical_medium_armor_1		rusty_plates 1 armor_plates 1 plastic 1 metal_tread 1																					
@@ -608,12 +613,12 @@ medical_heavy_helmet_1		rusty_plates 1 plastic 1 metal_tread 1
 medical_heavy_armor_1		rusty_plates 1 armor_plates 1 ceramite_plates 1 metal_tread 1																					
 medical_heavy_pants_1		rusty_plates 1 armor_plates 1 ceramite_plates 1 metal_tread 1																					
 medical_heavy_boots_1		rusty_plates 1 armor_plates 1 rubber 1 metal_tread 1																					
-common_blouse_3		rags 2 tread 1																					
-pirates_reinforced_cap_1		rags 2 armor_plates 1 tread 1																					
-pirates_reinforced_shirt_1		rags 2 armor_plates 1 tread 1																					
-pirates_reinforced_pants_1		rags 2 armor_plates 1 tread 1																					
-common_hybershirt_2		rags 2 tread 1																					
-common_hyber_pants_2		rags 2 tread 1																					
+common_blouse_3		rags 3																					
+pirates_reinforced_cap_1		rags 3 armor_plates 1																					
+pirates_reinforced_shirt_1		rags 3 armor_plates 1																					
+pirates_reinforced_pants_1		rags 3 armor_plates 1																					
+common_hybershirt_2		rags 3																					
+common_hyber_pants_2		rags 3																					
 miner_exoskeleton_1		rusty_plates 1 rubber 1 plastic 1 ceramite_plates 1 metal_tread 1																					
 possesed_light_armor_1		human_rib 3 metal_tread 1																					
 posessed_light_helmet_1		human_rib 2 metal_tread 1																					
@@ -621,56 +626,56 @@ police_heavy_helmet_2		armor_plates 1 ceramite_plates 1 plastic 1 metal_tread 1
 police_heavy_armor_1		armor_plates 1 ceramite_plates 1 plastic 1 metal_tread 1																					
 police_heavy_pants_1		armor_plates 1 ceramite_plates 1 plastic 1 metal_tread 1																					
 police_heavy_boots_1		armor_plates 1 ceramite_plates 1 rubber 1 metal_tread 1																					
-military_shirt_1		rags 2 tread 1																					
-common_jacket_1		rags 2 tread 1																					
+military_shirt_1		rags 3																					
+common_jacket_1		rags 3																					
 common_reinforced_pants_1		rags 2 armor_plates 1																					
-prison_mask_3		plastic 1 tread 1																					
-prison_light_helmet_1		rusty_plates 1 rags 2 tread 1																					
+prison_mask_3		plastic 1 rags 1																					
+prison_light_helmet_1		rusty_plates 1 rags 3																					
 venusXsi_light_helmet_1		quasi_venus_feather 1 venus_armor_plates 1 quasi_venus_rags 2																					
 venusXsi_light_armor_1		quasi_venus_feather 1 venus_armor_plates 1 quasi_venus_rags 2																					
 venusXsi_light_boots_1		quasi_venus_feather 1 venus_armor_plates 1 quasi_venus_rags 2																					
 venusXsi_light_helmet_2		venus_armor_plates 1 quasi_venus_rags 2																					
 venusXsi_light_armor_2		venus_armor_plates 1 quasi_venus_rags 2																					
-common_blouse_4		rags 2 tread 1																					
-common_hat_2		rags 2 plastic 1 tread 1																					
-common_blouse_1		rags 2 tread 1																					
-common_pants_2		rags 2 tread 1																					
-medical_tshirt_1		rags 2 plastic 1 rubber 1 tread 1																					
-medical_pants_1		rags 2 plastic 1 rubber 1 tread 1																					
-medical_sneakers_1		plastic 1 rubber 1 tread 1																					
+common_blouse_4		rags 3																					
+common_hat_2		rags 3 plastic 1																					
+common_blouse_1		rags 3																					
+common_pants_2		rags 3																					
+medical_tshirt_1		rags 3 plastic 1 rubber 1																					
+medical_pants_1		rags 3 plastic 1 rubber 1																					
+medical_sneakers_1		plastic 1 rubber 1 rags 1																					
 common_gasmask_1		rubber 1 plastic 1																					
-common_blouse_2		rags 2 tread 1																					
+common_blouse_2		rags 3																					
 venus_hat_1		quasi_venus_rags 2																					
 venus_shirt_1		quasi_venus_rags 2																					
 venus_pants_1		quasi_venus_rags 2																					
-pirates_gasmask_1		rags 2 rubber 1 tread 1																					
-pirates_shirt_1		rags 2 rubber 1 tread 1																					
-pirates_pants_1		rags 2 rubber 1 tread 1																					
-possesed_shirt_1		rags 2 tread 1																					
-possesed_shirt_2		rubber 1 tread 1																					
-possesed_shirt_3		human_skin 3 tread 1																					
+pirates_gasmask_1		rags 3 rubber 1																					
+pirates_shirt_1		rags 3 rubber 1																					
+pirates_pants_1		rags 3 rubber 1																					
+possesed_shirt_1		rags 3																					
+possesed_shirt_2		rubber 1 rags 1																					
+possesed_shirt_3		human_skin 3 rags 1																					
 common_glasses_1		plastic 1 glass 1																					
 common_glasses_2		rusty_plates 1 glass 1																					
-laborer_medium_helmet_1		rusty_plates 1 rubber 1 tread 1																					
-laborer_medium_armor_1		rusty_plates 1 rubber 1 rags 2 tread 1																					
-laborer_medium_pants_1		rusty_plates 1 rubber 1 rags 2 tread 1																					
-laborer_medium_boots_1		rusty_plates 1 rubber 1 tread 1																					
-common_hat_1		rags 2 plastic 1 tread 1																					
-common_sport_pants_1		rags 2 tread 1																					
-common_sport_pants_2		rags 2 tread 1																					
-prison_mask_2		rubber 1 tread 1																					
-prison_tshirt_2		rags 2 tread 1																					
-prison_sneakers_1		rubber 1 tread 1																					
+laborer_medium_helmet_1		rusty_plates 1 rubber 1 rags 1																					
+laborer_medium_armor_1		rusty_plates 1 rubber 1 rags 3																					
+laborer_medium_pants_1		rusty_plates 1 rubber 1 rags 3																					
+laborer_medium_boots_1		rusty_plates 1 rubber 1 rags 1																					
+common_hat_1		rags 3 plastic 1																					
+common_sport_pants_1		rags 3																					
+common_sport_pants_2		rags 3																					
+prison_mask_2		rubber 1 rags 1																					
+prison_tshirt_2		rags 3																					
+prison_sneakers_1		rubber 1 rags 1																					
 laborer_hard_cap_1		rusty_plates 1 rags 1																					
-laborer_shirt_2		plastic 1 rubber 1 tread 1																					
-laborer_pants_2		plastic 1 rubber 1 tread 1																					
-laborer_boots_1		plastic 1 rubber 1 tread 1																					
+laborer_shirt_2		plastic 1 rubber 1 rags 1																					
+laborer_pants_2		plastic 1 rubber 1 rags 1																					
+laborer_boots_1		plastic 1 rubber 1 rags 1																					
 mercury_light_helmet_1		mercury_rags 2																					
 mercury_light_armor_1		mercury_rags 2 mercury_glass 1																					
-pirates_medium_helmet_2		rusty_plates 1 armor_plates 1 tread 1																					
-pirates_medium_armor_2		rusty_plates 1 armor_plates 1 rags 2 tread 1																					
-pirates_medium_pants_2		rusty_plates 1 armor_plates 1 rags 2 tread 1																					
-pirates_medium_boots_2		rusty_plates 1 armor_plates 1 rags 2 tread 1																					
+pirates_medium_helmet_2		rusty_plates 1 armor_plates 1 rags 1																					
+pirates_medium_armor_2		rusty_plates 1 armor_plates 1 rags 3																					
+pirates_medium_pants_2		rusty_plates 1 armor_plates 1 rags 3																					
+pirates_medium_boots_2		rusty_plates 1 armor_plates 1 rags 3																					
 mercury_medium_helmet_1		mercury_rags 2 mercury_glass 1																					
 mercury_medium_armor_1		mercury_rags 2 mercury_glass 2																					
 mercury_medium_pants_1		mercury_rags 2 mercury_glass 2																					
@@ -678,9 +683,9 @@ mercury_medium_boots_1		mercury_rags 2 mercury_glass 1
 mercury_heavy_helmet_1		mercury_rags 2 mercury_glass 3																					
 mercury_heavy_armor_1		mercury_rags 2 mercury_glass 3																					
 mercury_heavy_pants_1		mercury_rags 2 mercury_glass 3																					
-civ_shirt_3		rags 2 plastic 1 tread 1																					
-civ_pants_3		rags 2 plastic 1 tread 1																					
-civ_boots_1		rags 2 plastic 1 tread 1																					
+civ_shirt_3		rags 3 plastic 1																					
+civ_pants_3		rags 3 plastic 1																					
+civ_boots_1		rags 3 plastic 1																					
 mercury_hat_1		mercury_rags 2																					
 mercury_shirt_1		mercury_rags 2																					
 mercury_pants_1		mercury_rags 2																					
@@ -691,28 +696,28 @@ civ_heavy_helmet_1		rusty_plates 1 armor_plates 1 ceramite_plates 1 metal_tread 
 civ_heavy_armor_1		rusty_plates 1 armor_plates 1 ceramite_plates 1 metal_tread 1																					
 civ_heavy_pants_1		rusty_plates 1 armor_plates 1 ceramite_plates 1 metal_tread 1																					
 civ_heavy_boots_1		rusty_plates 1 armor_plates 1 ceramite_plates 1 metal_tread 1																					
-science_mask_1		rags 2 tread 1																					
-science_pants_1		rags 2 rubber 1 plastic 1 tread 1																					
-medical_gasmask_1		rubber 1 plastic 1 tread 1																					
-medical_tshirt_2		rags 2 plastic 1 tread 1																					
-science_coat_2		rags 2 plastic 1 rubber 1 tread 1																					
-science_pants_2		rags 2 plastic 1 rubber 1 tread 1																					
-medical_chem_helmet_1		rubber 1 plastic 1 tread 1																					
-medical_chem_shirt_1		rubber 1 rags 2 plastic 1 tread 1																					
-medical_chem_pants_1		rubber 1 rags 2 plastic 1 tread 1																					
-medical_sneakers_2		rubber 1 plastic 1 tread 1																					
-science_gasmask_1		rags 2 plastic 1 tread 1																					
-science_reinforced_shirt_1		rags 2 plastic 1 armor_plates 1 tread 1																					
-science_reinforced_pants_1		rags 2 plastic 1 armor_plates 1 tread 1																					
-science_reinforced_boots_1		rags 2 plastic 1 tread 1																					
-science_chem_helmet_1		rubber 1 rags 2 plastic 1 tread 1																					
-science_chem_shirt_1		rubber 1 rags 2 plastic 1 tread 1																					
-science_chem_pants_1		rubber 1 rags 2 plastic 1 tread 1																					
-science_chem_boots_1		rubber 1 rags 2 plastic 1 tread 1																					
-engineering_repair_kit		rod_parts 1 coarse_parts 1 capacitor_parts 1																					
-tech_repair_kit		microelectronics_parts 1 circuit_board 1 rod_parts 1																					
-rail_repair_kit		transformer 1 capacitor_parts 1 wire 1																					
-laser_repair_kit		bulb 1 lens 1 microelectronics_parts 1																					
+science_mask_1		rags 3																					
+science_pants_1		rags 3 rubber 1 plastic 1																					
+medical_gasmask_1		rubber 1 plastic 1 rags 1																					
+medical_tshirt_2		rags 3 plastic 1																					
+science_coat_2		rags 3 rubber 1 plastic 1																					
+science_pants_2		rags 3 rubber 1 plastic 1																					
+medical_chem_helmet_1		rubber 1 plastic 1 rags 1																					
+medical_chem_shirt_1		rubber 1 rags 3 plastic 1																					
+medical_chem_pants_1		rubber 1 rags 3 plastic 1																					
+medical_sneakers_2		rubber 1 plastic 1 rags 1																					
+science_gasmask_1		rags 3 plastic 1																					
+science_reinforced_shirt_1		rags 3 plastic 1 armor_plates 1																					
+science_reinforced_pants_1		rags 3 plastic 1 armor_plates 1																					
+science_reinforced_boots_1		rags 3 plastic 1																					
+science_chem_helmet_1		rubber 1 rags 3 plastic 1																					
+science_chem_shirt_1		rubber 1 rags 3 plastic 1																					
+science_chem_pants_1		rubber 1 rags 3 plastic 1																					
+science_chem_boots_1		rubber 1 rags 3 plastic 1																					
+engineering_repair_kit		rod_parts 2 coarse_parts 2																					
+tech_repair_kit		microelectronics_parts 2 circuit_board 2																					
+rail_repair_kit		transformer 2 capacitor_parts 2																					
+laser_repair_kit		bulb 2 lens 2																					
 moon_maul_1		moon_weapon_parts 4																					
 venus_knife_1		venus_melee_parts 2 venus_weapon_parts 1																					
 mercury_blade_1		mercury_glass 3 mercury_rags 1																					
@@ -724,21 +729,21 @@ moon_fist_1		moon_weapon_parts 3
 moon_axe_1		moon_weapon_parts 3																					
 venus_axe_1		venus_melee_parts 2 venus_weapon_parts 2																					
 venus_battlefist_1		venus_melee_parts 2 venus_weapon_parts 2																					
-anc_shirt_1		rags 2 tread 1																					
-anc_pants_1		rags 2 tread 1																					
-anc_boots_1		rags 2 tread 1																					
-rwa_pants_1		rags 2 tread 1																					
-rwa_shirt_1		rags 2 tread 1																					
-rwa_cap_1		rags 2 tread 1																					
-rwa_shirt_2		rags 2 plastic 2 tread 1																					
-rwa_boots_1		rags 2 tread 1																					
+anc_shirt_1		rags 3																					
+anc_pants_1		rags 3																					
+anc_boots_1		rags 3																					
+rwa_pants_1		rags 3																					
+rwa_shirt_1		rags 3																					
+rwa_cap_1		rags 3																					
+rwa_shirt_2		rags 3 plastic 2																					
+rwa_boots_1		rags 3																					
 rwa_light_armor_1		armor_plates 2 rags 2 metal_tread 1																					
 rwa_light_helmet_1		rusty_plates 2 metal_tread 2																					
 rwa_light_helmet_2		armor_plates 2 rags 2 metal_tread 1																					
 rwa_light_pants_1		armor_plates 2 rags 2 metal_tread 1																					
 rwa_light_boots_1		armor_plates 2 rags 2 metal_tread 1																					
-ddr_coat_1		plastic 2 rubber 2 tread 1																					
-ddr_pants		plastic 2 rubber 2 tread 1																					
+ddr_coat_1		plastic 2 rubber 2 rags 1																					
+ddr_pants		plastic 2 rubber 2 rags 1																					
 ddr_power_armor_1		ceramite_plates 2 armor_plates 2 microelectronics_parts 1																					
 ddr_power_pants_1		ceramite_plates 1 armor_plates 2 microelectronics_parts 1																					
 ddr_power_helmet_1		ceramite_plates 2 armor_plates 1 glass 1 microelectronics_parts 1																					
@@ -747,19 +752,19 @@ moon_light_armor_1		moon_armor_plates 3
 moon_heavy_armor_1		moon_armor_plates 3																					
 moon_heavy_pants_1		moon_armor_plates 3																					
 moon_heavy_boots_1		moon_armor_plates 3																					
-ddr_gasmask_1		plastic 2 rubber 2 tread 1																					
+ddr_gasmask_1		plastic 2 rubber 2 rags 1																					
 anc_medium_pants_2		ceramite_plates 2 armor_plates 2 metal_tread 1																					
 anc_medium_boots_2		ceramite_plates 1 armor_plates 2 metal_tread 1																					
-sbn_shirt_1		rags 2 tread 1																					
-sbn_pants_1		rags 2 tread 1																					
-sbn_cap_1		rubber 2 plastic 2 tread 1																					
-sbn_shirt_2		rubber 2 plastic 2 tread 1																					
-sbn_pants_2		rubber 2 plastic 2 tread 1																					
-sbn_boots_1		rubber 2 plastic 2 tread 1																					
-sbn_medium_helmet_1		armor_plates 1 rags 2 tread 1																					
+sbn_shirt_1		rags 3																					
+sbn_pants_1		rags 3																					
+sbn_cap_1		rubber 2 plastic 2 rags 1																					
+sbn_shirt_2		rubber 2 plastic 2 rags 1																					
+sbn_pants_2		rubber 2 plastic 2 rags 1																					
+sbn_boots_1		rubber 2 plastic 2 rags 1																					
+sbn_medium_helmet_1		armor_plates 1 rags 3																					
 sbn_medium_armor_1		armor_plates 2 rags 2 capacitor_parts 1																					
 sbn_medium_pants_1		armor_plates 2 rags 2 capacitor_parts 1																					
-sbn_medium_boots_1		armor_plates 1 rags 2 tread 1																					
+sbn_medium_boots_1		armor_plates 1 rags 3																					
 cyborg_wrist		armor_plates 1 rusty_plates 1 plastic 1 circuit_board 1																					
 cyborg_feet		armor_plates 1 rusty_plates 1 plastic 1 circuit_board 1																					
 cyborg_chest		armor_plates 2 rusty_plates 2 wire 1 circuit_board 1																					
@@ -780,14 +785,33 @@ recreationCyborg_chest		rubber 2 rusty_plates 2 plastic 1 circuit_board 1
 recreationCyborg_guts		rubber 2 rusty_plates 2 plastic 1 circuit_board 1																					
 recreationCyborg_shoulderPart		rubber 2 rusty_plates 2 plastic 1 circuit_board 1																					
 recreationCyborg_knee		rubber 1 rusty_plates 1 plastic 1 circuit_board 1																					
-packaged_industrial_robot		cyborg_head 1 cyborg_wrist 1 cyborg_feet 1 cyborg_chest 1 cyborg_guts 1 cyborg_shoulderPart 1 cyborg_knee 1																					
-packaged_security_robot		battleCyborg_head 1 battleCyborg_wrist 1 battleCyborg_feet 1 battleCyborg_chest 1 battleCyborg_guts 1 battleCyborg_shoulderPart 1 battleCyborg_knee 1																					
-packaged_recreational_robot		recreationCyborg_head 1 recreationCyborg_wrist 1 recreationCyborg_feet 1 recreationCyborg_chest 1 recreationCyborg_guts 1 recreationCyborg_shoulderPart 1 recreationCyborg_knee 1																					
+cyborg_hand		cyborg_wrist 1 metal_tread 1 weapon_parts 1																					
+cyborg_leg		cyborg_feet 1 metal_tread 1 weapon_parts 1																					
+battleCyborg_hand		battleCyborg_wrist 1 metal_tread 1 weapon_parts 1																					
+battleCyborg_leg		battleCyborg_feet 1 metal_tread 1 weapon_parts 1																					
+recreationCyborg_hand		recreationCyborg_wrist 1 rubber 1 weapon_parts 1																					
+recreationCyborg_leg		recreationCyborg_feet 1 rubber 1 weapon_parts 1																					
+packaged_industrial_robot		cyborg_head 1 cyborg_wrist 1 cyborg_feet 1 cyborg_chest 1 cyborg_guts 1 cyborg_knee 1 cyborg_hand 1 cyborg_leg 1																					
+packaged_security_robot		battleCyborg_head 1 battleCyborg_wrist 1 battleCyborg_feet 1 battleCyborg_chest 1 battleCyborg_guts 1 battleCyborg_knee 1 battleCyborg_hand 1 battleCyborg_leg 1																					
+packaged_recreational_robot		recreationCyborg_head 1 recreationCyborg_wrist 1 recreationCyborg_feet 1 recreationCyborg_chest 1 recreationCyborg_guts 1 recreationCyborg_knee 1 recreationCyborg_hand 1 recreationCyborg_leg 1																					
+ddr_poisonknife_1		pierce_parts 2 glass 1 rubber 1 plastic 1																					
+med_lightblade_1		pierce_parts 1 blunt_parts 1 microelectronics_parts 1 wire 1																					
+chu_fireclub_1		blunt_parts 2 broken_weapon 2																					
+worker_torch_1		rusty_plates 1 tin 1 rubber 1 plastic 1																					
+pirates_pistol_1		plastic 1 weapon_parts 1 spring 1																					
+pirates_pistol_2		plastic 1 weapon_parts 2 spring 2																					
+ddr_disraptor_pistol_1		ceramite_plates 2 circuit_board 1 microelectronics_parts 1 glass 1																					
+pmc_smg_4		rubber 1 weapon_parts 1 spring 1 blunt_parts 2																					
+she_smg_1		plastic 2 weapon_parts 1 metal_tread 1 spring 2																					
+she_plasma_assault_1		ceramite_plates 2 circuit_board 1 microelectronics_parts 1 capacitor_parts 1																					
+ddr_disraptor_marksman_1		ceramite_plates 2 circuit_board 2 microelectronics_parts 1 glass 2																					
+grh_microwave_marksman_1		bulb 1 microelectronics_parts 1 glass 1 capacitor_parts 1 transformer 1																					
+cor_hmg_1		ceramite_plates 2 weapon_parts 1 spring 1 blunt_parts 1																					
 #end																							
 																							
 #workbenchreceipts																							
 Id		AllowedWorkbenches	OutputItem	RequiredItems																			
-		workbench	small_backpack_1	rags 3 tread 1																			
+		workbench	small_backpack_1	rags 4																			
 		workbench	spider_light_armor_1	spider_chitin 3 rags 1																			
 		workbench	spider_light_helmet_1	spider_chitin 1 rags 1																			
 		workbench	spider_light_pants_1	spider_chitin 2 rags 1																			
@@ -837,11 +861,11 @@ Id		AllowedWorkbenches	OutputItem	RequiredItems
 Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	ModifyItemsGrades	ModifyLevelLimit															
 		ration_pack_3	plastic 1	4	1	1.05																	
 		ration_pack_4	plastic 1	4	1	1.05																	
-		trash_common_vest_1	rags 1 tread 1	8	1	1.05																	
-		small_backpack_1	rags 3 tread 1	8	1	1.05																	
-		common_shirt_2	rags 1 tread 1	6	1	1.08	tread 1 rags 3 itemChip 5 mediumItemChip 15	10															
-		common_pants_3	rags 1 tread 1	6	1	1.08	tread 1 rags 3 itemChip 5 mediumItemChip 15	10															
-		common_sneakers_1	rags 1 tread 1 plastic 1	6	1	1.08	rags 1 rubber 3 itemChip 5 mediumItemChip 15	10															
+		trash_common_vest_1	rags 2	8	1	1.05																	
+		small_backpack_1	rags 4	8	1	1.05																	
+		common_shirt_2	rags 2	6	1	1.08	rags 1 itemChip 5 mediumItemChip 15	10															
+		common_pants_3	rags 2	6	1	1.08	rags 1 itemChip 5 mediumItemChip 15	10															
+		common_sneakers_1	rags 2 plastic 1	6	1	1.08	rags 1 rubber 3 itemChip 5 mediumItemChip 15	10															
 		common_knife_1	pierce_parts 1 plastic 1	8	1	1.08	blunt_parts 1 pierce_parts 3 itemChip 7	10															
 		army_pistol_1	plastic 1 spring 1	10	1	1.08	weapon_parts 1 spring 3 itemChip 7	10															
 		pmc_pistol_1	plastic 1 spring 1	10	1	1.08	weapon_parts 1 spring 3 itemChip 7	10															
@@ -980,39 +1004,39 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		pills_painkillers	plastic 1 poppy_box 1	8	1	1.05																	
 		vodka_bottle_1	glassBottle 1 water_bottle_1 1 human_poop 1	8	1	1.05																	
 		mre_pack_1	canned_food_1 1 ration_pack_4 1 chocolate_pack_1 1	10	1	1.05																	
-		medium_backpack_1	rags 2 plastic 1 rubber 1 tread 1	36	1	1.05																	
-		big_backpack_1	rags 1 plastic 1 rubber 1 armor_plates 1 tread 1	48	1	1.05																	
+		medium_backpack_1	rags 3 plastic 1 rubber 1	36	1	1.05																	
+		big_backpack_1	rags 2 plastic 1 rubber 1 armor_plates 1	48	1	1.05																	
 		servo_backpack_1	coarse_parts 1 rubber 1 metal_tread 1 wire 1	30	1	1.05																	
 		sun_servo_backpack_1	coarse_parts 1 ceramite_plates 1 armor_plates 1 wire 1	48	1	1.05																	
-		pmc_common_vest_1	rags 2 metal_tread 1 tread 1	24	1	1.05																	
+		pmc_common_vest_1	rags 3 metal_tread 1	24	1	1.05																	
 		military_armored_vest_1	pmc_common_vest_1 1 armor_plates 1 metal_tread 1	36	1	1.05																	
 		trash_armored_vest_1	trash_common_vest_1 1 rusty_plates 1 metal_tread 1	24	1	1.05																	
-		military_common_vest_1	rags 2 tread 1	12	1	1.05																	
+		military_common_vest_1	rags 3	12	1	1.05																	
 		armored_vest_1	armor_plates 1 rubber 1 metal_tread 1	24	1	1.05																	
-		armored_expanded_vest_1	armored_vest_1 1 rags 1 tread 1	36	1	1.05																	
+		armored_expanded_vest_1	armored_vest_1 1 rags 2	36	1	1.05																	
 		heavy_armored_vest_1	ceramite_plates 1 rubber 1 metal_tread 1	36	1	1.05																	
 		military_heavy_armor_1	armor_plates 1 ceramite_plates 1 metal_tread 1 transformer 1	48	1	1.06	ceramite_plates 1 itemChip 5 mediumItemChip 10 highItemChip 20	25															
 		anc_medium_armor_1	armor_plates 1 ceramite_plates 1 rubber 2 capacitor_parts 1	52	1	1.05	ceramite_plates 1 itemChip 5 mediumItemChip 10 AncomItemChip 25	35															
 		military_power_armor_1	ceramite_plates 1 armor_plates 2 capacitor_parts 1 microelectronics_parts 1	48	1	1.06	ceramite_plates 1 itemChip 5 mediumItemChip 10 highItemChip 20	25															
 		rwa_heavy_armor_1	armor_plates 2 ceramite_plates 1 rubber 1 microelectronics_parts 1 transformer 1	54	1	1.05	ceramite_plates 1 armor_repair_kit 8 mediumItemChip 10 RealWareItemChip 25	35															
 		sbn_light_armor_1	armor_plates 1 ceramite_plates 1 rubber 1 capacitor_parts 1 metal_tread 1	50	1	1.05	ceramite_plates 1 armor_repair_kit 5 mediumItemChip 9 SBNItemChip 25	35															
-		military_light_armor_1	rusty_plates 2 rags 1 tread 1 metal_tread 1	18	1	1.08	rusty_plates 1 armor_plates 3 itemChip 7 mediumItemChip 20	10															
-		police_medium_armor_1	armor_plates 1 rags 1 tread 1 capacitor_parts 1	24	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
-		military_shirt_3	armor_plates 1 rags 2 tread 1	22	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
+		military_light_armor_1	rusty_plates 2 rags 2 metal_tread 1	18	1	1.08	rusty_plates 1 armor_plates 3 itemChip 7 mediumItemChip 20	10															
+		police_medium_armor_1	armor_plates 1 rags 2 capacitor_parts 1	24	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
+		military_shirt_3	armor_plates 1 rags 3	22	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		rwa_power_armor_1	ceramite_plates 2 armor_plates 1 rubber 1 capacitor_parts 1	64	1	1.05	itemChip 1 armor_repair_kit 8 mediumItemChip 10 RealWareItemChip 25	40															
-		anc_reinforced_shirt_1	armor_plates 1 rags 2 tread 1	22	1	1.06	rags 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
+		anc_reinforced_shirt_1	armor_plates 1 rags 3	22	1	1.06	rags 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		sbn_heavy_armor_1	ceramite_plates 1 armor_plates 1 rubber 1 microelectronics_parts 1 transformer 1	64	1	1.05	ceramite_plates 1 armor_repair_kit 8 mediumItemChip 10 SBNItemChip 25	35															
-		ddr_chem_coat_1	rubber 2 plastic 1 tread 1	32	1	1.06	rubber 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
-		ddr_reinforced_chem_coat_1	armor_plates 2 rubber 1 plastic 1 tread 1	60	1	1.05	ceramite_plates 1 itemChip 3 mediumItemChip 10 highItemChip 20	30															
+		ddr_chem_coat_1	rubber 2 plastic 1 rags 1	32	1	1.06	rubber 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
+		ddr_reinforced_chem_coat_1	armor_plates 2 rubber 1 plastic 1 rags 1	60	1	1.05	ceramite_plates 1 itemChip 3 mediumItemChip 10 highItemChip 20	30															
 		sun_power_armor_1	armor_plates 1 ceramite_plates 1 rubber 1 capacitor_parts 1 microelectronics_parts 1	62	1	1.05	itemChip 1 armor_repair_kit 8 mediumItemChip 10 SunLightItemChip 25	35															
 		anc_medium_armor_2	armor_plates 1 ceramite_plates 1 metal_tread 1 capacitor_parts 1	34	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		anc_agent_armor_1	armor_plates 1 rags 1 rubber 2 transformer 1	36	1	1.05	ceramite_plates 1 itemChip 3 mediumItemChip 10 highItemChip 20	30															
-		chu_manager_shirt_1	rags 2 rubber 1 plastic 1 tread 1	34	1	1.05	rags 1 itemChip 3 mediumItemChip 10 highItemChip 20	30															
+		chu_manager_shirt_1	rags 3 rubber 1 plastic 1	34	1	1.05	rags 1 itemChip 3 mediumItemChip 10 highItemChip 20	30															
 		chu_power_armor_1	ceramite_plates 2 capacitor_parts 1 microelectronics_parts 1 metal_tread 1	40	1	1.05	ceramite_plates 1 armor_repair_kit 8 mediumItemChip 10 ChurchItemChip 25	35															
-		miner_shirt_1	rags 2 rusty_plates 1 tread 1	16	1	1.06	rusty_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
+		miner_shirt_1	rags 3 rusty_plates 1	16	1	1.06	rusty_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		miner_medium_armor_1	armor_plates 1 ceramite_plates 1 capacitor_parts 1 metal_tread 1	46	1	1.05	ceramite_plates 1 armor_repair_kit 8 mediumItemChip 10 highItemChip 20	30															
 		fra_heavy_armor_1	armor_plates 1 ceramite_plates 1 rubber 1 capacitor_parts 1 transformer 1	52	1	1.05	ceramite_plates 1 mediumItemChip 3 highItemChip 6 highItemChip 20	30															
-		miner_reinforced_shirt_1	rags 2 rusty_plates 1 tread 1	16	1	1.06	rubber 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
+		miner_reinforced_shirt_1	rags 3 rusty_plates 1	16	1	1.06	rubber 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		miner_power_armor_1	ceramite_plates 2 armor_plates 2 capacitor_parts 1	64	1	1.05	ceramite_plates 1 itemChip 5 mediumItemChip 10 highItemChip 20	30															
 		military_heavy_helmet_1	armor_plates 1 ceramite_plates 1 glass 1 circuit_board 1	48	1	1.06	ceramite_plates 1 itemChip 5 mediumItemChip 10 highItemChip 20	25															
 		anc_medium_helmet_1	armor_plates 1 ceramite_plates 1 glass 1 capacitor_parts 1	52	1	1.05	ceramite_plates 1 itemChip 5 mediumItemChip 10 AncomItemChip 25	35															
@@ -1022,7 +1046,7 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		military_light_gasmask_1	rusty_plates 1 plastic 1 glass 1 metal_tread 1	18	1	1.08	rusty_plates 1 armor_plates 3 itemChip 7 mediumItemChip 20	10															
 		military_light_helmet_1	rusty_plates 1 plastic 1 metal_tread 1	22	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		rwa_power_helmet_1	ceramite_plates 2 armor_plates 2 glass 1 microelectronics_parts 1	64	1	1.05	itemChip 1 armor_repair_kit 8 mediumItemChip 10 RealWareItemChip 25	40															
-		anc_reinforced_hat_1	rags 2 tread 1	22	1	1.06	rags 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
+		anc_reinforced_hat_1	rags 3	22	1	1.06	rags 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		sbn_heavy_helmet_1	ceramite_plates 1 armor_plates 1 glass 1 microelectronics_parts 1 transformer 1	64	1	1.05	ceramite_plates 1 armor_repair_kit 8 mediumItemChip 10 SBNItemChip 25	35															
 		ddr_chem_helmet_1	armor_plates 1 rubber 2 glass 1	32	1	1.06	rubber 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		ddr_reinforced_chem_helmet_1	armor_plates 1 ceramite_plates 1 glass 2 microelectronics_parts 1	60	1	1.05	ceramite_plates 1 itemChip 3 mediumItemChip 10 highItemChip 20	30															
@@ -1037,25 +1061,25 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		fra_heavy_mask_1	armor_plates 1 ceramite_plates 1 glass 1 transformer 1	52	1	1.05	ceramite_plates 1 mediumItemChip 3 highItemChip 6 highItemChip 20	30															
 		miner_hard_cap_2	rags 2 rusty_plates 1	16	1	1.06	rubber 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		miner_power_helmet_1	ceramite_plates 1 armor_plates 2 glass 1 microelectronics_parts 1	64	1	1.05	ceramite_plates 1 itemChip 5 mediumItemChip 10 highItemChip 20	30															
-		military_mask_1	rags 1 tread 1	10	1	1.08	tread 1 rags 3 itemChip 5 mediumItemChip 15	10															
+		military_mask_1	rags 2	10	1	1.08	rags 1 itemChip 5 mediumItemChip 15	10															
 		military_heavy_pants_1	armor_plates 1 ceramite_plates 1 rubber 1 metal_tread 1	48	1	1.06	ceramite_plates 1 itemChip 5 mediumItemChip 10 highItemChip 20	25															
 		anc_medium_pants_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 capacitor_parts 1	52	1	1.05	ceramite_plates 1 itemChip 5 mediumItemChip 10 AncomItemChip 25	35															
 		military_power_pants_1	ceramite_plates 1 armor_plates 1 rubber 1 metal_tread 1 microelectronics_parts 1	48	1	1.06	ceramite_plates 1 itemChip 5 mediumItemChip 10 highItemChip 20	25															
 		rwa_heavy_pants_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 transformer 1	54	1	1.05	ceramite_plates 1 armor_repair_kit 8 mediumItemChip 10 RealWareItemChip 25	35															
 		sbn_light_pants_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 metal_tread 1	50	1	1.05	ceramite_plates 1 armor_repair_kit 5 mediumItemChip 9 SBNItemChip 25	35															
-		military_light_pants_1	rusty_plates 1 rags 1 tread 1 metal_tread 1	12	1	1.08	rusty_plates 1 armor_plates 3 itemChip 7 mediumItemChip 20	10															
-		military_pants_2	armor_plates 1 rags 2 tread 1	22	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
+		military_light_pants_1	rusty_plates 1 rags 2 metal_tread 1	12	1	1.08	rusty_plates 1 armor_plates 3 itemChip 7 mediumItemChip 20	10															
+		military_pants_2	armor_plates 1 rags 3	22	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		rwa_power_pants_1	ceramite_plates 2 armor_plates 1 rubber 1 microelectronics_parts 1	64	1	1.05	itemChip 1 armor_repair_kit 8 mediumItemChip 10 RealWareItemChip 25	40															
 		anc_reinforced_pants_1	armor_plates 1 rags 1	22	1	1.06	rags 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		sbn_heavy_pants_1	ceramite_plates 1 armor_plates 1 rubber 2 transformer 1	64	1	1.05	ceramite_plates 1 armor_repair_kit 8 mediumItemChip 10 SBNItemChip 25	35															
-		ddr_chem_pants_1	armor_plates 1 rubber 2 tread 1	32	1	1.06	rubber 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
+		ddr_chem_pants_1	armor_plates 1 rubber 2 rags 1	32	1	1.06	rubber 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		ddr_reinforced_chem_pants_1	armor_plates 2 ceramite_plates 1 rubber 1 plastic 1	60	1	1.05	ceramite_plates 1 itemChip 3 mediumItemChip 10 highItemChip 20	30															
 		sun_power_pants_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 microelectronics_parts 1	62	1	1.05	itemChip 1 armor_repair_kit 8 mediumItemChip 10 SunLightItemChip 25	35															
-		police_pants_2	armor_plates 2 rags 1 tread 1	34	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
+		police_pants_2	armor_plates 2 rags 2	34	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		anc_agent_pants_1	armor_plates 2 rubber 1 transformer 1	36	1	1.05	ceramite_plates 1 itemChip 3 mediumItemChip 10 highItemChip 20	30															
-		chu_manager_pants_1	armor_plates 1 rubber 1 tread 2	34	1	1.05	rags 1 itemChip 3 mediumItemChip 10 highItemChip 20	30															
+		chu_manager_pants_1	armor_plates 1 rubber 1 rags 2	34	1	1.05	rags 1 itemChip 3 mediumItemChip 10 highItemChip 20	30															
 		chu_power_pants_1	ceramite_plates 1 armor_plates 1 rubber 1 metal_tread 1 microelectronics_parts 1	40	1	1.05	ceramite_plates 1 armor_repair_kit 8 mediumItemChip 10 ChurchItemChip 25	35															
-		miner_pants_1	rags 1 rusty_plates 1 tread 1	16	1	1.06	rusty_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
+		miner_pants_1	rags 2 rusty_plates 1	16	1	1.06	rusty_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		miner_medium_pants_1	armor_plates 1 ceramite_plates 1 rubber 1 capacitor_parts 1	46	1	1.05	ceramite_plates 1 armor_repair_kit 8 mediumItemChip 10 highItemChip 20	30															
 		police_medium_pants_1	armor_plates 2 rags 2 capacitor_parts 1	24	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		fra_heavy_pants_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 transformer 1	52	1	1.05	ceramite_plates 1 mediumItemChip 3 highItemChip 6 highItemChip 20	30															
@@ -1070,7 +1094,6 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		sbn_heavy_boots_1	ceramite_plates 1 armor_plates 1 rubber 1 plastic 1 transformer 1	64	1	1.05	ceramite_plates 1 armor_repair_kit 8 mediumItemChip 10 SBNItemChip 25	35															
 		ddr_chem_boots_1	armor_plates 2 rubber 2	32	1	1.06	rubber 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		sun_power_boots_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 microelectronics_parts 1	62	1	1.05	itemChip 1 armor_repair_kit 8 mediumItemChip 10 SunLightItemChip 25	35															
-		police_boots_2	armor_plates 2 plastic 1 rubber 1	34	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		anc_agent_boots_1	armor_plates 2 rubber 1 transformer 1	36	1	1.05	ceramite_plates 1 itemChip 3 mediumItemChip 10 highItemChip 20	30															
 		chu_manager_boots_1	armor_plates 1 rubber 2	34	1	1.05	rags 1 itemChip 3 mediumItemChip 10 highItemChip 20	30															
 		chu_power_boots_1	ceramite_plates 1 armor_plates 1 rubber 1 metal_tread 1 microelectronics_parts 1	40	1	1.05	ceramite_plates 1 armor_repair_kit 8 mediumItemChip 10 ChurchItemChip 25	35															
@@ -1080,16 +1103,16 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		fra_heavy_boots_1	armor_plates 1 ceramite_plates 1 rubber 1 plastic 1 transformer 1	52	1	1.05	ceramite_plates 1 mediumItemChip 3 highItemChip 6 highItemChip 20	30															
 		common_boots_1	rusty_plates 1 plastic 1 rubber 1	16	1	1.06	rubber 1 rusty_plates 3 itemChip 10 mediumItemChip 15	25															
 		miner_power_boots_1	ceramite_plates 1 armor_plates 1 rubber 1 plastic 1 microelectronics_parts 1	64	1	1.05	ceramite_plates 1 itemChip 5 mediumItemChip 10 highItemChip 20	30															
-		armor_repair_kit	tread 1 rubber 1 armor_plates 1 ceramite_plates 1	24	1	1.05																	
-		firearm_repair_kit	plastic 1 weapon_parts 2 spring 1	24	1	1.05																	
-		melee_repair_kit	pierce_parts 1 blunt_parts 1 rod_parts 2	24	1	1.05																	
+		armor_repair_kit	rags 1 rubber 1 armor_plates 1 ceramite_plates 1	24	1	1.05																	
+		firearm_repair_kit	plastic 1 weapon_parts 2 spring 2	24	1	1.05																	
+		melee_repair_kit	pierce_parts 2 blunt_parts 2	24	1	1.05																	
 		automap	circuit_board 2 microelectronics_parts 1 bulb 1	64	1	1.05																	
-		frag_grenade	tin 1 nail_bolts_ammo 1 explosives 1	16	1	1.05																	
-		thermal_grenade	tin 1 gas_ammo 1 powder 1	14	1	1.05																	
-		stun_grenade	tin 1 acid 1 human_poop 1	12	1	1.05																	
+		frag_grenade	armor_plates 1 nail_bolts_ammo 1 explosives 1	16	1	1.05																	
+		thermal_grenade	armor_plates 1 gas_ammo 1 powder 1	14	1	1.05																	
+		stun_grenade	rusty_plates 1 acid 1 human_poop 1	12	1	1.05																	
 		toxic_grenade	glass 1 acid 2 circuit_board 1	14	1	1.05																	
 		frost_grenade	glass 1 circuit_board 1 water_bottle_1 1	14	1	1.05																	
-		frag_mine	tin 1 explosives 3	16	1	1.05																	
+		frag_mine	armor_plates 1 explosives 3	16	1	1.05																	
 		stationary_turret	military_minigun_1 1 armor_plates 1 weapon_parts 1 circuit_board 1	52	1	1.05																	
 		fire_turret	worker_flametrower_1 1 armor_plates 1 weapon_parts 1 circuit_board 1	64	1	1.05																	
 		energy_turret	laser_sniper_1 1 armor_plates 1 weapon_parts 1 circuit_board 2	80	1	1.05																	
@@ -1101,17 +1124,15 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		military_medium_armor_1	armor_plates 1 rusty_plates 2 rags 1 capacitor_parts 1	42	1	1.05	armor_plates 1 itemChip 7 mediumItemChip 15	25															
 		military_medium_pants_1	armor_plates 2 rusty_plates 1 rags 1 capacitor_parts 1	42	1	1.05	armor_plates 1 itemChip 7 mediumItemChip 15	25															
 		military_medium_boots_1	armor_plates 1 rusty_plates 1 rags 2 capacitor_parts 1	42	1	1.05	armor_plates 1 itemChip 7 mediumItemChip 15	25															
-		prison_reinforced_shirt_1	rusty_plates 2 rags 1 tread 1	12	1	1.05	rags 1 rusty_plates 3 itemChip 7 mediumItemChip 15	15															
-		prison_reinforced_pants_1	rusty_plates 2 rags 1 tread 1	12	1	1.05	rags 1 rusty_plates 3 itemChip 7 mediumItemChip 15	15															
-		police_reinforced_shirt_1	armor_plates 1 rags 1 tread 1	12	1	1.05	rags 1 rusty_plates 3 itemChip 7 mediumItemChip 15	15															
+		police_reinforced_shirt_1	armor_plates 1 rags 2	12	1	1.05	rags 1 rusty_plates 3 itemChip 7 mediumItemChip 15	15															
 		military_doc_helmet_1	rags 1 rusty_plates 1 metal_tread 1 circuit_board 1	28	1	1.05	rags 1 rusty_plates 3 itemChip 7 mediumItemChip 15	20															
 		military_doc_armor_1	rags 1 rusty_plates 1 metal_tread 1 transformer 1	28	1	1.05	rags 1 rusty_plates 3 itemChip 7 mediumItemChip 15	20															
 		military_doc_pants_1	rags 1 rusty_plates 1 metal_tread 1 rubber 1	28	1	1.05	rags 1 rusty_plates 3 itemChip 7 mediumItemChip 15	20															
 		miner_gasmask_1	rubber 1 rags 1 rusty_plates 1 metal_tread 1	12	1	1.06	rubber 1 rusty_plates 3 itemChip 5 mediumItemChip 15	15															
-		laborer_warm_hat_1	rags 1 rubber 1 tread 1	12	1	1.06	tread 1 rags 3 itemChip 5 mediumItemChip 15	15															
-		laborer_warm_shirt_1	rags 2 rubber 2 tread 1	12	1	1.06	tread 1 rags 3 itemChip 5 mediumItemChip 15	15															
-		laborer_warm_pants_1	rags 2 rubber 2 tread 1	12	1	1.06	tread 1 rags 3 itemChip 5 mediumItemChip 15	15															
-		laborer_warm_boots_1	rags 1 rubber 1 tread 1	12	1	1.06	tread 1 rags 3 itemChip 5 mediumItemChip 15	15															
+		laborer_warm_hat_1	rags 2 rubber 1	12	1	1.06	rags 1 plastic 3 itemChip 5 mediumItemChip 15	15															
+		laborer_warm_shirt_1	rags 3 rubber 2	12	1	1.06	rags 1 plastic 3 itemChip 5 mediumItemChip 15	15															
+		laborer_warm_pants_1	rags 3 rubber 2	12	1	1.06	rags 1 plastic 3 itemChip 5 mediumItemChip 15	15															
+		laborer_warm_boots_1	rags 2 rubber 1	12	1	1.06	rags 1 plastic 3 itemChip 5 mediumItemChip 15	15															
 		laborer_exoskeleton_1	rusty_plates 1 rags 1 rubber 1 armor_plates 1 microelectronics_parts 1	64	1	1.05	ceramite_plates 1 itemChip 5 mediumItemChip 10 highItemChip 20	35															
 		medical_medium_helmet_1	rusty_plates 1 armor_plates 1 plastic 1 capacitor_parts 1 glass 1	46	1	1.05	rusty_plates 1 armor_plates 3 itemChip 7 mediumItemChip 15	25															
 		medical_medium_armor_1	rusty_plates 1 armor_plates 1 plastic 1 capacitor_parts 1	46	1	1.05	rusty_plates 1 armor_plates 3 itemChip 7 mediumItemChip 15	25															
@@ -1126,25 +1147,24 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		police_heavy_armor_1	armor_plates 1 ceramite_plates 1 plastic 1 transformer 1	42	1	1.06	ceramite_plates 1 itemChip 5 mediumItemChip 10 highItemChip 20	30															
 		police_heavy_pants_1	armor_plates 2 ceramite_plates 1 plastic 1 transformer 1	42	1	1.06	ceramite_plates 1 itemChip 5 mediumItemChip 10 highItemChip 20	30															
 		police_heavy_boots_1	armor_plates 1 ceramite_plates 1 rubber 2 transformer 1	42	1	1.06	ceramite_plates 1 itemChip 5 mediumItemChip 10 highItemChip 20	30															
-		common_reinforced_pants_1	rags 1 armor_plates 1 tread 1	12	1	1.05	rags 1 rusty_plates 3 itemChip 5 mediumItemChip 15	15															
-		common_gasmask_1	rubber 1 plastic 1 glass 1 tread 1	6	1	1.05	plastic 1 rubber 3 itemChip 5 mediumItemChip 15	10															
+		common_reinforced_pants_1	rags 2 armor_plates 1	12	1	1.05	rags 1 rusty_plates 3 itemChip 5 mediumItemChip 15	15															
+		common_gasmask_1	rubber 1 plastic 1 glass 1 rags 1	6	1	1.05	plastic 1 rubber 3 itemChip 5 mediumItemChip 15	10															
 		laborer_medium_helmet_1	rusty_plates 1 rubber 1 rags 1 glass 1	12	1	1.05	rags 1 rusty_plates 3 itemChip 7 mediumItemChip 15	15															
 		laborer_medium_armor_1	rusty_plates 1 rubber 1 rags 1 metal_tread 1	12	1	1.05	rags 1 rusty_plates 3 itemChip 7 mediumItemChip 15	15															
 		laborer_medium_pants_1	rusty_plates 1 rubber 1 rags 1 metal_tread 1	12	1	1.05	rags 1 rusty_plates 3 itemChip 7 mediumItemChip 15	15															
 		laborer_medium_boots_1	rusty_plates 1 rubber 1 metal_tread 1	12	1	1.05	rags 1 rusty_plates 3 itemChip 7 mediumItemChip 15	15															
-		medical_gasmask_1	rubber 1 plastic 1 glass 1 tread 1	8	1	1.05	plastic 1 rubber 3 itemChip 5 mediumItemChip 15	15															
-		medical_chem_helmet_1	rubber 1 rags 1 plastic 1 glass 1 acid 1 tread 1	16	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
-		medical_chem_shirt_1	rubber 1 rags 1 plastic 1 acid 1 tread 1	16	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
-		medical_chem_pants_1	rubber 1 rags 1 plastic 1 acid 1 tread 1	16	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
-		medical_sneakers_2	rubber 1 rags 1 plastic 1 tread 1	16	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	10															
+		medical_gasmask_1	rubber 1 plastic 1 glass 1 rags 1	8	1	1.05	plastic 1 rubber 3 itemChip 5 mediumItemChip 15	15															
+		medical_chem_helmet_1	rubber 1 rags 2 plastic 1 glass 1 acid 1	16	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
+		medical_chem_shirt_1	rubber 1 rags 2 plastic 1 acid 1	16	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
+		medical_chem_pants_1	rubber 1 rags 2 plastic 1 acid 1	16	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
 		science_gasmask_1	rubber 1 rags 1 plastic 1 glass 1 metal_tread 1	24	1	1.05	plastic 1 rubber 3 itemChip 5 mediumItemChip 15	15															
 		science_reinforced_shirt_1	rubber 1 rags 1 plastic 1 armor_plates 1 metal_tread 1	24	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
 		science_reinforced_pants_1	rubber 1 rags 1 plastic 1 armor_plates 1 metal_tread 1	24	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
 		science_reinforced_boots_1	rubber 1 rags 1 plastic 1 metal_tread 1	24	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
-		science_chem_helmet_1	rubber 1 plastic 1 acid 1 tread 1	20	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
-		science_chem_shirt_1	rubber 2 plastic 1 acid 1 tread 1	20	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
-		science_chem_pants_1	rubber 2 plastic 1 acid 1 tread 1	20	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
-		science_chem_boots_1	rubber 1 plastic 1 acid 1 tread 1	20	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
+		science_chem_helmet_1	rubber 1 plastic 1 acid 1 rags 1	20	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
+		science_chem_shirt_1	rubber 2 plastic 1 acid 1 rags 1	20	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
+		science_chem_pants_1	rubber 2 plastic 1 acid 1 rags 1	20	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
+		science_chem_boots_1	rubber 1 plastic 1 acid 1 rags 1	20	1	1.05	rags 1 rubber 3 itemChip 5 mediumItemChip 15	15															
 		rwa_light_helmet_1	rusty_plates 2 metal_tread 2	28	1	1.05	rags 1 armor_plates 3 itemChip 7 mediumItemChip 15	20															
 		rwa_light_armor_1	armor_plates 1 rags 1 metal_tread 1	28	1	1.05	rags 1 armor_plates 3 itemChip 7 mediumItemChip 15	20															
 		rwa_light_helmet_2	armor_plates 2 rags 1 metal_tread 1	28	1	1.05	rags 1 armor_plates 3 itemChip 7 mediumItemChip 15	20															
@@ -1161,16 +1181,22 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		rail_repair_kit	transformer 1 capacitor_parts 1 wire 2	24	1	1.05																	
 		laser_repair_kit	bulb 2 lens 1 microelectronics_parts 1	24	1	1.05																	
 		goldenstar_balm	tin 1 explosives 1	8	1	1.05																	
-		sbn_medium_helmet_1	armor_plates 1 rags 1 capacitor_parts 1 tread 1	42	1	1.05	armor_plates 1 itemChip 7 mediumItemChip 15	25															
-		sbn_medium_armor_1	armor_plates 2 rags 1 capacitor_parts 1 tread 1	42	1	1.05	armor_plates 1 itemChip 7 mediumItemChip 15	25															
-		sbn_medium_pants_1	armor_plates 1 rags 2 capacitor_parts 1 tread 1	42	1	1.05	armor_plates 1 itemChip 7 mediumItemChip 15	25															
-		sbn_medium_boots_1	armor_plates 1 rags 1 capacitor_parts 1 tread 1	42	1	1.05	armor_plates 1 itemChip 7 mediumItemChip 15	25															
+		sbn_medium_helmet_1	armor_plates 1 rags 2 capacitor_parts 1	42	1	1.05	armor_plates 1 itemChip 7 mediumItemChip 15	25															
+		sbn_medium_armor_1	armor_plates 2 rags 2 capacitor_parts 1	42	1	1.05	armor_plates 1 itemChip 7 mediumItemChip 15	25															
+		sbn_medium_pants_1	armor_plates 1 rags 3 capacitor_parts 1	42	1	1.05	armor_plates 1 itemChip 7 mediumItemChip 15	25															
+		sbn_medium_boots_1	armor_plates 1 rags 2 capacitor_parts 1	42	1	1.05	armor_plates 1 itemChip 7 mediumItemChip 15	25															
 		pills_fibromine	acid 2 poppy_box 1	8	1	1.05																	
 		pills_cryopentol	acid 2 water_bottle_1 1	8	1	1.05																	
 		pills_tranexam	acid 2 human_aye 1	8	1	1.05																	
 		pills_osteodron	acid 2 human_rib 1	8	1	1.05																	
 		hydrogel_bandage	rags 1 water_bottle_1 1	6	1	1.05																	
 		medical_kit_2	medical_kit_1 1 pills_osteodron 1 pills_tranexam 1 pills_fibromine 1	22	1	1.05																	
+		med_lightblade_1	pierce_parts 1 blunt_parts 1 microelectronics_parts 1 wire 1	32	1	1.08	wire 1 microelectronics_parts 3 itemChip 7	10															
+		ddr_disraptor_pistol_1	ceramite_plates 2 circuit_board 1 microelectronics_parts 1 glass 1	32	1	1.06	circuit_board 1 microelectronics_parts 3 itemChip 10 mediumItemChip 15	25															
+		pmc_smg_4	rubber 1 weapon_parts 1 spring 1 blunt_parts 2	22	2	1.08	spring 1 firearm_repair_kit 5 itemChip 7 mediumItemChip 15	10															
+		ddr_disraptor_marksman_1	ceramite_plates 2 circuit_board 2 microelectronics_parts 1 glass 2	50	1	1.06	microelectronics_parts 1 itemChip 3 electrical_parts_container 10 mediumItemChip 15	25															
+		grh_microwave_marksman_1	bulb 1 microelectronics_parts 1 glass 1 capacitor_parts 1 transformer 1	50	1	1.06	microelectronics_parts 1 itemChip 3 electrical_parts_container 10 mediumItemChip 15	25															
+		cor_hmg_1	ceramite_plates 2 weapon_parts 1 spring 1 blunt_parts 1	52	8	1.06	weapon_parts 1 blunt_parts 3 itemChip 7 mediumItemChip 15	25															
 #end																							
 																							
 #itemexpire																							

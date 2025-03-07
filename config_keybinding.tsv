@@ -1,5 +1,5 @@
 #keybinding														
-Id	Layout	OtherKeyIdToPress	Bind1	Bind2	ControllerBind1	ControllerBind2	ImmutableBind1	ImmutableBind2	ImmutableJoystickBind1	ImmutableJoystickBind2	AxisName	MovementVector	ExclusiveInputMode	ForbiddenKeysToBind
+Id	Layout	OtherKeyIdToPress	Bind1	Bind2	ControllerBind1	ControllerBind2	ImmutableBind1	ImmutableBind2	ImmutableControllerBind1	ImmutableControllerBind2	AxisName	MovementVector	ExclusiveInputMode	ForbiddenKeysToBind
 PrimaryCursorAction			Mouse0	None	None	None							KeyboardAndMouse	
 SecondaryCursorAction			Mouse1	None	None	None							KeyboardAndMouse	
 PreciseCursorShoot		PrimaryCursorAction	LeftShift	None	None	None							KeyboardAndMouse	
@@ -54,18 +54,21 @@ HighlightPreciseShoot			LeftShift	None	None	None
 HighlightForceMove			LeftControl	None	None	None								
 Help			F1	None	None	None							KeyboardAndMouse KeyboardOnly	
 Menu	UI		Escape	None	Center2	None	TRUE		TRUE					Mouse0
-UI_MoveUp	UI		UpArrow	None	LeftStickYPos	DPadUp					Movement	0 1		
-UI_MoveDown	UI		DownArrow	None	LeftStickYNeg	DPadDown					Movement	0 -1		
-UI_MoveLeft	UI		LeftArrow	None	LeftStickXNeg	DPadLeft					Movement	-1 0		
-UI_MoveRight	UI		RightArrow	None	LeftStickXPos	DPadRight					Movement	1 0		
+UI_MoveUp	UI		UpArrow	None	LeftStickYPos	DPadUp	TRUE		TRUE		Movement	0 1		
+UI_MoveDown	UI		DownArrow	None	LeftStickYNeg	DPadDown	TRUE		TRUE		Movement	0 -1		
+UI_MoveLeft	UI		LeftArrow	None	LeftStickXNeg	DPadLeft	TRUE		TRUE		Movement	-1 0		
+UI_MoveRight	UI		RightArrow	None	LeftStickXPos	DPadRight	TRUE		TRUE		Movement	1 0		
 UI_MoveUpLeft	UI		None	Keypad7	None	None					Movement	-1 1		
 UI_MoveUpRight	UI		None	Keypad9	None	None					Movement	1 1		
 UI_MoveDownLeft	UI		None	Keypad1	None	None					Movement	-1 -1		
 UI_MoveDownRight	UI		None	Keypad3	None	None					Movement	1 -1		
-Back	UI		N	Backspace	ActionBottomRow2	None		TRUE						Mouse0
-Confirm	UI		Y	Return	ActionBottomRow1	None		TRUE						Mouse0
-SlideLeft	Hotkeys		PageUp	None	LeftShoulder1	None								
-SlideRight	Hotkeys		PageDown	None	RightShoulder1	None								
+Back	UI		N	Backspace	ActionBottomRow2	None		TRUE	TRUE					Mouse0
+Confirm	UI		Y	Return	ActionBottomRow1	None		TRUE	TRUE					Mouse0
+SlideLeft	UI		PageUp	None	LeftShoulder1	None								
+SlideRight	UI		PageDown	None	RightShoulder1	None								
+UI_ScrollUp	UI		None	None	RightStickYPos	None	TRUE		TRUE		Scroll	0 1	Controller	
+UI_ScrollDown	UI		None	None	RightStickYNeg	None	TRUE		TRUE		Scroll	0 -1	Controller	
+UI_FastScroll	UI		LeftShift	None	RightStickButton	None								
 Continue	Hotkeys		Y	None	None	None								
 Ok	Hotkeys		Y	None	None	None								
 Cancel	Hotkeys		N	None	None	None								
