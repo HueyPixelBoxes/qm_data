@@ -30,12 +30,13 @@ flowersContainer_2	4 3	TRUE	FALSE		poppycontainer	1 3
 GreenCaseBig	4 2	TRUE	FALSE		ammocontainer	1 1		
 GreenCaseSmall	4 2	TRUE	FALSE		weaponElitecontainer	1 1		
 industryBigContainer	4 4	TRUE	TRUE	Parts Blueprint RepairKit IndustrialBarter	industryContainer	2 3		
-medicalCapboard	6 4	TRUE	TRUE	Syringe Pills Dressing	medicalcontainer	1 3		
-MedicalCaseBig	4 2	TRUE	FALSE		medicalcontainer	2 2		
+medicalCapboard	6 4	TRUE	TRUE	Syringe Pills Dressing Cyborg	medicalcontainer	1 3		
+MedicalCaseBig	4 2	TRUE	FALSE	Syringe Pills Dressing Cyborg	medicalcontainer	2 2		
 Metal_Trash_Can	4 2	TRUE	FALSE		trashbin	0 2		
 metallRack	6 3	TRUE	TRUE	Parts Ammo		0 0		
-scienceBigContainer	4 4	TRUE	TRUE	Data Blueprint Dressing Syringe Pills Medpack ScienceBarter	scienceContainer	2 3		
+scienceBigContainer	4 4	TRUE	TRUE	Data Blueprint Dressing Syringe Pills Medpack ScienceBarter Cyborg	scienceContainer	2 3		
 VendingMachine	6 3	TRUE	FALSE		VendingMachine	1 1		
+snowman	1 1	TRUE	FALSE	Helmet		0 0		
 #end								
 								
 #factiondrop_AnCom_rewardEquipment								
@@ -297,6 +298,7 @@ TechLevel	ContentIds	Weight	Points
 								
 #factiondrop_DaydreamChems_rewardEquipment								
 TechLevel	ContentIds	Weight	Points					
+1	ddr_poisonknife_1	10	150					
 1	ddr_toxic_pistol_1	10	150					
 2	toxic_thrower_1	40	750					
 2	science_chem_helmet_1	20	300					
@@ -524,6 +526,7 @@ TechLevel	ContentIds	Weight	Points
 								
 #factiondrop_ChurchRevelation_rewardEquipment								
 TechLevel	ContentIds	Weight	Points					
+1	chu_fireclub_1	10	150					
 1	trucker_pistol_1	10	150					
 2	trucker_shotgun_1	20	300					
 2	chu_manager_shirt_1	20	300					
@@ -967,22 +970,22 @@ expert_disk 16 20	research_disk 2 20			human_feet 8 7	gunbang_magazine 32 20	exp
 								
 #itemdrop_scienceContainer								
 Industrial	Lab	Mine	Military	Prison	ColonyFarm	Civilian	QuasimorphicTemple	SpaceStation
-scientist_clothing_container 10 40	scientist_clothing_container 10 40	medical_equipment 20 20	medical_equipment 20 20	human_skin 4 5	human_poop 8 7	medical_components 20 20	human_skin 4 5	scientist_clothing_container 10 40
-electrical_parts_container 10 40	electrical_parts_container 10 40	scientific_equipment 20 20	scientific_equipment 20 20	human_poop 8 7	human_skin 8 7	tool_container 20 20	human_poop 8 7	electrical_parts_container 10 40
-medical_equipment 20 20	medical_equipment 20 20	chemical_analyzer 20 20	tool_container 20 20	human_wrist 8 7	chemical_analyzer 20 20	robot_parts_container 20 20	human_wrist 8 7	medical_equipment 20 20
-chemical_analyzer 20 20	scientific_equipment 20 20	medical_components 20 20	robot_parts_container 20 20	human_feet 8 7	medical_components 20 20	scientific_equipment 20 20	human_feet 8 7	chemical_analyzer 20 20
-biomass_tank 20 20	chemical_analyzer 20 20	tool_container 20 20	armor_plates 10 10	human_skin 8 7	tool_container 20 20	pills_antiradin 5 14	human_skin 8 7	biomass_tank 20 20
-medical_components 20 20	quasiresearch_disk 20 20	robot_parts_container 20 20	weapon_parts 10 10	human_rib 8 7	research_disk 20 20	pills_fibromine 5 14	human_rib 8 7	medical_components 20 20
-tool_container 20 20	research_disk 20 20	pills_antiradin 5 14	surgicalKit 10 20	human_skull 8 7	water_bottle_1 20 10	pills_cryopentol 5 14	human_skull 8 7	tool_container 20 20
-robot_parts_container 20 20	quasisamples 20 20	pills_fibromine 5 14	nanorobot_grenade 10 20	human_ear 8 7	beer_can_1 8 7	pills_tranexam 5 14	human_ear 8 7	robot_parts_container 20 20
-pills_antiradin 5 14	biomass_tank 20 20	pills_cryopentol 5 14	medical_kit_2 10 20	human_aye 8 7	luxury_ration_pack_1 8 14	pills_osteodron 5 14	human_aye 8 7	quasisamples 20 20
-pills_fibromine 5 14	medical_components 20 20	pills_tranexam 5 14	ai_module 20 20	pills_antiradin 5 14	oil_bottle_1 8 14		anulator 2 40	research_disk 20 20
-pills_cryopentol 5 14	anulator 2 40	pills_osteodron 5 14	ceramite_plates 6 14	pills_fibromine 5 14	luxury_ration_pack_2 8 14		spider_brain 8 7	scientific_equipment 20 20
-pills_tranexam 5 14	defibrillator_device 5 20			pills_cryopentol 5 14	pills_antiradin 5 14		spider_joint 8 7	pills_antiradin 5 14
-pills_osteodron 5 14	ai_module 20 20			pills_tranexam 5 14	pills_fibromine 5 14		spider_cocoon 8 7	pills_fibromine 5 14
-	ceramite_plates 6 14			pills_osteodron 5 14	pills_cryopentol 5 14		spider_aye 8 7	pills_cryopentol 5 14
-					pills_tranexam 5 14		spider_chitin 8 7	pills_tranexam 5 14
-					pills_osteodron 5 14		spider_meat 8 7	pills_osteodron 5 14
+scientist_clothing_container 10 40	scientist_clothing_container 10 40	medical_equipment 20 20	medical_equipment 20 20	human_skin 4 5	human_skin 8 7	medical_components 20 20	human_skin 4 5	scientist_clothing_container 10 40
+electrical_parts_container 10 40	electrical_parts_container 10 40	scientific_equipment 20 20	scientific_equipment 20 20	human_poop 8 7	chemical_analyzer 20 20	tool_container 20 20	human_poop 8 7	electrical_parts_container 10 40
+medical_equipment 20 20	medical_equipment 20 20	chemical_analyzer 20 20	tool_container 20 20	human_wrist 8 7	medical_components 20 20	robot_parts_container 20 20	human_wrist 8 7	medical_equipment 20 20
+chemical_analyzer 20 20	scientific_equipment 20 20	medical_components 20 20	robot_parts_container 20 20	human_feet 8 7	tool_container 20 20	scientific_equipment 20 20	human_feet 8 7	chemical_analyzer 20 20
+biomass_tank 20 20	chemical_analyzer 20 20	tool_container 20 20	armor_plates 10 10	human_skin 8 7	research_disk 20 20	pills_antiradin 5 14	human_skin 8 7	biomass_tank 20 20
+medical_components 20 20	quasiresearch_disk 20 20	robot_parts_container 20 20	weapon_parts 10 10	human_rib 8 7	water_bottle_1 20 10	pills_fibromine 5 14	human_rib 8 7	medical_components 20 20
+tool_container 20 20	research_disk 20 20	pills_antiradin 5 14	surgicalKit 10 20	human_skull 8 7	beer_can_1 8 7	pills_cryopentol 5 14	human_skull 8 7	tool_container 20 20
+robot_parts_container 20 20	quasisamples 20 20	pills_fibromine 5 14	nanorobot_grenade 10 20	human_ear 8 7	luxury_ration_pack_1 8 14	pills_tranexam 5 14	human_ear 8 7	robot_parts_container 20 20
+pills_antiradin 5 14	biomass_tank 20 20	pills_cryopentol 5 14	medical_kit_2 10 20	human_aye 8 7	oil_bottle_1 8 14	pills_osteodron 5 14	human_aye 8 7	quasisamples 20 20
+pills_fibromine 5 14	medical_components 20 20	pills_tranexam 5 14	ai_module 20 20	pills_antiradin 5 14	luxury_ration_pack_2 8 14		anulator 2 40	research_disk 20 20
+pills_cryopentol 5 14	anulator 2 40	pills_osteodron 5 14	ceramite_plates 6 14	pills_fibromine 5 14	pills_antiradin 5 14		spider_brain 8 7	scientific_equipment 20 20
+pills_tranexam 5 14	defibrillator_device 5 20			pills_cryopentol 5 14	pills_fibromine 5 14		spider_joint 8 7	pills_antiradin 5 14
+pills_osteodron 5 14	ai_module 20 20			pills_tranexam 5 14	pills_cryopentol 5 14		spider_cocoon 8 7	pills_fibromine 5 14
+	ceramite_plates 6 14			pills_osteodron 5 14	pills_tranexam 5 14		spider_aye 8 7	pills_cryopentol 5 14
+					pills_osteodron 5 14		spider_chitin 8 7	pills_tranexam 5 14
+							spider_meat 8 7	pills_osteodron 5 14
 							spider_poisongland 8 7	
 #end								
 								
@@ -1000,10 +1003,10 @@ coarse_parts 10 10	firearm_repair_kit 10 10	worker_crowbar_1 10 10	itemChip 1 70
 trash_pipe_1 10 10	melee_repair_kit 10 10	worker_pistol_1 10 20	ai_module 20 20		melee_repair_kit 10 10	transformer 5 10		melee_repair_kit 10 10
 worker_crowbar_1 10 10	transformer 5 10	tape 10 10	ceramite_plates 6 14		transformer 5 10			transformer 5 10
 worker_pistol_1 10 20	lens 5 10	armor_repair_kit 10 10			itemChip 1 70			
-electrical_parts_container 10 40		firearm_repair_kit 10 10						
-tape 10 10	itemChip 1 70	melee_repair_kit 10 10						
-armor_repair_kit 10 10	geoscanner_device 20 20							
-firearm_repair_kit 10 10	ceramite_plates 6 14							
+electrical_parts_container 10 40	itemChip 1 70	firearm_repair_kit 10 10						
+tape 10 10	geoscanner_device 20 20	melee_repair_kit 10 10						
+armor_repair_kit 10 10	ceramite_plates 6 14							
+firearm_repair_kit 10 10								
 melee_repair_kit 10 10								
 itemChip 1 70								
 #end								

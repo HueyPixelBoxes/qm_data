@@ -1,7 +1,7 @@
 #global		
 Parameter	Value	
 // Build info		
-BuildVersion	0.8.6.338s.39693d7
+BuildVersion	0.9.369s.1f6bcc1
 SaveVersion	46	
 Console	false
 SkipIntro	FALSE	
@@ -85,14 +85,19 @@ WorldPriceUpdateIntervalMonths	3
 WorldPriceOvergrowthPercent	5	
 WorldPriceOvergrowthBonusItems	20	
 WipeRelationsReputationThreshold	0	
+ControlMissionWavePowerMults	0.45 0.5 0.55	
 CounterattackMissionDurationTurns	80	
-CounterattackMonsterGroupTechLevelBonus	4	
-InfiltrationMonsterGroupTechLevelBonus	2	
+CounterattackMonsterGroupTechLevelBonus	2	
+InfiltrationMonsterGroupTechLevelBonus	1	
 RitualMonsterGroupTechLevelBonus	2	
 RitualMissionDefenseDurationTurns	80	
+RitualMissionWavePowerMults	0.2 0.3 0.4	
 DefenseMissionDurationTurns	80	
 DefenseMissionsBramfaturaId	Defense	
-DefenseMissionWavePowerMults	0.2 0.3 0.5	
+DefenseMissionWavePowerMults	0.3 0.45 0.9	
+StationAddFactionItemsTimerWeeks	2	
+StationAddFactionItemsStationsPercent	0.05	
+StationAddFactionItemsNumber	3	
 		
 // Price Multipliers		
 PriceMultipliersNoStock	1.3	
@@ -118,6 +123,10 @@ RestoreMercWoundInHours	4
 RestoreMercAmpInHours	6	
 		
 // Dungeon generation		
+ItemDropWeightConst	0.001	
+ItemDropIncrementCoef	50	
+ItemDropScaleCoef	0.003	
+ItemDropContainersPercent	80	
 CorridorWeightInDropMult	0.5	
 		
 // Movement		
@@ -180,6 +189,9 @@ OvercapCritModifier	0.1
 CurveSmoothingCoef	0.025	
 ExponentCoef	2.718	
 WoundChanceModifier	0.035	
+AmputationDmgThresholdMult	0.33	
+AmputationWeaponTraitDmgThresholdMult	0.11	
+ImplantGainChanceOnAmputation	0.3	
 		
 // Starvation		
 StarvationRegenWeights	0 0.01 61 81	
@@ -208,6 +220,8 @@ RepairsAllArmorsCategory	cloth sint_cloth workwear plastic_workwear comp_workwea
 FastScrollMult	2	
 ScrollAbsSpeed	200	
 MouseScrollSensitivity	30	
+PlaystationGuids	c3ad3cad-c7cf-4ca8-8c2e-e3df8d9960bb 71dfe6c8-9e81-428f-a58e-c7e664b7fbed cd9718bf-a87a-44bc-8716-60a0def28a9f 5286706d-19b4-4a45-b635-207ce78d8394	
+NintendoGuids	7bf3154b-9db8-4d52-950f-cd0eed8a5819	
 #end		
 		
 #starting_items		

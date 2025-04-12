@@ -43,6 +43,9 @@ blade_ammo_single		1	1	FALSE	0.25	1	0	0
 blade_ammo_double		2	2	FALSE	0.15	0.9	0	0.5															
 blade_single		0	1	FALSE	0.25	1	0	0															
 blade_double		0	2	FALSE	0.15	0.9	0	0.5															
+nature_armstump_single		0	1	FALSE	0	1	0	0															
+nature_fist_single		0	1	FALSE	0.25	1	0	0															
+nature_claw_single		0	1	FALSE	0.25	1	0	0															
 basic_pistol_single		1	1	FALSE	0.2	1	4	0															
 basic_pistol_burst		2	2	FALSE	0.15	1	5	0.06															
 basic_pistol_shortauto		3	3	FALSE	0.1	1	6	0.05															
@@ -981,7 +984,7 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		chu_meltatrower_1	coarse_parts 2 metal_tread 1 rusty_plates 1 rod_parts 1	56	3	1.05	coarse_parts 1 firearm_repair_kit 8 mediumItemChip 10 highItemChip 20	30															
 		grenade_launcher_1	armor_plates 1 weapon_parts 1 spring 1 metal_tread 1 blunt_parts 1	56	1	1.05	spring 1 firearm_repair_kit 8 mediumItemChip 10 FrancheItemChip 25	35															
 		small_burst_ammo	powder 1 gas_ammo 1	0.8	1	1.05																	
-		small_expansive_ammo	powder 1 powder 1	1	1	1.05																	
+		small_expansive_ammo	powder 2	1	1	1.05																	
 		nail_bolts_ammo	broken_weapon 1	0.2	1	1.05																	
 		shotgun_bullet_ammo	powder 2	0.8	1	1.05																	
 		shotgun_flechette_ammo	powder 1 nail_bolts_ammo 1	1	1	1.05																	
@@ -1176,10 +1179,10 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		ddr_power_boots_1	ceramite_plates 1 armor_plates 2 microelectronics_parts 1 metal_tread 1	64	1	1.05	itemChip 1 armor_repair_kit 8 mediumItemChip 10 DayDreamItemChip 25	40															
 		anc_medium_pants_2	armor_plates 1 ceramite_plates 1 metal_tread 1 capacitor_parts 1	34	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
 		anc_medium_boots_2	armor_plates 1 ceramite_plates 1 metal_tread 1 capacitor_parts 1	34	1	1.06	armor_plates 1 itemChip 3 ceramite_plates 7 mediumItemChip 15	25															
-		engineering_repair_kit	rod_parts 1 coarse_parts 2 capacitor_parts 1	24	1	1.05																	
-		tech_repair_kit	microelectronics_parts 1 circuit_board 2 rod_parts 1	24	1	1.05																	
-		rail_repair_kit	transformer 1 capacitor_parts 1 wire 2	24	1	1.05																	
-		laser_repair_kit	bulb 2 lens 1 microelectronics_parts 1	24	1	1.05																	
+		engineering_repair_kit	rod_parts 2 coarse_parts 2	24	1	1.05																	
+		tech_repair_kit	microelectronics_parts 2 circuit_board 2	24	1	1.05																	
+		rail_repair_kit	transformer 2 capacitor_parts 2	24	1	1.05																	
+		laser_repair_kit	bulb 2 lens 2	24	1	1.05																	
 		goldenstar_balm	tin 1 explosives 1	8	1	1.05																	
 		sbn_medium_helmet_1	armor_plates 1 rags 2 capacitor_parts 1	42	1	1.05	armor_plates 1 itemChip 7 mediumItemChip 15	25															
 		sbn_medium_armor_1	armor_plates 2 rags 2 capacitor_parts 1	42	1	1.05	armor_plates 1 itemChip 7 mediumItemChip 15	25															

@@ -278,4 +278,8 @@ ultimate_fire_wall	Ultimate	None			0	0		IQuasiLevel 200 ICooldown 50 BFireWall t
 ultimate_stoneskin	Ultimate	None			0	0		IQuasiLevel 200 ICooldown 50 BStoneSkin true IDebuffDuration 20 ISSResists 100 IDuration 10 IDebuffDelay 10																	
 ultimate_massacre_dance	Ultimate	None			0	0		IQuasiLevel 200 ICooldown 50 BMassacreDance true FMDMeleeDmgMult 1.5 IMDDot 3 IDuration 10																	
 ultimate_illusion	Ultimate	None			0	0		IQuasiLevel 200 ICooldown 50 BIllusion true IAllyLifetime 20																	
+ultravoice	ActiveImplant	None			0	0		ICooldown 15 IDuration 2 IRadius 5																	
+neural_sonar	ActiveImplant	None			0	0		ICooldown 25 IDuration 3 IRadius 15																	
+blood_filtration	ActiveImplant	None			0	0		ICooldown 20																	
+discharge_chamber	ActiveImplant	None			0	0		ICooldown 15 IRadius 4 SDamageType shock IMinDamage 1 IMaxDamage 50																	
 #end																									
