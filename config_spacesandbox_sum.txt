@@ -37,11 +37,63 @@
 
 //ALLIANCES
 - Id: allliance ids
+    Hexarchy - RealWare, SBN, AnCom, Dilthey, ...
+    Corporation
+    Resistance - CResistance
+    TezctlanAliance - Tezctlan
+    XiomaraAliance - XiomaraMasks
+    Pirates - UnchainedBelt
+    SheduThousand - SheduThousand
 - AllowStrife: TRUE: will factions in the alliances attack each other 
 - TradeFactionLists: list of ally factions
 
 //SPACE OBJECTS
 - Id: ids for planets & satelites 
+    mercury
+        volcano
+        citadel
+    venus
+        havoc
+        mechta
+    earth
+        tsiolkovsky
+        moon
+        fuller
+    mars
+        phobos
+        deimos
+    ceres
+    wernher
+    vesta
+    pallas
+    geist
+    interamnia
+    hungary
+    annaherman
+    hygeia
+    hekate
+    jupiter
+        io
+        europa
+        ganymede
+        callisto
+    saturn
+        mimas
+        enceladus
+        tethys
+        dione
+        rhea
+        titan
+        iapetus
+    uranus
+        miranda
+        ariel
+        umbriel
+        titania
+        oberon
+    neptune
+        triton
+    pluto
 - Available: TRUE if planet avaible for travel and do missions in it, aka Enabled
 - SpaceObjectType: space object types: Planet or Satelite
 - ParentId: planet's ids the satelite follow
@@ -51,6 +103,121 @@
 
 //STATIONS
 - Id: station's ids
+    FlatObsidian
+    Rachmaninoff
+    Discovery
+    CalorisPlanitia
+    Goethe
+    Boethius
+    Mammoth
+    Rhino
+    Kizzuwatna
+    Lomonosov
+    GammaHydra
+    EnergyOne
+    Photosphere
+    JourneyOfFire
+    Campbell
+    IbsaPrison
+    Jinxing
+    HISUnveiled
+    FrescoPlatforms
+    LouhiCity
+    Fortuna
+    Oddibjord
+    Clotho
+    FeatheredTemple
+    SubRosa
+    February
+    Kyoko
+    MechtaShooting
+    Kitchen
+    EStation
+    Purgatory
+    Edge
+    Blade
+    SampoQuern
+    VenusTwo
+    PromisedLand
+    HeritageStation
+    ArcadisTerminal
+    PineGapTraining
+    Skylab
+    ISSStation
+    Akatsuki
+    Paragon
+    Phenomenon
+    SterlingsFarm
+    HartsWarehouse
+    FullersCore
+    PlatosAcademy
+    AvicennasClinic
+    VanDeGraaff
+    ChickMoo
+    LandscronaCenter
+    CenterDefense
+    ZeroGravity
+    MTZ
+    QiHelium
+    AnCapDogma
+    MoonTradeCenter
+    Candle
+    AllianceArcology
+    Tycho
+    ShuCenter
+    RedTiangong
+    RebusSkyCity
+    HISAres
+    Argyre
+    SinkholeOasis
+    Gloria
+    IntercityTradeCenter
+    Charon
+    Canaan
+    Hypnos
+    Orphan
+    RogueCity
+    SwiftAndVoltaire
+    AresPost
+    Warden
+    DarkFlora
+    Sundog
+    Epitome
+    Angel
+    Eos
+    Lumina
+    Oracle
+    Flinthold
+    Nox
+    BlueMoon
+    Pedigree
+    Frostreach
+    Jaffa
+    Cryptoria
+    Carmel
+    Lavinium
+    AriciaTholus
+    HISWoodpecker
+    Bethlehem
+    TSWatcher
+    HumankindsHope
+    Origin
+    Vasa
+    Malmo
+    Schwerin
+    Hargeysa
+    Jamame
+    Forward
+    Dubrovskiy
+    Budapest
+    Rommel
+    Patton
+    Zhukov
+    Montgomery
+    Connelly
+    Sewell
+    Proyas
+    RedThrone
 - SpaceObjectId: where the station is, denote by space object ids (see SPACE OBJECTS)
 - InitialOwnerFactionId: starting owner faction of the station, denote with faction's ids
 - StationType: type of industry station focus on, see below
@@ -113,6 +280,37 @@
 
 //PROC MISSION TEMPLATES
 - Id: mission template ids
+    venus1
+    venus2
+    venus3
+    venus4
+    venus5
+    mercury1
+    mercury2
+    mercury3
+    mercury4
+    mercury5
+    orbit1
+    orbit2
+    orbit3
+    prison1
+    military1
+    lab1
+    station1
+    station2
+    mars1
+    mars2
+    mars3
+    mars4
+    mars5
+    moon1
+    moon2
+    moon3
+    moon4
+    cerera1
+    cerera2
+    industrial1
+    industrial2
 - StartFromSpaceship: will show mission intro with flying shuttle 
 - GridWidth: mission grid width
 - GridHeight: mission grid height
@@ -128,6 +326,21 @@
 
 //STORY MISSIONS
 - Id: mission ids
+    Tutorial
+    SecondTutorial
+    SinkholePeaceVisit
+    UseYourHead
+    RuinsOfAncientBramfaturas
+    CommunityAndAnarchy
+    UnitedForever
+    HumansAreSuchEasyPrey
+    LesserEvil
+    Manifesto
+    PoisonTrial
+    CovertOps
+    GhoulShip
+    Raid
+    TestingGround
 - StationId: where mission will be spawn - station's id
 - Beneficiary/VictimFactionId: victor and loser faction ids of the mission
 - PrizeItems: rewards for complete mission
@@ -144,6 +357,60 @@
 
 //TILESET TRANSFORM - LOOK AT EXPIRE ITEMS AS EXAMPLE
 - Id: tile ids
+    gray_metal_cornerwall_normal
+    gray_metal_cornerwall_destroyed
+    gray_metal_floor_normal
+    gray_metal_floor_damaged
+    gray_metal_wall_normal
+    gray_metal_wall_damaged
+    gray_metal_wall_destroyed
+    gray_metal_elevator_floor_normal
+    moon_metal_cornerwall_normal
+    moon_metal_cornerwall_destroyed
+    moon_metal_floor_normal
+    moon_metal_floor_damaged
+    moon_metal_wall_normal
+    moon_metal_wall_damaged
+    moon_metal_wall_destroyed
+    moon_rock_cornerwall_normal
+    moon_rock_wall_normal
+    green_metal_wall_normal
+    orange_metal_wall_normal
+    conveyer_metal_floor_normal
+    mech_metal_floor_normal
+    mech_metal_floor_damaged
+    mech_metal_wall_normal
+    mech_metal_wall_damaged
+    mercury_metal_floor_normal
+    mercury_metal_floor_damaged
+    shipmagnum_cornerwall_normal
+    shipmagnum_cornerwall_destroyed
+    magnum_floor_normal
+    magnum_floor_damaged
+    magnum_wall_normal
+    magnum_wall_damaged
+    magnum_wall_destroyed
+    lab_floor_normal
+    lab_floor_damaged
+    lab_floor_destroyed
+    venus_jungle_cornerwall
+    venera_surface_cave_cornerwall_normal
+    mars_temple_cornerwall
+    mars_cornerwall_normal
+    mars_facewall_normal
+    mars_floor_normal
+    mars_temple_floor_normal
+    venera_surface_floor_normal
+    temple_normal_floor
+    temple_cornerwall
+    temple_facewall_normal
+    cerera_metal_cornerwall
+    cerera_metal_facewall
+    cerera_concrete_normal_floor
+    cerera_concrete_damaged_floor
+    indus_cornerwall_normal
+    indus_floor_normal
+    indus_floor_damaged
 - Health: tile health
 - Armor: shot fire into this tile must have damage larger than armor value to deplete the tile health
 - TilesetToMutateName:	what tileset will transform into when their health is 0
@@ -151,6 +418,38 @@
 //MISSION OBJECTIVES
 - BeneficiaryFactionType: faction type ids that wil benefit from mission
 - VictimFactionType: faction type ids that wil benefit from mission
+//Common config, left: benefit, right: victim//
+    Corp	    Corp
+    Corp	    CivilRes
+    Corp	    Pirates
+    Corp	    Tezctlan
+    Corp	    Xiomara
+    Corp	    Shedu
+    Tezctlan	Corp
+    Tezctlan	CivilRes
+    Tezctlan	Pirates
+    Tezctlan	Xiomara
+    Tezctlan	Shedu
+    CivilRes	Corp
+    CivilRes	Pirates
+    CivilRes	Tezctlan
+    CivilRes	Xiomara
+    CivilRes	Shedu
+    Xiomara	    Corp
+    Xiomara	    CivilRes
+    Xiomara	    Pirates
+    Xiomara	    Tezctlan
+    Xiomara	    Shedu
+    Shedu	    Corp
+    Shedu	    CivilRes
+    Shedu	    Pirates
+    Shedu	    Tezctlan
+    Shedu	    Xiomara
+    Pirates	    Corp
+    Pirates	    CivilRes
+    Pirates	    Tezctlan
+    Pirates	    Xiomara
+    Pirates	    Shedu
 - ValidProcMissionTypes: list of valid spawn mission types
 - MonsterVariants: list of spawn enemies variants
 - ItemVariants: list of spawn objective's ids to extract
@@ -163,6 +462,18 @@
 
 //PRIZES BY RATINGS
 - ProcMissionType: mission type's id
+    RaiderCapture
+    Elimination
+    Sabotage
+    Espionage
+    Defense
+    Ritual
+    Robbery
+    Infiltration
+    Control
+    Escort
+    Counterattack
+    Security
 - DifficultyRating: skull nunmber from 1 to 5, denote mission difficulty
 - MinPrizePoints: minimum reward points
 - MaxPrizePoints: maximum reward points
