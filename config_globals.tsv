@@ -1,7 +1,7 @@
 #global		
 Parameter	Value	
 // Build info		
-BuildVersion	0.9.369s.1f6bcc1
+BuildVersion	0.9.1.382s.97e4007
 SaveVersion	46	
 Console	false
 SkipIntro	FALSE	
@@ -33,6 +33,7 @@ TutorialAncomRewardItemsRealWare	itemChip medium_backpack_1 firearm_repair_kit a
 TutorialAncomRewardItemsAnCom	itemChip medium_backpack_1 rifle_armorpierce_ammo pmc_assault_1 firearm_repair_kit armor_repair_kit	
 TutorialMachineBlockWait	15	
 TutorialAncomQuestItemId	quest_AncomData	
+AncomDataReputationReward	20	
 		
 // Sandbox		
 ResetIncomeDeltaDay	Monday	
@@ -151,7 +152,7 @@ AggroGunshotRadius	4
 // Obstacles		
 MapObstacleDamageWhitefadeDuration	0.25	
 MaxCorpsesInTile	6	
-ValidRechargeBatteries	battery_crafted_ammo battery_basic_ammo	
+ValidRechargeBatteries	battery_crafted_ammo battery_basic_ammo dil_battery_ammo	
 		
 // Quazimorphosis		
 QmorphosMaxLevel	1000	
@@ -182,20 +183,24 @@ ToxicDamageMulti	0.5
 ToxicPuddleLifeTime	5	
 		
 // Damage		
-MinHitChance	0.1	
+MinHitChance	0.05	
 CapAccuracy	0.95	
 CapDodge	0.95	
-OvercapCritModifier	0.1	
+OvercapCritModifier	0.5	
 CurveSmoothingCoef	0.025	
 ExponentCoef	2.718	
 WoundChanceModifier	0.035	
 AmputationDmgThresholdMult	0.33	
 AmputationWeaponTraitDmgThresholdMult	0.11	
+		
+// Augmentations		
+MobAugSpawnMinHpPercent	0.25	
 ImplantGainChanceOnAmputation	0.3	
 		
 // Starvation		
 StarvationRegenWeights	0 0.01 61 81	
 StarvationRegenValues	-1 0 0 1	
+ItemsWeightModCap	0.05	
 		
 // Pain threshold		
 PainThresholdYellowPercent	70	
@@ -211,10 +216,6 @@ FrozenStunAfterProgressionLevel	50
 ShockStunAfterProgressionLevel	0	
 QmorphSummonCountMin	1	
 QmorphSummonCountMax	2	
-		
-// Repairs		
-RepairsAllWeaponsCategory	engineering_weapon melee firearms_weapon tech_weapon rail_weapon laser_weapon venus_weapon moon_weapon	
-RepairsAllArmorsCategory	cloth sint_cloth workwear plastic_workwear comp_workwear armored_workwear spacesuit industr_spacesuit metal_armor aram_armor kevlar_armor ceramite_shell chobham_shell	
 		
 // UI		
 FastScrollMult	2	

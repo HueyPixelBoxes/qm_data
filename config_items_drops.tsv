@@ -44,7 +44,7 @@ TechLevel	ContentIds	Weight	Points
 1	anc_shirt_1	10	150					
 1	anc_pants_1	10	150					
 1	anc_boots_1	10	150					
-2	pmc_pistol_3	20	300					
+3	pmc_pistol_3	20	300					
 3	anc_reinforced_hat_1	30	450					
 3	anc_reinforced_shirt_1	30	450					
 3	anc_reinforced_pants_1	30	450					
@@ -53,20 +53,20 @@ TechLevel	ContentIds	Weight	Points
 4	anc_agent_armor_1	40	600					
 4	anc_agent_pants_1	40	600					
 4	anc_agent_boots_1	40	600					
-5	pmc_smg_3	50	750					
+6	pmc_smg_3	50	750					
 5	anc_medium_mask_1	50	750					
 5	anc_medium_armor_2	50	750					
 5	anc_medium_pants_2	50	750					
 5	anc_medium_boots_2	50	750					
-6	anc_quasi_smg_1	60	900					
+4	anc_quasi_smg_1	60	900					
 7	anc_quasi_assault_1	70	1050					
 7	anc_medium_armor_1	70	1050					
 7	anc_medium_helmet_1	70	1050					
 7	anc_medium_pants_1	70	1050					
 7	anc_medium_boots_1	70	1050					
-8	anc_marksman_1	80	1200					
-9	anc_shotgun_1	90	1350					
-10	army_sniper_2	100	1500					
+3	anc_marksman_1	80	1200					
+6	anc_shotgun_1	90	1350					
+5	army_sniper_2	100	1500					
 #end								
 								
 #factiondrop_AnCom_rewardChips								
@@ -90,7 +90,7 @@ TechLevel	ContentIds	Weight	Points
 								
 #factiondrop_Tezctlan_rewardEquipment								
 TechLevel	ContentIds	Weight	Points					
-1	venus_club_1	15	150					
+3	venus_club_1	15	150					
 1	venus_quasi_pistol_1	15	150					
 1	spider_light_helmet_1	10	150					
 1	spider_light_armor_1	10	150					
@@ -106,8 +106,8 @@ TechLevel	ContentIds	Weight	Points
 2	venus_mace_1	20	300					
 2	venus_knife_1	20	300					
 2	venus_blowpipe_1	20	300					
-2	venus_marksman_1	20	300					
-2	venus_poleaxe_1	20	300					
+4	venus_marksman_1	20	300					
+4	venus_poleaxe_1	20	300					
 3	venusTez_heavy_armor_2	30	450					
 3	venusTez_heavy_helmet_2	30	450					
 3	venusTez_heavy_pants_1	30	450					
@@ -141,7 +141,7 @@ TechLevel	ContentIds	Weight	Points
 								
 #factiondrop_XiomaraMasks_rewardEquipment								
 TechLevel	ContentIds	Weight	Points					
-1	venus_club_1	15	150					
+3	venus_club_1	15	150					
 1	venus_quasi_pistol_1	15	150					
 1	venusTez_heavy_helmet_1	15	150					
 1	venusTez_heavy_armor_1	15	300					
@@ -153,12 +153,12 @@ TechLevel	ContentIds	Weight	Points
 1	venus_shirt_1	10	150					
 1	venus_pants_1	10	150					
 1	venus_boots_1	10	150					
-2	venus_poleaxe_1	20	300					
+2	venus_battlefist_1	20	300					
 2	venus_axe_1	20	300					
 2	venus_mace_1	20	300					
 2	venus_knife_1	20	300					
 2	venus_blowpipe_1	20	300					
-2	venus_marksman_1	20	300					
+4	venus_marksman_1	20	300					
 3	venusXsi_light_helmet_1	30	450					
 3	venusXsi_light_helmet_2	30	450					
 3	venusXsi_light_helmet_3	30	450					
@@ -195,32 +195,32 @@ TechLevel	ContentIds	Weight	Points
 								
 #factiondrop_SBN_rewardEquipment								
 TechLevel	ContentIds	Weight	Points					
-1	laser_pistol_2	10	150					
+1	laser_pistol_1	10	150					
 2	sbn_rail_pistol_1	20	300					
-2	laser_smg_1	20	300					
-3	laser_marksman_1	30	450					
+6	laser_smg_1	20	300					
+4	laser_marksman_1	30	450					
 3	sbn_cap_1	30	450					
 3	sbn_shirt_2	30	450					
 3	sbn_pants_2	30	450					
 3	sbn_boots_1	30	450					
-4	laser_smg_2	40	600					
-4	sbn_rail_shotgun_1	40	600					
-5	sbn_rail_smg_1	50	750					
+6	laser_smg_2	40	600					
+3	sbn_rail_shotgun_1	40	600					
+4	sbn_rail_smg_1	50	750					
 5	sbn_medium_helmet_1	50	750					
 5	sbn_medium_armor_1	50	750					
 5	sbn_medium_pants_1	50	750					
 5	sbn_medium_boots_1	50	750					
-6	laser_sniper_1	60	900					
+8	laser_sniper_1	60	900					
 7	sbn_heavy_armor_1	70	1050					
 7	sbn_heavy_helmet_1	70	1050					
 7	sbn_heavy_pants_1	70	1050					
 7	sbn_heavy_boots_1	70	1050					
-8	plasma_hmg_1	80	1200					
+7	plasma_hmg_1	80	1200					
 9	sbn_light_armor_1	90	1350					
 9	sbn_light_helmet_1	90	1350					
 9	sbn_light_pants_1	90	1350					
 9	sbn_light_boots_1	90	1350					
-10	sbn_rail_assault_1	100	1500					
+8	sbn_rail_assault_1	100	1500					
 #end								
 								
 #factiondrop_SBN_rewardChips								
@@ -243,18 +243,18 @@ TechLevel	ContentIds	Weight	Points
 								
 #factiondrop_RealWare_rewardEquipment								
 TechLevel	ContentIds	Weight	Points					
-1	military_axe_1	10	150					
+3	military_axe_1	10	150					
 1	rwa_light_helmet_1	10	150					
 1	rwa_shirt_1	10	150					
 1	rwa_pants_1	10	150					
 1	rwa_boots_1	10	150					
-2	military_pistol_3	20	300					
+3	military_pistol_3	20	300					
 2	military_shirt_3	20	300					
 2	military_light_helmet_1	20	300					
 2	military_pants_2	20	300					
-3	military_shotgun_1	30	450					
+2	military_shotgun_1	30	450					
 3	big_backpack_1	30	450					
-4	military_smg_1	40	600					
+3	military_smg_1	40	600					
 4	rwa_light_armor_1	40	600					
 4	rwa_light_helmet_2	40	600					
 4	rwa_light_pants_1	40	600					
@@ -263,13 +263,13 @@ TechLevel	ContentIds	Weight	Points
 5	military_medium_helmet_1	50	750					
 5	military_medium_pants_1	50	750					
 5	military_medium_boots_1	50	750					
-6	rwa_military_pistol_1	60	900					
+5	rwa_military_pistol_1	60	900					
 7	rwa_heavy_armor_1	70	1050					
 7	rwa_heavy_helmet_1	70	1050					
 7	rwa_heavy_pants_1	70	1050					
 7	rwa_heavy_boots_1	70	1050					
-8	rwa_military_smg_1	80	1200					
-9	rwa_military_assault_1	90	1350					
+6	rwa_military_smg_1	80	1200					
+7	rwa_military_assault_1	90	1350					
 10	rwa_power_armor_1	100	1500					
 10	rwa_power_helmet_1	100	1500					
 10	rwa_power_pants_1	100	1500					
@@ -298,19 +298,19 @@ TechLevel	ContentIds	Weight	Points
 								
 #factiondrop_DaydreamChems_rewardEquipment								
 TechLevel	ContentIds	Weight	Points					
-1	ddr_poisonknife_1	10	150					
+2	ddr_poisonknife_1	10	150					
 1	ddr_toxic_pistol_1	10	150					
-2	toxic_thrower_1	40	750					
+3	toxic_thrower_1	40	750					
 2	science_chem_helmet_1	20	300					
 2	science_chem_shirt_1	20	300					
 2	science_chem_pants_1	20	300					
 2	science_chem_boots_1	20	300					
-3	ddr_frost_pistol_1	30	450					
+2	ddr_frost_pistol_1	30	450					
 3	science_reinforced_shirt_1	30	450					
 3	science_gasmask_1	30	450					
 3	science_reinforced_pants_1	30	450					
 3	science_reinforced_boots_1	30	450					
-4	ddr_disraptor_pistol_1	20	300					
+5	ddr_disraptor_pistol_1	20	300					
 4	ddr_chem_coat_1	20	300					
 4	ddr_chem_helmet_1	20	300					
 4	ddr_chem_pants_1	20	300					
@@ -318,14 +318,14 @@ TechLevel	ContentIds	Weight	Points
 5	ddr_reinforced_chem_coat_1	50	750					
 5	ddr_reinforced_chem_helmet_1	50	750					
 5	ddr_reinforced_chem_pants_1	50	750					
-7	ddr_toxic_shotgun_1	70	1050					
+4	ddr_toxic_shotgun_1	70	1050					
 8	military_armored_vest_1	80	1200					
 8	ddr_disraptor_marksman_1	80	1200					
 9	ddr_power_armor_1	90	1350					
 9	ddr_power_pants_1	90	1350					
 9	ddr_power_helmet_1	90	1350					
 9	ddr_power_boots_1	90	1350					
-10	ddr_frost_shotgun_1	100	1500					
+6	ddr_frost_shotgun_1	100	1500					
 #end								
 								
 #factiondrop_DaydreamChems_rewardChips								
@@ -368,9 +368,9 @@ TechLevel	ContentIds	Weight	Points
 4	laborer_medium_armor_1	40	600					
 5	rail_marksman_1	50	750					
 5	laborer_exoskeleton_1	50	750					
-6	plb_worker_shockgun_1	60	900					
+4	plb_worker_shockgun_1	60	900					
 8	laser_sniper_1	80	1200					
-9	army_hmg_1	90	1350					
+6	army_hmg_1	90	1350					
 #end								
 								
 #factiondrop_PlanetBridge_rewardChips								
@@ -396,8 +396,8 @@ TechLevel	ContentIds	Weight	Points
 2	laborer_warm_pants_1	10	300					
 2	laborer_warm_hat_1	10	300					
 2	laborer_warm_boots_1	10	300					
-2	grh_revolver_pistol_1	30	450					
-3	grh_trucker_marksman_1	30	450					
+4	grh_revolver_pistol_1	30	450					
+2	grh_trucker_marksman_1	30	450					
 3	military_light_gasmask_1	30	450					
 3	military_light_armor_1	30	450					
 3	military_light_pants_1	30	450					
@@ -406,9 +406,9 @@ TechLevel	ContentIds	Weight	Points
 4	laborer_medium_pants_1	40	600					
 4	laborer_medium_boots_1	40	600					
 4	laborer_medium_armor_1	40	600					
-4	grh_trucker_marksman_2	40	600					
-5	grh_trucker_assault_1	50	750					
-6	grh_common_smg_1	50	750					
+6	grh_trucker_marksman_2	40	600					
+3	grh_trucker_assault_1	50	750					
+2	grh_common_smg_1	50	750					
 6	laborer_exoskeleton_1	60	900					
 8	grh_microwave_marksman_1	80	1200					
 9	military_heavy_armor_1	90	1350					
@@ -435,25 +435,26 @@ TechLevel	ContentIds	Weight	Points
 4	thermal_grenade	5	160					
 5	cigarettes_1	10	100					
 7	stationary_turret	5	600					
+6	heavy_basic_ammo	5	200					
 #end								
 								
 								
 #factiondrop_Sunlight_rewardEquipment								
 TechLevel	ContentIds	Weight	Points					
-2	laser_pistol_2	20	300					
-3	sun_laser_pistol_1	30	450					
+3	laser_pistol_2	20	300					
+2	sun_laser_pistol_1	30	450					
 4	armored_expanded_vest_1	30	450					
-5	sun_laser_shotgun_1	50	750					
-6	sun_laser_sniper_1	60	900					
+4	sun_laser_shotgun_1	50	750					
+3	sun_laser_sniper_1	60	900					
 7	grenade_launcher_1	70	1050					
 7	sun_servo_backpack_1	40	600					
-7	plasma_assault_1	70	1050					
+6	plasma_assault_1	70	1050					
 8	sun_power_armor_1	80	1200					
 8	sun_power_helmet_1	80	1200					
 8	sun_power_pants_1	80	1200					
 8	sun_power_boots_1	80	1200					
 9	sun_laser_assault_1	90	1350					
-10	sun_laser_marksman_1	100	1500					
+6	sun_laser_marksman_1	100	1500					
 #end								
 								
 #factiondrop_Sunlight_rewardChips								
@@ -488,18 +489,18 @@ TechLevel	ContentIds	Weight	Points
 2	police_medium_helmet_1	20	300					
 2	police_medium_pants_1	20	300					
 2	police_medium_boots_1	20	300					
-3	fra_shock_pistol_1	30	450					
+2	fra_shock_pistol_1	30	450					
 4	fra_heavy_armor_1	40	600					
 4	fra_heavy_mask_1	40	600					
 4	fra_heavy_pants_1	40	600					
 4	fra_heavy_boots_1	40	600					
-5	fra_security_smg_1	50	750					
+3	fra_security_smg_1	50	750					
 6	big_backpack_1	60	900					
 6	fra_shock_smg_1	60	900					
-7	fra_security_smg_2	70	1050					
-8	fra_security_assault_1	80	1200					
-9	fra_security_shotgun_1	100	1500					
-10	plasma_assault_1	100	1500					
+6	fra_security_smg_2	70	1050					
+7	fra_security_assault_1	80	1200					
+5	fra_security_shotgun_1	100	1500					
+5	plasma_assault_1	100	1500					
 #end								
 								
 #factiondrop_FrancheComte_rewardChips								
@@ -526,26 +527,26 @@ TechLevel	ContentIds	Weight	Points
 								
 #factiondrop_ChurchRevelation_rewardEquipment								
 TechLevel	ContentIds	Weight	Points					
-1	chu_fireclub_1	10	150					
+3	chu_fireclub_1	10	150					
 1	trucker_pistol_1	10	150					
 2	trucker_shotgun_1	20	300					
 2	chu_manager_shirt_1	20	300					
 2	chu_manager_mask_1	20	300					
 2	chu_manager_pants_1	20	300					
 2	chu_manager_boots_1	20	300					
-3	trucker_pistol_2	30	450					
+2	trucker_pistol_2	30	450					
 3	pmc_common_vest_1	30	450					
-4	trucker_shotgun_2	40	600					
-5	plasma_shotgun_1	50	750					
-5	chu_trucker_pistol_1	50	750					
-6	chu_trucker_pistol_2	60	900					
-6	chu_meltatrower_1	60	900					
-8	plasma_shotgun_2	70	1050					
+3	trucker_shotgun_2	40	600					
+3	plasma_shotgun_1	50	750					
+3	chu_trucker_pistol_1	50	750					
+4	chu_trucker_pistol_2	60	900					
+4	chu_meltatrower_1	60	900					
+4	plasma_shotgun_2	70	1050					
 8	chu_power_armor_1	80	1200					
 8	chu_power_helmet_1	80	1200					
 8	chu_power_pants_1	80	1200					
 8	chu_power_boots_1	80	1200					
-10	chu_shotgun_1	100	1500					
+7	chu_shotgun_1	100	1500					
 #end								
 								
 #factiondrop_ChurchRevelation_rewardChips								
@@ -573,7 +574,7 @@ TechLevel	ContentIds	Weight	Points
 								
 #factiondrop_CoreWard_rewardEquipment								
 TechLevel	ContentIds	Weight	Points					
-1	military_knife_1	10	100					
+2	military_knife_1	10	100					
 1	cor_worker_pistol_1	10	150					
 2	miner_breaker_1	20	300					
 2	miner_gasmask_1	20	300					
@@ -582,20 +583,20 @@ TechLevel	ContentIds	Weight	Points
 2	miner_reinforced_boots_1	20	300					
 3	cor_worker_hmg_1	30	450					
 3	medium_backpack_1	30	450					
-4	cor_worker_disctrower_1	40	600					
+3	cor_worker_disctrower_1	40	600					
 4	cor_worker_flametrower_1	40	600					
 5	miner_medium_helmet_1	50	750					
 5	miner_medium_armor_1	50	750					
 5	miner_medium_pants_1	50	750					
 5	miner_medium_boots_1	50	750					
-6	cor_laser_sniper_1	60	900					
+3	cor_laser_sniper_1	60	900					
 6	miner_exoskeleton_1	60	900					
 7	miner_power_armor_1	70	1050					
 7	miner_power_helmet_1	70	1050					
 7	miner_power_pants_1	70	1050					
 7	miner_power_boots_1	70	1050					
-8	grenade_launcher_1	80	1200					
-9	cor_hmg_1	90	1350					
+4	grenade_launcher_1	80	1200					
+5	cor_hmg_1	90	1350					
 #end								
 								
 #factiondrop_CoreWard_rewardChips								
@@ -614,7 +615,7 @@ TechLevel	ContentIds	Weight	Points
 2	small_burst_ammo	15	40					
 2	thermal_grenade	15	80					
 3	gas_ammo	15	50					
-4	sawblade_ammo	15	50					
+2	sawblade_ammo	15	50					
 5	surgicalKit	5	120					
 10	frag_mine	20	100					
 #end								
@@ -622,35 +623,35 @@ TechLevel	ContentIds	Weight	Points
 #factiondrop_CResistance_rewardEquipment								
 TechLevel	ContentIds	Weight	Points					
 1	worker_pistol_1	10	150					
-1	civ_powerfist_1	10	150					
+2	civ_powerfist_1	10	150					
 1	civ_reinforced_shirt_1	10	150					
 1	civ_gasmask_1	10	150					
 1	civ_pants_4	10	150					
 1	civ_boots_2	10	150					
 2	civ_common_smg_1	20	300					
-2	worker_hmg_1	20	300					
-3	civ_pistol_1	30	450					
+1	worker_hmg_1	20	300					
+1	civ_pistol_1	30	450					
 3	worker_flametrower_1	30	450					
 3	civ_medium_armor_1	30	450					
 3	civ_medium_helmet_1	30	450					
 3	civ_medium_pants_1	30	450					
 3	civ_medium_boots_1	30	450					
-4	worker_disctrower_1	40	600					
-4	civ_common_smg_2	40	600					
+1	worker_disctrower_1	40	600					
+2	civ_common_smg_2	40	600					
 4	civ_medium_armor_2	40	600					
 4	civ_medium_helmet_2	40	600					
 4	civ_medium_pants_2	40	600					
 4	civ_medium_boots_2	40	600					
-5	civ_plasma_pistol_1	50	750					
-5	civ_common_assault_1	50	750					
-6	civ_marksman_1	60	900					
+4	civ_plasma_pistol_1	50	750					
+3	civ_common_assault_1	50	750					
+5	civ_marksman_1	60	900					
 7	civ_heavy_helmet_1	70	1050					
 7	civ_heavy_armor_1	70	1050					
 7	civ_heavy_pants_1	70	1050					
 7	civ_heavy_boots_1	70	1050					
-8	civ_plasma_assault_1	80	1200					
-9	plasma_hmg_1	90	1350					
-10	tech_hfg_1	100	1500					
+6	civ_plasma_assault_1	80	1200					
+7	plasma_hmg_1	90	1350					
+9	tech_hfg_1	100	1500					
 #end								
 								
 #factiondrop_CResistance_rewardConsumables								
@@ -660,7 +661,7 @@ TechLevel	ContentIds	Weight	Points
 2	frag_mine	10	120					
 3	frag_grenade	10	150					
 4	gas_ammo	15	50					
-5	sawblade_ammo	15	50					
+2	sawblade_ammo	15	50					
 6	thermal_grenade	10	150					
 6	vodka_bottle_1	10	80					
 8	nanorobot_grenade	20	300					
@@ -674,7 +675,7 @@ TechLevel	ContentIds	Weight	Points
 2	pirates_gasmask_1	20	300					
 2	pirates_reinforced_shirt_1	20	300					
 2	pirates_reinforced_pants_1	20	300					
-2	pirates_smg_1	20	300					
+4	pirates_smg_1	40	600					
 3	pirates_reinforced_cap_1	30	450					
 3	pirates_reinforced_shirt_2	30	450					
 3	pirates_reinforced_pants_2	30	450					
@@ -684,24 +685,24 @@ TechLevel	ContentIds	Weight	Points
 4	pirates_light_armor_1	40	600					
 4	pirates_light_pants_1	40	600					
 4	pirates_light_boots_1	40	600					
-4	pirates_smg_2	40	600					
+3	pirates_smg_2	30	450					
 4	big_backpack_1	40	600					
 5	pirates_medium_helmet_1	50	750					
 5	pirates_medium_armor_1	50	750					
 5	pirates_medium_pants_1	50	750					
 5	pirates_medium_boots_1	50	750					
-5	pirates_assault_1	50	750					
+4	pirates_assault_1	40	600					
 6	pirates_medium_helmet_2	60	900					
 6	pirates_medium_armor_2	60	900					
 6	pirates_medium_pants_2	60	900					
 6	pirates_medium_boots_2	60	900					
-7	pirates_sniper_1	70	1050					
+5	pirates_sniper_1	50	750					
 8	military_power_armor_1	80	1200					
 8	military_power_helmet_1	80	1200					
 8	military_power_pants_1	80	1200					
 8	military_power_boots_1	80	1200					
-9	pirates_assault_2	90	1350					
-10	pirates_autogun_1	100	1500					
+6	pirates_assault_2	90	1350					
+8	pirates_autogun_1	80	1200					
 #end								
 								
 #factiondrop_UnchainedBelt_rewardChips								
@@ -721,13 +722,13 @@ TechLevel	ContentIds	Weight	Points
 3	frag_grenade	10	150					
 3	vodka_bottle_1	10	50					
 4	gas_ammo	15	50					
-5	sawblade_ammo	15	50					
+2	sawblade_ammo	15	50					
 6	thermal_grenade	10	150					
 6	alcogol_container	10	80					
 8	nanorobot_grenade	20	300					
 8	drug_cargo	15	170					
-10	heavy_flack_ammo	10	90					
-10	heavy_basic_ammo	10	70					
+6	heavy_flack_ammo	10	90					
+3	heavy_basic_ammo	10	70					
 #end								
 								
 #factiondrop_SheduThousand_rewardEquipment								
@@ -740,20 +741,20 @@ TechLevel	ContentIds	Weight	Points
 3	military_light_armor_1	30	450					
 3	military_light_pants_1	30	450					
 3	military_light_boots_1	30	450					
-4	she_gas_shotgun_1	40	600					
-5	she_smg_1	50	750					
+2	she_gas_shotgun_1	20	300					
+3	she_smg_1	30	450					
 5	posessed_medium_boots_1	50	750					
 5	posessed_medium_pants_1	50	750					
 5	posessed_medium_helmet_1	50	750					
 5	posessed_medium_armor_1	50	750					
-6	she_common_assault_1	60	900					
-7	rwa_military_pistol_1	70	1050					
+3	she_common_assault_1	30	450					
+5	rwa_military_pistol_1	50	750					
 8	military_heavy_armor_1	80	1200					
 8	military_heavy_helmet_1	80	1200					
 8	military_heavy_pants_1	80	1200					
 8	military_heavy_boots_1	80	1200					
-9	she_military_minigun_1	90	1350					
-10	she_plasma_assault_1	100	1500					
+6	she_military_minigun_1	60	900					
+7	she_plasma_assault_1	70	1050					
 #end								
 								
 #factiondrop_SheduThousand_rewardChips								
@@ -781,20 +782,20 @@ TechLevel	ContentIds	Weight	Points
 								
 #factiondrop_Dilthey_rewardEquipment								
 TechLevel	ContentIds	Weight	Points					
-1	laser_pistol_1	10	150					
-2	dil_sound_pistol_1	20	300					
-2	tech_blade_1	20	300					
-3	dil_shock_smg_1	30	450					
+3	laser_pistol_2	10	150					
+1	dil_sound_pistol_1	20	300					
+3	tech_blade_1	20	300					
+2	dil_shock_smg_1	30	450					
 4	armored_expanded_vest_1	40	600					
-5	dil_sound_shotgun_1	50	750					
-6	dil_sound_pistol_2	60	900					
+4	dil_sound_shotgun_1	50	750					
+3	dil_sound_pistol_2	60	900					
 7	dil_light_armor_1	70	1050					
 7	dil_light_helmet_1	70	1050					
 7	dil_light_pants_1	70	1050					
 7	dil_light_boots_1	70	1050					
-8	army_sniper_1	60	900					
-9	dil_sound_assault_1	90	1350					
-10	dil_shock_sniper_1	100	1500					
+2	army_sniper_1	60	900					
+6	dil_sound_assault_1	90	1350					
+7	dil_shock_sniper_1	100	1500					
 #end								
 								
 #factiondrop_Dilthey_rewardChips								
@@ -823,54 +824,54 @@ TechLevel	ContentIds	Weight	Points
 1	pmc_shotgun_1	10	150					
 1	pmc_smg_1	10	150					
 1	medium_backpack_1	10	150					
-1	pmc_pistol_2	10	150					
-1	army_pistol_3	10	150					
+1	pmc_pistol_1	10	150					
+1	army_pistol_2	10	150					
 1	military_pistol_2	10	150					
 1	military_pistol_3	10	150					
 1	military_common_vest_1	10	150					
 1	common_shotgun_1	10	150					
-1	common_shotgun_2	10	150					
+3	common_shotgun_2	10	150					
 1	trucker_marksman_1	10	150					
 1	trucker_pistol_1	10	150					
 1	rail_pistol_1	10	150					
-1	rail_pistol_2	10	150					
+2	rail_pistol_2	10	150					
 1	common_axe_1	10	150					
 2	common_assault_1	20	300					
-2	pmc_shotgun_2	20	300					
-2	tech_blade_1	20	300					
+4	pmc_shotgun_2	20	300					
+3	tech_blade_1	20	300					
 2	pmc_common_vest_1	20	300					
 2	servo_backpack_1	20	300					
-2	trucker_marksman_2	20	300					
+3	trucker_marksman_2	20	300					
 2	trucker_shotgun_1	20	300					
 3	armored_vest_1	30	450					
-3	pmc_smg_4	30	450					
-3	army_pistol_4	30	450					
-3	military_shotgun_1	30	450					
+2	pmc_smg_4	30	450					
+3	army_pistol_3	30	450					
+2	military_shotgun_1	30	450					
 3	pmc_smg_2	30	450					
-3	trucker_pistol_2	30	450					
-3	rail_pistol_3	30	450					
+2	trucker_pistol_2	30	450					
+4	rail_pistol_3	30	450					
 4	military_armored_vest_1	40	600					
-4	military_smg_1	40	600					
-4	trucker_shotgun_2	40	600					
-5	pmc_assault_1	50	750					
-5	military_assault_1	50	750					
+3	military_smg_1	40	600					
+3	trucker_shotgun_2	40	600					
+2	pmc_assault_1	50	750					
+4	military_assault_1	50	750					
 5	chu_trucker_pistol_1	50	750					
 5	trucker_shotgun_3	50	750					
 6	heavy_armored_vest_1	60	900					
 6	big_backpack_1	60	900					
-6	army_sniper_1	60	900					
+2	army_sniper_1	60	900					
 6	chu_trucker_pistol_2	60	900					
 7	military_power_armor_1	70	1050					
 7	military_power_helmet_1	70	1050					
 7	military_power_pants_1	70	1050					
 7	military_power_boots_1	70	1050					
-8	army_hmg_1	80	1200					
+6	army_hmg_1	80	1200					
 9	military_heavy_armor_1	90	1350					
 9	military_heavy_helmet_1	90	1350					
 9	military_heavy_pants_1	90	1350					
 9	military_heavy_boots_1	90	1350					
-10	military_minigun_1	100	1500					
-10	army_sniper_2	100	1500					
+8	military_minigun_1	100	1500					
+5	army_sniper_2	100	1500					
 #end								
 								
 #factiondrop_General_rewardConsumables								

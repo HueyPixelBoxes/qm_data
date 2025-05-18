@@ -179,73 +179,73 @@ btexc_kill_count_to_ugprade_2	TRUE	cloning	battleexpcond_department	FALSE	5 4	bt
 								
 #magnum_projects_params								
 Id	ParameterName	ParameterType	ProjectType	ViewType	MinValue	MaxValue	Step	TooltipTag
-rangeweapon_damage	Damage	Damage	RangeWeapon	Damage	1	999	2	ui.property.Damage
-rangeweapon_crit_damage	Damage	CritDamage	RangeWeapon	Percent	1	999	0.1	ui.property.CritDamage
-rangeweapon_max_durability	MaxDurability	Integer	RangeWeapon	Integer	1	999	10	ui.property.Condition
-rangeweapon_accuracy	BonusAccuracy	WeaponAccuracy	RangeWeapon	Percent	0	1	0.03	ui.property.Accuracy
-rangeweapon_scatter_angle	BonusScatterAngle	WeaponScatterAngle	RangeWeapon	Angle	0	180	-0.2	ui.property.ScatterAngle
-rangeweapon_weight	Weight	Float	RangeWeapon	Float0_0	0.1	999	-0.2	ui.property.ItemWeight
-rangeweapon_reload_duration	ReloadDuration	Integer	RangeWeapon	Integer	1	999	-1	ui.property.ReloadDuration
-rangeweapon_magazine_capacity	MagazineCapacity	Integer	RangeWeapon	Integer	1	999	3	ui.property.AmmoCapacity
+rangeweapon_damage	Damage	Damage	RangeWeapon	Damage	1	999	2	tooltip.Damage
+rangeweapon_crit_damage	Damage	CritDamage	RangeWeapon	Percent	1	999	0.1	tooltip.CritDamage
+rangeweapon_max_durability	MaxDurability	Integer	RangeWeapon	Integer	1	999	10	tooltip.Condition
+rangeweapon_accuracy	BonusAccuracy	WeaponAccuracy	RangeWeapon	Percent	-1	1	0.03	tooltip.RangeAccuracy
+rangeweapon_scatter_angle	BonusScatterAngle	WeaponScatterAngle	RangeWeapon	Angle	0	180	-0.2	tooltip.ScatterAngle
+rangeweapon_weight	Weight	Float	RangeWeapon	Float0_0	0.1	999	-0.2	tooltip.ItemWeight
+rangeweapon_reload_duration	ReloadDuration	Integer	RangeWeapon	Integer	1	999	-1	tooltip.ReloadDuration
+rangeweapon_magazine_capacity	MagazineCapacity	Integer	RangeWeapon	Integer	1	999	3	tooltip.AmmoCapacity
 rangeweapon_special_ability	SpecialAbility	RangeWeaponTrait	RangeWeapon	None				
-meleeweapon_damage	Damage	Damage	MeleeWeapon	Damage	1	999	2	ui.property.MeleeDamage
-meleeweapon_crit_damage	Damage	CritDamage	MeleeWeapon	Percent	1	999	0.1	ui.property.CritDamage
-meleeweapon_max_durability	MaxDurability	Integer	MeleeWeapon	Integer	1	999	10	ui.property.Condition
-meleeweapon_accuracy	BonusAccuracy	WeaponAccuracy	MeleeWeapon	Percent	0	1	0.03	ui.property.MeleeAccuracy
-meleeweapon_weight	Weight	Float	MeleeWeapon	Float0_0	0.1	999	-0.2	ui.property.ItemWeight
-meleeweapon_reload_duration	ReloadDuration	Integer	MeleeWeapon	Integer	1	999	-1	ui.property.ReloadDuration
-meleeweapon_magazine_capacity	MagazineCapacity	Integer	MeleeWeapon	Integer	1	999	3	ui.property.AmmoCapacity
+meleeweapon_damage	Damage	Damage	MeleeWeapon	Damage	1	999	2	tooltip.MeleeDamage
+meleeweapon_crit_damage	Damage	CritDamage	MeleeWeapon	Percent	1	999	0.1	tooltip.CritDamage
+meleeweapon_max_durability	MaxDurability	Integer	MeleeWeapon	Integer	1	999	10	tooltip.Condition
+meleeweapon_accuracy	BonusAccuracy	WeaponAccuracy	MeleeWeapon	Percent	-1	1	0.03	tooltip.MeleeAccuracy
+meleeweapon_weight	Weight	Float	MeleeWeapon	Float0_0	0.1	999	-0.2	tooltip.ItemWeight
+meleeweapon_reload_duration	ReloadDuration	Integer	MeleeWeapon	Integer	1	999	-1	tooltip.ReloadDuration
+meleeweapon_magazine_capacity	MagazineCapacity	Integer	MeleeWeapon	Integer	1	999	3	tooltip.AmmoCapacity
 meleeweapon_special_ability	SpecialAbility	MeleeWeaponTrait	MeleeWeapon	None				
-helmet_resist_blunt	ResistSheet	ResistBlunt	Helmet	Integer	0	999	2	ui.property.ResistBlunt
-helmet_resist_pierce	ResistSheet	ResistPierce	Helmet	Integer	0	999	2	ui.property.ResistPiercing
-helmet_resist_lacer	ResistSheet	ResistLacer	Helmet	Integer	0	999	2	ui.property.ResistLacer
-helmet_resist_fire	ResistSheet	ResistFire	Helmet	Integer	0	999	2	ui.property.ResistFire
-helmet_resist_beam	ResistSheet	ResistBeam	Helmet	Integer	0	999	2	ui.property.ResistRadiation
-helmet_resist_shock	ResistSheet	ResistShock	Helmet	Integer	0	999	2	ui.property.ResistShock
-helmet_resist_poison	ResistSheet	ResistPoison	Helmet	Integer	0	999	2	ui.property.ResistPoison
-helmet_resist_cold	ResistSheet	ResistCold	Helmet	Integer	0	999	2	ui.property.ResistCold
-helmet_max_durability	MaxDurability	Integer	Helmet	Integer	1	999	10	ui.property.Condition
-helmet_weight	Weight	Float	Helmet	Float0_0	0.1	999	-0.2	ui.property.ItemWeight
-armor_resist_blunt	ResistSheet	ResistBlunt	Armor	Integer	0	999	2	ui.property.ResistBlunt
-armor_resist_pierce	ResistSheet	ResistPierce	Armor	Integer	0	999	2	ui.property.ResistPiercing
-armor_resist_lacer	ResistSheet	ResistLacer	Armor	Integer	0	999	2	ui.property.ResistLacer
-armor_resist_fire	ResistSheet	ResistFire	Armor	Integer	0	999	2	ui.property.ResistFire
-armor_resist_beam	ResistSheet	ResistBeam	Armor	Integer	0	999	2	ui.property.ResistRadiation
-armor_resist_shock	ResistSheet	ResistShock	Armor	Integer	0	999	2	ui.property.ResistShock
-armor_resist_poison	ResistSheet	ResistPoison	Armor	Integer	0	999	2	ui.property.ResistPoison
-armor_resist_cold	ResistSheet	ResistCold	Armor	Integer	0	999	2	ui.property.ResistCold
-armor_max_durability	MaxDurability	Integer	Armor	Integer	1	999	10	ui.property.Condition
-armor_weight	Weight	Float	Armor	Float0_0	0.1	999	-0.2	ui.property.ItemWeight
-leggings_resist_blunt	ResistSheet	ResistBlunt	Leggings	Integer	0	999	2	ui.property.ResistBlunt
-leggings_resist_pierce	ResistSheet	ResistPierce	Leggings	Integer	0	999	2	ui.property.ResistPiercing
-leggings_resist_lacer	ResistSheet	ResistLacer	Leggings	Integer	0	999	2	ui.property.ResistLacer
-leggings_resist_fire	ResistSheet	ResistFire	Leggings	Integer	0	999	2	ui.property.ResistFire
-leggings_resist_beam	ResistSheet	ResistBeam	Leggings	Integer	0	999	2	ui.property.ResistRadiation
-leggings_resist_shock	ResistSheet	ResistShock	Leggings	Integer	0	999	2	ui.property.ResistShock
-leggings_resist_poison	ResistSheet	ResistPoison	Leggings	Integer	0	999	2	ui.property.ResistPoison
-leggings_resist_cold	ResistSheet	ResistCold	Leggings	Integer	0	999	2	ui.property.ResistCold
-leggings_max_durability	MaxDurability	Integer	Leggings	Integer	1	999	10	ui.property.Condition
-leggings_weight	Weight	Float	Leggings	Float0_0	0.1	999	-0.2	ui.property.ItemWeight
-boots_resist_blunt	ResistSheet	ResistBlunt	Boots	Integer	0	999	2	ui.property.ResistBlunt
-boots_resist_pierce	ResistSheet	ResistPierce	Boots	Integer	0	999	2	ui.property.ResistPiercing
-boots_resist_lacer	ResistSheet	ResistLacer	Boots	Integer	0	999	2	ui.property.ResistLacer
-boots_resist_fire	ResistSheet	ResistFire	Boots	Integer	0	999	2	ui.property.ResistFire
-boots_resist_beam	ResistSheet	ResistBeam	Boots	Integer	0	999	2	ui.property.ResistRadiation
-boots_resist_shock	ResistSheet	ResistShock	Boots	Integer	0	999	2	ui.property.ResistShock
-boots_resist_poison	ResistSheet	ResistPoison	Boots	Integer	0	999	2	ui.property.ResistPoison
-boots_resist_cold	ResistSheet	ResistCold	Boots	Integer	0	999	2	ui.property.ResistCold
-boots_max_durability	MaxDurability	Integer	Boots	Integer	1	999	10	ui.property.Condition
-boots_weight	Weight	Float	Boots	Float0_0	0.1	999	-0.2	ui.property.ItemWeight
-mercenary_health	Health	Integer	Mercenary	Integer		999	10	ui.property.Health
+helmet_resist_blunt	ResistSheet	ResistBlunt	Helmet	Integer	0	999	2	ui.resist.blunt.tooltip
+helmet_resist_pierce	ResistSheet	ResistPierce	Helmet	Integer	0	999	2	ui.resist.pierce.tooltip
+helmet_resist_lacer	ResistSheet	ResistLacer	Helmet	Integer	0	999	2	ui.resist.lacer.tooltip
+helmet_resist_fire	ResistSheet	ResistFire	Helmet	Integer	0	999	2	ui.resist.fire.tooltip
+helmet_resist_beam	ResistSheet	ResistBeam	Helmet	Integer	0	999	2	ui.resist.beam.tooltip
+helmet_resist_shock	ResistSheet	ResistShock	Helmet	Integer	0	999	2	ui.resist.shock.tooltip
+helmet_resist_poison	ResistSheet	ResistPoison	Helmet	Integer	0	999	2	ui.resist.poison.tooltip
+helmet_resist_cold	ResistSheet	ResistCold	Helmet	Integer	0	999	2	ui.resist.cold.tooltip
+helmet_max_durability	MaxDurability	Integer	Helmet	Integer	1	999	10	tooltip.Condition
+helmet_weight	Weight	Float	Helmet	Float0_0	0.1	999	-0.2	tooltip.ItemWeight
+armor_resist_blunt	ResistSheet	ResistBlunt	Armor	Integer	0	999	2	ui.resist.blunt.tooltip
+armor_resist_pierce	ResistSheet	ResistPierce	Armor	Integer	0	999	2	ui.resist.pierce.tooltip
+armor_resist_lacer	ResistSheet	ResistLacer	Armor	Integer	0	999	2	ui.resist.lacer.tooltip
+armor_resist_fire	ResistSheet	ResistFire	Armor	Integer	0	999	2	ui.resist.fire.tooltip
+armor_resist_beam	ResistSheet	ResistBeam	Armor	Integer	0	999	2	ui.resist.beam.tooltip
+armor_resist_shock	ResistSheet	ResistShock	Armor	Integer	0	999	2	ui.resist.shock.tooltip
+armor_resist_poison	ResistSheet	ResistPoison	Armor	Integer	0	999	2	ui.resist.poison.tooltip
+armor_resist_cold	ResistSheet	ResistCold	Armor	Integer	0	999	2	ui.resist.cold.tooltip
+armor_max_durability	MaxDurability	Integer	Armor	Integer	1	999	10	tooltip.Condition
+armor_weight	Weight	Float	Armor	Float0_0	0.1	999	-0.2	tooltip.ItemWeight
+leggings_resist_blunt	ResistSheet	ResistBlunt	Leggings	Integer	0	999	2	ui.resist.blunt.tooltip
+leggings_resist_pierce	ResistSheet	ResistPierce	Leggings	Integer	0	999	2	ui.resist.pierce.tooltip
+leggings_resist_lacer	ResistSheet	ResistLacer	Leggings	Integer	0	999	2	ui.resist.lacer.tooltip
+leggings_resist_fire	ResistSheet	ResistFire	Leggings	Integer	0	999	2	ui.resist.fire.tooltip
+leggings_resist_beam	ResistSheet	ResistBeam	Leggings	Integer	0	999	2	ui.resist.beam.tooltip
+leggings_resist_shock	ResistSheet	ResistShock	Leggings	Integer	0	999	2	ui.resist.shock.tooltip
+leggings_resist_poison	ResistSheet	ResistPoison	Leggings	Integer	0	999	2	ui.resist.poison.tooltip
+leggings_resist_cold	ResistSheet	ResistCold	Leggings	Integer	0	999	2	ui.resist.cold.tooltip
+leggings_max_durability	MaxDurability	Integer	Leggings	Integer	1	999	10	tooltip.Condition
+leggings_weight	Weight	Float	Leggings	Float0_0	0.1	999	-0.2	tooltip.ItemWeight
+boots_resist_blunt	ResistSheet	ResistBlunt	Boots	Integer	0	999	2	ui.resist.blunt.tooltip
+boots_resist_pierce	ResistSheet	ResistPierce	Boots	Integer	0	999	2	ui.resist.pierce.tooltip
+boots_resist_lacer	ResistSheet	ResistLacer	Boots	Integer	0	999	2	ui.resist.lacer.tooltip
+boots_resist_fire	ResistSheet	ResistFire	Boots	Integer	0	999	2	ui.resist.fire.tooltip
+boots_resist_beam	ResistSheet	ResistBeam	Boots	Integer	0	999	2	ui.resist.beam.tooltip
+boots_resist_shock	ResistSheet	ResistShock	Boots	Integer	0	999	2	ui.resist.shock.tooltip
+boots_resist_poison	ResistSheet	ResistPoison	Boots	Integer	0	999	2	ui.resist.poison.tooltip
+boots_resist_cold	ResistSheet	ResistCold	Boots	Integer	0	999	2	ui.resist.cold.tooltip
+boots_max_durability	MaxDurability	Integer	Boots	Integer	1	999	10	tooltip.Condition
+boots_weight	Weight	Float	Boots	Float0_0	0.1	999	-0.2	tooltip.ItemWeight
+mercenary_health	Health	Integer	Mercenary	Integer		999	10	tooltip.Health
 mercenary_pain_threshold	PainThresholdLimit	Integer	Mercenary	Integer	1	999	1	ui.property.MaxPainThreshold
 mercenary_starvation	StarvationLimit	Integer	Mercenary	Integer	1	9999	30	ui.property.StarvationLimit
 mercenary_talent	TalentPerkId	Talent	Mercenary	None				
 mercenary_dodge	Dodge	Float	Mercenary	Percent	0	1	0.03	ui.property.DodgeChance
-mercenary_los	Los	Integer	Mercenary	Integer	1	10	1	ui.property.SightRange
-mercenary_range_accuracy	RangeAccuracy	Float	Mercenary	Percent	0	1	0.03	ui.property.Accuracy
-mercenary_melee_accuracy	MeleeAccuracy	Float	Mercenary	Percent	0	1	0.03	ui.property.MeleeAccuracy
-mercenary_melee_damage	MeleeDamage	Damage	Mercenary	Damage		999	2	ui.property.MeleeDamage
-mercenary_melee_critdamage	MeleeDamage	CritDamage	Mercenary	Percent		999	0.1	ui.property.CritDamage
+mercenary_los	Los	Integer	Mercenary	Integer	1	10	1	tooltip.SightRange
+mercenary_range_accuracy	RangeAccuracy	Float	Mercenary	Percent	0	1	0.03	tooltip.RangeAccuracy
+mercenary_melee_accuracy	MeleeAccuracy	Float	Mercenary	Percent	0	1	0.03	tooltip.MeleeAccuracy
+mercenary_melee_damage	MeleeDamage	Damage	Mercenary	Damage		999	2	tooltip.MeleeDamage
+mercenary_melee_critdamage	MeleeDamage	CritDamage	Mercenary	Percent		999	0.1	tooltip.CritDamage
 mercenaryclass_perk0	PerkIds	Perk0	MercenaryClass	None				
 mercenaryclass_perk1	PerkIds	Perk1	MercenaryClass	None				
 mercenaryclass_perk2	PerkIds	Perk2	MercenaryClass	None				

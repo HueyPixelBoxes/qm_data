@@ -65,35 +65,35 @@ nicotineAddiction	Increment	Reset	max_health -5	max_health -5 pain_threshold_reg
 gavaahAddiction	Increment	Reset	qmorph_summon 0.01	qmorph_summon 0.01 qmorph 4	qmorph_summon 0.01 qmorph 6 vomiting 0.05	qmorph 8 vomiting 0.05 qmorph_summon 0.02	1	1	1	0	0	None	0.05	0.85									
 coldEffect	Decrement	Damage		income_dmg 0.1	income_dmg 0.2 run_unavailable 0	income_dmg 0.4 run_unavailable 0 frozen_stun 1	1	1	5	0	0	None	0	1									
 beamEffect	None	Damage	max_health -5	max_health -5 pain_threshold_regen -1	max_health -10 pain_threshold_regen -1 dot_dmg 1	max_health -10 pain_threshold_regen -1 dot_dmg 1 vomiting 0.05	1	4	5	0	0	None	0	1									
-shockEffect	Decrement	Damage		accuracy_reduce -0.05 dodge_reduce -0.1	accuracy_reduce -0.05 dodge_reduce -0.2	shock_stun 1	1	5	5	0	0	None	0	1									
+shockEffect	Decrement	Damage		accuracy_reduce -0.05 dodge_reduce -0.1	accuracy_reduce -0.05 dodge_reduce -0.2	shock_stun 1	1	5	3	0	0	None	0	1									
 #end																							
 																							
 #damagetypes																							
 Id	ResistTypes	StatusEffect	IsPhysical	ChanceToApply	StatusDamageModifier	StatusResistModifier																	
-blunt	blunt	none	true	0	0	0																	
-pierce	pierce	none	true	0	0	0																	
-lacer	lacer	none	true	0	0	0																	
-fire	fire	none	false	0	0	0																	
-beam	beam	beamEffect	false	1	1	1																	
-shock	shock	shockEffect	false	1	2.5	0.5																	
-poison	poison	none	false	0	0	0																	
+blunt	blunt	none	true	1	1	1																	
+pierce	pierce	none	true	1	1	1																	
+lacer	lacer	none	true	1	1	1																	
+fire	fire	none	false	1	1	1																	
 cold	cold	coldEffect	false	1	1	0.7																	
-explosion	blunt pierce	none	true	0	1	1																	
-plasma	fire lacer	none	false	0	1	1																	
+poison	poison	toxicEffect	false	1	0.8	0.9																	
+shock	shock	shockEffect	false	1	2.5	0.55																	
+beam	beam	beamEffect	false	1	0.9	1																	
+explosion	blunt pierce	none	true	1	1	1																	
+plasma	fire lacer	none	false	1	1	1																	
 #end																							
 																							
 #woundtypes																							
 Id	DamageType	HumanWoundEffects	CyberWoundEffects	QuasimorphWoundEffects	AmputationEffects	StatusEffectApplyChance	OnWoundEffectId	MinorEffects															
 fracture	blunt	move_dmg 2 run_unavailable 0 dodge_reduce -0.1 food_unavailable 0	move_dmg 2 run_unavailable 0 dodge_reduce -0.1	move_dmg 2 run_unavailable 0 dodge_reduce -0.1	move_dmg 1	0		self_heal 0															
-puncture	pierce	dot_dmg 2 run_unavailable 0 food_unavailable 0	dot_dmg 2 run_unavailable 0	dot_dmg 2 run_unavailable 0	dot_dmg 2	0.1	infectionEffect	self_heal 0															
-laceration	lacer	apoint_dmg 1 run_unavailable 0	apoint_dmg 1 run_unavailable 0	apoint_dmg 1 run_unavailable 0	apoint_dmg 1	0.2	infectionEffect	self_heal 0															
-burn	fire	pain_threshold_regen -1 income_dmg 0.2	pain_threshold_regen -1 income_dmg 0.2	pain_threshold_regen -1 income_dmg 0.2	pain_threshold_regen -1	0.05	infectionEffect	self_heal 0															
-irradiation	beam	pain_threshold_regen -1 vomiting 0.05 income_pain 0.5 food_calories 0.5	pain_threshold_regen -1 income_pain 0.5	pain_threshold_regen -1 vomiting 0.05 income_pain 0.5 food_calories 0.5	pain_threshold_regen -1	0		self_heal 0															
-electrocution	shock	action_dmg 2 pain_threshold_regen -1 food_calories 0.5	action_dmg 2 pain_threshold_regen -1	action_dmg 2 pain_threshold_regen -1 food_calories 0.5	action_dmg 2 pain_threshold_regen -1	0		self_heal 0															
-chemburn	poison	dot_dmg 1 eat_dmg 3 vomiting 0.05	dot_dmg 1	dot_dmg 1 eat_dmg 3 vomiting 0.05	dot_dmg 2	0.25	poisonEffect	self_heal 0															
-freeze	cold	action_dmg 1 income_critchance 0.2	action_dmg 1 income_critchance 0.2	action_dmg 1 income_critchance 0.2	action_dmg 1	0		self_heal 0															
-shrapnel	explosion	dot_dmg 2 run_unavailable 0 food_unavailable 0	dot_dmg 2 run_unavailable 0	dot_dmg 2 run_unavailable 0	dot_dmg 2	0.15	infectionEffect	self_heal 0															
-hardburn	plasma	pain_threshold_regen -2 income_dmg 0.3	pain_threshold_regen -2 income_dmg 0.3	pain_threshold_regen -2 income_dmg 0.3	pain_threshold_regen -2	0.15	infectionEffect	self_heal 0															
+puncture	pierce	apoint_dmg 2 run_unavailable 0 food_unavailable 0	apoint_dmg 2 run_unavailable 0	apoint_dmg 2 run_unavailable 0	apoint_dmg 1	0.1	infectionEffect	self_heal 0															
+laceration	lacer	apoint_dmg 1 run_unavailable 0 accuracy_reduce -0.1	apoint_dmg 1 run_unavailable 0 accuracy_reduce -0.1	apoint_dmg 1 run_unavailable 0 accuracy_reduce -0.1	apoint_dmg 1	0.2	infectionEffect	self_heal 0															
+burn	fire	income_dmg 0.2 income_pain 0.3	income_dmg 0.2 income_pain 0.3	income_dmg 0.2 income_pain 0.3	income_pain 0.2	0.05	infectionEffect	self_heal 0															
+irradiation	beam	vomiting 0.05 food_calories 0.5 regen_efficacy -0.15	regen_efficacy -0.15	vomiting 0.05 food_calories 0.5 regen_efficacy -0.15	regen_efficacy -0.10	0		self_heal 0															
+electrocution	shock	action_dmg 1 pain_threshold_regen -1 food_calories 0.5	action_dmg 1 pain_threshold_regen -1	action_dmg 1 pain_threshold_regen -1 food_calories 0.5	pain_threshold_regen -1	0		self_heal 0															
+chemburn	poison	eat_dmg 3 vomiting 0.05	dot_dmg 2	eat_dmg 3 vomiting 0.05	dot_dmg 2	0.25	poisonEffect	self_heal 0															
+freeze	cold	action_dmg 1 income_critchance 0.1	action_dmg 1 income_critchance 0.1	action_dmg 1 income_critchance 0.1	action_dmg 1	0		self_heal 0															
+shrapnel	explosion	apoint_dmg 2 run_unavailable 0 food_unavailable 0	apoint_dmg 2 run_unavailable 0	apoint_dmg 2 run_unavailable 0	apoint_dmg 1	0.15	infectionEffect	self_heal 0															
+hardburn	plasma	income_dmg 0.2 income_pain 0.3	income_dmg 0.2 income_pain 0.3	income_dmg 0.2 income_pain 0.3	income_pain 0.2	0.15	infectionEffect	self_heal 0															
 #end																							
 																							
 #woundslots																							
@@ -107,12 +107,12 @@ HumanChest	Chest	human	dot_dmg 1	run_unavailable food_calories food_unavailable	
 HumanBody	Body	human	dot_dmg 1	run_unavailable food_calories food_unavailable		dot_dmg 1 death 0			45	human_meat 0.1 trowable_heart 0.1 human_skin 0.1 human_rib 0.1 bone_knife 0.1		FALSE		1	1	1							
 HumanStomach	Stomach	human	dot_dmg 1 vomiting 0.05	run_unavailable dodge_reduce move_dmg		dot_dmg 1 death 0 food_unavailable 0 vomiting 0.1			45	human_meat 0.1 human_skin 0.1 human_poop 0.1 bone_knife 0.1		FALSE		1	1	1							
 HumanKnee	Knee	human	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			50	human_meat 0.1 human_skin 0.1 bone_knife 0.1		FALSE		1	1	1							
-PossesedShoulder	Shoulder	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5		qmorph 0.5	55	human_meat 0.1 human_skin 0.1 possesed_hand 0.1 bone_knife 0.1	Arm	FALSE		1	1	1							
+PossesedShoulder	Shoulder	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5		qmorph 1	55	human_meat 0.1 human_skin 0.1 possesed_hand 0.1 bone_knife 0.1	Arm	FALSE		1	1	1							
 PossesedArm	Arm	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	melee_dmg_reduce 0.05		50	human_meat 0.1 human_wrist 0.1 human_skin 0.1 bone_knife 0.1		FALSE	nature_possesed_fist	1	1	1							
-PossesedBigShoulder	Shoulder	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	max_health 20	qmorph 0.7	55	human_meat 0.1 human_skin 0.1 possesed_big_hand 0.1 bone_knife 0.1	Arm	FALSE		1	1	1							
+PossesedBigShoulder	Shoulder	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	max_health 20	qmorph 1	55	human_meat 0.1 human_skin 0.1 possesed_big_hand 0.1 bone_knife 0.1	Arm	FALSE		1	1	1							
 PossesedBigArm	Arm	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	melee_dmg_reduce 0.15	melee_accuracy -0.1	50	human_meat 0.1 human_wrist 0.1 human_skin 0.1 bone_knife 0.1		FALSE	nature_bigpos_fist	1	1	1							
 CentaurShoulder	Shoulder	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	income_pain -0.5	qmorph 1	55	human_meat 0.1 human_skin 0.1 possesed_centaur_hand 0.1 bone_knife 0.1	Arm	FALSE		1	1	1							
-CentaurArm	Arm	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	critchance_reduce 0.1 melee_dmg_reduce 0.1	qmorph 0.5 arm_slot_unavailable 1	50	human_meat 0.1 human_skin 0.1 bone_knife 0.1		FALSE	nature_centaur_fist	1	1	1							
+CentaurArm	Arm	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	critchance_reduce 0.1 melee_dmg_reduce 0.1	qmorph 1 arm_slot_unavailable 1	50	human_meat 0.1 human_skin 0.1 bone_knife 0.1		FALSE	nature_centaur_fist	1	1	1							
 SkinlessHead	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce -10 accuracy_reduce -0.3			25	human_meat 0.1 human_skull 0.1 human_ear 0.1 human_aye 0.1		FALSE		1	1	1							
 SkinlessShoulder	Shoulder	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			55	human_meat 0.1 human_hand 0.1 bone_knife 0.1	Arm	FALSE		1	1	1							
 SkinlessArm	Arm	quasimorph	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg food_unavailable		action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5			50	human_meat 0.1 human_wrist 0.1 bone_knife 0.1		FALSE	nature_skinless_fist	1	1	1							
@@ -124,8 +124,8 @@ SkinlessStomach	Stomach	quasimorph	dot_dmg 1 vomiting 0.05	run_unavailable dodge
 SkinlessKnee	Knee	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4			50	human_meat 0.1 bone_knife 0.1		FALSE		1	1	1							
 SpiderHead	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce -10 accuracy_reduce -0.3			50	spider_meat 0.1 spider_chitin 0.1 spider_aye 0.1 spider_brain 0.1 spider_poisongland 0.2		FALSE		1	1	1							
 SpiderBody	Body	quasimorph	dot_dmg 1	run_unavailable food_calories food_unavailable		dot_dmg 1 death 0			45	spider_meat 0.1 spider_chitin 0.1 spider_poisongland 0.1		FALSE		1	1	1							
-SpiderFeet	Feet	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4	wound_immune_poison	qmorph 0.8	55	spider_meat 0.1 spider_chitin 0.1 spider_joint 0.1		FALSE		1	1	1							
-SpiderKnee	Knee	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4	pain_threshold_regen 1 passive_regen 1	income_critchance 0.05	55	spider_meat 0.1 spider_chitin 0.1 spider_joint 0.1		FALSE		1	1	1							
+SpiderFeet	Feet	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4	wound_immune_poison	qmorph 1	55	spider_meat 0.1 spider_chitin 0.1 spider_joint 0.1		FALSE		1	1	1							
+SpiderKnee	Knee	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4	passive_regen 1 dodge_reduce 0.05	income_critchance 0.05	55	spider_meat 0.1 spider_chitin 0.1 spider_joint 0.1		FALSE		1	1	1							
 SpiderStomach	Stomach	quasimorph	dot_dmg 1 vomiting 0.05	run_unavailable dodge_reduce move_dmg		dot_dmg 1 death 0 food_unavailable 0 vomiting 0.1			30	spider_meat 0.1 spider_cocoon 0.1 spider_poisongland 0.1		FALSE		1	1	1							
 SpiderThigh	Thigh	quasimorph	move_dmg 1	eat_dmg vomiting food_calories food_unavailable		move_dmg 1 run_unavailable 0 dodge_reduce -0.4	wound_chance -0.15	resist_fire -10	55	spider_meat 0.1 spider_chitin 0.1 spider_joint 0.1 spider_claw 0.1	Feet	FALSE		1	1	1							
 MoonHead	Head	quasimorph	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2 vomiting 0.05	run_unavailable food_calories move_dmg food_unavailable		dot_dmg 1 death 0 los_reduce -10 accuracy_reduce -0.3			25	quasi_bolts_ammo 0.1 quasi_repair_kit 0.1 demonic_aye 0.1 moon_guts 0.1 moon_weapon_parts 0.1 quasi_medical_kit_1 0.1		FALSE		1	1	1							
@@ -157,7 +157,7 @@ BattleCyborgHead	Head	cyborg	dot_dmg 1 los_reduce -1 accuracy_reduce -0.2	run_un
 BattleCyborgShoulder	Shoulder	cyborg	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	ranged_accuracy 0.1 scatter_angle -0.3	max_health -5 items_weight 0.1 resist_blunt -5	55	battleCyborg_hand 0.2 metal_tread 0.1 weapon_parts 0.1	Arm	FALSE		1	1	1							
 BattleCyborgArm	Arm	cyborg	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	added_projectile 1	max_health -5 wound_chance 0.1 melee_dmg_reduce -0.1	50	battleCyborg_wrist 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE	nature_cyborgbattle_fist	1	1	1							
 BattleCyborgMachinegunShoulder	Shoulder	cyborg	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	ranged_accuracy 0.1 scatter_angle -0.3	max_health -5 items_weight 0.1 resist_blunt -5	55	battleCyborg_machinegun 0.2 metal_tread 0.1 weapon_parts 0.1	Arm	FALSE		1	1	1							
-BattleCyborgMachinegunArm	Arm	cyborg	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	resist_blunt 3 resist_pierce 3 resist_lacer 3 resist_beam 3	max_health -5 arm_slot_unavailable 1	50	metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE	nature_cyborgbattle_machinegun	1	1	1							
+BattleCyborgMachinegunArm	Arm	cyborg	action_dmg 1 melee_dmg_reduce -0.2 accuracy_reduce -0.1	eat_dmg vomiting run_unavailable food_calories dodge_reduce move_dmg pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	action_dmg 1 arm_slot_unavailable 0 accuracy_reduce -0.3 melee_dmg_reduce -0.5	resist_blunt 5 resist_pierce 5 resist_lacer 5 resist_beam 5	max_health -5 arm_slot_unavailable 1	50	metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1		FALSE	nature_cyborgbattle_machinegun	1	1	1							
 BattleCyborgThigh	Thigh	cyborg	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	move_dmg 1 run_unavailable 0 dodge_reduce -0.4	resist_blunt 5 resist_fire 5 resist_poison 5	max_health -5 items_weight 0.1	55	battleCyborg_leg 0.2 metal_tread 0.1 weapon_parts 0.1 blunt_parts 0.1	Feet	FALSE		1	1	1							
 BattleCyborgFeet	Feet	cyborg	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_calories pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	move_dmg 1 run_unavailable 0 dodge_reduce -0.4	dodge_reduce 0.1	max_health -5 no_stealth 1	50	battleCyborg_feet 0.2 metal_tread 0.1 weapon_parts 0.1		TRUE		1	1	1							
 BattleCyborgChest	Chest	cyborg	dot_dmg 1	run_unavailable food_calories eat_dmg vomiting pain_threshold_regen income_pain food_unavailable	infectionEffect poisonEffect	dot_dmg 1 death 0	critchance_reduce 0.04 ranged_accuracy 0.1 melee_accuracy 0.1	max_health -5 items_weight 0.2 	35	battleCyborg_chest 0.2 circuit_board 0.1 broken_weapon 0.1 metal_tread 0.1 weapon_parts 0.1		FALSE		1	1	1							
@@ -233,100 +233,100 @@ ScrivnusKnee	Knee	quasimorph	move_dmg 1 dodge_reduce -0.1	eat_dmg vomiting food_
 #end																							
 																							
 #woundeffects																							
-Id	IsFixable	ValueFormat																					
-los_reduce	FALSE	MinusInt																					
-move_dmg	TRUE	MinusDamage																					
-dot_dmg	TRUE	MinusDamage																					
-apoint_dmg	TRUE	MinusDamage																					
-action_dmg	TRUE	MinusDamage																					
-eat_dmg	FALSE	MinusDamage																					
-melee_dmg_reduce	FALSE	Percent100																					
-income_dmg	FALSE	Percent100																					
-income_critchance	FALSE	Percent100																					
-accuracy_reduce	FALSE	Percent100																					
-food_calories	FALSE	Percent100																					
-satiety	FALSE	Percent100																					
-vomiting	FALSE	Percent100																					
-no_stealth	FALSE	None																					
-frozen_stun	FALSE	Raw																					
-shock_stun	FALSE	Raw																					
-self_heal	FALSE	None																					
-death	FALSE	None																					
-run_unavailable	FALSE	None																					
-consume_regen	FALSE	None																					
-hallucinations	FALSE	Percent100																					
-max_health	FALSE	MinusInt																					
-pain_threshold_regen	TRUE	MinusInt																					
-qmorph	FALSE	MinusInt																					
-qmorph_summon	FALSE	Percent100																					
-income_pain	FALSE	Percent100																					
-arm_slot_unavailable	FALSE	None																					
-critchance_reduce	FALSE	Percent100																					
-food_unavailable	FALSE	None																					
-dodge_reduce	FALSE	Percent100																					
-resist_blunt	FALSE	Raw																					
-resist_pierce	FALSE	Raw																					
-resist_lacer	FALSE	Raw																					
-resist_fire	FALSE	Raw																					
-resist_beam	FALSE	Raw																					
-resist_shock	FALSE	Raw																					
-resist_poison	FALSE	Raw																					
-resist_cold	FALSE	Raw																					
-wound_chance	FALSE	Percent100																					
-scatter_angle	FALSE	Percent100																					
-melee_accuracy	FALSE	Percent100																					
-ranged_accuracy	FALSE	Percent100																					
-throwback_immune	FALSE	None																					
-firearm_range	FALSE	MinusInt																					
-multi_hit	FALSE	MinusInt																					
-added_projectile	FALSE	MinusInt																					
-immune_blunt	FALSE	None																					
-immune_pierce	FALSE	None																					
-immune_lacer	FALSE	None																					
-immune_fire	FALSE	None																					
-immune_beam	FALSE	None																					
-immune_shock	FALSE	None																					
-immune_poison	FALSE	None																					
-immune_cold	FALSE	None																					
-fov_angle	FALSE	Percent100																					
-spotted_radius	FALSE	MinusInt																					
-no_spotted_signal	FALSE	None																					
-run_spotted_signal	FALSE	None																					
-walk_spotted_signal	FALSE	None																					
-items_weight	FALSE	Percent100																					
-wound_heal_chance	FALSE	Percent100																					
-bonus_vest_slot	FALSE	MinusInt																					
-regen_efficacy	FALSE	Percent100																					
-stealth_ap	FALSE	Raw																					
-walk_ap	FALSE	Raw																					
-run_ap	FALSE	Raw																					
-perk_exp_modifier	FALSE	Percent100																					
-perk_cooldown	FALSE	Percent100																					
-crit_damage	FALSE	Percent100																					
-mission_points	FALSE	Percent100																					
-addiction_chance	FALSE	Percent100																					
-melee_throw_range	FALSE	MinusInt																					
-passive_regen	FALSE	MinusInt																					
-pain_to_melee_dmg	FALSE	Percent100																					
-wound_immune_blunt	FALSE	None																					
-wound_immune_pierce	FALSE	None																					
-wound_immune_lacer	FALSE	None																					
-wound_immune_fire	FALSE	None																					
-wound_immune_beam	FALSE	None																					
-wound_immune_shock	FALSE	None																					
-wound_immune_poison	FALSE	None																					
-wound_immune_cold	FALSE	None																					
-status_immune_infectionEffect	FALSE	None																					
-status_immune_poisonEffect	FALSE	None																					
-status_immune_morphineAddiction	FALSE	None																					
-status_immune_alcoholAddiction	FALSE	None																					
-status_immune_nicotineAddiction	FALSE	None																					
-status_immune_gavaahAddiction	FALSE	None																					
-status_immune_coldEffect	FALSE	None																					
-status_immune_beamEffect	FALSE	None																					
-status_immune_shockEffect	FALSE	None																					
-added_wound_chance_mult	FALSE	Percent100																					
-wound_chance_mult	FALSE	Percent100																					
-reload_duration	FALSE	MinusInt																					
-implant_cooldown	FALSE	MinusInt																					
+Id	IsFixable	ValueFormat	TooltipIconTag																				
+los_reduce	FALSE	Raw	effect_los																				
+move_dmg	TRUE	Raw	effect_wound_chance																				
+dot_dmg	TRUE	Raw	effect_dmg_dot																				
+apoint_dmg	TRUE	Raw	effect_dmg_dot																				
+action_dmg	TRUE	Raw	effect_wound_chance																				
+eat_dmg	FALSE	Raw	effect_food																				
+melee_dmg_reduce	FALSE	Percent100	effect_melee_dmg																				
+income_dmg	FALSE	Percent100	effect_income_dmg																				
+income_critchance	FALSE	Percent100	effect_income_critchance																				
+accuracy_reduce	FALSE	Percent100	effect_ranged_accuracy																				
+food_calories	FALSE	Percent100	effect_calories																				
+satiety	FALSE	Percent100	effect_calories																				
+vomiting	FALSE	Percent100	effect_vomit																				
+no_stealth	FALSE	None	effect_no_stealth																				
+frozen_stun	FALSE	Raw	effect_frozen																				
+shock_stun	FALSE	Raw	effect_shock																				
+self_heal	FALSE	None	effect_regen_efficacy																				
+death	FALSE	None	effect_death																				
+run_unavailable	FALSE	None	effect_no_run																				
+consume_regen	FALSE	None	effect_no_health_regen																				
+hallucinations	FALSE	Percent100	effect_hallucinations																				
+max_health	FALSE	MinusInt	effect_health																				
+pain_threshold_regen	TRUE	ReverseInt	effect_pain																				
+qmorph	FALSE	MinusInt	effect_qmorphos																				
+qmorph_summon	FALSE	Percent100	effect_qmorphos																				
+income_pain	FALSE	Percent100	effect_pain																				
+arm_slot_unavailable	FALSE	None	effect_no_arm																				
+critchance_reduce	FALSE	Percent100	effect_critchance																				
+food_unavailable	FALSE	None	effect_no_food																				
+dodge_reduce	FALSE	Percent100	effect_dodge																				
+resist_blunt	FALSE	Raw	damage_blunt_resist																				
+resist_pierce	FALSE	Raw	damage_pierce_resist																				
+resist_lacer	FALSE	Raw	damage_lacer_resist																				
+resist_fire	FALSE	Raw	damage_fire_resist																				
+resist_beam	FALSE	Raw	damage_beam_resist																				
+resist_shock	FALSE	Raw	damage_shock_resist																				
+resist_poison	FALSE	Raw	damage_poison_resist																				
+resist_cold	FALSE	Raw	damage_cold_resist																				
+wound_chance	FALSE	Percent100	effect_wound_chance																				
+scatter_angle	FALSE	Percent100	effect_scatter_angle																				
+melee_accuracy	FALSE	Percent100	effect_melee_accuracy																				
+ranged_accuracy	FALSE	Percent100	effect_ranged_accuracy																				
+throwback_immune	FALSE	None	effect_throwback_immune																				
+firearm_range	FALSE	MinusInt	effect_firearm_range																				
+multi_hit	FALSE	MinusInt	effect_multi_hit																				
+added_projectile	FALSE	MinusInt	effect_added_projectile																				
+immune_blunt	FALSE	None	damage_blunt_resist																				
+immune_pierce	FALSE	None	damage_pierce_resist																				
+immune_lacer	FALSE	None	damage_lacer_resist																				
+immune_fire	FALSE	None	damage_fire_resist																				
+immune_beam	FALSE	None	damage_beam_resist																				
+immune_shock	FALSE	None	damage_shock_resist																				
+immune_poison	FALSE	None	damage_poison_resist																				
+immune_cold	FALSE	None	damage_cold_resist																				
+fov_angle	FALSE	Percent100	effect_fov_angle																				
+spotted_radius	FALSE	MinusInt	effect_spotted_radius																				
+no_spotted_signal	FALSE	None	effect_no_spotted_signal																				
+run_spotted_signal	FALSE	None	effect_spotted_radius																				
+walk_spotted_signal	FALSE	None	effect_spotted_radius																				
+items_weight	FALSE	Percent100	effect_items_weight																				
+wound_heal_chance	FALSE	Percent100	effect_wound_heal_chance																				
+bonus_vest_slot	FALSE	MinusInt	effect_bonus_vest_slot																				
+regen_efficacy	FALSE	Percent100	effect_regen_efficacy																				
+stealth_ap	FALSE	Raw	effect_stealth_ap																				
+walk_ap	FALSE	Raw	effect_walk_ap																				
+run_ap	FALSE	Raw	effect_run_ap																				
+perk_exp_modifier	FALSE	Percent100	effect_perk_exp_modifier																				
+perk_cooldown	FALSE	Percent100	effect_perk_cooldown																				
+crit_damage	FALSE	Percent100	effect_crit_damage																				
+mission_points	FALSE	Percent100	effect_mission_points																				
+addiction_chance	FALSE	Percent100	effect_addiction_chance																				
+melee_throw_range	FALSE	MinusInt	effect_melee_throw_range																				
+passive_regen	FALSE	MinusInt	effect_regen_efficacy																				
+pain_to_melee_dmg	FALSE	Percent100	effect_pain_to_melee_dmg																				
+wound_immune_blunt	FALSE	None	damage_blunt_immune																				
+wound_immune_pierce	FALSE	None	damage_pierce_immune																				
+wound_immune_lacer	FALSE	None	damage_lacer_immune																				
+wound_immune_fire	FALSE	None	damage_fire_immune																				
+wound_immune_beam	FALSE	None	damage_beam_immune																				
+wound_immune_shock	FALSE	None	damage_shock_immune																				
+wound_immune_poison	FALSE	None	damage_poison_immune																				
+wound_immune_cold	FALSE	None	damage_cold_immune																				
+status_immune_infectionEffect	FALSE	None	statuseffect_infectionEffect_immune																				
+status_immune_poisonEffect	FALSE	None	statuseffect_poisonEffect_immune																				
+status_immune_morphineAddiction	FALSE	None	statuseffect_morphineAddiction_immune																				
+status_immune_alcoholAddiction	FALSE	None	statuseffect_alcoholAddiction_immune																				
+status_immune_nicotineAddiction	FALSE	None	statuseffect_nicotineAddiction_immune																				
+status_immune_gavaahAddiction	FALSE	None	statuseffect_gavaahAddiction_immune																				
+status_immune_coldEffect	FALSE	None	statuseffect_coldEffect_immune																				
+status_immune_beamEffect	FALSE	None	statuseffect_shockEffect_immune																				
+status_immune_shockEffect	FALSE	None	statuseffect_beamEffect_immune																				
+added_wound_chance_mult	FALSE	Percent100	effect_wound_chance																				
+wound_chance_mult	FALSE	Percent100	effect_wound_chance																				
+reload_duration	FALSE	MinusInt	effect_reload_duration																				
+implant_cooldown	FALSE	MinusInt	effect_implant_cooldown																				
 #end																							
