@@ -1,7 +1,7 @@
 #global		
 Parameter	Value	
 // Build info		
-BuildVersion	0.9.1.382s.97e4007
+BuildVersion	0.9.1.384s.a64cc3f
 SaveVersion	46	
 Console	false
 SkipIntro	FALSE	
@@ -187,8 +187,8 @@ MinHitChance	0.05
 CapAccuracy	0.95	
 CapDodge	0.95	
 OvercapCritModifier	0.5	
-CurveSmoothingCoef	0.025	
-ExponentCoef	2.718	
+CurveSmoothingCoef	0.035	
+ExponentCoef	1.75	
 WoundChanceModifier	0.035	
 AmputationDmgThresholdMult	0.33	
 AmputationWeaponTraitDmgThresholdMult	0.11	

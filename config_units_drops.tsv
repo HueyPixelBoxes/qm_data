@@ -162,6 +162,53 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	3 3	sniper 1	agent 1 heavypmc 2	AnCom	60	90
 #end						
 						
+#units_IronBroom_UB						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	2 3	bruiser 0.5 combatmedic 0.5	combatmedic 0.25 berserk 0.25	UnchainedBelt	30	100
+	1 3	bruiser 1	berserk 1	UnchainedBelt	30	100
+	2 3	soldier 1	enforcer_pirates 0.3 berserk 0.4 combatmedic 0.3	UnchainedBelt	30	120
+	3 3	enforcer_pirates 1	enforcer_pirates 0.75 combatmedic 0.25 psycho 0.25	UnchainedBelt	30	140
+	2 3	combatmedic 0.75 elite_pirates 0.3	security 0.5 berserk 0.25 psycho 0.25	UnchainedBelt	30	100
+#end						
+						
+#units_IronBroom_CR						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	2 4	combatmedic_civ 0.7 bruiser_civ 0.3	bruiser_civ 0.5 soldier_civ 0.5	CResistance	30	100
+	2 3	enforcer_civ 1	soldier_civ 0.7 security_civ 0.3	CResistance	30	100
+	3 3	elite_civ_colnode 1	soldier_civ 0.7 security_civ 0.3	CResistance	30	120
+	2 2	elite_civ 1	enforcer_civ 1	CResistance	30	120
+	3 4	elite_civ 1	agent_civ 1 soldier_civ 0.5	CResistance	30	160
+#end						
+						
+#units_IcePick_CR1						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	1 2		turretenergy 1	CResistance	30	100
+	1 3		turretenergy 0.3 security_civ 0.7	CResistance	30	100
+	2 4		bruiser_civ 0.4 soldier_civ 0.4 combatmedic_civ 0.2	CResistance	30	100
+	2 3	enforcer_civ 1	soldier_civ 0.7 security_civ 0.3	CResistance	30	100
+	3 3	elite_civ_colnode 1	soldier_civ 0.7 security_civ 0.3	CResistance	30	120
+	2 2	elite_civ 1	enforcer_civ 1	CResistance	30	120
+	3 4	elite_civ 1	agent_civ 1 soldier_civ 0.5	CResistance	30	160
+#end						
+						
+#units_IcePick_CR2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	2 2		warrobot 0.7 worker_civ 0.3	CResistance	30	120
+	2 2	enforcer_civ 1	warrobot 1	CResistance	30	100
+	2 3	security_civ 1	workerrobot 1	CResistance	30	100
+	2 2	warrobot 1	warrobot 1	CResistance	30	100
+	4 5		workerrobot 0.8 worker_civ 0.2	CResistance	40	140
+#end						
+						
+#units_IcePick_CR3						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	3 5	combatmedic_civ 0.7 bruiser_civ 0.3	quest_GodBuilders_clones 1	CResistance	40	120
+	2 3	enforcer_civ 1	quest_GodBuilders_clones 0.7 soldier_civ 0.2 combatmedic_civ 0.1	CResistance	30	120
+	3 3	elite_civ 1	quest_GodBuilders_clones 0.7 soldier_civ 0.15 security_civ 0.15	CResistance	30	120
+	2 2	agent_civ 1	quest_GodBuilders_clones 0.7 soldier_civ 0.1 bruiser_civ 0.2	CResistance	30	120
+	3 5		quest_GodBuilders_clones 1	CResistance	40	120
+#end						
+						
 #units_SpaceStation						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	1 1		agent 1	AnCom	10	40
@@ -714,56 +761,56 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	3 3	professor 1	security 1 manager 1 professor 1	Sunlight	39	115
 5	5 5	swat 1	manager 4 professor 1	Sunlight	39	160
 6	4 4	swat 1	medic 1 professor 3	Sunlight	60	155
-1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance	10	115
-1	1 1	agent_civ 1	agent_civ 1	CResistance	10	80
-1	2 2		soldier_civ 1 drone_civ 1	CResistance	5	85
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
-2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	210
-2	1 1	agent_civ 1	enforcer_civ 1	CResistance	15	100
-3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance	21	250
-3	1 1		elite_civ_colnode 1	CResistance	11	120
-3	1 1	soldier_civ 1	soldier_civ 1	CResistance	21	120
-4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	230
-4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	300
-4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	32	185
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	150
-5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	290
-5	1 1		elite_civ 1	CResistance	28	200
-6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance	170	300
-6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance	85	360
-7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance	120	180
-7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance	120	400
-8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance	200	300
-8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance	400	360
-9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance	400	440
-9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance	400	440
-10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance	600	410
-10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance	1200	480
-1	2 4	drone_civ 1	drone_civ 1	CResistance	7	60
-1	2 3	drone_civ 1	drone_civ 1	CResistance	7	63
-1	1 4	drone_civ 1	drone_civ 1	CResistance	9	63
-1	2 4	drone_civ 1	drone_civ 2	CResistance	7	70
-1	1 2	drone_civ 1	bruiser_civ 1	CResistance	7	85
-2	2 4	drone_civ 1	drone_civ 1	CResistance	11	70
-2	2 3	bruiser_civ 1	drone_civ 1	CResistance	11	78
-2	2 3	drone_civ 1	drone_civ 1	CResistance	11	63
-2	1 1	combatmedic 1	drone_civ 1	CResistance	11	65
-2	1 1	drone_civ 1	bruiser_civ 1	CResistance	11	55
-2	1 2	drone_civ 1	drone_civ 1	CResistance	11	48
-3	2 2		combatmedic 2	CResistance	15	100
-3	1 4	combatmedic 1	drone_civ 1	CResistance	15	88
-3	1 3	drone_civ 1	drone_civ 1	CResistance	15	45
-3	2 4	combatmedic 1	drone_civ 1	CResistance	15	75
-3	2 4	bruiser_civ 1	drone_civ 3	CResistance	15	85
-3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 2	CResistance	18	122
-4	2 2	drone_civ 1	bruiser_civ 2	CResistance	23	105
-4	3 3	combatmedic 1	drone_civ 1 combatmedic 2	CResistance	23	145
-4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance	23	130
-4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance	23	150
-5	1 1		drone_civ 1	CResistance	20	15
-5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance	39	120
-5	5 5	agent_civ 1	drone_civ 5	CResistance	39	115
-6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance	60	205
+1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance GodBuilders CivilUnity	10	115
+1	1 1	agent_civ 1	agent_civ 1	CResistance GodBuilders CivilUnity	10	80
+1	2 2		soldier_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	5	85
+2	1 1	combatmedic 1	turretbalistic 1	CResistance GodBuilders CivilUnity	15	90
+2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance GodBuilders CivilUnity	30	210
+2	1 1	agent_civ 1	enforcer_civ 1	CResistance GodBuilders CivilUnity	15	100
+3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance GodBuilders CivilUnity	21	250
+3	1 1		elite_civ_colnode 1	CResistance GodBuilders CivilUnity	11	120
+3	1 1	soldier_civ 1	soldier_civ 1	CResistance GodBuilders CivilUnity	21	120
+4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance GodBuilders CivilUnity	64	230
+4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance GodBuilders CivilUnity	32	300
+4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	32	185
+5	2 2	combatmedic 1	turretbalistic 2	CResistance GodBuilders CivilUnity	55	150
+5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance GodBuilders CivilUnity	110	290
+5	1 1		elite_civ 1	CResistance GodBuilders CivilUnity	28	200
+6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	170	300
+6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance GodBuilders CivilUnity	85	360
+7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance GodBuilders CivilUnity	120	180
+7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance GodBuilders CivilUnity	120	400
+8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	200	300
+8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance GodBuilders CivilUnity	400	360
+9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance GodBuilders CivilUnity	400	440
+9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance GodBuilders CivilUnity	400	440
+10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance GodBuilders CivilUnity	600	410
+10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	1200	480
+1	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	60
+1	2 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	63
+1	1 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	9	63
+1	2 4	drone_civ 1	drone_civ 2	CResistance GodBuilders CivilUnity	7	70
+1	1 2	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	7	85
+2	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	70
+2	2 3	bruiser_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	78
+2	2 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	63
+2	1 1	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	65
+2	1 1	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	11	55
+2	1 2	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	48
+3	2 2		combatmedic 2	CResistance GodBuilders CivilUnity	15	100
+3	1 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	88
+3	1 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	45
+3	2 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	75
+3	2 4	bruiser_civ 1	drone_civ 3	CResistance GodBuilders CivilUnity	15	85
+3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 2	CResistance GodBuilders CivilUnity	18	122
+4	2 2	drone_civ 1	bruiser_civ 2	CResistance GodBuilders CivilUnity	23	105
+4	3 3	combatmedic 1	drone_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	23	145
+4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	23	130
+4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance GodBuilders CivilUnity	23	150
+5	1 1		drone_civ 1	CResistance GodBuilders CivilUnity	20	15
+5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	39	120
+5	5 5	agent_civ 1	drone_civ 5	CResistance GodBuilders CivilUnity	39	115
+6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance GodBuilders CivilUnity	60	205
 1	1 4	soldier 1	bruiser 1 berserk 3 combatmedic 1	UnchainedBelt	10	150
 1	2 3	bruiser 1	berserk 1	UnchainedBelt	10	123
 1	3 3	freeprisoner 1	soldier 1 psycho 3 freeprisoner 1	UnchainedBelt	5	101
@@ -1519,56 +1566,56 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	3 3	professor 1	security 1 manager 1 professor 1	Sunlight	39	115
 5	5 5	swat 1	civilian 4 professor 1	Sunlight	39	120
 6	4 4	swat 1	medic 1 professor 3	Sunlight	60	155
-1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance	10	115
-1	1 1	agent_civ 1	agent_civ 1	CResistance	10	80
-1	2 2		soldier_civ 1 drone_civ 1	CResistance	5	85
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
-2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	210
-2	1 1	agent_civ 1	enforcer_civ 1	CResistance	15	100
-3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance	21	250
-3	1 1		elite_civ_colnode 1	CResistance	11	120
-3	1 1	soldier_civ 1	soldier_civ 1	CResistance	21	120
-4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	230
-4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	300
-4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	32	185
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	150
-5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	290
-5	1 1		elite_civ 1	CResistance	28	200
-6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance	170	300
-6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance	85	360
-7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance	120	180
-7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance	120	400
-8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance	200	300
-8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance	400	360
-9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance	400	440
-9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance	400	440
-10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance	600	410
-10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance	1200	480
-1	2 4	drone_civ 1	drone_civ 1	CResistance	7	60
-1	2 3	drone_civ 1	drone_civ 1	CResistance	7	53
-1	1 4	drone_civ 1	drone_civ 1	CResistance	9	63
-1	2 4	drone_civ 1	drone_civ 2	CResistance	7	70
-1	1 2	drone_civ 1	bruiser_civ 1	CResistance	7	85
-2	2 4	drone_civ 1	drone_civ 1	CResistance	11	70
-2	2 3	bruiser_civ 1	drone_civ 1	CResistance	11	78
-2	2 3	drone_civ 1	drone_civ 1	CResistance	11	63
-2	1 1	combatmedic 1	drone_civ 1	CResistance	11	65
-2	1 1	drone_civ 1	bruiser_civ 1	CResistance	11	55
-2	1 2	drone_civ 1	drone_civ 1	CResistance	11	38
-3	2 2		combatmedic 2	CResistance	15	100
-3	1 4	combatmedic 1	drone_civ 1	CResistance	15	88
-3	1 3	drone_civ 1	drone_civ 1	CResistance	15	45
-3	2 4	combatmedic 1	drone_civ 1	CResistance	15	75
-3	2 4	bruiser_civ 1	drone_civ 3	CResistance	15	85
-3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 2	CResistance	18	122
-4	2 2	drone_civ 1	bruiser_civ 2	CResistance	23	105
-4	3 3	combatmedic 1	drone_civ 1 combatmedic 2	CResistance	23	145
-4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance	23	130
-4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance	23	150
-5	1 1		drone_civ 1	CResistance	20	15
-5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance	39	120
-5	5 5	agent_civ 1	drone_civ 5	CResistance	39	115
-6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance	60	205
+1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance GodBuilders CivilUnity	10	115
+1	1 1	agent_civ 1	agent_civ 1	CResistance GodBuilders CivilUnity	10	80
+1	2 2		soldier_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	5	85
+2	1 1	combatmedic 1	turretbalistic 1	CResistance GodBuilders CivilUnity	15	90
+2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance GodBuilders CivilUnity	30	210
+2	1 1	agent_civ 1	enforcer_civ 1	CResistance GodBuilders CivilUnity	15	100
+3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance GodBuilders CivilUnity	21	250
+3	1 1		elite_civ_colnode 1	CResistance GodBuilders CivilUnity	11	120
+3	1 1	soldier_civ 1	soldier_civ 1	CResistance GodBuilders CivilUnity	21	120
+4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance GodBuilders CivilUnity	64	230
+4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance GodBuilders CivilUnity	32	300
+4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	32	185
+5	2 2	combatmedic 1	turretbalistic 2	CResistance GodBuilders CivilUnity	55	150
+5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance GodBuilders CivilUnity	110	290
+5	1 1		elite_civ 1	CResistance GodBuilders CivilUnity	28	200
+6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	170	300
+6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance GodBuilders CivilUnity	85	360
+7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance GodBuilders CivilUnity	120	180
+7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance GodBuilders CivilUnity	120	400
+8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	200	300
+8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance GodBuilders CivilUnity	400	360
+9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance GodBuilders CivilUnity	400	440
+9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance GodBuilders CivilUnity	400	440
+10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance GodBuilders CivilUnity	600	410
+10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	1200	480
+1	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	60
+1	2 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	53
+1	1 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	9	63
+1	2 4	drone_civ 1	drone_civ 2	CResistance GodBuilders CivilUnity	7	70
+1	1 2	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	7	85
+2	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	70
+2	2 3	bruiser_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	78
+2	2 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	63
+2	1 1	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	65
+2	1 1	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	11	55
+2	1 2	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	38
+3	2 2		combatmedic 2	CResistance GodBuilders CivilUnity	15	100
+3	1 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	88
+3	1 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	45
+3	2 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	75
+3	2 4	bruiser_civ 1	drone_civ 3	CResistance GodBuilders CivilUnity	15	85
+3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 2	CResistance GodBuilders CivilUnity	18	122
+4	2 2	drone_civ 1	bruiser_civ 2	CResistance GodBuilders CivilUnity	23	105
+4	3 3	combatmedic 1	drone_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	23	145
+4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	23	130
+4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance GodBuilders CivilUnity	23	150
+5	1 1		drone_civ 1	CResistance GodBuilders CivilUnity	20	15
+5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	39	120
+5	5 5	agent_civ 1	drone_civ 5	CResistance GodBuilders CivilUnity	39	115
+6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance GodBuilders CivilUnity	60	205
 1	1 4	soldier 1	bruiser 1 berserk 3 combatmedic 1	UnchainedBelt	10	150
 1	2 3	bruiser 1	berserk 1	UnchainedBelt	10	123
 1	3 3	freeprisoner 1	soldier 1 psycho 3 freeprisoner 1	UnchainedBelt	5	101
@@ -2324,56 +2371,56 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	3 3	professor 1	security 1 manager 1 professor 1	Sunlight	39	115
 5	5 5	swat 1	manager 4 professor 1	Sunlight	39	160
 6	4 4	swat 1	medic 1 professor 3	Sunlight	60	155
-1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance	10	115
-1	1 1	agent_civ 1	agent_civ 1	CResistance	10	80
-1	2 2		soldier_civ 1 drone_civ 1	CResistance	5	85
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
-2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	210
-2	1 1	agent_civ 1	enforcer_civ 1	CResistance	15	100
-3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance	21	250
-3	1 1		elite_civ_colnode 1	CResistance	11	120
-3	1 1	soldier_civ 1	soldier_civ 1	CResistance	21	120
-4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	230
-4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	300
-4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	32	185
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	150
-5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	290
-5	1 1		elite_civ 1	CResistance	28	200
-6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance	170	300
-6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance	85	360
-7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance	120	180
-7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance	120	400
-8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance	200	300
-8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance	400	360
-9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance	400	440
-9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance	400	440
-10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance	600	410
-10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance	1200	480
-1	2 4	drone_civ 1	drone_civ 1	CResistance	7	60
-1	2 3	drone_civ 1	drone_civ 1	CResistance	7	63
-1	1 4	drone_civ 1	drone_civ 1	CResistance	9	63
-1	2 4	drone_civ 1	drone_civ 2	CResistance	7	70
-1	1 2	drone_civ 1	bruiser_civ 1	CResistance	7	85
-2	2 4	drone_civ 1	drone_civ 1	CResistance	11	70
-2	2 3	bruiser_civ 1	drone_civ 1	CResistance	11	78
-2	2 3	drone_civ 1	drone_civ 1	CResistance	11	63
-2	1 1	combatmedic 1	drone_civ 1	CResistance	11	65
-2	1 1	drone_civ 1	bruiser_civ 1	CResistance	11	55
-2	1 2	drone_civ 1	drone_civ 1	CResistance	11	48
-3	2 2		combatmedic 2	CResistance	15	100
-3	1 4	combatmedic 1	drone_civ 1	CResistance	15	88
-3	1 3	drone_civ 1	drone_civ 1	CResistance	15	45
-3	2 4	combatmedic 1	drone_civ 1	CResistance	15	75
-3	2 4	bruiser_civ 1	drone_civ 3	CResistance	15	85
-3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 2	CResistance	18	122
-4	2 2	drone_civ 1	bruiser_civ 2	CResistance	23	105
-4	3 3	combatmedic 1	drone_civ 1 combatmedic 2	CResistance	23	145
-4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance	23	130
-4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance	23	150
-5	1 1		drone_civ 1	CResistance	20	15
-5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance	39	120
-5	5 5	agent_civ 1	drone_civ 5	CResistance	39	115
-6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance	60	205
+1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance GodBuilders CivilUnity	10	115
+1	1 1	agent_civ 1	agent_civ 1	CResistance GodBuilders CivilUnity	10	80
+1	2 2		soldier_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	5	85
+2	1 1	combatmedic 1	turretbalistic 1	CResistance GodBuilders CivilUnity	15	90
+2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance GodBuilders CivilUnity	30	210
+2	1 1	agent_civ 1	enforcer_civ 1	CResistance GodBuilders CivilUnity	15	100
+3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance GodBuilders CivilUnity	21	250
+3	1 1		elite_civ_colnode 1	CResistance GodBuilders CivilUnity	11	120
+3	1 1	soldier_civ 1	soldier_civ 1	CResistance GodBuilders CivilUnity	21	120
+4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance GodBuilders CivilUnity	64	230
+4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance GodBuilders CivilUnity	32	300
+4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	32	185
+5	2 2	combatmedic 1	turretbalistic 2	CResistance GodBuilders CivilUnity	55	150
+5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance GodBuilders CivilUnity	110	290
+5	1 1		elite_civ 1	CResistance GodBuilders CivilUnity	28	200
+6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	170	300
+6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance GodBuilders CivilUnity	85	360
+7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance GodBuilders CivilUnity	120	180
+7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance GodBuilders CivilUnity	120	400
+8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	200	300
+8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance GodBuilders CivilUnity	400	360
+9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance GodBuilders CivilUnity	400	440
+9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance GodBuilders CivilUnity	400	440
+10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance GodBuilders CivilUnity	600	410
+10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	1200	480
+1	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	60
+1	2 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	63
+1	1 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	9	63
+1	2 4	drone_civ 1	drone_civ 2	CResistance GodBuilders CivilUnity	7	70
+1	1 2	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	7	85
+2	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	70
+2	2 3	bruiser_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	78
+2	2 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	63
+2	1 1	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	65
+2	1 1	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	11	55
+2	1 2	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	48
+3	2 2		combatmedic 2	CResistance GodBuilders CivilUnity	15	100
+3	1 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	88
+3	1 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	45
+3	2 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	75
+3	2 4	bruiser_civ 1	drone_civ 3	CResistance GodBuilders CivilUnity	15	85
+3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 2	CResistance GodBuilders CivilUnity	18	122
+4	2 2	drone_civ 1	bruiser_civ 2	CResistance GodBuilders CivilUnity	23	105
+4	3 3	combatmedic 1	drone_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	23	145
+4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	23	130
+4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance GodBuilders CivilUnity	23	150
+5	1 1		drone_civ 1	CResistance GodBuilders CivilUnity	20	15
+5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	39	120
+5	5 5	agent_civ 1	drone_civ 5	CResistance GodBuilders CivilUnity	39	115
+6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance GodBuilders CivilUnity	60	205
 1	1 4	soldier 1	bruiser 1 berserk 3 combatmedic 1	UnchainedBelt	10	150
 1	2 3	bruiser 1	berserk 1	UnchainedBelt	10	123
 1	3 3	freeprisoner 1	soldier 1 psycho 3 freeprisoner 1	UnchainedBelt	5	101
@@ -3129,56 +3176,56 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	3 3	professor 1	security 1 manager 1 professor 1	Sunlight	39	115
 5	5 5	swat 1	manager 4 professor 1	Sunlight	39	160
 6	4 4	swat 1	medic 1 professor 3	Sunlight	60	155
-1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance	10	115
-1	1 1	agent_civ 1	agent_civ 1	CResistance	10	80
-1	2 2		soldier_civ 1 drone_civ 1	CResistance	5	85
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
-2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	210
-2	1 1	agent_civ 1	enforcer_civ 1	CResistance	15	100
-3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance	21	250
-3	1 1		elite_civ_colnode 1	CResistance	11	120
-3	1 1	soldier_civ 1	soldier_civ 1	CResistance	21	120
-4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	230
-4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	300
-4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	32	185
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	150
-5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	290
-5	1 1		elite_civ 1	CResistance	28	200
-6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance	170	300
-6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance	85	360
-7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance	120	180
-7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance	120	400
-8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance	200	300
-8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance	400	360
-9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance	400	440
-9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance	400	440
-10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance	600	410
-10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance	1200	480
-1	2 4	drone_civ 1	drone_civ 1	CResistance	7	60
-1	2 3	drone_civ 1	drone_civ 1	CResistance	7	63
-1	1 4	drone_civ 1	drone_civ 1	CResistance	9	63
-1	2 4	drone_civ 1	drone_civ 2	CResistance	7	70
-1	1 2	drone_civ 1	bruiser_civ 1	CResistance	7	85
-2	2 4	drone_civ 1	drone_civ 1	CResistance	11	70
-2	2 3	bruiser_civ 1	drone_civ 1	CResistance	11	78
-2	2 3	drone_civ 1	drone_civ 1	CResistance	11	63
-2	1 1	combatmedic 1	drone_civ 1	CResistance	11	65
-2	1 1	drone_civ 1	bruiser_civ 1	CResistance	11	55
-2	1 2	drone_civ 1	drone_civ 1	CResistance	11	48
-3	2 2		combatmedic 2	CResistance	15	100
-3	1 4	combatmedic 1	drone_civ 1	CResistance	15	88
-3	1 3	drone_civ 1	drone_civ 1	CResistance	15	45
-3	2 4	combatmedic 1	drone_civ 1	CResistance	15	75
-3	2 4	bruiser_civ 1	drone_civ 3	CResistance	15	85
-3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 2	CResistance	18	122
-4	2 2	drone_civ 1	bruiser_civ 2	CResistance	23	105
-4	3 3	combatmedic 1	drone_civ 1 combatmedic 2	CResistance	23	145
-4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance	23	130
-4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance	23	150
-5	1 1		drone_civ 1	CResistance	20	15
-5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance	39	120
-5	5 5	agent_civ 1	drone_civ 5	CResistance	39	115
-6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance	60	205
+1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance GodBuilders CivilUnity	10	115
+1	1 1	agent_civ 1	agent_civ 1	CResistance GodBuilders CivilUnity	10	80
+1	2 2		soldier_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	5	85
+2	1 1	combatmedic 1	turretbalistic 1	CResistance GodBuilders CivilUnity	15	90
+2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance GodBuilders CivilUnity	30	210
+2	1 1	agent_civ 1	enforcer_civ 1	CResistance GodBuilders CivilUnity	15	100
+3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance GodBuilders CivilUnity	21	250
+3	1 1		elite_civ_colnode 1	CResistance GodBuilders CivilUnity	11	120
+3	1 1	soldier_civ 1	soldier_civ 1	CResistance GodBuilders CivilUnity	21	120
+4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance GodBuilders CivilUnity	64	230
+4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance GodBuilders CivilUnity	32	300
+4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	32	185
+5	2 2	combatmedic 1	turretbalistic 2	CResistance GodBuilders CivilUnity	55	150
+5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance GodBuilders CivilUnity	110	290
+5	1 1		elite_civ 1	CResistance GodBuilders CivilUnity	28	200
+6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	170	300
+6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance GodBuilders CivilUnity	85	360
+7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance GodBuilders CivilUnity	120	180
+7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance GodBuilders CivilUnity	120	400
+8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	200	300
+8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance GodBuilders CivilUnity	400	360
+9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance GodBuilders CivilUnity	400	440
+9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance GodBuilders CivilUnity	400	440
+10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance GodBuilders CivilUnity	600	410
+10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	1200	480
+1	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	60
+1	2 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	63
+1	1 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	9	63
+1	2 4	drone_civ 1	drone_civ 2	CResistance GodBuilders CivilUnity	7	70
+1	1 2	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	7	85
+2	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	70
+2	2 3	bruiser_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	78
+2	2 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	63
+2	1 1	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	65
+2	1 1	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	11	55
+2	1 2	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	48
+3	2 2		combatmedic 2	CResistance GodBuilders CivilUnity	15	100
+3	1 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	88
+3	1 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	45
+3	2 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	75
+3	2 4	bruiser_civ 1	drone_civ 3	CResistance GodBuilders CivilUnity	15	85
+3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 2	CResistance GodBuilders CivilUnity	18	122
+4	2 2	drone_civ 1	bruiser_civ 2	CResistance GodBuilders CivilUnity	23	105
+4	3 3	combatmedic 1	drone_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	23	145
+4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	23	130
+4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance GodBuilders CivilUnity	23	150
+5	1 1		drone_civ 1	CResistance GodBuilders CivilUnity	20	15
+5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	39	120
+5	5 5	agent_civ 1	drone_civ 5	CResistance GodBuilders CivilUnity	39	115
+6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance GodBuilders CivilUnity	60	205
 1	1 4	soldier 1	bruiser 1 berserk 3 combatmedic 1	UnchainedBelt	10	150
 1	2 3	bruiser 1	berserk 1	UnchainedBelt	10	123
 1	3 3	freeprisoner 1	soldier 1 psycho 3 freeprisoner 1	UnchainedBelt	5	101
@@ -3934,56 +3981,56 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	3 3	professor 1	security 1 manager 1 professor 1	Sunlight	39	115
 5	5 5	swat 1	professor 1 mindcontrolled 4	Sunlight	39	140
 6	4 4	swat 1	medic 1 professor 3	Sunlight	60	155
-1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance	10	115
-1	1 1	agent_civ 1	agent_civ 1	CResistance	10	80
-1	2 2		soldier_civ 1 drone_civ 1	CResistance	5	85
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
-2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	210
-2	1 1	agent_civ 1	enforcer_civ 1	CResistance	15	100
-3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance	21	250
-3	1 1		elite_civ_colnode 1	CResistance	11	120
-3	1 1	soldier_civ 1	soldier_civ 1	CResistance	21	120
-4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	230
-4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	300
-4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	32	185
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	150
-5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	290
-5	1 1		elite_civ 1	CResistance	28	200
-6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance	170	300
-6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance	85	360
-7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance	120	180
-7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance	120	400
-8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance	200	300
-8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance	400	360
-9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance	400	440
-9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance	400	440
-10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance	600	410
-10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance	1200	480
-1	2 4	drone_civ 1	drone_civ 1	CResistance	7	60
-1	2 3	drone_civ 1	drone_civ 1	CResistance	7	73
-1	1 4	drone_civ 1	drone_civ 1	CResistance	9	63
-1	2 4	drone_civ 1	drone_civ 2	CResistance	7	70
-1	1 2	drone_civ 1	bruiser_civ 1	CResistance	7	85
-2	2 4	drone_civ 1	drone_civ 1	CResistance	11	70
-2	2 3	bruiser_civ 1	drone_civ 1	CResistance	11	78
-2	2 3	drone_civ 1	drone_civ 1	CResistance	11	63
-2	1 1	combatmedic 1	drone_civ 1	CResistance	11	65
-2	1 1	drone_civ 1	bruiser_civ 1	CResistance	11	55
-2	1 2	drone_civ 1	drone_civ 1	CResistance	11	58
-3	2 2		combatmedic 2	CResistance	15	100
-3	1 4	combatmedic 1	drone_civ 1	CResistance	15	88
-3	1 3	drone_civ 1	drone_civ 1	CResistance	15	45
-3	2 4	combatmedic 1	drone_civ 1	CResistance	15	75
-3	2 4	bruiser_civ 1	drone_civ 3	CResistance	15	85
-3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 2	CResistance	18	122
-4	2 2	drone_civ 1	bruiser_civ 2	CResistance	23	105
-4	3 3	combatmedic 1	drone_civ 1 combatmedic 2	CResistance	23	145
-4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance	23	130
-4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance	23	150
-5	1 1		drone_civ 1	CResistance	20	15
-5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance	39	120
-5	5 5	agent_civ 1	drone_civ 5	CResistance	39	115
-6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance	60	205
+1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance GodBuilders CivilUnity	10	115
+1	1 1	agent_civ 1	agent_civ 1	CResistance GodBuilders CivilUnity	10	80
+1	2 2		soldier_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	5	85
+2	1 1	combatmedic 1	turretbalistic 1	CResistance GodBuilders CivilUnity	15	90
+2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance GodBuilders CivilUnity	30	210
+2	1 1	agent_civ 1	enforcer_civ 1	CResistance GodBuilders CivilUnity	15	100
+3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance GodBuilders CivilUnity	21	250
+3	1 1		elite_civ_colnode 1	CResistance GodBuilders CivilUnity	11	120
+3	1 1	soldier_civ 1	soldier_civ 1	CResistance GodBuilders CivilUnity	21	120
+4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance GodBuilders CivilUnity	64	230
+4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance GodBuilders CivilUnity	32	300
+4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	32	185
+5	2 2	combatmedic 1	turretbalistic 2	CResistance GodBuilders CivilUnity	55	150
+5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance GodBuilders CivilUnity	110	290
+5	1 1		elite_civ 1	CResistance GodBuilders CivilUnity	28	200
+6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	170	300
+6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance GodBuilders CivilUnity	85	360
+7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance GodBuilders CivilUnity	120	180
+7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance GodBuilders CivilUnity	120	400
+8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	200	300
+8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance GodBuilders CivilUnity	400	360
+9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance GodBuilders CivilUnity	400	440
+9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance GodBuilders CivilUnity	400	440
+10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance GodBuilders CivilUnity	600	410
+10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	1200	480
+1	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	60
+1	2 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	73
+1	1 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	9	63
+1	2 4	drone_civ 1	drone_civ 2	CResistance GodBuilders CivilUnity	7	70
+1	1 2	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	7	85
+2	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	70
+2	2 3	bruiser_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	78
+2	2 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	63
+2	1 1	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	65
+2	1 1	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	11	55
+2	1 2	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	58
+3	2 2		combatmedic 2	CResistance GodBuilders CivilUnity	15	100
+3	1 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	88
+3	1 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	45
+3	2 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	75
+3	2 4	bruiser_civ 1	drone_civ 3	CResistance GodBuilders CivilUnity	15	85
+3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 2	CResistance GodBuilders CivilUnity	18	122
+4	2 2	drone_civ 1	bruiser_civ 2	CResistance GodBuilders CivilUnity	23	105
+4	3 3	combatmedic 1	drone_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	23	145
+4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	23	130
+4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance GodBuilders CivilUnity	23	150
+5	1 1		drone_civ 1	CResistance GodBuilders CivilUnity	20	15
+5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	39	120
+5	5 5	agent_civ 1	drone_civ 5	CResistance GodBuilders CivilUnity	39	115
+6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance GodBuilders CivilUnity	60	205
 1	1 4	soldier 1	bruiser 1 berserk 3 combatmedic 1	UnchainedBelt	10	150
 1	2 3	bruiser 1	berserk 1	UnchainedBelt	10	123
 1	3 3	freeprisoner 1	soldier 1 psycho 3 freeprisoner 1	UnchainedBelt	5	101
@@ -4739,56 +4786,56 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	3 3	professor 1	security 1 manager 1 professor 1	Sunlight	39	115
 5	5 5	swat 1	professor 5	Sunlight	39	180
 6	4 4	swat 1	medic 1 professor 3	Sunlight	60	155
-1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance	10	115
-1	1 1	agent_civ 1	agent_civ 1	CResistance	10	80
-1	2 2		soldier_civ 1 drone_civ 1	CResistance	5	85
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
-2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	210
-2	1 1	agent_civ 1	enforcer_civ 1	CResistance	15	100
-3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance	21	250
-3	1 1		elite_civ_colnode 1	CResistance	11	120
-3	1 1	soldier_civ 1	soldier_civ 1	CResistance	21	120
-4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	230
-4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	300
-4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	32	185
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	150
-5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	290
-5	1 1		elite_civ 1	CResistance	28	200
-6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance	170	300
-6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance	85	360
-7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance	120	180
-7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance	120	400
-8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance	200	300
-8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance	400	360
-9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance	400	440
-9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance	400	440
-10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance	600	410
-10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance	1200	480
-1	2 4	drone_civ 1	drone_civ 1	CResistance	7	60
-1	2 3	combatmedic 1	drone_civ 1	CResistance	7	68
-1	1 4	drone_civ 1	drone_civ 1	CResistance	9	63
-1	2 4	drone_civ 1	drone_civ 1 combatmedic 1	CResistance	7	123
-1	1 2	drone_civ 1	bruiser_civ 1	CResistance	7	85
-2	2 4	drone_civ 1	drone_civ 1	CResistance	11	70
-2	2 3	bruiser_civ 1	drone_civ 1	CResistance	11	78
-2	2 3	drone_civ 1	drone_civ 1	CResistance	11	63
-2	1 1	combatmedic 1	drone_civ 1	CResistance	11	65
-2	1 1	drone_civ 1	bruiser_civ 1	CResistance	11	55
-2	1 2	combatmedic 1	combatmedic 1	CResistance	11	105
-3	2 2		combatmedic 2	CResistance	15	100
-3	1 4	combatmedic 1	drone_civ 1	CResistance	15	88
-3	1 3	drone_civ 1	drone_civ 1	CResistance	15	45
-3	2 4	combatmedic 1	drone_civ 1	CResistance	15	75
-3	2 4	bruiser_civ 1	drone_civ 1 combatmedic 2	CResistance	15	155
-3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance	18	163
-4	2 2	drone_civ 1	bruiser_civ 2	CResistance	23	105
-4	3 3	combatmedic 1	combatmedic 3	CResistance	23	180
-4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance	23	130
-4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance	23	150
-5	1 1		drone_civ 1	CResistance	20	15
-5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance	39	120
-5	5 5	agent_civ 1	drone_civ 1 combatmedic 4	CResistance	39	255
-6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance	60	205
+1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance GodBuilders CivilUnity	10	115
+1	1 1	agent_civ 1	agent_civ 1	CResistance GodBuilders CivilUnity	10	80
+1	2 2		soldier_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	5	85
+2	1 1	combatmedic 1	turretbalistic 1	CResistance GodBuilders CivilUnity	15	90
+2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance GodBuilders CivilUnity	30	210
+2	1 1	agent_civ 1	enforcer_civ 1	CResistance GodBuilders CivilUnity	15	100
+3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance GodBuilders CivilUnity	21	250
+3	1 1		elite_civ_colnode 1	CResistance GodBuilders CivilUnity	11	120
+3	1 1	soldier_civ 1	soldier_civ 1	CResistance GodBuilders CivilUnity	21	120
+4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance GodBuilders CivilUnity	64	230
+4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance GodBuilders CivilUnity	32	300
+4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	32	185
+5	2 2	combatmedic 1	turretbalistic 2	CResistance GodBuilders CivilUnity	55	150
+5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance GodBuilders CivilUnity	110	290
+5	1 1		elite_civ 1	CResistance GodBuilders CivilUnity	28	200
+6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	170	300
+6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance GodBuilders CivilUnity	85	360
+7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance GodBuilders CivilUnity	120	180
+7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance GodBuilders CivilUnity	120	400
+8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	200	300
+8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance GodBuilders CivilUnity	400	360
+9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance GodBuilders CivilUnity	400	440
+9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance GodBuilders CivilUnity	400	440
+10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance GodBuilders CivilUnity	600	410
+10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	1200	480
+1	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	60
+1	2 3	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	68
+1	1 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	9	63
+1	2 4	drone_civ 1	drone_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	7	123
+1	1 2	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	7	85
+2	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	70
+2	2 3	bruiser_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	78
+2	2 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	63
+2	1 1	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	65
+2	1 1	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	11	55
+2	1 2	combatmedic 1	combatmedic 1	CResistance GodBuilders CivilUnity	11	105
+3	2 2		combatmedic 2	CResistance GodBuilders CivilUnity	15	100
+3	1 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	88
+3	1 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	45
+3	2 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	75
+3	2 4	bruiser_civ 1	drone_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	15	155
+3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	18	163
+4	2 2	drone_civ 1	bruiser_civ 2	CResistance GodBuilders CivilUnity	23	105
+4	3 3	combatmedic 1	combatmedic 3	CResistance GodBuilders CivilUnity	23	180
+4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	23	130
+4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance GodBuilders CivilUnity	23	150
+5	1 1		drone_civ 1	CResistance GodBuilders CivilUnity	20	15
+5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	39	120
+5	5 5	agent_civ 1	drone_civ 1 combatmedic 4	CResistance GodBuilders CivilUnity	39	255
+6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance GodBuilders CivilUnity	60	205
 1	1 4	soldier 1	bruiser 1 berserk 3 combatmedic 1	UnchainedBelt	10	150
 1	2 3	bruiser 1	berserk 1	UnchainedBelt	10	123
 1	3 3	freeprisoner 1	soldier 1 psycho 3 freeprisoner 1	UnchainedBelt	5	101
@@ -5544,56 +5591,56 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	3 3	professor 1	security 1 manager 1 professor 1	Sunlight	39	115
 5	5 5	swat 1	civilian 4 professor 1	Sunlight	39	120
 6	4 4	swat 1	medic 1 professor 3	Sunlight	60	155
-1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance	10	115
-1	1 1	agent_civ 1	agent_civ 1	CResistance	10	80
-1	2 2		soldier_civ 1 drone_civ 1	CResistance	5	85
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
-2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	210
-2	1 1	agent_civ 1	enforcer_civ 1	CResistance	15	100
-3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance	21	250
-3	1 1		elite_civ_colnode 1	CResistance	11	120
-3	1 1	soldier_civ 1	soldier_civ 1	CResistance	21	120
-4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	230
-4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	300
-4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	32	185
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	150
-5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	290
-5	1 1		elite_civ 1	CResistance	28	200
-6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance	170	300
-6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance	85	360
-7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance	120	180
-7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance	120	400
-8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance	200	300
-8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance	400	360
-9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance	400	440
-9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance	400	440
-10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance	600	410
-10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance	1200	480
-1	2 4	drone_civ 1	drone_civ 1	CResistance	7	60
-1	2 3	worker_civ 1	drone_civ 1	CResistance	7	73
-1	1 4	drone_civ 1	drone_civ 1	CResistance	9	63
-1	2 4	drone_civ 1	drone_civ 1 worker_civ 1	CResistance	7	100
-1	1 2	drone_civ 1	bruiser_civ 1	CResistance	7	85
-2	2 4	drone_civ 1	drone_civ 1	CResistance	11	70
-2	2 3	bruiser_civ 1	drone_civ 1	CResistance	11	78
-2	2 3	drone_civ 1	drone_civ 1	CResistance	11	63
-2	1 1	combatmedic 1	drone_civ 1	CResistance	11	65
-2	1 1	drone_civ 1	bruiser_civ 1	CResistance	11	55
-2	1 2	worker_civ 1	worker_civ 1	CResistance	11	88
-3	2 2		combatmedic 2	CResistance	15	100
-3	1 4	combatmedic 1	drone_civ 1	CResistance	15	88
-3	1 3	drone_civ 1	drone_civ 1	CResistance	15	45
-3	2 4	combatmedic 1	drone_civ 1	CResistance	15	75
-3	2 4	bruiser_civ 1	drone_civ 1 worker_civ 2	CResistance	15	125
-3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 1 worker_civ 1	CResistance	18	145
-4	2 2	drone_civ 1	bruiser_civ 2	CResistance	23	105
-4	3 3	combatmedic 1	combatmedic 2 worker_civ 1	CResistance	23	165
-4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance	23	130
-4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance	23	150
-5	1 1		drone_civ 1	CResistance	20	15
-5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance	39	120
-5	5 5	agent_civ 1	drone_civ 1 worker_civ 4	CResistance	39	195
-6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance	60	205
+1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance GodBuilders CivilUnity	10	115
+1	1 1	agent_civ 1	agent_civ 1	CResistance GodBuilders CivilUnity	10	80
+1	2 2		soldier_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	5	85
+2	1 1	combatmedic 1	turretbalistic 1	CResistance GodBuilders CivilUnity	15	90
+2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance GodBuilders CivilUnity	30	210
+2	1 1	agent_civ 1	enforcer_civ 1	CResistance GodBuilders CivilUnity	15	100
+3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance GodBuilders CivilUnity	21	250
+3	1 1		elite_civ_colnode 1	CResistance GodBuilders CivilUnity	11	120
+3	1 1	soldier_civ 1	soldier_civ 1	CResistance GodBuilders CivilUnity	21	120
+4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance GodBuilders CivilUnity	64	230
+4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance GodBuilders CivilUnity	32	300
+4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	32	185
+5	2 2	combatmedic 1	turretbalistic 2	CResistance GodBuilders CivilUnity	55	150
+5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance GodBuilders CivilUnity	110	290
+5	1 1		elite_civ 1	CResistance GodBuilders CivilUnity	28	200
+6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	170	300
+6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance GodBuilders CivilUnity	85	360
+7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance GodBuilders CivilUnity	120	180
+7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance GodBuilders CivilUnity	120	400
+8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	200	300
+8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance GodBuilders CivilUnity	400	360
+9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance GodBuilders CivilUnity	400	440
+9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance GodBuilders CivilUnity	400	440
+10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance GodBuilders CivilUnity	600	410
+10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	1200	480
+1	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	60
+1	2 3	worker_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	73
+1	1 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	9	63
+1	2 4	drone_civ 1	drone_civ 1 worker_civ 1	CResistance GodBuilders CivilUnity	7	100
+1	1 2	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	7	85
+2	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	70
+2	2 3	bruiser_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	78
+2	2 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	63
+2	1 1	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	65
+2	1 1	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	11	55
+2	1 2	worker_civ 1	worker_civ 1	CResistance GodBuilders CivilUnity	11	88
+3	2 2		combatmedic 2	CResistance GodBuilders CivilUnity	15	100
+3	1 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	88
+3	1 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	45
+3	2 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	75
+3	2 4	bruiser_civ 1	drone_civ 1 worker_civ 2	CResistance GodBuilders CivilUnity	15	125
+3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 1 worker_civ 1	CResistance GodBuilders CivilUnity	18	145
+4	2 2	drone_civ 1	bruiser_civ 2	CResistance GodBuilders CivilUnity	23	105
+4	3 3	combatmedic 1	combatmedic 2 worker_civ 1	CResistance GodBuilders CivilUnity	23	165
+4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	23	130
+4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance GodBuilders CivilUnity	23	150
+5	1 1		drone_civ 1	CResistance GodBuilders CivilUnity	20	15
+5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	39	120
+5	5 5	agent_civ 1	drone_civ 1 worker_civ 4	CResistance GodBuilders CivilUnity	39	195
+6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance GodBuilders CivilUnity	60	205
 1	1 4	soldier 1	bruiser 1 berserk 3 combatmedic 1	UnchainedBelt	10	150
 1	2 3	bruiser 1	berserk 1	UnchainedBelt	10	123
 1	3 3	freeprisoner 1	soldier 1 psycho 3 freeprisoner 1	UnchainedBelt	5	101
@@ -6349,56 +6396,56 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	3 3	professor 1	security 1 manager 1 professor 1	Sunlight	39	115
 5	5 5	swat 1	professor 1 miner 4	Sunlight	39	160
 6	4 4	swat 1	medic 1 professor 3	Sunlight	60	155
-1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance	10	115
-1	1 1	agent_civ 1	agent_civ 1	CResistance	10	80
-1	2 2		soldier_civ 1 drone_civ 1	CResistance	5	85
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
-2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	210
-2	1 1	agent_civ 1	enforcer_civ 1	CResistance	15	100
-3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance	21	250
-3	1 1		elite_civ_colnode 1	CResistance	11	120
-3	1 1	soldier_civ 1	soldier_civ 1	CResistance	21	120
-4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	230
-4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	300
-4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	32	185
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	150
-5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	290
-5	1 1		elite_civ 1	CResistance	28	200
-6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance	170	300
-6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance	85	360
-7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance	120	180
-7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance	120	400
-8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance	200	300
-8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance	400	360
-9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance	400	440
-9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance	400	440
-10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance	600	410
-10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance	1200	480
-1	2 4	drone_civ 1	drone_civ 1	CResistance	7	60
-1	2 3	miner_civ 1	drone_civ 1	CResistance	7	73
-1	1 4	drone_civ 1	drone_civ 1	CResistance	9	63
-1	2 4	drone_civ 1	drone_civ 1 miner_civ 1	CResistance	7	100
-1	1 2	drone_civ 1	bruiser_civ 1	CResistance	7	85
-2	2 4	drone_civ 1	drone_civ 1	CResistance	11	70
-2	2 3	bruiser_civ 1	drone_civ 1	CResistance	11	78
-2	2 3	drone_civ 1	drone_civ 1	CResistance	11	63
-2	1 1	combatmedic 1	drone_civ 1	CResistance	11	65
-2	1 1	drone_civ 1	bruiser_civ 1	CResistance	11	55
-2	1 2	miner_civ 1	miner_civ 1	CResistance	11	88
-3	2 2		combatmedic 2	CResistance	15	100
-3	1 4	combatmedic 1	drone_civ 1	CResistance	15	88
-3	1 3	drone_civ 1	drone_civ 1	CResistance	15	45
-3	2 4	combatmedic 1	drone_civ 1	CResistance	15	75
-3	2 4	bruiser_civ 1	drone_civ 1 miner_civ 2	CResistance	15	125
-3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 1 miner_civ 1	CResistance	18	145
-4	2 2	drone_civ 1	bruiser_civ 2	CResistance	23	105
-4	3 3	combatmedic 1	combatmedic 2 miner_civ 1	CResistance	23	165
-4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance	23	130
-4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance	23	150
-5	1 1		drone_civ 1	CResistance	20	15
-5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance	39	120
-5	5 5	agent_civ 1	drone_civ 1 miner_civ 4	CResistance	39	195
-6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance	60	205
+1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance GodBuilders CivilUnity	10	115
+1	1 1	agent_civ 1	agent_civ 1	CResistance GodBuilders CivilUnity	10	80
+1	2 2		soldier_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	5	85
+2	1 1	combatmedic 1	turretbalistic 1	CResistance GodBuilders CivilUnity	15	90
+2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance GodBuilders CivilUnity	30	210
+2	1 1	agent_civ 1	enforcer_civ 1	CResistance GodBuilders CivilUnity	15	100
+3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance GodBuilders CivilUnity	21	250
+3	1 1		elite_civ_colnode 1	CResistance GodBuilders CivilUnity	11	120
+3	1 1	soldier_civ 1	soldier_civ 1	CResistance GodBuilders CivilUnity	21	120
+4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance GodBuilders CivilUnity	64	230
+4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance GodBuilders CivilUnity	32	300
+4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	32	185
+5	2 2	combatmedic 1	turretbalistic 2	CResistance GodBuilders CivilUnity	55	150
+5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance GodBuilders CivilUnity	110	290
+5	1 1		elite_civ 1	CResistance GodBuilders CivilUnity	28	200
+6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	170	300
+6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance GodBuilders CivilUnity	85	360
+7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance GodBuilders CivilUnity	120	180
+7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance GodBuilders CivilUnity	120	400
+8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	200	300
+8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance GodBuilders CivilUnity	400	360
+9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance GodBuilders CivilUnity	400	440
+9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance GodBuilders CivilUnity	400	440
+10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance GodBuilders CivilUnity	600	410
+10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	1200	480
+1	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	60
+1	2 3	miner_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	73
+1	1 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	9	63
+1	2 4	drone_civ 1	drone_civ 1 miner_civ 1	CResistance GodBuilders CivilUnity	7	100
+1	1 2	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	7	85
+2	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	70
+2	2 3	bruiser_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	78
+2	2 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	63
+2	1 1	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	65
+2	1 1	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	11	55
+2	1 2	miner_civ 1	miner_civ 1	CResistance GodBuilders CivilUnity	11	88
+3	2 2		combatmedic 2	CResistance GodBuilders CivilUnity	15	100
+3	1 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	88
+3	1 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	45
+3	2 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	75
+3	2 4	bruiser_civ 1	drone_civ 1 miner_civ 2	CResistance GodBuilders CivilUnity	15	125
+3	3 4	agent_civ 1	bruiser_civ 1 drone_civ 1 miner_civ 1	CResistance GodBuilders CivilUnity	18	145
+4	2 2	drone_civ 1	bruiser_civ 2	CResistance GodBuilders CivilUnity	23	105
+4	3 3	combatmedic 1	combatmedic 2 miner_civ 1	CResistance GodBuilders CivilUnity	23	165
+4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	23	130
+4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance GodBuilders CivilUnity	23	150
+5	1 1		drone_civ 1	CResistance GodBuilders CivilUnity	20	15
+5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	39	120
+5	5 5	agent_civ 1	drone_civ 1 miner_civ 4	CResistance GodBuilders CivilUnity	39	195
+6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance GodBuilders CivilUnity	60	205
 1	1 4	soldier 1	bruiser 1 berserk 3 combatmedic 1	UnchainedBelt	10	150
 1	2 3	bruiser 1	berserk 1	UnchainedBelt	10	123
 1	3 3	freeprisoner 1	soldier 1 psycho 3 freeprisoner 1	UnchainedBelt	5	101
@@ -7154,56 +7201,56 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	3 3	professor 1	security 1 manager 1 professor 1	Sunlight	39	115
 5	5 5	swat 1	security 4 professor 1	Sunlight	39	180
 6	4 4	swat 1	medic 1 professor 3	Sunlight	60	155
-1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance	10	115
-1	1 1	agent_civ 1	agent_civ 1	CResistance	10	80
-1	2 2		soldier_civ 1 drone_civ 1	CResistance	5	85
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
-2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	210
-2	1 1	agent_civ 1	enforcer_civ 1	CResistance	15	100
-3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance	21	250
-3	1 1		elite_civ_colnode 1	CResistance	11	120
-3	1 1	soldier_civ 1	soldier_civ 1	CResistance	21	120
-4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	230
-4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	300
-4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	32	185
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	150
-5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	290
-5	1 1		elite_civ 1	CResistance	28	200
-6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance	170	300
-6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance	85	360
-7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance	120	180
-7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance	120	400
-8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance	200	300
-8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance	400	360
-9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance	400	440
-9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance	400	440
-10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance	600	410
-10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance	1200	480
-1	2 4	drone_civ 1	drone_civ 1	CResistance	7	60
-1	2 3	agent_civ 1	drone_civ 1	CResistance	7	78
-1	1 4	drone_civ 1	drone_civ 1	CResistance	9	63
-1	2 4	drone_civ 1	agent_civ 1 drone_civ 1	CResistance	7	108
-1	1 2	drone_civ 1	bruiser_civ 1	CResistance	7	85
-2	2 4	drone_civ 1	drone_civ 1	CResistance	11	70
-2	2 3	bruiser_civ 1	drone_civ 1	CResistance	11	78
-2	2 3	drone_civ 1	drone_civ 1	CResistance	11	63
-2	1 1	combatmedic 1	drone_civ 1	CResistance	11	65
-2	1 1	drone_civ 1	bruiser_civ 1	CResistance	11	55
-2	1 2	agent_civ 1	agent_civ 1	CResistance	11	100
-3	2 2		combatmedic 2	CResistance	15	100
-3	1 4	combatmedic 1	drone_civ 1	CResistance	15	88
-3	1 3	drone_civ 1	drone_civ 1	CResistance	15	45
-3	2 4	combatmedic 1	drone_civ 1	CResistance	15	75
-3	2 4	bruiser_civ 1	agent_civ 2 drone_civ 1	CResistance	15	135
-3	3 4	agent_civ 1	bruiser_civ 1 agent_civ 1 drone_civ 1	CResistance	18	151
-4	2 2	drone_civ 1	bruiser_civ 2	CResistance	23	105
-4	3 3	combatmedic 1	agent_civ 1 combatmedic 2	CResistance	23	170
-4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance	23	130
-4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance	23	150
-5	1 1		drone_civ 1	CResistance	20	15
-5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance	39	120
-5	5 5	agent_civ 1	agent_civ 4 drone_civ 1	CResistance	39	215
-6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance	60	205
+1	3 3	drone_civ 1	bruiser_civ 1 drone_civ 2	CResistance GodBuilders CivilUnity	10	115
+1	1 1	agent_civ 1	agent_civ 1	CResistance GodBuilders CivilUnity	10	80
+1	2 2		soldier_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	5	85
+2	1 1	combatmedic 1	turretbalistic 1	CResistance GodBuilders CivilUnity	15	90
+2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance GodBuilders CivilUnity	30	210
+2	1 1	agent_civ 1	enforcer_civ 1	CResistance GodBuilders CivilUnity	15	100
+3	5 5	agent_civ 1	bruiser_civ 1 agent_civ 3 combatmedic 1	CResistance GodBuilders CivilUnity	21	250
+3	1 1		elite_civ_colnode 1	CResistance GodBuilders CivilUnity	11	120
+3	1 1	soldier_civ 1	soldier_civ 1	CResistance GodBuilders CivilUnity	21	120
+4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance GodBuilders CivilUnity	64	230
+4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance GodBuilders CivilUnity	32	300
+4	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	32	185
+5	2 2	combatmedic 1	turretbalistic 2	CResistance GodBuilders CivilUnity	55	150
+5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance GodBuilders CivilUnity	110	290
+5	1 1		elite_civ 1	CResistance GodBuilders CivilUnity	28	200
+6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	170	300
+6	5 5	elite_civ_colnode 1	bruiser_civ 3 soldier_civ 1 enforcer_civ 1	CResistance GodBuilders CivilUnity	85	360
+7	1 1	elite_civ_colnode 1	soldier_civ 1	CResistance GodBuilders CivilUnity	120	180
+7	4 4	bruiser_civ 1	soldier_civ 2 elite_civ_colnode 2	CResistance GodBuilders CivilUnity	120	400
+8	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	200	300
+8	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 enforcer_civ 1 elite_civ_colnode 1 combatmedic 1	CResistance GodBuilders CivilUnity	400	360
+9	5 5	elite_civ 1	bruiser_civ 2 agent_civ 1 enforcer_civ 2	CResistance GodBuilders CivilUnity	400	440
+9	2 2	elite_civ 1	elite_civ_colnode 2	CResistance GodBuilders CivilUnity	400	440
+10	5 5	elite_civ_colnode 1	soldier_civ 2 enforcer_civ 2 combatmedic 1	CResistance GodBuilders CivilUnity	600	410
+10	5 5	elite_civ 1	agent_civ 1 soldier_civ 2 enforcer_civ 2	CResistance GodBuilders CivilUnity	1200	480
+1	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	60
+1	2 3	agent_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	7	78
+1	1 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	9	63
+1	2 4	drone_civ 1	agent_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	7	108
+1	1 2	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	7	85
+2	2 4	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	70
+2	2 3	bruiser_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	78
+2	2 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	63
+2	1 1	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	11	65
+2	1 1	drone_civ 1	bruiser_civ 1	CResistance GodBuilders CivilUnity	11	55
+2	1 2	agent_civ 1	agent_civ 1	CResistance GodBuilders CivilUnity	11	100
+3	2 2		combatmedic 2	CResistance GodBuilders CivilUnity	15	100
+3	1 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	88
+3	1 3	drone_civ 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	45
+3	2 4	combatmedic 1	drone_civ 1	CResistance GodBuilders CivilUnity	15	75
+3	2 4	bruiser_civ 1	agent_civ 2 drone_civ 1	CResistance GodBuilders CivilUnity	15	135
+3	3 4	agent_civ 1	bruiser_civ 1 agent_civ 1 drone_civ 1	CResistance GodBuilders CivilUnity	18	151
+4	2 2	drone_civ 1	bruiser_civ 2	CResistance GodBuilders CivilUnity	23	105
+4	3 3	combatmedic 1	agent_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	23	170
+4	3 3	drone_civ 1	drone_civ 1 combatmedic 2	CResistance GodBuilders CivilUnity	23	130
+4	4 4	agent_civ 1	bruiser_civ 2 drone_civ 2	CResistance GodBuilders CivilUnity	23	150
+5	1 1		drone_civ 1	CResistance GodBuilders CivilUnity	20	15
+5	3 3	drone_civ 1	bruiser_civ 1 drone_civ 1 combatmedic 1	CResistance GodBuilders CivilUnity	39	120
+5	5 5	agent_civ 1	agent_civ 4 drone_civ 1	CResistance GodBuilders CivilUnity	39	215
+6	4 4	agent_civ 1	drone_civ 1 combatmedic 3	CResistance GodBuilders CivilUnity	60	205
 1	1 4	soldier 1	bruiser 1 berserk 3 combatmedic 1	UnchainedBelt	10	150
 1	2 3	bruiser 1	berserk 1	UnchainedBelt	10	123
 1	3 3	freeprisoner 1	soldier 1 psycho 3 freeprisoner 1	UnchainedBelt	5	101

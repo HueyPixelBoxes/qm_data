@@ -19,14 +19,23 @@ fires	AmmoTrait	Passive	FALSE	FFireSpread 0.12	traits_fires
 toxic	AmmoTrait	Passive	FALSE	FToxicSpread 0.2	traits_toxic																			
 heavy_fires	AmmoTrait	Passive	FALSE	FFireSpread 0.8	traits_fires																			
 heavy_toxic	AmmoTrait	Passive	FALSE	FToxicSpread 0.8	traits_toxic																			
-ammo_piercing	AmmoTrait	Passive	FALSE	FPiercingBonus 0.35	traits_piercing																			
+ammo_piercing	AmmoTrait	Passive	FALSE	FPierce 0.35	traits_piercing																			
 painful	AmmoTrait	Passive	FALSE	FPainDamageMult 1.6	traits_painful																			
 knockback	AmmoTrait	Passive	FALSE	FThrowbackChance 0.3	traits_knockback																			
 heavy_knockback	AmmoTrait	Passive	FALSE	FThrowbackChance 0.7	traits_knockback																			
-knockdown	AmmoTrait	Passive	FALSE	FStunChance 0.2 IEnemyStunDuration 1	traits_knockdown																			
+knockdown	AmmoTrait	Passive	FALSE	FStunChance 0.18 IEnemyStunDuration 1	traits_knockdown																			
 heavy_knockdown	AmmoTrait	Passive	FALSE	FStunChance 0.55 IEnemyStunDuration 1	traits_knockdown																			
 ramp_up	WeaponTrait	Passive	FALSE	IRampUpProjectiles 1	traits_ramp_up																			
 unthrowable	WeaponTrait	Passive	TRUE	BUnthrowable true	traits_unthrowable																			
+selfcharging	WeaponTrait	Passive	FALSE	BSelfcharging true	traits_selfcharging																			
+critical_throw	WeaponTrait	Passive	FALSE	BThrowAutoCrit true	traits_critical_throw																			
+wounding	AmmoTrait	Passive	FALSE	FDoWoundChance 0.5	traits_wounding_pierce																			
+fragile	WeaponTrait	Passive	TRUE	IFragile 5	traits_fragile																			
+unwieldy	WeaponTrait	Passive	TRUE	FUnwieldyMult 0.8	traits_unwieldy																			
+heavy_weapon	WeaponTrait	Passive	TRUE	BHeavyWeapon true	traits_heavy_weapon																			
+overheat	WeaponTrait	Passive	TRUE	IOverheatDurability 1	traits_overheat																			
+overclock	WeaponTrait	Passive	FALSE	IOverclockDamage 10	traits_overclock																			
+bipod	WeaponTrait	Passive	FALSE	FBipodScatter -0.5 FBipodAccuracy 0.3	traits_bipod																			
 #end																								
 																								
 #explosions																								
@@ -50,6 +59,41 @@ fake_explosion		TRUE	4	1	TRUE	TRUE	FALSE	90	explosion	0.7	TRUE	0.5	FALSE	FALSE	0
 orbital_explosion		TRUE	5	1	TRUE	TRUE	FALSE	90	explosion	0.7	TRUE	0.5	FALSE	FALSE	0	0	FALSE	TRUE	0.05	10	TRUE	FALSE	Red	FALSE
 knife_explosion		TRUE	2	3	TRUE	TRUE	FALSE	130	explosion	1	TRUE	0.8	TRUE	FALSE	0	0	FALSE	TRUE	0.06	10	TRUE	FALSE	Red	FALSE
 skrivnus_explosion		TRUE	2	2	TRUE	FALSE	FALSE	90	lacer	3	TRUE	1	FALSE	TRUE	1	1	TRUE	FALSE	0	0	FALSE	FALSE	Red	FALSE
+#end																								
+																								
+#projectiles																								
+Id	Speed																							
+continues_laser																								
+continues_mercury																								
+continues_quasi_laser																								
+continues_ultimate_ray																								
+disk																								
+disruptor																								
+disruptor_small																								
+flame_thrower																								
+frost																								
+heavy																								
+hfg																								
+laser																								
+lighting																								
+lighting_small																								
+melta_beam																								
+melta_small_beam																								
+microwave																								
+nail																								
+pistol																								
+plasma																								
+plasma_charge																								
+quasi_beam																								
+quasi_bolt																								
+quasi_dart																								
+quasi_laser																								
+shrapnel																								
+sound																								
+tech_frost																								
+thermal																								
+toxic																								
+toxic_thrower																								
 #end																								
 																								
 #firemodes																								
@@ -95,7 +139,7 @@ basic_shotgun_auto		4	4	FALSE	0.15	1	9	0.05
 advanced_shotgun_single		1	1	FALSE	0.35	1	6.5	0																
 advanced_shotgun_duble		2	2	FALSE	0.3	1	7	0																
 advanced_shotgun_burst		3	3	FALSE	0.25	1	7.5	0.05																
-advanced_shotgun_auto		4	4	FALSE	0.15	1	8.5	0.05																
+advanced_shotgun_auto		6	6	FALSE	0.2	1	3.2	0.025																
 basic_rifle_single		1	1	FALSE	0.3	1	2.8	0																
 basic_rifle_burst		2	2	FALSE	0.25	1	3.2	0.05																
 basic_rifle_shortauto		4	4	FALSE	0.2	1	4	0.05																
@@ -189,7 +233,7 @@ disc_burst		3	3	FALSE	0.05	1	4	0.05
 shotgun_single		1	1	FALSE	0.3	1	3	0																
 shotgun_semiauto		2	2	FALSE	0.15	1	3.5	0.06																
 shotgun_burst		3	3	FALSE	0.05	1	4	0.05																
-shotgun_long_burst		4	4	FALSE	0.05	1	4.4	0.05																
+shotgun_long_burst		4	4	FALSE	0	1	4.4	0.05																
 shotgun_fullauto		5	5	FALSE	-0.1	1	4.8	0.045																
 shotgun_wide		1	1	FALSE	0.35	1	17	0																
 shotgun_narrow		1	1	FALSE	0.2	1	1.3	0																
@@ -197,32 +241,32 @@ shotgun_unload_2		2	2	FALSE	0.2	1	3.2	0.025
 rifle_single		1	1	FALSE	0.3	1	3	0																
 rifle_semiauto		2	2	FALSE	0.15	1	3.5	0.06																
 rifle_burst		3	3	FALSE	0.05	1	4	0.05																
-rifle_long_burst		4	4	FALSE	0.05	1	4.4	0.05																
+rifle_long_burst		4	4	FALSE	0	1	4.4	0.05																
 rifle_fullauto		5	5	FALSE	-0.1	1	4.8	0.045																
-rifle_long_fullauto		6	6	FALSE	-0.1	1	5.6	0.04																
+rifle_long_fullauto		6	6	FALSE	-0.15	1	5.6	0.04																
 rifle_sustained		8	8	FALSE	-0.2	1	7.2	0.035																
 pistol_single		1	1	FALSE	0.3	1	3	0																
 pistol_semiauto		2	2	FALSE	0.15	1	3.5	0.06																
 pistol_burst		3	3	FALSE	0.05	1	4	0.05																
-pistol_long_burst		4	4	FALSE	0.05	1	4.4	0.05																
+pistol_long_burst		4	4	FALSE	0	1	4.4	0.05																
 pistol_fullauto		5	5	FALSE	-0.1	1	4.8	0.045																
-pistol_long_fullauto		6	6	FALSE	-0.1	1	5.6	0.04																
+pistol_long_fullauto		6	6	FALSE	-0.15	1	5.6	0.04																
 quasi_single		1	1	FALSE	0.3	1	3	0																
 quasi_semiauto		2	2	FALSE	0.15	1	3.5	0.06																
 quasi_burst		3	3	FALSE	0.05	1	4	0.05																
-quasi_long_burst		4	4	FALSE	0.05	1	4.4	0.05																
+quasi_long_burst		4	4	FALSE	0	1	4.4	0.05																
 quasi_fullauto		5	5	FALSE	-0.1	1	4.8	0.045																
-quasi_long_fullauto		6	6	FALSE	-0.1	1	5.6	0.04																
+quasi_long_fullauto		6	6	FALSE	-0.15	1	5.6	0.04																
 quasi_sustained		8	8	FALSE	-0.2	1	7.2	0.035																
 pulse_single		1	1	FALSE	0.3	1	3	0																
 pulse_semiauto		2	2	FALSE	0.15	1	3.5	0.06																
 pulse_burst		3	3	FALSE	0.05	1	4	0.05																
-pulse_long_burst		4	4	FALSE	0.05	1	4.4	0.05																
+pulse_long_burst		4	4	FALSE	0	1	4.4	0.05																
 pulse_fullauto		5	5	FALSE	-0.1	1	4.8	0.045																
 beam_single		1	1	FALSE	0.25	1	3	0																
 beam_semiauto		2	2	FALSE	0.15	1	3.5	0.06																
 beam_burst		3	3	FALSE	0.05	1	4	0.05																
-beam_long_burst		4	4	FALSE	0.05	1	4.4	0.05																
+beam_long_burst		4	4	FALSE	0	1	4.4	0.05																
 beam_fullauto		5	5	FALSE	-0.1	1	4.8	0.045																
 beam_sustained		8	8	FALSE	-0.2	1	7.2	0.035																
 beam_unload_3		3	3	FALSE	0.2	1	3.2	0.025																
@@ -232,9 +276,9 @@ beam_power_semiauto		3	1	FALSE	0.3	1.8	3.3	0
 plasma_single		1	1	FALSE	0.3	1	3	0																
 plasma_semiauto		2	2	FALSE	0.15	1	3.5	0.06																
 plasma_burst		3	3	FALSE	0.05	1	4	0.05																
-plasma_long_burst		4	4	FALSE	0.05	1	4.4	0.05																
+plasma_long_burst		4	4	FALSE	0	1	4.4	0.05																
 plasma_fullauto		5	5	FALSE	-0.1	1	4.8	0.045																
-plasma_long_fullauto		6	6	FALSE	-0.1	1	5.6	0.04																
+plasma_long_fullauto		6	6	FALSE	-0.15	1	5.6	0.04																
 plasma_sustained		8	8	FALSE	-0.2	1	7.2	0.035																
 lightning_single		1	1	FALSE	0.3	1	3	0																
 lightning_semiauto		2	2	FALSE	0.15	1	3.5	0.06																
@@ -641,8 +685,8 @@ miner_clothing_container		civ_medium_armor_1 1 miner_shirt_1 1 miner_reinforced_
 worker_clothing_container		laborer_shirt_1 1 military_shirt_2 1 laborer_cap_1 1 military_mask_1 1 laborer_pants_1 1 common_pants_3 1 pirates_medium_boots_1 1 common_boots_1 1																						
 scientist_clothing_container		ddr_chem_coat_1 1 ddr_reinforced_chem_coat_1 1 science_coat_1 1 ddr_chem_helmet_1 1 ddr_reinforced_chem_helmet_1 1 ddr_chem_pants_1 1 ddr_reinforced_chem_pants_1 1 ddr_chem_boots_1 1 common_sneakers_1 1																						
 security_clothing_container		police_medium_armor_1 1 military_shirt_3 1 anc_medium_armor_2 1 military_light_helmet_1 1 anc_medium_mask_1 1 police_medium_helmet_1 1 military_pants_2 1 police_pants_2 1 police_medium_pants_1 1 police_boots_2 1 police_medium_boots_1 1																						
-weapon_container		pmc_pistol_1 1 military_pistol_1 1 trucker_pistol_1 1 pmc_shotgun_1 1 common_shotgun_1 1 pmc_smg_2 1 military_smg_1 1 common_assault_1 1 trucker_marksman_1 1 army_hmg_1 1																						
-armor_container		armored_vest_1 1 military_power_armor_1 1 military_light_armor_1 1 fra_heavy_armor_1 1 military_power_helmet_1 1 military_light_gasmask_1 1 fra_heavy_mask_1 1 military_power_pants_1 1 military_light_pants_1 1 fra_heavy_pants_1 1 military_power_boots_1 1 military_light_boots_1 1 fra_heavy_boots_1 1																						
+weapon_container		military_pistol_3 1 trucker_pistol_2 1 common_pistol_3 1 trucker_shotgun_2 1 military_shotgun_1 1 pmc_smg_4 1 fra_security_smg_2 1 military_assault_1 1 trucker_marksman_2 1 army_hmg_1 1 small_basic_ammo 80 rifle_basic_ammo 50 shotgun_shrapnel_ammo 50																						
+armor_container		armored_vest_1 1 heavy_armored_vest_1 1 military_light_armor_1 1 military_medium_armor_1 1 military_heavy_armor_1 1 military_light_gasmask_1 1 military_medium_helmet_1 1 military_heavy_helmet_1 1 military_light_pants_1 1 military_medium_pants_1 1 military_heavy_pants_1 1 military_light_boots_1 1 military_medium_boots_1 1 military_heavy_boots_1 1																						
 tool_container		trash_pipe_1 1 miner_breaker_1 1 worker_crowbar_1 1 worker_wrench_1 1 military_shovel_1 1 worker_pistol_1 1 worker_hmg_1 1																						
 robot_parts_container		armor_plates 1 weapon_parts 1 rusty_plates 1 coarse_parts 1 rod_parts 1 metal_tread 1 wire 1 cyborg_head 2																						
 electrical_parts_container		microelectronics_parts 2 capacitor_parts 2 circuit_board 2 transformer 2 bulb 2																						

@@ -13,6 +13,8 @@ FrancheComte	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 2
 ChurchRevelation	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_chu	manager	0	TRUE	FALSE	ChurchRevelation	
 CoreWard	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_cor	manager	0	TRUE	FALSE	CoreWard	
 CResistance	TRUE	0	1	-10	CivilRes	Resistance	0.5	Expansion 25 Defense 35 Scouting 40	672	1344	elite_civ	combatmedic_civ	0	TRUE	FALSE	CResistance	
+GodBuilders	FALSE	0	1	0	CivilRes	Resistance	0.5	Expansion 25 Defense 35 Scouting 40	672	1344	elite_civ	combatmedic_civ	0	TRUE	FALSE	CResistance	
+CivilUnity	FALSE	0	1	0	CivilRes	Resistance	0.5	Expansion 25 Defense 35 Scouting 40	672	1344	elite_civ	combatmedic_civ	0	TRUE	FALSE	CResistance	
 Dilthey	TRUE	0	1	20	Corp	Hexarchy	0.1	Expansion 20 Defense 40 Scouting 45	672	1344	elite_dil	manager	0	TRUE	FALSE	Dilthey	
 UnchainedBelt	TRUE	300	1	-10	Pirates	Pirates	0.5	Expansion 25 Defense 35 Scouting 40	672	1344	elite_pirates	soldier	0	TRUE	TRUE	UnchainedBelt	
 SheduThousand	FALSE	0	1	0	Shedu	SheduThousand	0.1	Expansion 70 Defense 10 Scouting 20	672	1344	elite_she	mars_crab	100	FALSE	FALSE	SheduThousand	
@@ -25,7 +27,7 @@ Magnum	FALSE	0	0	100	Xiomara	XiomaraAliance	0	Expansion 25 Defense 25 Scouting 2
 Id	AllowStrife	TradeFactionLists															
 Hexarchy	FALSE	AnCom SBN RealWare DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard Dilthey															
 Corporation	TRUE	AnCom SBN RealWare DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard Dilthey															
-Resistance	FALSE	CResistance															
+Resistance	TRUE	CResistance GodBuilders CivilUnity															
 TezctlanAliance	FALSE	Tezctlan															
 XiomaraAliance	FALSE	XiomaraMasks															
 Pirates	TRUE	UnchainedBelt															
@@ -313,6 +315,10 @@ CovertOps	HumankindsHope	RealWare	AnCom	military_heavy_helmet_1 rwa_heavy_helmet
 GhoulShip	HISWoodpecker	UnchainedBelt	CoreWard	pirates_assault_1 trash_armored_vest_1 rifle_basic_ammo rifle_basic_ammo alcogol_container alcogol_container	Custom	1	6	TRUE	stage1 500 stage2 500 stage3 600 stage4 600 stage5 600	stage1 400 stage2 400 stage3 400 stage4 500 stage5 600							
 MenInBlack	Jamame	AnCom	CResistance	anc_quasi_assault_1 anc_medium_armor_2 anc_medium_mask_1 anc_medium_pants_2 anc_medium_boots_2 quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo	Custom		6	FALSE	stage1 600 stage2 800 stage3 800	stage1 550 stage2 650 stage3 800			Earth				
 FromSparkToFlame	HISUnveiled	CResistance	AnCom	civ_plasma_assault_1 battery_basic_ammo battery_basic_ammo battery_basic_ammo civ_medium_armor_2 civ_medium_helmet_2 civ_medium_pants_2 civ_medium_boots_2 cyborg_drill	Custom		6	FALSE	stage1 180 stage2 600 stage3 600 stage4 800	stage1 300 stage2 400 stage3 400 stage4 500		quest_redChip					
+IronBroom	Hargeysa	CResistance	UnchainedBelt	civ_heavy_helmet_1 civ_heavy_armor_1 civ_heavy_pants_1 civ_heavy_boots_1 civ_plasma_assault_1 civ_plasma_assault_1 nanorobot_grenade nanorobot_grenade battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo	Custom		8	FALSE	stage1 180 stage2 600 stage3 600	stage1 300 stage2 400 stage3 400							
+IcePick	RedThrone	CivilUnity	GodBuilders		Custom		10	FALSE	stage1 300 stage2 400 stage3 400 stage4 500	stage1 300 stage2 400 stage3 400 stage4 500							
+Beacon	Sundog	GodBuilders	CivilUnity	civ_heavy_helmet_1 civ_heavy_armor_1 civ_heavy_pants_1 civ_heavy_boots_1 plasma_hmg_1 tech_hfg_1 nanorobot_grenade nanorobot_grenade battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo	Custom		9	FALSE	stage1 300 stage2 400 stage3 400 stage4 0	stage1 300 stage2 400 stage3 400 stage4 0			Earth				
+SacredFlame	IntercityTradeCenter	GodBuilders	CivilUnity		Custom		10	FALSE	stage1 300 stage2 400 stage3 400	stage1 300 stage2 400 stage3 400							
 #end																	
 																	
 #tilesettransformation																	
@@ -384,6 +390,13 @@ europe_facewall_rock_normal	300	10	europe_ground_normal
 callisto_surface_floor_normal	50	10	venus_jungle_surface_destroyed														
 callisto_nature_cornerwall	200	10	callisto_surface_floor_normal														
 callisto_nature_facewall	200	10	callisto_surface_floor_normal														
+military_cornerwall_normal	150	15	military_cornerwall_destroyed														
+military_cornerwall_destroyed	100	10	military_floor_destroyed														
+military_wall_normal	150	15	military_wall_damaged														
+military_wall_damaged	100	10	military_wall_destroyed														
+military_wall_destroyed	50	10	military_floor_destroyed														
+military_floor_normal	100	10	military_floor_damaged														
+military_floor_damaged	50	10	military_floor_destroyed														
 #end																	
 																	
 #missionobjectives																	
@@ -399,6 +412,7 @@ callisto_nature_facewall	200	10	callisto_surface_floor_normal
 	Tezctlan	Pirates	RaiderCapture Elimination Sabotage Ritual	quest_pirates_elite	quest_fresco_data	serverStation											
 	Tezctlan	Xiomara	RaiderCapture Elimination Sabotage Espionage	quest_venus_demon_warrior	quest_igvalit	relicvarium											
 	Tezctlan	Shedu	RaiderCapture Elimination Sabotage Espionage	quest_venus_demon_warrior	quest_igvalit	relicvarium											
+	CivilRes	CivilRes	RaiderCapture Elimination Sabotage Espionage	quest_cresist_elite	quest_fresco_data	cargoBlock											
 	CivilRes	Corp	RaiderCapture Elimination Sabotage Espionage Robbery	quest_manager	quest_device	spaceScaner											
 	CivilRes	Pirates	RaiderCapture Elimination Sabotage Espionage Robbery	quest_pirates_elite	quest_fresco_data	cargoBlock											
 	CivilRes	Tezctlan	RaiderCapture Elimination Espionage Robbery	quest_venus_demon_warrior	quest_igvalit	relicvarium											
