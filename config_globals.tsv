@@ -1,7 +1,7 @@
 #global		
 Parameter	Value	
 // Build info		
-BuildVersion	0.9.1.384s.a64cc3f
+BuildVersion	0.9.2.390s.4310387
 SaveVersion	46	
 Console	false
 SkipIntro	FALSE	
@@ -18,7 +18,7 @@ SpawnItemOnDisassembleChance	0.5
 StartGameDate	2200-09-13 12:00:00	
 StartMercenaries	francis_reid_daly victoria_boudicca persival_fawcett Isabella_capet maximilian_rohr priya_marlon	
 StartClasses	scouts_of_hades ecclipse_blades tifton_elite phoenix_brigade	
-StartReceipts	ration_pack_3 ration_pack_4 small_backpack_1 trash_common_vest_1 common_shirt_2 common_pants_3 common_sneakers_1 common_knife_1 pmc_pistol_1 military_pistol_1 small_basic_ammo medium_basic_ammo shotgun_shrapnel_ammo bandage splint hydrogel_bandage medical_kit_1 syringe_morphine pills_sorbent pills_antibiotics armor_repair_kit firearm_repair_kit melee_repair_kit tech_repair_kit rail_repair_kit laser_repair_kit engineering_repair_kit	
+StartReceipts	ration_pack_3 ration_pack_4 small_backpack_1 trash_common_vest_1 common_shirt_2 common_pants_3 common_sneakers_1 common_knife_1 pmc_pistol_1 military_pistol_1 small_basic_ammo medium_basic_ammo shotgun_shrapnel_ammo bandage splint hydrogel_bandage medical_kit_1 syringe_morphine pills_sorbent pills_antibiotics armor_repair_kit firearm_repair_kit melee_repair_kit tech_repair_kit engineering_repair_kit	
 AllowEvacuationItems		
 DefaultDifficulty	Normal	
 DefaultDifficultyPage	general	
@@ -198,9 +198,22 @@ MobAugSpawnMinHpPercent	0.25
 ImplantGainChanceOnAmputation	0.3	
 		
 // Starvation		
-StarvationRegenWeights	0 0.01 61 81	
-StarvationRegenValues	-1 0 0 1	
+StarvationRegenWeights	0 0.01 50.01 85.01	
+StarvationRegenValues	-2 0 1 2	
 ItemsWeightModCap	0.05	
+WeightSatietyDrainMod	7	
+		
+// Dodge		
+BaseWeightAffectDodgeMult	2	
+		
+// Repair		
+RepairAllArmorsSubclasses	Default	
+RepairAllMeleeWeaponsSubclasses	Default	
+RepairAllFirearmsWeaponsSubclasses	Firearm	
+RepairAllTechWeaponsSubclasses	Laser Plasma Rail Toxic Coldgun Electric Entropic	
+RepairAllToolsSubclasses	Tool	
+RepairAllQuasiItemsArmorSubClasses	Quasi	
+RepairAllQuasiItemsWeaponSubClasses	Quasi	
 		
 // Pain threshold		
 PainThresholdYellowPercent	70	

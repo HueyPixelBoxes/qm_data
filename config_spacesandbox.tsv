@@ -5,6 +5,7 @@ Tezctlan	TRUE	800	2	20	Tezctlan	TezctlanAliance	0.5	Expansion 70 Defense 10 Scou
 XiomaraMasks	FALSE	0	1	0	Xiomara	XiomaraAliance	0.1	Expansion 70 Defense 10 Scouting 20	672	1344	venus_eagle_knight	venus_acolyte	100	FALSE	FALSE	Xiomara	
 SBN	TRUE	0	1	10	Corp	Hexarchy	0.1	Expansion 25 Defense 35 Scouting 45	672	1344	elite_sbn	manager	0	TRUE	FALSE	SBN	
 RealWare	TRUE	0	1	10	Corp	Hexarchy	0.1	Expansion 25 Defense 35 Scouting 45	672	1344	elite_rwa	warden	0	TRUE	FALSE	RealWare	
+Tianming	TRUE	0	1	10	Corp	Hexarchy	0.1	Expansion 25 Defense 35 Scouting 45	672	1344	elite_rwa	warden	0	TRUE	FALSE	RealWare	
 DaydreamChems	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_ddr	professor	0	TRUE	FALSE	DaydreamChems	
 PlanetBridge	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_pla	manager	0	TRUE	FALSE	PlanetBridge	
 Grasshopper	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_gra	agent	0	TRUE	FALSE	Grasshopper	
@@ -25,12 +26,12 @@ Magnum	FALSE	0	0	100	Xiomara	XiomaraAliance	0	Expansion 25 Defense 25 Scouting 2
 																	
 #alliances																	
 Id	AllowStrife	TradeFactionLists															
-Hexarchy	FALSE	AnCom SBN RealWare DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard Dilthey															
-Corporation	TRUE	AnCom SBN RealWare DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard Dilthey															
+Hexarchy	FALSE	AnCom SBN RealWare DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard Dilthey Tianming UnchainedBelt															
+Corporation	TRUE	AnCom SBN RealWare DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard Dilthey Tianming UnchainedBelt															
 Resistance	TRUE	CResistance GodBuilders CivilUnity															
 TezctlanAliance	FALSE	Tezctlan															
 XiomaraAliance	FALSE	XiomaraMasks															
-Pirates	TRUE	UnchainedBelt															
+Pirates	FALSE	UnchainedBelt AnCom SBN RealWare DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard Dilthey Tianming															
 SheduThousand	FALSE	SheduThousand															
 #end																	
 																	
@@ -93,7 +94,7 @@ Goethe	mercury	RealWare	Civilian	0.10	0	1	2	FALSE	0.2	military1	mercurySurfaceLe
 Boethius	mercury	SBN	Industrial	0.15	0	1	3	FALSE	0.2	industrial2	mercurySurfaceLevels	Mercury	11240	56200			
 Mammoth	mercury	PlanetBridge	SpaceStation	0.10	0	1	3	FALSE	0.2	mercury1	mercurySurfaceLevels	Mercury	17197	59300			
 Rhino	volcano	RealWare	Industrial	0.15	0	1	2	FALSE	0.2	industrial2	mercurySurfaceLevels	Mercury	29521	55700			
-Kizzuwatna	volcano	AnCom	ColonyFarm	0.10	0	1	3	FALSE	0.2	orbit2	mercurySurfaceLevels	Mercury	17777	61300			
+Kizzuwatna	volcano	CResistance	ColonyFarm	0.10	0	1	3	FALSE	0.2	orbit2	mercurySurfaceLevels	Mercury	17777	61300			
 Lomonosov	volcano	PlanetBridge	Lab	0.05	0	1	3	FALSE	0.2	lab1	mercurySurfaceLevels	Mercury	10647	50700			
 GammaHydra	citadel	PlanetBridge	Lab	0.05	0	1	3	FALSE	0.2	lab1	mercurySurfaceLevels	Mercury	11115	58500			
 EnergyOne	citadel	ChurchRevelation	Industrial	0.15	0	1	3	FALSE	0.2	industrial1	mercurySurfaceLevels	Mercury	23638	44600			
@@ -112,15 +113,15 @@ FeatheredTemple	venus	Tezctlan	QuasimorphicTemple	0.35	0	5	5	TRUE	0.2	venus1	mer
 SubRosa	mechta	AnCom	Civilian	0.10	0	2	3	FALSE	0.2	orbit1	mercurySurfaceLevels	Venus	16140	53800			
 February	mechta	FrancheComte	Prison	0.20	0	1	2	TRUE	0.2	prison1	mercurySurfaceLevels	Venus	40474	68600			
 Kyoko	mechta	DaydreamChems	Civilian	0.10	0	1	2	FALSE	0.2	orbit1	mercurySurfaceLevels	Venus	28704	55200			
-MechtaShooting	mechta	Sunlight	Military	0.10	0	2	2	FALSE	0.2	orbit1	mercurySurfaceLevels	Venus	15179	35300			
+MechtaShooting	mechta	FrancheComte	Military	0.10	0	2	2	FALSE	0.2	orbit1	mercurySurfaceLevels	Venus	15179	35300			
 Kitchen	mechta	AnCom	Civilian	0.10	0	1	3	FALSE	0.2	orbit1	mercurySurfaceLevels	Venus	23016	54800			
-EStation	mechta	Grasshopper	Civilian	0.10	0	1	1	FALSE	0.2	orbit1	mercurySurfaceLevels	Venus	12927	41700			
+EStation	mechta	DaydreamChems	Civilian	0.10	0	1	1	FALSE	0.2	orbit1	mercurySurfaceLevels	Venus	12927	41700			
 Purgatory	mechta	SBN	SpaceStation	0.10	0	1	3	FALSE	0.2	orbit1	mercurySurfaceLevels	Venus	9265	54500			
 Edge	havoc	FrancheComte	Civilian	0.10	0	2	3	FALSE	0.2	mars1	mercurySurfaceLevels	Venus	7575	50500			
 Blade	havoc	Sunlight	Military	0.10	0	1	2	FALSE	0.2	mars1	mercurySurfaceLevels	Venus	16564	40400			
 SampoQuern	havoc	SBN	Industrial	0.15	0	2	2	FALSE	0.2	industrial2	mercurySurfaceLevels	Venus	21240	35400			
 VenusTwo	havoc	AnCom	ColonyFarm	0.10	0	1	1	FALSE	0.2	moon1	mercurySurfaceLevels	Venus	13272	63200			
-PromisedLand	havoc	Grasshopper	ColonyFarm	0.10	0	1	1	FALSE	0.2	venus3	mercurySurfaceLevels	Venus	10098	37400			
+PromisedLand	havoc	DaydreamChems	ColonyFarm	0.10	0	1	1	FALSE	0.2	venus3	mercurySurfaceLevels	Venus	10098	37400			
 HeritageStation	earth	SBN	Civilian	0.10	0	1	2	TRUE	0.2	orbit1	mercurySurfaceLevels	Earth	24794	53900			
 ArcadisTerminal	earth	PlanetBridge	Industrial	0.15	0	1	3	TRUE	0.2	industrial1	mercurySurfaceLevels	Earth	31460	57200			
 PineGapTraining	earth	ChurchRevelation	Civilian	0.10	0	1	3	TRUE	0.2	military1	mercurySurfaceLevels	Earth	16380	36400			
@@ -131,7 +132,7 @@ Paragon	earth	Grasshopper	SpaceStation	0.10	0	2	3	TRUE	0.2	orbit1	mercurySurface
 Phenomenon	earth	AnCom	SpaceStation	0.10	0	2	2	TRUE	0.2	orbit1	mercurySurfaceLevels	Earth	20678	42200			
 SterlingsFarm	fuller	ChurchRevelation	ColonyFarm	0.10	0	1	1	FALSE	0.2	orbit1	mercurySurfaceLevels	Moon	6300	35000			
 HartsWarehouse	fuller	CoreWard	SpaceStation	0.10	0	1	1	FALSE	0.2	orbit1	mercurySurfaceLevels	Moon	14760	36900			
-FullersCore	fuller	FrancheComte	Civilian	0.10	0	2	3	FALSE	0.2	orbit1	mercurySurfaceLevels	Moon	16260	54200			
+FullersCore	fuller	FrancheComte	Civilian	0.10	0	2	3	TRUE	0.2	orbit1	mercurySurfaceLevels	Moon	16260	54200			
 PlatosAcademy	fuller	AnCom	Civilian	0.10	0	1	2	FALSE	0.2	lab1	mercurySurfaceLevels	Moon	24144	50300			
 AvicennasClinic	fuller	DaydreamChems	Lab	0.05	0	1	2	TRUE	0.2	lab1	mercurySurfaceLevels	Moon	9280	58000			
 VanDeGraaff	tsiolkovsky	SBN	Lab	0.05	0	1	2	FALSE	0.2	lab1	mercurySurfaceLevels	Earth	11252	38800			
@@ -147,14 +148,14 @@ Candle	moon	RealWare	Civilian	0.10	0	2	3	TRUE	0.2	military1	mercurySurfaceLevels
 AllianceArcology	moon	ChurchRevelation	Civilian	0.10	0	2	2	FALSE	0.2	moon2	mercurySurfaceLevels	Moon	11020	58000			
 Tycho	moon	PlanetBridge	SpaceStation	0.10	0	2	1	FALSE	0.2	orbit1	mercurySurfaceLevels	Moon	20736	57600			
 ShuCenter	mars	SBN	Civilian	0.10	0	1	2	FALSE	0.2	mars2	mercurySurfaceLevels	Mars_Sleeping	34980	58300			
-RedTiangong	mars	CoreWard	Industrial	0.10	0	2	2	FALSE	0.2	industrial1	mercurySurfaceLevels	Mars_Sleeping	14328	39800			
+RedTiangong	mars	Tianming	Industrial	0.10	0	2	2	TRUE	0.2	industrial1	mercurySurfaceLevels	Mars_Sleeping	14328	39800			
 RebusSkyCity	mars	AnCom	SpaceStation	0.10	0	2	3	FALSE	0.2	orbit1	mercurySurfaceLevels	Mars_Sleeping	38760	64600			
 HISAres	mars	RealWare	SpaceStation	0.10	0	2	2	TRUE	0.2	orbit1	mercurySurfaceLevels	Mars_Sleeping	22440	44000			
 Argyre	mars	DaydreamChems	Mine	0.15	0	2	2	FALSE	0.2	mars4	mercurySurfaceLevels	Mars_Sleeping	17433	44700			
 SinkholeOasis	mars	FrancheComte	Military	0.10	0	2	3	TRUE	0.2	mars1	mercurySurfaceLevels	Mars_Sleeping	15392	41600			
 Gloria	mars	Sunlight	SpaceStation	0.10	0	1	2	FALSE	0.2	mars5	mercurySurfaceLevels	Mars_Sleeping	27097	55300			
 IntercityTradeCenter	mars	SBN	Civilian	0.10	0	2	2	FALSE	0.2	mars3	mercurySurfaceLevels	Mars_Sleeping	22192	58400			
-Charon	phobos	PlanetBridge	SpaceStation	0.10	0	1	1	FALSE	0.2	orbit1	mercurySurfaceLevels	Mars_Sleeping	29100	58200			
+Charon	phobos	PlanetBridge	SpaceStation	0.10	0	1	1	TRUE	0.2	orbit1	mercurySurfaceLevels	Mars_Sleeping	29100	58200			
 Canaan	phobos	CoreWard	Industrial	0.15	0	1	1	FALSE	0.2	industrial2	mercurySurfaceLevels	Mars_Sleeping	25429	43100			
 Hypnos	phobos	Sunlight	ColonyFarm	0.10	0	1	2	FALSE	0.2	moon3	mercurySurfaceLevels	Mars_Sleeping	23328	72900			
 Orphan	phobos	CResistance	Mine	0.15	0	1	3	FALSE	0.2	moon4	mercurySurfaceLevels	Mars_Sleeping	11178	41400			
@@ -166,11 +167,11 @@ DarkFlora	deimos	Sunlight	Civilian	0.10	0	2	3	TRUE	0.2	military1	mercurySurfaceL
 Sundog	deimos	CResistance	Industrial	0.15	0	1	1	FALSE	0.2	industrial2	mercurySurfaceLevels	Mars_Sleeping	14619	44300			
 Epitome	ceres	Dilthey	ColonyFarm	0.10	0	2	2	FALSE	0.2	cerera1	mercurySurfaceLevels	Cattaram	24124	65200			
 Angel	ceres	Grasshopper	Industrial	0.15	0	2	1	TRUE	0.2	industrial2	mercurySurfaceLevels	Cattaram	11220	37400			
-Eos	ceres	CoreWard	Mine	0.15	0	2	1	FALSE	0.2	cerera1	mercurySurfaceLevels	Cattaram	15906	72300			
+Eos	ceres	CoreWard	Mine	0.15	0	2	1	TRUE	0.2	cerera1	mercurySurfaceLevels	Cattaram	15906	72300			
 Lumina	ceres	Grasshopper	Mine	0.15	0	1	1	FALSE	0.2	cerera2	mercurySurfaceLevels	Cattaram	19656	35100			
 Oracle	ceres	RealWare	Military	0.10	0	1	1	FALSE	0.2	cerera1	mercurySurfaceLevels	Cattaram	26312	57200			
 Flinthold	ceres	ChurchRevelation	Mine	0.15	0	1	1	FALSE	0.2	cerera2	mercurySurfaceLevels	Cattaram	18870	37000			
-Nox	ceres	SBN	SpaceStation	0.10	0	1	2	FALSE	0.2	orbit1	mercurySurfaceLevels	Cattaram	22048	41600			
+Nox	ceres	Tianming	SpaceStation	0.10	0	1	2	FALSE	0.2	orbit1	mercurySurfaceLevels	Cattaram	22048	41600			
 BlueMoon	ceres	UnchainedBelt	SpaceStation	0.10	0	1	1	FALSE	0.2	orbit1	mercurySurfaceLevels	Cattaram	29121	57100			
 Pedigree	ceres	Dilthey	Civilian	0.10	0	1	1	FALSE	0.2	cerera2	mercurySurfaceLevels	Cattaram	30299	73900			
 Frostreach	wernher	SBN	Military	0.10	0	2	2	FALSE	0.2	moon4	mercurySurfaceLevels	Cattaram	23055	43500			
@@ -189,40 +190,40 @@ Malmo	geist	Dilthey	SpaceStation	0.10	0	1	2	FALSE	0.2	orbit1	mercurySurfaceLevel
 Schwerin	geist	UnchainedBelt	SpaceStation	0.10	0	1	1	FALSE	0.2	orbit1	mercurySurfaceLevels	Scrivnus	14703	50700			
 Hargeysa	interamnia	UnchainedBelt	Military	0.10	0	2	3	TRUE	0.2	military1	mercurySurfaceLevels	Scrivnus	41325	72500			
 Jamame	interamnia	CResistance	SpaceStation	0.10	0	1	1	TRUE	0.2	moon3	mercurySurfaceLevels	Scrivnus	25830	57400			
-Forward	hungary	DaydreamChems	Civilian	0.10	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Cattaram	24687	48400			
+Forward	hungary	Tianming	Civilian	0.10	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Cattaram	24687	48400			
 Dubrovskiy	hungary	UnchainedBelt	ColonyFarm	0.10	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Cattaram	16537	52000			
-Budapest	hungary	PlanetBridge	Industrial	0.10	0	2	3	FALSE	0.2	industrial2	mercurySurfaceLevels	Cattaram	13455	35500			
+Budapest	hungary	Dilthey	Industrial	0.10	0	2	3	FALSE	0.2	industrial2	mercurySurfaceLevels	Cattaram	13455	35500			
 Rommel	annaherman	DaydreamChems	Mine	0.15	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	26678	56400			
-Patton	annaherman	ChurchRevelation	Mine	0.15	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	9846	23900			
+Patton	annaherman	Tianming	Mine	0.15	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	9846	23900			
 Zhukov	annaherman	Dilthey	Mine	0.15	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Ron	11556	39800			
 Montgomery	annaherman	FrancheComte	Prison	0.15	0	2	3	FALSE	0.2	prison1	mercurySurfaceLevels	Ron	6742	24500			
 Connelly	hygeia	Dilthey	ColonyFarm	0.10	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Scrivnus	12456	42420			
-Sewell	hygeia	ChurchRevelation	Civilian	0.10	0	2	3	FALSE	0.2	moon4	mercurySurfaceLevels	Scrivnus	14856	36200			
+Sewell	hygeia	ChurchRevelation	Civilian	0.10	0	2	3	TRUE	0.2	moon4	mercurySurfaceLevels	Scrivnus	14856	36200			
 Proyas	hygeia	CResistance	Lab	0.05	0	2	3	FALSE	0.2	moon2	mercurySurfaceLevels	Scrivnus	8566	24600			
 RedThrone	hekate	CResistance	SpaceStation	0.10	0	2	3	TRUE	0.2	moon4	mercurySurfaceLevels	Flauros	43542	73800			
 Galileo	jupiter	AnCom	Lab	0.05	0	1	3	FALSE	0.2	jupiter3	mercurySurfaceLevels	Flauros	11393	12900			
-CathodeRampart	jupiter	DaydreamChems	Industrial	0.15	0	1	2	FALSE	0.2	industrial1	mercurySurfaceLevels	Flauros	5390	8500			
+CathodeRampart	jupiter	Tianming	Industrial	0.15	0	1	2	FALSE	0.2	industrial1	mercurySurfaceLevels	Flauros	5390	8500			
 Zephyr	jupiter	Dilthey	Military	0.10	0	3	1	FALSE	0.2	jupiter2	mercurySurfaceLevels	Flauros	8701	10900			
 Zeus	jupiter	Sunlight	Industrial	0.10	0	1	2	FALSE	0.2	industrial1	mercurySurfaceLevels	Flauros	6481	8700			
 TeslaRing	jupiter	CResistance	Military	0.10	0	3	1	FALSE	0.2	jupiter2	mercurySurfaceLevels	Flauros	3883	6100			
 Ark	jupiter	Grasshopper	Civilian	0.10	0	1	1	FALSE	0.2	jupiter1	mercurySurfaceLevels	Flauros	34668	42300			
-Stratagem	jupiter	RealWare	Military	0.10	0	3	1	FALSE	0.2	jupiter2	mercurySurfaceLevels	Flauros	27974	30900			
+Stratagem	jupiter	Tianming	Military	0.10	0	3	1	FALSE	0.2	jupiter2	mercurySurfaceLevels	Flauros	27974	30900			
 PintadoPetrel	jupiter	PlanetBridge	Civilian	0.10	0	2	2	FALSE	0.2	jupiter1	mercurySurfaceLevels	Flauros	14747	30300			
 Juphub	jupiter	ChurchRevelation	SpaceStation	0.10	0	2	2	FALSE	0.2	jupiter1	mercurySurfaceLevels	Flauros	11204	21900			
 HadesTorchlight	io	PlanetBridge	Mine	0.15	0	2	1	FALSE	0.2	io1	mercurySurfaceLevels	Flauros	14327	25600			
 AliJinnah	io	Dilthey	Industrial	0.15	0	1	2	FALSE	0.2	industrial2	mercurySurfaceLevels	Flauros	9652	11700			
 DantePeak	io	Sunlight	Lab	0.05	0	1	3	FALSE	0.2	io1	mercurySurfaceLevels	Flauros	11623	19700			
-Escher	ganymede	ChurchRevelation	Military	0.10	0	3	1	FALSE	0.2	ganymede1	mercurySurfaceLevels	Flauros	11782	19900			
+Escher	ganymede	UnchainedBelt	Military	0.10	0	3	1	FALSE	0.2	ganymede1	mercurySurfaceLevels	Flauros	11782	19900			
 Mobius	ganymede	FrancheComte	Mine	0.15	0	2	1	FALSE	0.2	ganymede1	mercurySurfaceLevels	Flauros	18096	23000			
-Korotsev	ganymede	DaydreamChems	ColonyFarm	0.10	0	2	2	FALSE	0.2	ganymede1	mercurySurfaceLevels	Flauros	20319	31000			
-Freyja	europa	Sunlight	Lab	0.05	0	1	3	FALSE	0.2	europa2	mercurySurfaceLevels	Flauros	17458	23000			
+Korotsev	ganymede	Tianming	ColonyFarm	0.10	0	2	2	TRUE	0.2	ganymede1	mercurySurfaceLevels	Flauros	20319	31000			
+Freyja	europa	Sunlight	Lab	0.05	0	1	3	TRUE	0.2	europa2	mercurySurfaceLevels	Flauros	17458	23000			
 MacReady	europa	Grasshopper	Lab	0.05	0	1	3	FALSE	0.2	europa2	mercurySurfaceLevels	Flauros	19985	25600			
-BiosphereEU	europa	Grasshopper	ColonyFarm	0.10	0	2	2	FALSE	0.2	europa1	mercurySurfaceLevels	Flauros	17080	30700			
+BiosphereEU	europa	Tianming	ColonyFarm	0.10	0	2	2	FALSE	0.2	europa1	mercurySurfaceLevels	Flauros	17080	30700			
 Chancellor	europa	FrancheComte	Prison	0.20	0	2	2	FALSE	0.2	europa1	mercurySurfaceLevels	Flauros	6050	14000			
-Abyss2199	europa	CoreWard	Mine	0.15	0	2	1	FALSE	0.2	europa1	mercurySurfaceLevels	Flauros	14327	21000			
-MirrorMain	callisto	Dilthey	SpaceStation	0.10	0	3	1	FALSE	0.2	jupiter1	mercurySurfaceLevels	Flauros	7563	9900			
-GravityRaimbow	callisto	Dilthey	Industrial	0.15	0	1	2	FALSE	0.2	industrial1	mercurySurfaceLevels	Flauros	9697	14700			
-NewKent	callisto	FrancheComte	ColonyFarm	0.10	0	2	2	FALSE	0.2	callisto1	mercurySurfaceLevels	Flauros	16297	21060			
+Abyss2199	europa	Tianming	Mine	0.15	0	2	1	FALSE	0.2	europa1	mercurySurfaceLevels	Flauros	14327	21000			
+MirrorMain	callisto	Tianming	SpaceStation	0.10	0	3	1	FALSE	0.2	jupiter1	mercurySurfaceLevels	Flauros	7563	9900			
+GravityRaimbow	callisto	Dilthey	Industrial	0.15	0	1	2	TRUE	0.2	industrial1	mercurySurfaceLevels	Flauros	9697	14700			
+NewKent	callisto	Tianming	ColonyFarm	0.10	0	2	2	FALSE	0.2	callisto1	mercurySurfaceLevels	Flauros	16297	21060			
 Jumpstart	callisto	Grasshopper	Military	0.10	0	3	1	FALSE	0.2	callisto1	mercurySurfaceLevels	Flauros	15887	23840			
 Lightbay	callisto	CResistance	Mine	0.15	0	2	1	FALSE	0.2	callisto1	mercurySurfaceLevels	Flauros	16984	22340			
 Deepsky	callisto	UnchainedBelt	Military	0.10	0	3	1	FALSE	0.2	callisto1	mercurySurfaceLevels	Flauros	12023	26000			
@@ -315,10 +316,10 @@ CovertOps	HumankindsHope	RealWare	AnCom	military_heavy_helmet_1 rwa_heavy_helmet
 GhoulShip	HISWoodpecker	UnchainedBelt	CoreWard	pirates_assault_1 trash_armored_vest_1 rifle_basic_ammo rifle_basic_ammo alcogol_container alcogol_container	Custom	1	6	TRUE	stage1 500 stage2 500 stage3 600 stage4 600 stage5 600	stage1 400 stage2 400 stage3 400 stage4 500 stage5 600							
 MenInBlack	Jamame	AnCom	CResistance	anc_quasi_assault_1 anc_medium_armor_2 anc_medium_mask_1 anc_medium_pants_2 anc_medium_boots_2 quasi_basic_ammo quasi_basic_ammo quasi_basic_ammo	Custom		6	FALSE	stage1 600 stage2 800 stage3 800	stage1 550 stage2 650 stage3 800			Earth				
 FromSparkToFlame	HISUnveiled	CResistance	AnCom	civ_plasma_assault_1 battery_basic_ammo battery_basic_ammo battery_basic_ammo civ_medium_armor_2 civ_medium_helmet_2 civ_medium_pants_2 civ_medium_boots_2 cyborg_drill	Custom		6	FALSE	stage1 180 stage2 600 stage3 600 stage4 800	stage1 300 stage2 400 stage3 400 stage4 500		quest_redChip					
-IronBroom	Hargeysa	CResistance	UnchainedBelt	civ_heavy_helmet_1 civ_heavy_armor_1 civ_heavy_pants_1 civ_heavy_boots_1 civ_plasma_assault_1 civ_plasma_assault_1 nanorobot_grenade nanorobot_grenade battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo	Custom		8	FALSE	stage1 180 stage2 600 stage3 600	stage1 300 stage2 400 stage3 400							
-IcePick	RedThrone	CivilUnity	GodBuilders		Custom		10	FALSE	stage1 300 stage2 400 stage3 400 stage4 500	stage1 300 stage2 400 stage3 400 stage4 500							
-Beacon	Sundog	GodBuilders	CivilUnity	civ_heavy_helmet_1 civ_heavy_armor_1 civ_heavy_pants_1 civ_heavy_boots_1 plasma_hmg_1 tech_hfg_1 nanorobot_grenade nanorobot_grenade battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo	Custom		9	FALSE	stage1 300 stage2 400 stage3 400 stage4 0	stage1 300 stage2 400 stage3 400 stage4 0			Earth				
-SacredFlame	IntercityTradeCenter	GodBuilders	CivilUnity		Custom		10	FALSE	stage1 300 stage2 400 stage3 400	stage1 300 stage2 400 stage3 400							
+IronBroom	Hargeysa	CResistance	UnchainedBelt	civ_heavy_helmet_1 civ_heavy_armor_1 civ_heavy_pants_1 civ_heavy_boots_1 civ_plasma_assault_1 civ_plasma_assault_1 nanorobot_grenade nanorobot_grenade battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo	Custom		8	FALSE	stage1 180 stage2 600 stage3 600	stage1 500 stage2 600 stage3 500							
+IcePick	RedThrone	CivilUnity	GodBuilders		Custom		10	FALSE	stage1 500 stage2 600 stage3 800 stage4 800	stage1 500 stage2 500 stage3 600 stage4 600							
+Beacon	Sundog	GodBuilders	CivilUnity	civ_heavy_helmet_1 civ_heavy_armor_1 civ_heavy_pants_1 civ_heavy_boots_1 plasma_hmg_1 tech_hfg_1 nanorobot_grenade nanorobot_grenade battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo battery_basic_ammo	Custom		9	FALSE	stage1 500 stage2 600 stage3 800 stage4 0	stage1 500 stage2 800 stage3 0 stage4 0			Earth				
+SacredFlame	IntercityTradeCenter	GodBuilders	CivilUnity		Custom		10	FALSE	stage1 300 stage2 400 stage3 400	stage1 500 stage2 700 stage3 0							
 #end																	
 																	
 #tilesettransformation																	

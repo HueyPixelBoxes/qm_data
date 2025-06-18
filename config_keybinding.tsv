@@ -74,6 +74,7 @@ SlideRight	UI		PageDown	None	RightShoulder1	None
 UI_ScrollUp	UI		None	None	RightStickYPos	None	TRUE		TRUE		Scroll	0 1	Controller	
 UI_ScrollDown	UI		None	None	RightStickYNeg	None	TRUE		TRUE		Scroll	0 -1	Controller	
 UI_FastScroll	UI		LeftShift	None	RightStickButton	None								
+UI_TooltipMore	UI		LeftAlt	None	RightShoulder2	None								
 Confirmation	Hotkeys		Y	None	None	None							KeyboardAndMouse	
 Cancel	Hotkeys		N	None	None	None							KeyboardAndMouse	
 Newsline	Hotkeys		H	None	None	None							KeyboardAndMouse	
