@@ -5,7 +5,7 @@ Tezctlan	TRUE	800	2	20	Tezctlan	TezctlanAliance	0.5	Expansion 70 Defense 10 Scou
 XiomaraMasks	FALSE	0	1	0	Xiomara	XiomaraAliance	0.1	Expansion 70 Defense 10 Scouting 20	672	1344	venus_eagle_knight	venus_acolyte	100	FALSE	FALSE	Xiomara	
 SBN	TRUE	0	1	10	Corp	Hexarchy	0.1	Expansion 25 Defense 35 Scouting 45	672	1344	elite_sbn	manager	0	TRUE	FALSE	SBN	
 RealWare	TRUE	0	1	10	Corp	Hexarchy	0.1	Expansion 25 Defense 35 Scouting 45	672	1344	elite_rwa	warden	0	TRUE	FALSE	RealWare	
-Tianming	TRUE	0	1	10	Corp	Hexarchy	0.1	Expansion 25 Defense 35 Scouting 45	672	1344	elite_rwa	warden	0	TRUE	FALSE	RealWare	
+Tianming	TRUE	0	1	10	Corp	Hexarchy	0.1	Expansion 25 Defense 35 Scouting 45	672	1344	elite_tian	perfect	0	TRUE	FALSE	RealWare	
 DaydreamChems	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_ddr	professor	0	TRUE	FALSE	DaydreamChems	
 PlanetBridge	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_pla	manager	0	TRUE	FALSE	PlanetBridge	
 Grasshopper	TRUE	0	1	0	Corp	Corporation	0.25	Expansion 25 Defense 25 Scouting 25	672	1344	elite_gra	agent	0	TRUE	FALSE	Grasshopper	

@@ -21,10 +21,10 @@ heavy_fires	AmmoTrait	Passive	FALSE	FFireSpread 0.8 IStartSpreadDistance 2	trait
 heavy_toxic	AmmoTrait	Passive	FALSE	FToxicSpread 0.8 IStartSpreadDistance 2	traits_toxic																			
 ammo_piercing	AmmoTrait	Passive	FALSE	FPierce 0.35	traits_piercing																			
 painful	AmmoTrait	Passive	FALSE	FPainDamageMult 1.6	traits_painful																			
-knockback	AmmoTrait	Passive	FALSE	FThrowbackChance 0.3	traits_knockback																			
-heavy_knockback	AmmoTrait	Passive	FALSE	FThrowbackChance 0.7	traits_knockback																			
-knockdown	AmmoTrait	Passive	FALSE	FStunChance 0.18 IEnemyStunDuration 1	traits_knockdown																			
-heavy_knockdown	AmmoTrait	Passive	FALSE	FStunChance 0.55 IEnemyStunDuration 1	traits_knockdown																			
+knockback	AmmoTrait	Passive	FALSE	FThrowbackChance 0.26	traits_knockback																			
+heavy_knockback	AmmoTrait	Passive	FALSE	FThrowbackChance 0.8	traits_knockback																			
+knockdown	AmmoTrait	Passive	FALSE	FStunChance 0.12 IEnemyStunDuration 1	traits_knockdown																			
+heavy_knockdown	AmmoTrait	Passive	FALSE	FStunChance 0.60 IEnemyStunDuration 1	traits_knockdown																			
 ramp_up	WeaponTrait	Passive	FALSE	IRampUpProjectiles 1	traits_ramp_up																			
 unthrowable	WeaponTrait	Passive	TRUE	BUnthrowable true	traits_unthrowable																			
 selfcharging	WeaponTrait	Passive	FALSE	BSelfcharging true	traits_selfcharging																			
@@ -50,7 +50,7 @@ ricochet	AmmoTrait	Passive	FALSE	IRicochet 5 IMaxDistance 25	traits_ricochet
 #explosions																								
 Id		Parameters.VisualExplosion	Parameters.Radius	Parameters.DistanceDamageFalloff	Parameters.GainDmgToCreature	Parameters.GainDmgToLocation	Parameters.GainDmgToMonolith	Parameters.Damage	Parameters.DamageType	Parameters.WoundChance	Parameters.Throwback	Parameters.ThrowbackChance	Parameters.ThrowbackDependOnRadius	Parameters.Stun	Parameters.StunChance	Parameters.StunDuration	Parameters.StunDependOnRadius	Parameters.PropagateFire	Parameters.PropagateFireChance	Parameters.LargeFireChance	Parameters.FireDependOnRadius	Parameters.PropagateLiquid	Parameters.LiquidType	Parameters.Disintegrate
 cattaram_explosion		TRUE	5	1	TRUE	TRUE	FALSE	90	explosion	1.1	TRUE	0.4	FALSE	FALSE	0	0	FALSE	TRUE	0.05	10	TRUE	FALSE	Red	FALSE
-frag_big_explosion		TRUE	3	2	TRUE	TRUE	FALSE	100	explosion	1.5	TRUE	0.5	FALSE	FALSE	0	0	FALSE	TRUE	0.05	10	TRUE	FALSE	Red	FALSE
+frag_big_explosion		TRUE	3	2	TRUE	TRUE	FALSE	125	explosion	1.5	TRUE	0.5	FALSE	FALSE	0	0	FALSE	TRUE	0.05	10	TRUE	FALSE	Red	FALSE
 frag_explosion		TRUE	3	1	TRUE	TRUE	FALSE	100	explosion	1.2	TRUE	0.8	TRUE	FALSE	0	0	FALSE	TRUE	0.05	10	TRUE	FALSE	Red	FALSE
 qwasi_explosion		TRUE	3	2	TRUE	TRUE	FALSE	85	chaos	1	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0.3	0	FALSE	FALSE	Red	FALSE
 thermal_explosion		FALSE	3	3	FALSE	FALSE	FALSE	20	fire	0	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0.75	70	TRUE	FALSE	Red	FALSE
