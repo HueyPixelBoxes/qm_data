@@ -65,9 +65,9 @@ blind_fury_basic	Trigger	PlayerHitted			20	100	blind_fury_advanced	IDuration 6 I
 blind_fury_advanced	Trigger	PlayerHitted			20	200	blind_fury_master	IDuration 8 ICooldown 35 IActivation 50 FDamage 0.5																	
 blind_fury_master	Trigger	PlayerHitted			20	300	blind_fury_legend	IDuration 10 ICooldown 35 IActivation 50 FDamage 0.75																	
 blind_fury_legend	Trigger	PlayerHitted						IDuration 10 ICooldown 35 IActivation 50 FDamage 1																	
-bodybuilding_basic	Passive	WeightMove			1	200	bodybuilding_advanced	IMaxHealth 5																	
-bodybuilding_advanced	Passive	WeightMove			1	400	bodybuilding_master	IMaxHealth 10																	
-bodybuilding_master	Passive	WeightMove			1	800	bodybuilding_legend	IMaxHealth 15																	
+bodybuilding_basic	Passive	WeightMove			1	100	bodybuilding_advanced	IMaxHealth 5																	
+bodybuilding_advanced	Passive	WeightMove			1	200	bodybuilding_master	IMaxHealth 10																	
+bodybuilding_master	Passive	WeightMove			1	400	bodybuilding_legend	IMaxHealth 15																	
 bodybuilding_legend	Passive	WeightMove						IMaxHealth 25																	
 hardening_basic	Passive	DmgAbsorbedByResist			20	100	hardening_advanced	FResists 0.1																	
 hardening_advanced	Passive	DmgAbsorbedByResist			20	200	hardening_master	FResists 0.2																	

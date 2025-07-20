@@ -78,39 +78,39 @@ rocket_quasi_explosion		TRUE	2	3	TRUE	FALSE	FALSE	75	chaos	1	FALSE	0	FALSE	FALSE
 #end																								
 																								
 #projectiles																								
-Id	Speed																							
-continues_laser	20																							
-continues_mercury	20																							
-continues_quasi_laser	20																							
-continues_ultimate_ray	20																							
-disk	18																							
-disruptor	18																							
-disruptor_small	20																							
-flame_thrower	10																							
-frost	16																							
-heavy	20																							
-hfg	10																							
-laser	16																							
-lighting	8																							
-lighting_small	8																							
-melta_beam	8																							
-melta_small_beam	8																							
-microwave	8																							
-nail	20																							
-pistol	20																							
-plasma	20																							
-plasma_charge	14																							
-quasi_beam	8																							
-quasi_bolt	20																							
-quasi_dart	20																							
-quasi_laser	20																							
-shrapnel	20																							
-sound	14																							
-tech_frost	16																							
-thermal	20																							
-toxic	20																							
-toxic_thrower	10																							
-rocket	10																							
+Id	Speed	MakeBloodDecals																						
+continues_laser	20	FALSE																						
+continues_mercury	20	FALSE																						
+continues_quasi_laser	20	FALSE																						
+continues_ultimate_ray	20	FALSE																						
+disk	18	TRUE																						
+disruptor	18	FALSE																						
+disruptor_small	20	FALSE																						
+flame_thrower	10	FALSE																						
+frost	16	FALSE																						
+heavy	20	TRUE																						
+hfg	10	FALSE																						
+laser	16	FALSE																						
+lighting	8	FALSE																						
+lighting_small	8	FALSE																						
+melta_beam	8	FALSE																						
+melta_small_beam	8	FALSE																						
+microwave	8	FALSE																						
+nail	20	TRUE																						
+pistol	20	TRUE																						
+plasma	20	FALSE																						
+plasma_charge	14	FALSE																						
+quasi_beam	8	FALSE																						
+quasi_bolt	20	FALSE																						
+quasi_dart	20	TRUE																						
+quasi_laser	20	FALSE																						
+shrapnel	20	TRUE																						
+sound	14	FALSE																						
+tech_frost	16	FALSE																						
+thermal	20	FALSE																						
+toxic	20	TRUE																						
+toxic_thrower	10	FALSE																						
+rocket	10	FALSE																						
 #end																								
 																								
 #firemodes																								

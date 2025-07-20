@@ -13,7 +13,7 @@ trash_sawblade_1		Worker ChurchRevelation Sunlight SheduThousand Tianming	3	350	
 tech_blade_1		Military AnCom	4	750	1	2	Weapon	Blade	Default	FALSE	BatteryCells	implicted_sword implicted_knife	battery_basic_ammo	23 31 crit 1.65	power_double_slash double_stab	0.25	10	1	0	0	TRUE	80	0	FALSE	pierce_parts rubber plastic	FALSE	mutiliating unthrowable			
 med_lightblade_1		Science Medical Sunlight	4	750	1.3	2	Weapon	Blade	Laser	FALSE	BatteryCells	implicted_sword_laser	battery_basic_ammo	16 32 crit 1.65	power_double_slash	0.2	12	1	0	0	TRUE	75	0	FALSE	microelectronics_parts bulb	FALSE	mutiliating unthrowable			
 sun_laser_powersword_1		Sunlight	7	1350	1.7	2	Weapon	Blade	Laser	FALSE	BatteryCells	implicted_sword_laser	battery_basic_ammo	29 56 crit 1.65	power_strong_slash	0.2	20	4	0	0	TRUE	75	0	FALSE	microelectronics_parts bulb	FALSE	mutiliating cleave unthrowable			
-tian_blade_1		Tianming	1	150	1.1	2	Weapon	Blade	Default	FALSE			implicted_katana_brutal	26 33 crit 1.80	double_slash strong_slash	0.25	0	1	0	0	TRUE	75	0	FALSE	pierce_parts rusty_plates	FALSE	mutiliating unthrowable unwieldy			
+tian_blade_1		Tianming	1	150	1.2	2	Weapon	Blade	Default	FALSE			implicted_katana_brutal	26 33 crit 1.80	double_slash strong_slash	0.15	0	1	0	0	TRUE	80	0	FALSE	pierce_parts rusty_plates	FALSE	mutiliating unthrowable			
 mercury_sickle_1		Mercury	1	500	0.7	2	Weapon	Blade	Quasi	FALSE		none implicted_combat_knife	implicted_sword_brutal	19 28 crit 1.65	double_slash double_stab	0.3	0	1	5	3	TRUE	120	0	FALSE	mercury_glass mercury_rags	FALSE	mutiliating critical_throw			
 mercury_blade_1		Mercury	1	500	1.1	2	Weapon	Blade	Quasi	FALSE			implicted_katana_brutal	24 30 crit 1.80	double_slash strong_slash	0.2	0	1	0	0	TRUE	90	0	FALSE	mercury_glass mercury_rags	FALSE	mutiliating unthrowable			
 scrivnus_blade_1		Scrivnus	1	600	1	2	Weapon	Blade	Quasi	FALSE		none implicted_knife	implicted_sword	24 30 crit 1.65	double_slash double_stab	0.25	0	1	0	0	TRUE	150	0	FALSE		FALSE	mutiliating unthrowable			
@@ -121,7 +121,7 @@ common_pistol_3		Military	4	450	0.4	2	Weapon	Pistol	Firearm	FALSE	Bullets		small
 civ_pistol_1		CResistance	2	250	0.9	2	Weapon	Pistol	Firearm	FALSE	Bullets		small_basic_ammo		12 22 crit 1.5	1.5	pistol_single pistol_long_burst	0.1	4	0.4	20	10	3	90	0	FALSE	plastic weapon_parts		offhand	
 civ_pistol_2		CResistance	1	100	0.4	2	Weapon	Pistol	Firearm	FALSE	Bullets		small_basic_ammo		9 14 crit 1.6	0.3	pistol_single pistol_semiauto	0.2	4	0.4	12	6	2	80	0	FALSE	plastic weapon_parts		offhand	
 civ_plasma_pistol_1		CResistance	5	900	1.7	2	Weapon	Pistol	Plasma	FALSE	BatteryCells	implicted_plasma_charge implicted_plasma_charge	battery_basic_ammo		18 45 crit 1.9	0.3	plasma_single plasma_semiauto	0.15	4	0.4	7	4	4	110	0	FALSE	microelectronics_parts capacitor_parts		offhand piercing overheat overclock	plasma
-cor_worker_pistol_1		CoreWard	2	250	1.2	2	Weapon	Pistol	Rail	FALSE	Bolts		nail_bolts_ammo		10 19 crit 1.3	1	rifle_single rifle_long_burst	0.1	3	0.4	36	18	3	120	0	FALSE	plastic		offhand	
+cor_worker_pistol_1		CoreWard	2	250	1.2	2	Weapon	Pistol	Tool	FALSE	Bolts		nail_bolts_ammo		10 19 crit 1.3	1	rifle_single rifle_long_burst	0.1	3	0.4	36	18	3	120	0	FALSE	plastic		offhand	
 plb_pistol_1		PlanetBridge	6	1050	1.6	2	Weapon	Pistol	Firearm	FALSE	Bullets		small_basic_ammo		19 44 crit 2	-0.1	pistol_single pistol_semiauto	0.2	4	0.4	15	8	3	75	0	FALSE	plastic weapon_parts		offhand	
 anc_quasi_pistol_1		AnCom	5	900	1.5	2	Weapon	Pistol	Quasi	FALSE	QuasiCells	implicted_xiomara_range	quasi_basic_ammo		15 49 crit 1.65	-0.1	lightning_single	0.25	4	0.4	7	4	3	50	0	FALSE	microelectronics_parts capacitor_parts		offhand piercing	continues_laser
 sbn_rail_pistol_1		SBN	3	350	1.2	2	Weapon	Pistol	Rail	FALSE			implicted_em_ammo		17 17 crit 1.6	0.6	rifle_single rifle_long_burst	0.2	4	0.35	20	10	3	65	0	FALSE	plastic capacitor_parts		offhand suppressor piercing	thermal
@@ -977,7 +977,7 @@ frost_grenade		AnCom DaydreamChems Grasshopper PlanetBridge	5	225	0.25	1	Grenade
 urparp_grenade		SheduThousand	1	100	0.1	1	Grenade	3	1	TRUE	7	1	2	0.2	urparp_explosion															
 hellfire_grenade		ChurchRevelation Grasshopper	7	300	0.25	1	Grenade	3	1	TRUE	7	1	2	0.2	thermal_big_explosion															
 nanorobot_grenade		Science SBN Dilthey RealWare DaydreamChems Sunlight CoreWard CResistance	6	175	0.4	1	Grenade	3	1	TRUE	7	1	2	0.2	nano_explosion															
-*phase_bomb			1	10	0.2	1	Grenade	3	3	TRUE	7	1	2	0.2	phase_explosion															
+*phase_bomb			1	10	0.2	1	Grenade	3	4	TRUE	1	0	0	1	phase_explosion															
 #end																														
 																														
 #augmentations																														
