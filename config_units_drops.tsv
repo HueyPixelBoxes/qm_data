@@ -182,40 +182,50 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 						
 #units_IcePick_CR1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
-	1 2		turretenergy 1	CResistance	30	100
-	1 3		turretenergy 0.3 security_civ 0.7	CResistance	30	100
-	2 4		bruiser_civ 0.4 soldier_civ 0.4 combatmedic_civ 0.2	CResistance	30	100
-	2 3	enforcer_civ 1	soldier_civ 0.7 security_civ 0.3	CResistance	30	100
-	3 3	elite_civ_colnode 1	soldier_civ 0.7 security_civ 0.3	CResistance	30	120
-	2 2	elite_civ 1	enforcer_civ 1	CResistance	30	120
-	3 4	elite_civ 1	agent_civ 1 soldier_civ 0.5	CResistance	30	160
+	1 2		turretenergy 1	GodBuilders	30	100
+	1 3		turretenergy 0.3 security_civ 0.7	GodBuilders	30	100
+	2 4		bruiser_civ 0.4 soldier_civ 0.4 combatmedic_civ 0.2	GodBuilders	30	100
+	2 3	enforcer_civ 1	soldier_civ 0.7 security_civ 0.3	GodBuilders	30	100
+	3 3	elite_civ_colnode 1	soldier_civ 0.7 security_civ 0.3	GodBuilders	30	120
+	2 2	elite_civ 1	enforcer_civ 1	GodBuilders	30	120
+	3 4	elite_civ 1	agent_civ 1 soldier_civ 0.5	GodBuilders	30	160
 #end						
 						
 #units_IcePick_CR2						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
-	2 2		warrobot 0.7 worker_civ 0.3	CResistance	30	120
-	2 2	enforcer_civ 1	warrobot 1	CResistance	30	100
-	2 3	security_civ 1	workerrobot 1	CResistance	30	100
-	2 2	warrobot 1	warrobot 1	CResistance	30	100
-	4 5		workerrobot 0.8 worker_civ 0.2	CResistance	40	140
+	2 2		warrobot 0.7 worker_civ 0.3	GodBuilders	30	120
+	2 2	enforcer_civ 1	warrobot 1	GodBuilders	30	100
+	2 3	security_civ 1	workerrobot 1	GodBuilders	30	100
+	2 2	warrobot 1	warrobot 1	GodBuilders	30	100
+	4 5		workerrobot 0.8 worker_civ 0.2	GodBuilders	40	140
 #end						
 						
 #units_IcePick_CR3						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
-	3 5	combatmedic_civ 0.7 bruiser_civ 0.3	quest_GodBuilders_clones 1	CResistance	40	120
-	2 3	enforcer_civ 1	quest_GodBuilders_clones 0.7 soldier_civ 0.2 combatmedic_civ 0.1	CResistance	30	120
-	3 3	elite_civ 1	quest_GodBuilders_clones 0.7 soldier_civ 0.15 security_civ 0.15	CResistance	30	120
-	2 2	agent_civ 1	quest_GodBuilders_clones 0.7 soldier_civ 0.1 bruiser_civ 0.2	CResistance	30	120
-	3 5		quest_GodBuilders_clones 1	CResistance	40	120
+	3 5	combatmedic_civ 0.7 bruiser_civ 0.3	quest_GodBuilders_clones 1	GodBuilders	40	120
+	2 3	enforcer_civ 1	quest_GodBuilders_clones 0.7 soldier_civ 0.2 combatmedic_civ 0.1	GodBuilders	30	120
+	3 3	elite_civ 1	quest_GodBuilders_clones 0.7 soldier_civ 0.15 security_civ 0.15	GodBuilders	30	120
+	2 2	agent_civ 1	quest_GodBuilders_clones 0.7 soldier_civ 0.1 bruiser_civ 0.2	GodBuilders	30	120
+	3 5		quest_GodBuilders_clones 1	GodBuilders	40	120
+#end						
+						
+#units_IcePick_CR4						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	2 2		elite_civ_colnode 1	GodBuilders	50	100
+	2 4		elite_civ_colnode 3 turretbalistic 2	GodBuilders	40	100
+	2 4	elite_civ_colnode 1	agent_civ 1 soldier_civ 3 combatmedic_civ 1 elite_civ_colnode 1	GodBuilders	40	100
+	2 3	enforcer_civ 1	soldier_civ 3 combatmedic_civ 1	GodBuilders	30	100
+	2 3	combatmedic_civ 1	bruiser_civ 3 soldier_civ 1	GodBuilders	30	100
+	2 3	agent_civ 1	soldier_civ 2 security_civ 1	GodBuilders	30	100
 #end						
 						
 #units_Beacon1						
 TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
-	2 4	combatmedic_civ 0.7 bruiser_civ 0.3	bruiser_civ 0.5 soldier_civ 0.5		30	100
-	2 3	enforcer_civ 1	soldier_civ 0.7 security_civ 0.3		30	100
-	3 3	elite_civ_colnode 1	soldier_civ 0.7 security_civ 0.3		30	100
-	2 2	elite_civ 1	enforcer_civ 1		30	100
-	3 4	elite_civ 1	agent_civ 1 soldier_civ 0.5		30	100
+	2 4	combatmedic_civ 0.7 bruiser_civ 0.3	bruiser_civ 0.5 soldier_civ 0.5	CResistance	30	100
+	2 3	enforcer_civ 1	soldier_civ 0.7 security_civ 0.3	CResistance	30	100
+	3 3	elite_civ_colnode 1	soldier_civ 0.7 security_civ 0.3	CResistance	30	100
+	2 2	elite_civ 1	enforcer_civ 1	CResistance	30	100
+	3 4	elite_civ 1	agent_civ 1 soldier_civ 0.5	CResistance	30	100
 #end						
 						
 #units_Beacon2						
@@ -228,6 +238,59 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 	2 4		drone_civ 1		30	100
 	2 4		worker_civ 0.8 combatmedic_civ 0.2		30	100
 	2 3		bruiser_civ 1		30	100
+#end						
+						
+#units_Beacon3						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	2 3	elite_civ_colnode 1	elite_civ_colnode 1		50	100
+	2 4		elite_civ_colnode 3 turretbalistic 2		40	100
+	2 4		elite_civ_colnode 3 turretfire 1 agent_civ 1		40	100
+	2 4	elite_civ_colnode 1	agent_civ 1 soldier_civ 3 combatmedic_civ 1		40	100
+	2 3	enforcer_civ 1	soldier_civ 3 combatmedic_civ 1		30	100
+	2 3	combatmedic_civ 1	bruiser_civ 3 soldier_civ 1		30	100
+	2 3	agent_civ 1	soldier_civ 2 security_civ 1		30	100
+#end						
+						
+#units_Beacon4						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+	2 3	quest_CivilUnity_issachar_copy 1	quest_CivilUnity_issachar_copy 1		20	100
+	2 4		quest_CivilUnity_issachar_copy 1		30	100
+#end						
+						
+#units_SacredFlame1						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+10	2 3	warden 1	warden 0.5 soldier 0.5	RealWare	60	45
+10	2 3	combatmedic 1	warden 1	RealWare	60	45
+10	2 3	grenadier 1	warden 0.5 soldier 0.5	RealWare	60	45
+10	2 3	warrobot 1	soldier 1	RealWare	40	60
+10	2 3	combatmedic 1	warden 0.5 soldier 0.5	RealWare	40	60
+10	2 2	elite_rwa 1	soldier 1	RealWare	40	60
+10	2 3	grenadier 1	soldier 1	RealWare	30	90
+10	2 2	elite_rwa 1	warden 1	RealWare	30	90
+#end						
+						
+#units_SacredFlame2						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+10	2 3		soldier 3 grenadier 1	RealWare	50	45
+10	2 3	combatmedic 1	warden 1	RealWare	50	45
+10	2 3	grenadier 1	quest_rwa_supersoldier 1	RealWare	60	60
+10	2 3	combatmedic 1	quest_rwa_supersoldier 1	RealWare	40	60
+10	2 3		quest_rwa_supersoldier 1	RealWare	40	60
+10	2 2		combatmedic 1 quest_rwa_supersoldier 4	RealWare	40	60
+10	2 3	elite_rwa 1	quest_rwa_supersoldier 1	RealWare	30	90
+10	2 2	quest_rwa_supersoldier 1	quest_rwa_supersoldier 1	RealWare	30	90
+#end						
+						
+#units_SacredFlame3						
+TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
+10	2 3	warden 1	warden 0.5 soldier 0.5	RealWare	60	45
+10	2 3	combatmedic 1	warden 1	RealWare	60	45
+10	2 3	grenadier 1	warden 0.5 soldier 0.5	RealWare	50	45
+10	2 3	soldier 1	soldier 1 grenadier 0.2	RealWare	40	60
+10	2 3	combatmedic 1	quest_rwa_supersoldier 1	RealWare	40	60
+10	2 2	elite_rwa 1	quest_rwa_supersoldier 1	RealWare	30	90
+10	2 3	quest_rwa_supersoldier 1	quest_rwa_supersoldier 1	RealWare	30	90
+10	2 2	elite_rwa 1	warden 1	RealWare	30	90
 #end						
 						
 #units_SpaceStation						
@@ -385,16 +448,16 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	1 1		security 1	Dilthey	10	40
 1	1 1	workerrobot 1	workerrobot 1	Dilthey	10	70
 2	1 1		warrobot 1	Dilthey	8	70
-2	2 2	scientist 1	turretbalistic 1 securitydrone 1	Dilthey	15	88
+2	1 1	scientist 1	turretenergy 1	Dilthey	15	100
 2	3 3	combatmedic 1	workerrobot 2 security 1	Dilthey	30	77
 3	1 1	workerrobot 1	recreationrobot 1	Dilthey	21	85
-3	4 4	workerrobot 1	workerrobot 2 security 2	Dilthey	21	73
+3	5 5	workerrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	21	74
 4	2 2		advancedbot 1 securitydrone 1	Dilthey	16	98
 4	1 1	recreationrobot 1	recreationrobot 1	Dilthey	32	100
 4	4 4	combatmedic 1	workerrobot 1 security 1 warrobot 1 securitydrone 1	Dilthey	64	88
 4	5 5	recreationrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	32	89
 5	1 1	advancedbot 1	security 1	Dilthey	55	190
-5	3 3	scientist 1	turretbalistic 2 securitydrone 1	Dilthey	55	92
+5	3 3	scientist 1	turretenergy 2 securitydrone 1	Dilthey	55	92
 5	4 4	combatmedic 1	workerrobot 2 advancedbot 1 securitydrone 1	Dilthey	110	107
 6	1 1		elite_dil 1	Dilthey	43	160
 6	4 4	combatmedic 1	workerrobot 1 recreationrobot 1 warrobot 1 securitydrone 1	Dilthey	170	90
@@ -785,7 +848,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	3 3		bruiser_civ 1 drone_civ 2	CResistance	10	24
 1	1 1	bruiser_civ 1	agent_civ 1	CResistance	10	80
 2	2 2		soldier_civ 1 drone_civ 1	CResistance	8	38
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
+2	1 1	combatmedic 1	turretfire 1	CResistance	15	90
 2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	90
 3	1 1	bruiser_civ 1	enforcer_civ 1	CResistance	21	100
 3	5 5	bruiser_civ 1	bruiser_civ 1 agent_civ 3 drone_civ 1	CResistance	21	77
@@ -794,7 +857,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	95
 4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	108
 5	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	55	148
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	90
+5	2 2	combatmedic 1	turretfire 2	CResistance	55	90
 5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	110
 6	1 1		elite_civ 1	CResistance	43	200
 6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 drone_civ 1	CResistance	170	95
@@ -932,26 +995,26 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	security_she 1	mars_crab 1 possessed 1 security_she 1	SheduThousand	39	170
 5	3 5	berserk 1	possessed 4 security_she 1	SheduThousand	39	120
 6	4 5	berserk 1	security_she 4	SheduThousand	60	310
-1	1 1		venus_slave 1	Tezctlan	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	Tezctlan	10	50
-2	1 1		venus_jaguar_knight 1	Tezctlan	8	90
+1	1 1	venus_slave 1	jungle_spider 1	Tezctlan	10	55
+1	2 2	venus_acolyte 1	venus_slave 1 jungle_spider 1	Tezctlan	10	58
+2	1 1	venus_jaguar_knight 1	jungle_spider 1	Tezctlan	8	125
 2	2 2	bigpossessed_arm 1	bigpossessed_blob 2	Tezctlan	15	90
 2	3 3	venus_demon_cat 1	venus_acolyte 3	Tezctlan	30	90
-3	1 1	venus_slave 1	venus_custodian 1	Tezctlan	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	Tezctlan	21	50
+3	3 3	venus_jaguar_knight 1	venus_slave 1 jungle_spider 2	Tezctlan	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	Tezctlan	21	62
 4	1 1		bigpossessed_centaur 1	Tezctlan	16	50
-4	1 1	venus_jaguar_knight 1	venus_jaguar_knight 1	Tezctlan	32	180
+4	2 2	venus_jaguar_knight 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	32	153
 4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_custodian 1	Tezctlan	64	104
 4	4 4	venus_jaguar_knight 1	venus_slave 1 venus_acolyte 3	Tezctlan	32	118
-5	1 1	bigpossessed_centaur 1	venus_slave 1	Tezctlan	55	70
+5	3 3	bigpossessed_centaur 1	venus_slave 1 jungle_spider 2	Tezctlan	55	80
 5	3 3	bigpossessed_arm 1	bigpossessed_blob 3	Tezctlan	55	90
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	Tezctlan	110	90
-6	1 1		venus_demon_warrior 1	Tezctlan	43	160
+6	2 2	venus_demon_warrior 1	jungle_spider 2	Tezctlan	43	195
 6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	170	124
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	85	100
-7	1 1	bigpossessed_centaur 1	venus_jaguar_knight 1	Tezctlan	120	140
+7	2 2	bigpossessed_centaur 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	120	113
 7	3 3	venus_acolyte 1	venus_jaguar_knight 1 bigpossessed_centaur 2	Tezctlan	120	94
-7	4 4	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2	Tezctlan	120	140
+7	5 5	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2 jungle_spider 1	Tezctlan	120	137
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_custodian 1 bigpossessed_centaur 1	Tezctlan	400	110
 8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_custodian 2	Tezctlan	200	208
 9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	Tezctlan	400	210
@@ -982,29 +1045,29 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	venus_demon_cat 1	venus_slave 1 venus_acolyte 1 venus_demon_cat 1	Tezctlan	39	170
 5	3 5	venus_custodian 1	venus_slave 4 venus_demon_cat 1	Tezctlan	39	182
 6	4 5	venus_custodian 1	venus_demon_cat 4	Tezctlan	60	340
-1	1 1		venus_slave 1	XiomaraMasks	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	XiomaraMasks	10	50
-2	1 1		venus_eagle_knight 1	XiomaraMasks	8	90
-2	2 2	jungle_spider 1	jungle_spider 2	XiomaraMasks	15	70
-2	3 3	venus_demon_cat 1	venus_acolyte 3	XiomaraMasks	30	90
-3	1 1	venus_slave 1	venus_taskmaster 1	XiomaraMasks	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	XiomaraMasks	21	50
+1	1 1	venus_slave 1	jungle_spider 1	XiomaraMasks	10	55
+1	1 1	venus_acolyte 1	venus_slave 1	XiomaraMasks	10	50
+2	2 2	venus_eagle_knight 1	jungle_spider 2	XiomaraMasks	8	125
+2	4 4	jungle_spider 1	jungle_spider 4	XiomaraMasks	15	70
+2	4 4	venus_demon_cat 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	30	92
+3	3 3	venus_eagle_knight 1	venus_slave 1 jungle_spider 2	XiomaraMasks	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	21	62
 4	1 1		bigpossessed_centaur 1	XiomaraMasks	16	60
 4	1 1	venus_eagle_knight 1	venus_eagle_knight 1	XiomaraMasks	32	180
-4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1	XiomaraMasks	64	104
-4	4 4	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3	XiomaraMasks	32	118
+4	4 4	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	64	102
+4	5 5	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3 jungle_spider 1	XiomaraMasks	32	119
 5	1 1	bigpossessed_centaur 1	venus_slave 1	XiomaraMasks	55	80
-5	3 3	jungle_spider 1	jungle_spider 3	XiomaraMasks	55	70
+5	5 5	jungle_spider 1	jungle_spider 5	XiomaraMasks	55	70
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	XiomaraMasks	110	94
-6	1 1		venus_demon_warrior 1	XiomaraMasks	43	160
-6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	170	124
+6	1 1	venus_demon_warrior 1	jungle_spider 1	XiomaraMasks	43	195
+6	4 4	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	170	117
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	85	110
-7	1 1	bigpossessed_centaur 1	venus_eagle_knight 1	XiomaraMasks	120	150
+7	2 2	bigpossessed_centaur 1	venus_eagle_knight 1 jungle_spider 1	XiomaraMasks	120	123
 7	3 3	venus_acolyte 1	venus_eagle_knight 1 bigpossessed_centaur 2	XiomaraMasks	120	100
 7	4 4	venus_eagle_knight 1	venus_acolyte 2 venus_taskmaster 2	XiomaraMasks	120	140
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_taskmaster 1 bigpossessed_centaur 1	XiomaraMasks	400	114
-8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2	XiomaraMasks	200	208
-9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	XiomaraMasks	400	220
+8	5 5	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2 jungle_spider 1	XiomaraMasks	200	205
+9	3 3	venus_demon_warrior 1	bigpossessed_centaur 2 jungle_spider 1	XiomaraMasks	400	212
 10	3 3	bigpossessed_centaur 1	venus_eagle_knight 2 venus_taskmaster 1	XiomaraMasks	600	144
 10	4 4	venus_demon_warrior 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 2	XiomaraMasks	1200	225
 1	2 4	venus_slave 1	venus_slave 1	XiomaraMasks	7	75
@@ -1240,16 +1303,16 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	1 1		security 1	Dilthey	10	40
 1	1 1	workerrobot 1	workerrobot 1	Dilthey	10	70
 2	1 1		warrobot 1	Dilthey	8	70
-2	2 2	scientist 1	turretbalistic 1 securitydrone 1	Dilthey	15	88
+2	1 1	scientist 1	turretenergy 1	Dilthey	15	100
 2	3 3	combatmedic 1	workerrobot 2 security 1	Dilthey	30	77
 3	1 1	workerrobot 1	recreationrobot 1	Dilthey	21	85
-3	4 4	workerrobot 1	workerrobot 2 security 2	Dilthey	21	73
+3	5 5	workerrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	21	74
 4	2 2		advancedbot 1 securitydrone 1	Dilthey	16	98
 4	1 1	recreationrobot 1	recreationrobot 1	Dilthey	32	100
 4	4 4	combatmedic 1	workerrobot 1 security 1 warrobot 1 securitydrone 1	Dilthey	64	88
 4	5 5	recreationrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	32	89
 5	1 1	advancedbot 1	security 1	Dilthey	55	190
-5	3 3	scientist 1	turretbalistic 2 securitydrone 1	Dilthey	55	92
+5	3 3	scientist 1	turretenergy 2 securitydrone 1	Dilthey	55	92
 5	4 4	combatmedic 1	workerrobot 2 advancedbot 1 securitydrone 1	Dilthey	110	107
 6	1 1		elite_dil 1	Dilthey	43	160
 6	4 4	combatmedic 1	workerrobot 1 recreationrobot 1 warrobot 1 securitydrone 1	Dilthey	170	90
@@ -1640,7 +1703,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	3 3		bruiser_civ 1 drone_civ 2	CResistance	10	24
 1	1 1	bruiser_civ 1	agent_civ 1	CResistance	10	80
 2	2 2		soldier_civ 1 drone_civ 1	CResistance	8	38
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
+2	1 1	combatmedic 1	turretfire 1	CResistance	15	90
 2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	90
 3	1 1	bruiser_civ 1	enforcer_civ 1	CResistance	21	100
 3	5 5	bruiser_civ 1	bruiser_civ 1 agent_civ 3 drone_civ 1	CResistance	21	77
@@ -1649,7 +1712,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	95
 4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	108
 5	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	55	148
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	90
+5	2 2	combatmedic 1	turretfire 2	CResistance	55	90
 5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	110
 6	1 1		elite_civ 1	CResistance	43	200
 6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 drone_civ 1	CResistance	170	95
@@ -1787,26 +1850,26 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	security_she 1	mars_crab 1 possessed 1 security_she 1	SheduThousand	39	170
 5	3 5	berserk 1	possessed 4 security_she 1	SheduThousand	39	120
 6	4 5	berserk 1	security_she 4	SheduThousand	60	310
-1	1 1		venus_slave 1	Tezctlan	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	Tezctlan	10	50
-2	1 1		venus_jaguar_knight 1	Tezctlan	8	90
+1	1 1	venus_slave 1	jungle_spider 1	Tezctlan	10	55
+1	2 2	venus_acolyte 1	venus_slave 1 jungle_spider 1	Tezctlan	10	58
+2	1 1	venus_jaguar_knight 1	jungle_spider 1	Tezctlan	8	125
 2	2 2	bigpossessed_arm 1	bigpossessed_blob 2	Tezctlan	15	90
 2	3 3	venus_demon_cat 1	venus_acolyte 3	Tezctlan	30	90
-3	1 1	venus_slave 1	venus_custodian 1	Tezctlan	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	Tezctlan	21	50
+3	3 3	venus_jaguar_knight 1	venus_slave 1 jungle_spider 2	Tezctlan	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	Tezctlan	21	62
 4	1 1		bigpossessed_centaur 1	Tezctlan	16	50
-4	1 1	venus_jaguar_knight 1	venus_jaguar_knight 1	Tezctlan	32	180
+4	2 2	venus_jaguar_knight 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	32	153
 4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_custodian 1	Tezctlan	64	104
 4	4 4	venus_jaguar_knight 1	venus_slave 1 venus_acolyte 3	Tezctlan	32	118
-5	1 1	bigpossessed_centaur 1	venus_slave 1	Tezctlan	55	70
+5	3 3	bigpossessed_centaur 1	venus_slave 1 jungle_spider 2	Tezctlan	55	80
 5	3 3	bigpossessed_arm 1	bigpossessed_blob 3	Tezctlan	55	90
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	Tezctlan	110	90
-6	1 1		venus_demon_warrior 1	Tezctlan	43	160
+6	2 2	venus_demon_warrior 1	jungle_spider 2	Tezctlan	43	195
 6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	170	124
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	85	100
-7	1 1	bigpossessed_centaur 1	venus_jaguar_knight 1	Tezctlan	120	140
+7	2 2	bigpossessed_centaur 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	120	113
 7	3 3	venus_acolyte 1	venus_jaguar_knight 1 bigpossessed_centaur 2	Tezctlan	120	94
-7	4 4	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2	Tezctlan	120	140
+7	5 5	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2 jungle_spider 1	Tezctlan	120	137
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_custodian 1 bigpossessed_centaur 1	Tezctlan	400	110
 8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_custodian 2	Tezctlan	200	208
 9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	Tezctlan	400	210
@@ -1837,29 +1900,29 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	venus_demon_cat 1	venus_slave 1 venus_acolyte 1 venus_demon_cat 1	Tezctlan	39	170
 5	3 5	venus_custodian 1	venus_slave 4 venus_demon_cat 1	Tezctlan	39	182
 6	4 5	venus_custodian 1	venus_demon_cat 4	Tezctlan	60	340
-1	1 1		venus_slave 1	XiomaraMasks	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	XiomaraMasks	10	50
-2	1 1		venus_eagle_knight 1	XiomaraMasks	8	90
-2	2 2	jungle_spider 1	jungle_spider 2	XiomaraMasks	15	70
-2	3 3	venus_demon_cat 1	venus_acolyte 3	XiomaraMasks	30	90
-3	1 1	venus_slave 1	venus_taskmaster 1	XiomaraMasks	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	XiomaraMasks	21	50
+1	1 1	venus_slave 1	jungle_spider 1	XiomaraMasks	10	55
+1	1 1	venus_acolyte 1	venus_slave 1	XiomaraMasks	10	50
+2	2 2	venus_eagle_knight 1	jungle_spider 2	XiomaraMasks	8	125
+2	4 4	jungle_spider 1	jungle_spider 4	XiomaraMasks	15	70
+2	4 4	venus_demon_cat 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	30	92
+3	3 3	venus_eagle_knight 1	venus_slave 1 jungle_spider 2	XiomaraMasks	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	21	62
 4	1 1		bigpossessed_centaur 1	XiomaraMasks	16	60
 4	1 1	venus_eagle_knight 1	venus_eagle_knight 1	XiomaraMasks	32	180
-4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1	XiomaraMasks	64	104
-4	4 4	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3	XiomaraMasks	32	118
+4	4 4	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	64	102
+4	5 5	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3 jungle_spider 1	XiomaraMasks	32	119
 5	1 1	bigpossessed_centaur 1	venus_slave 1	XiomaraMasks	55	80
-5	3 3	jungle_spider 1	jungle_spider 3	XiomaraMasks	55	70
+5	5 5	jungle_spider 1	jungle_spider 5	XiomaraMasks	55	70
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	XiomaraMasks	110	94
-6	1 1		venus_demon_warrior 1	XiomaraMasks	43	160
-6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	170	124
+6	1 1	venus_demon_warrior 1	jungle_spider 1	XiomaraMasks	43	195
+6	4 4	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	170	117
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	85	110
-7	1 1	bigpossessed_centaur 1	venus_eagle_knight 1	XiomaraMasks	120	150
+7	2 2	bigpossessed_centaur 1	venus_eagle_knight 1 jungle_spider 1	XiomaraMasks	120	123
 7	3 3	venus_acolyte 1	venus_eagle_knight 1 bigpossessed_centaur 2	XiomaraMasks	120	100
 7	4 4	venus_eagle_knight 1	venus_acolyte 2 venus_taskmaster 2	XiomaraMasks	120	140
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_taskmaster 1 bigpossessed_centaur 1	XiomaraMasks	400	114
-8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2	XiomaraMasks	200	208
-9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	XiomaraMasks	400	220
+8	5 5	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2 jungle_spider 1	XiomaraMasks	200	205
+9	3 3	venus_demon_warrior 1	bigpossessed_centaur 2 jungle_spider 1	XiomaraMasks	400	212
 10	3 3	bigpossessed_centaur 1	venus_eagle_knight 2 venus_taskmaster 1	XiomaraMasks	600	144
 10	4 4	venus_demon_warrior 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 2	XiomaraMasks	1200	225
 1	2 4	venus_slave 1	venus_slave 1	XiomaraMasks	7	75
@@ -2095,16 +2158,16 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	1 1		security 1	Dilthey	10	40
 1	1 1	workerrobot 1	workerrobot 1	Dilthey	10	70
 2	1 1		warrobot 1	Dilthey	8	70
-2	2 2	scientist 1	turretbalistic 1 securitydrone 1	Dilthey	15	88
+2	1 1	scientist 1	turretenergy 1	Dilthey	15	100
 2	3 3	combatmedic 1	workerrobot 2 security 1	Dilthey	30	77
 3	1 1	workerrobot 1	recreationrobot 1	Dilthey	21	85
-3	4 4	workerrobot 1	workerrobot 2 security 2	Dilthey	21	73
+3	5 5	workerrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	21	74
 4	2 2		advancedbot 1 securitydrone 1	Dilthey	16	98
 4	1 1	recreationrobot 1	recreationrobot 1	Dilthey	32	100
 4	4 4	combatmedic 1	workerrobot 1 security 1 warrobot 1 securitydrone 1	Dilthey	64	88
 4	5 5	recreationrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	32	89
 5	1 1	advancedbot 1	security 1	Dilthey	55	190
-5	3 3	scientist 1	turretbalistic 2 securitydrone 1	Dilthey	55	92
+5	3 3	scientist 1	turretenergy 2 securitydrone 1	Dilthey	55	92
 5	4 4	combatmedic 1	workerrobot 2 advancedbot 1 securitydrone 1	Dilthey	110	107
 6	1 1		elite_dil 1	Dilthey	43	160
 6	4 4	combatmedic 1	workerrobot 1 recreationrobot 1 warrobot 1 securitydrone 1	Dilthey	170	90
@@ -2495,7 +2558,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	3 3		bruiser_civ 1 drone_civ 2	CResistance	10	24
 1	1 1	bruiser_civ 1	agent_civ 1	CResistance	10	80
 2	2 2		soldier_civ 1 drone_civ 1	CResistance	8	38
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
+2	1 1	combatmedic 1	turretfire 1	CResistance	15	90
 2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	90
 3	1 1	bruiser_civ 1	enforcer_civ 1	CResistance	21	100
 3	5 5	bruiser_civ 1	bruiser_civ 1 agent_civ 3 drone_civ 1	CResistance	21	77
@@ -2504,7 +2567,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	95
 4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	108
 5	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	55	148
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	90
+5	2 2	combatmedic 1	turretfire 2	CResistance	55	90
 5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	110
 6	1 1		elite_civ 1	CResistance	43	200
 6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 drone_civ 1	CResistance	170	95
@@ -2642,26 +2705,26 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	security_she 1	mars_crab 1 possessed 1 security_she 1	SheduThousand	39	170
 5	3 5	berserk 1	possessed 4 security_she 1	SheduThousand	39	120
 6	4 5	berserk 1	security_she 4	SheduThousand	60	310
-1	1 1		venus_slave 1	Tezctlan	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	Tezctlan	10	50
-2	1 1		venus_jaguar_knight 1	Tezctlan	8	90
+1	1 1	venus_slave 1	jungle_spider 1	Tezctlan	10	55
+1	2 2	venus_acolyte 1	venus_slave 1 jungle_spider 1	Tezctlan	10	58
+2	1 1	venus_jaguar_knight 1	jungle_spider 1	Tezctlan	8	125
 2	2 2	bigpossessed_arm 1	bigpossessed_blob 2	Tezctlan	15	90
 2	3 3	venus_demon_cat 1	venus_acolyte 3	Tezctlan	30	90
-3	1 1	venus_slave 1	venus_custodian 1	Tezctlan	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	Tezctlan	21	50
+3	3 3	venus_jaguar_knight 1	venus_slave 1 jungle_spider 2	Tezctlan	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	Tezctlan	21	62
 4	1 1		bigpossessed_centaur 1	Tezctlan	16	50
-4	1 1	venus_jaguar_knight 1	venus_jaguar_knight 1	Tezctlan	32	180
+4	2 2	venus_jaguar_knight 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	32	153
 4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_custodian 1	Tezctlan	64	104
 4	4 4	venus_jaguar_knight 1	venus_slave 1 venus_acolyte 3	Tezctlan	32	118
-5	1 1	bigpossessed_centaur 1	venus_slave 1	Tezctlan	55	70
+5	3 3	bigpossessed_centaur 1	venus_slave 1 jungle_spider 2	Tezctlan	55	80
 5	3 3	bigpossessed_arm 1	bigpossessed_blob 3	Tezctlan	55	90
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	Tezctlan	110	90
-6	1 1		venus_demon_warrior 1	Tezctlan	43	160
+6	2 2	venus_demon_warrior 1	jungle_spider 2	Tezctlan	43	195
 6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	170	124
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	85	100
-7	1 1	bigpossessed_centaur 1	venus_jaguar_knight 1	Tezctlan	120	140
+7	2 2	bigpossessed_centaur 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	120	113
 7	3 3	venus_acolyte 1	venus_jaguar_knight 1 bigpossessed_centaur 2	Tezctlan	120	94
-7	4 4	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2	Tezctlan	120	140
+7	5 5	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2 jungle_spider 1	Tezctlan	120	137
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_custodian 1 bigpossessed_centaur 1	Tezctlan	400	110
 8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_custodian 2	Tezctlan	200	208
 9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	Tezctlan	400	210
@@ -2692,29 +2755,29 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	venus_demon_cat 1	venus_slave 1 venus_acolyte 1 venus_demon_cat 1	Tezctlan	39	170
 5	3 5	venus_custodian 1	venus_slave 4 venus_demon_cat 1	Tezctlan	39	182
 6	4 5	venus_custodian 1	venus_demon_cat 4	Tezctlan	60	340
-1	1 1		venus_slave 1	XiomaraMasks	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	XiomaraMasks	10	50
-2	1 1		venus_eagle_knight 1	XiomaraMasks	8	90
-2	2 2	jungle_spider 1	jungle_spider 2	XiomaraMasks	15	70
-2	3 3	venus_demon_cat 1	venus_acolyte 3	XiomaraMasks	30	90
-3	1 1	venus_slave 1	venus_taskmaster 1	XiomaraMasks	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	XiomaraMasks	21	50
+1	1 1	venus_slave 1	jungle_spider 1	XiomaraMasks	10	55
+1	1 1	venus_acolyte 1	venus_slave 1	XiomaraMasks	10	50
+2	2 2	venus_eagle_knight 1	jungle_spider 2	XiomaraMasks	8	125
+2	4 4	jungle_spider 1	jungle_spider 4	XiomaraMasks	15	70
+2	4 4	venus_demon_cat 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	30	92
+3	3 3	venus_eagle_knight 1	venus_slave 1 jungle_spider 2	XiomaraMasks	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	21	62
 4	1 1		bigpossessed_centaur 1	XiomaraMasks	16	60
 4	1 1	venus_eagle_knight 1	venus_eagle_knight 1	XiomaraMasks	32	180
-4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1	XiomaraMasks	64	104
-4	4 4	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3	XiomaraMasks	32	118
+4	4 4	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	64	102
+4	5 5	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3 jungle_spider 1	XiomaraMasks	32	119
 5	1 1	bigpossessed_centaur 1	venus_slave 1	XiomaraMasks	55	80
-5	3 3	jungle_spider 1	jungle_spider 3	XiomaraMasks	55	70
+5	5 5	jungle_spider 1	jungle_spider 5	XiomaraMasks	55	70
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	XiomaraMasks	110	94
-6	1 1		venus_demon_warrior 1	XiomaraMasks	43	160
-6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	170	124
+6	1 1	venus_demon_warrior 1	jungle_spider 1	XiomaraMasks	43	195
+6	4 4	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	170	117
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	85	110
-7	1 1	bigpossessed_centaur 1	venus_eagle_knight 1	XiomaraMasks	120	150
+7	2 2	bigpossessed_centaur 1	venus_eagle_knight 1 jungle_spider 1	XiomaraMasks	120	123
 7	3 3	venus_acolyte 1	venus_eagle_knight 1 bigpossessed_centaur 2	XiomaraMasks	120	100
 7	4 4	venus_eagle_knight 1	venus_acolyte 2 venus_taskmaster 2	XiomaraMasks	120	140
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_taskmaster 1 bigpossessed_centaur 1	XiomaraMasks	400	114
-8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2	XiomaraMasks	200	208
-9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	XiomaraMasks	400	220
+8	5 5	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2 jungle_spider 1	XiomaraMasks	200	205
+9	3 3	venus_demon_warrior 1	bigpossessed_centaur 2 jungle_spider 1	XiomaraMasks	400	212
 10	3 3	bigpossessed_centaur 1	venus_eagle_knight 2 venus_taskmaster 1	XiomaraMasks	600	144
 10	4 4	venus_demon_warrior 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 2	XiomaraMasks	1200	225
 1	2 4	venus_slave 1	venus_slave 1	XiomaraMasks	7	75
@@ -2950,16 +3013,16 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	1 1		security 1	Dilthey	10	40
 1	1 1	workerrobot 1	workerrobot 1	Dilthey	10	70
 2	1 1		warrobot 1	Dilthey	8	70
-2	2 2	scientist 1	turretbalistic 1 securitydrone 1	Dilthey	15	88
+2	1 1	scientist 1	turretenergy 1	Dilthey	15	100
 2	3 3	combatmedic 1	workerrobot 2 security 1	Dilthey	30	77
 3	1 1	workerrobot 1	recreationrobot 1	Dilthey	21	85
-3	4 4	workerrobot 1	workerrobot 2 security 2	Dilthey	21	73
+3	5 5	workerrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	21	74
 4	2 2		advancedbot 1 securitydrone 1	Dilthey	16	98
 4	1 1	recreationrobot 1	recreationrobot 1	Dilthey	32	100
 4	4 4	combatmedic 1	workerrobot 1 security 1 warrobot 1 securitydrone 1	Dilthey	64	88
 4	5 5	recreationrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	32	89
 5	1 1	advancedbot 1	security 1	Dilthey	55	190
-5	3 3	scientist 1	turretbalistic 2 securitydrone 1	Dilthey	55	92
+5	3 3	scientist 1	turretenergy 2 securitydrone 1	Dilthey	55	92
 5	4 4	combatmedic 1	workerrobot 2 advancedbot 1 securitydrone 1	Dilthey	110	107
 6	1 1		elite_dil 1	Dilthey	43	160
 6	4 4	combatmedic 1	workerrobot 1 recreationrobot 1 warrobot 1 securitydrone 1	Dilthey	170	90
@@ -3350,7 +3413,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	3 3		bruiser_civ 1 drone_civ 2	CResistance	10	24
 1	1 1	bruiser_civ 1	agent_civ 1	CResistance	10	80
 2	2 2		soldier_civ 1 drone_civ 1	CResistance	8	38
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
+2	1 1	combatmedic 1	turretfire 1	CResistance	15	90
 2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	90
 3	1 1	bruiser_civ 1	enforcer_civ 1	CResistance	21	100
 3	5 5	bruiser_civ 1	bruiser_civ 1 agent_civ 3 drone_civ 1	CResistance	21	77
@@ -3359,7 +3422,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	95
 4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	108
 5	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	55	148
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	90
+5	2 2	combatmedic 1	turretfire 2	CResistance	55	90
 5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	110
 6	1 1		elite_civ 1	CResistance	43	200
 6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 drone_civ 1	CResistance	170	95
@@ -3497,26 +3560,26 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	security_she 1	mars_crab 1 possessed 1 security_she 1	SheduThousand	39	170
 5	3 5	berserk 1	possessed 4 security_she 1	SheduThousand	39	120
 6	4 5	berserk 1	security_she 4	SheduThousand	60	310
-1	1 1		venus_slave 1	Tezctlan	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	Tezctlan	10	50
-2	1 1		venus_jaguar_knight 1	Tezctlan	8	90
+1	1 1	venus_slave 1	jungle_spider 1	Tezctlan	10	55
+1	2 2	venus_acolyte 1	venus_slave 1 jungle_spider 1	Tezctlan	10	58
+2	1 1	venus_jaguar_knight 1	jungle_spider 1	Tezctlan	8	125
 2	2 2	bigpossessed_arm 1	bigpossessed_blob 2	Tezctlan	15	90
 2	3 3	venus_demon_cat 1	venus_acolyte 3	Tezctlan	30	90
-3	1 1	venus_slave 1	venus_custodian 1	Tezctlan	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	Tezctlan	21	50
+3	3 3	venus_jaguar_knight 1	venus_slave 1 jungle_spider 2	Tezctlan	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	Tezctlan	21	62
 4	1 1		bigpossessed_centaur 1	Tezctlan	16	50
-4	1 1	venus_jaguar_knight 1	venus_jaguar_knight 1	Tezctlan	32	180
+4	2 2	venus_jaguar_knight 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	32	153
 4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_custodian 1	Tezctlan	64	104
 4	4 4	venus_jaguar_knight 1	venus_slave 1 venus_acolyte 3	Tezctlan	32	118
-5	1 1	bigpossessed_centaur 1	venus_slave 1	Tezctlan	55	70
+5	3 3	bigpossessed_centaur 1	venus_slave 1 jungle_spider 2	Tezctlan	55	80
 5	3 3	bigpossessed_arm 1	bigpossessed_blob 3	Tezctlan	55	90
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	Tezctlan	110	90
-6	1 1		venus_demon_warrior 1	Tezctlan	43	160
+6	2 2	venus_demon_warrior 1	jungle_spider 2	Tezctlan	43	195
 6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	170	124
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	85	100
-7	1 1	bigpossessed_centaur 1	venus_jaguar_knight 1	Tezctlan	120	140
+7	2 2	bigpossessed_centaur 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	120	113
 7	3 3	venus_acolyte 1	venus_jaguar_knight 1 bigpossessed_centaur 2	Tezctlan	120	94
-7	4 4	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2	Tezctlan	120	140
+7	5 5	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2 jungle_spider 1	Tezctlan	120	137
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_custodian 1 bigpossessed_centaur 1	Tezctlan	400	110
 8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_custodian 2	Tezctlan	200	208
 9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	Tezctlan	400	210
@@ -3547,29 +3610,29 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	venus_demon_cat 1	venus_slave 1 venus_acolyte 1 venus_demon_cat 1	Tezctlan	39	170
 5	3 5	venus_custodian 1	venus_slave 4 venus_demon_cat 1	Tezctlan	39	182
 6	4 5	venus_custodian 1	venus_demon_cat 4	Tezctlan	60	340
-1	1 1		venus_slave 1	XiomaraMasks	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	XiomaraMasks	10	50
-2	1 1		venus_eagle_knight 1	XiomaraMasks	8	90
-2	2 2	jungle_spider 1	jungle_spider 2	XiomaraMasks	15	70
-2	3 3	venus_demon_cat 1	venus_acolyte 3	XiomaraMasks	30	90
-3	1 1	venus_slave 1	venus_taskmaster 1	XiomaraMasks	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	XiomaraMasks	21	50
+1	1 1	venus_slave 1	jungle_spider 1	XiomaraMasks	10	55
+1	1 1	venus_acolyte 1	venus_slave 1	XiomaraMasks	10	50
+2	2 2	venus_eagle_knight 1	jungle_spider 2	XiomaraMasks	8	125
+2	4 4	jungle_spider 1	jungle_spider 4	XiomaraMasks	15	70
+2	4 4	venus_demon_cat 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	30	92
+3	3 3	venus_eagle_knight 1	venus_slave 1 jungle_spider 2	XiomaraMasks	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	21	62
 4	1 1		bigpossessed_centaur 1	XiomaraMasks	16	60
 4	1 1	venus_eagle_knight 1	venus_eagle_knight 1	XiomaraMasks	32	180
-4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1	XiomaraMasks	64	104
-4	4 4	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3	XiomaraMasks	32	118
+4	4 4	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	64	102
+4	5 5	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3 jungle_spider 1	XiomaraMasks	32	119
 5	1 1	bigpossessed_centaur 1	venus_slave 1	XiomaraMasks	55	80
-5	3 3	jungle_spider 1	jungle_spider 3	XiomaraMasks	55	70
+5	5 5	jungle_spider 1	jungle_spider 5	XiomaraMasks	55	70
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	XiomaraMasks	110	94
-6	1 1		venus_demon_warrior 1	XiomaraMasks	43	160
-6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	170	124
+6	1 1	venus_demon_warrior 1	jungle_spider 1	XiomaraMasks	43	195
+6	4 4	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	170	117
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	85	110
-7	1 1	bigpossessed_centaur 1	venus_eagle_knight 1	XiomaraMasks	120	150
+7	2 2	bigpossessed_centaur 1	venus_eagle_knight 1 jungle_spider 1	XiomaraMasks	120	123
 7	3 3	venus_acolyte 1	venus_eagle_knight 1 bigpossessed_centaur 2	XiomaraMasks	120	100
 7	4 4	venus_eagle_knight 1	venus_acolyte 2 venus_taskmaster 2	XiomaraMasks	120	140
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_taskmaster 1 bigpossessed_centaur 1	XiomaraMasks	400	114
-8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2	XiomaraMasks	200	208
-9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	XiomaraMasks	400	220
+8	5 5	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2 jungle_spider 1	XiomaraMasks	200	205
+9	3 3	venus_demon_warrior 1	bigpossessed_centaur 2 jungle_spider 1	XiomaraMasks	400	212
 10	3 3	bigpossessed_centaur 1	venus_eagle_knight 2 venus_taskmaster 1	XiomaraMasks	600	144
 10	4 4	venus_demon_warrior 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 2	XiomaraMasks	1200	225
 1	2 4	venus_slave 1	venus_slave 1	XiomaraMasks	7	75
@@ -3805,16 +3868,16 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	1 1		security 1	Dilthey	10	40
 1	1 1	workerrobot 1	workerrobot 1	Dilthey	10	70
 2	1 1		warrobot 1	Dilthey	8	70
-2	2 2	scientist 1	turretbalistic 1 securitydrone 1	Dilthey	15	88
+2	1 1	scientist 1	turretenergy 1	Dilthey	15	100
 2	3 3	combatmedic 1	workerrobot 2 security 1	Dilthey	30	77
 3	1 1	workerrobot 1	recreationrobot 1	Dilthey	21	85
-3	4 4	workerrobot 1	workerrobot 2 security 2	Dilthey	21	73
+3	5 5	workerrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	21	74
 4	2 2		advancedbot 1 securitydrone 1	Dilthey	16	98
 4	1 1	recreationrobot 1	recreationrobot 1	Dilthey	32	100
 4	4 4	combatmedic 1	workerrobot 1 security 1 warrobot 1 securitydrone 1	Dilthey	64	88
 4	5 5	recreationrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	32	89
 5	1 1	advancedbot 1	security 1	Dilthey	55	190
-5	3 3	scientist 1	turretbalistic 2 securitydrone 1	Dilthey	55	92
+5	3 3	scientist 1	turretenergy 2 securitydrone 1	Dilthey	55	92
 5	4 4	combatmedic 1	workerrobot 2 advancedbot 1 securitydrone 1	Dilthey	110	107
 6	1 1		elite_dil 1	Dilthey	43	160
 6	4 4	combatmedic 1	workerrobot 1 recreationrobot 1 warrobot 1 securitydrone 1	Dilthey	170	90
@@ -4205,7 +4268,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	3 3		bruiser_civ 1 drone_civ 2	CResistance	10	24
 1	1 1	bruiser_civ 1	agent_civ 1	CResistance	10	80
 2	2 2		soldier_civ 1 drone_civ 1	CResistance	8	38
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
+2	1 1	combatmedic 1	turretfire 1	CResistance	15	90
 2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	90
 3	1 1	bruiser_civ 1	enforcer_civ 1	CResistance	21	100
 3	5 5	bruiser_civ 1	bruiser_civ 1 agent_civ 3 drone_civ 1	CResistance	21	77
@@ -4214,7 +4277,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	95
 4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	108
 5	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	55	148
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	90
+5	2 2	combatmedic 1	turretfire 2	CResistance	55	90
 5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	110
 6	1 1		elite_civ 1	CResistance	43	200
 6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 drone_civ 1	CResistance	170	95
@@ -4352,26 +4415,26 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	security_she 1	mars_crab 1 possessed 1 security_she 1	SheduThousand	39	170
 5	3 5	berserk 1	security_she 1 possessed_prisoner 4	SheduThousand	39	168
 6	4 5	berserk 1	security_she 4	SheduThousand	60	310
-1	1 1		venus_slave 1	Tezctlan	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	Tezctlan	10	50
-2	1 1		venus_jaguar_knight 1	Tezctlan	8	90
+1	1 1	venus_slave 1	jungle_spider 1	Tezctlan	10	55
+1	2 2	venus_acolyte 1	venus_slave 1 jungle_spider 1	Tezctlan	10	58
+2	1 1	venus_jaguar_knight 1	jungle_spider 1	Tezctlan	8	125
 2	2 2	bigpossessed_arm 1	bigpossessed_blob 2	Tezctlan	15	90
 2	3 3	venus_demon_cat 1	venus_acolyte 3	Tezctlan	30	90
-3	1 1	venus_slave 1	venus_custodian 1	Tezctlan	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	Tezctlan	21	50
+3	3 3	venus_jaguar_knight 1	venus_slave 1 jungle_spider 2	Tezctlan	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	Tezctlan	21	62
 4	1 1		bigpossessed_centaur 1	Tezctlan	16	50
-4	1 1	venus_jaguar_knight 1	venus_jaguar_knight 1	Tezctlan	32	180
+4	2 2	venus_jaguar_knight 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	32	153
 4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_custodian 1	Tezctlan	64	104
 4	4 4	venus_jaguar_knight 1	venus_slave 1 venus_acolyte 3	Tezctlan	32	118
-5	1 1	bigpossessed_centaur 1	venus_slave 1	Tezctlan	55	70
+5	3 3	bigpossessed_centaur 1	venus_slave 1 jungle_spider 2	Tezctlan	55	80
 5	3 3	bigpossessed_arm 1	bigpossessed_blob 3	Tezctlan	55	90
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	Tezctlan	110	90
-6	1 1		venus_demon_warrior 1	Tezctlan	43	160
+6	2 2	venus_demon_warrior 1	jungle_spider 2	Tezctlan	43	195
 6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	170	124
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	85	100
-7	1 1	bigpossessed_centaur 1	venus_jaguar_knight 1	Tezctlan	120	140
+7	2 2	bigpossessed_centaur 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	120	113
 7	3 3	venus_acolyte 1	venus_jaguar_knight 1 bigpossessed_centaur 2	Tezctlan	120	94
-7	4 4	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2	Tezctlan	120	140
+7	5 5	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2 jungle_spider 1	Tezctlan	120	137
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_custodian 1 bigpossessed_centaur 1	Tezctlan	400	110
 8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_custodian 2	Tezctlan	200	208
 9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	Tezctlan	400	210
@@ -4402,29 +4465,29 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	venus_demon_cat 1	venus_slave 1 venus_acolyte 1 venus_demon_cat 1	Tezctlan	39	170
 5	3 5	venus_custodian 1	venus_demon_cat 1 possessed_prisoner 4	Tezctlan	39	182
 6	4 5	venus_custodian 1	venus_demon_cat 4	Tezctlan	60	340
-1	1 1		venus_slave 1	XiomaraMasks	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	XiomaraMasks	10	50
-2	1 1		venus_eagle_knight 1	XiomaraMasks	8	90
-2	2 2	jungle_spider 1	jungle_spider 2	XiomaraMasks	15	70
-2	3 3	venus_demon_cat 1	venus_acolyte 3	XiomaraMasks	30	90
-3	1 1	venus_slave 1	venus_taskmaster 1	XiomaraMasks	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	XiomaraMasks	21	50
+1	1 1	venus_slave 1	jungle_spider 1	XiomaraMasks	10	55
+1	1 1	venus_acolyte 1	venus_slave 1	XiomaraMasks	10	50
+2	2 2	venus_eagle_knight 1	jungle_spider 2	XiomaraMasks	8	125
+2	4 4	jungle_spider 1	jungle_spider 4	XiomaraMasks	15	70
+2	4 4	venus_demon_cat 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	30	92
+3	3 3	venus_eagle_knight 1	venus_slave 1 jungle_spider 2	XiomaraMasks	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	21	62
 4	1 1		bigpossessed_centaur 1	XiomaraMasks	16	60
 4	1 1	venus_eagle_knight 1	venus_eagle_knight 1	XiomaraMasks	32	180
-4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1	XiomaraMasks	64	104
-4	4 4	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3	XiomaraMasks	32	118
+4	4 4	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	64	102
+4	5 5	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3 jungle_spider 1	XiomaraMasks	32	119
 5	1 1	bigpossessed_centaur 1	venus_slave 1	XiomaraMasks	55	80
-5	3 3	jungle_spider 1	jungle_spider 3	XiomaraMasks	55	70
+5	5 5	jungle_spider 1	jungle_spider 5	XiomaraMasks	55	70
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	XiomaraMasks	110	94
-6	1 1		venus_demon_warrior 1	XiomaraMasks	43	160
-6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	170	124
+6	1 1	venus_demon_warrior 1	jungle_spider 1	XiomaraMasks	43	195
+6	4 4	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	170	117
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	85	110
-7	1 1	bigpossessed_centaur 1	venus_eagle_knight 1	XiomaraMasks	120	150
+7	2 2	bigpossessed_centaur 1	venus_eagle_knight 1 jungle_spider 1	XiomaraMasks	120	123
 7	3 3	venus_acolyte 1	venus_eagle_knight 1 bigpossessed_centaur 2	XiomaraMasks	120	100
 7	4 4	venus_eagle_knight 1	venus_acolyte 2 venus_taskmaster 2	XiomaraMasks	120	140
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_taskmaster 1 bigpossessed_centaur 1	XiomaraMasks	400	114
-8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2	XiomaraMasks	200	208
-9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	XiomaraMasks	400	220
+8	5 5	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2 jungle_spider 1	XiomaraMasks	200	205
+9	3 3	venus_demon_warrior 1	bigpossessed_centaur 2 jungle_spider 1	XiomaraMasks	400	212
 10	3 3	bigpossessed_centaur 1	venus_eagle_knight 2 venus_taskmaster 1	XiomaraMasks	600	144
 10	4 4	venus_demon_warrior 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 2	XiomaraMasks	1200	225
 1	2 4	venus_slave 1	venus_slave 1	XiomaraMasks	7	75
@@ -4660,16 +4723,16 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	1 1		security 1	Dilthey	10	40
 1	1 1	workerrobot 1	workerrobot 1	Dilthey	10	70
 2	1 1		warrobot 1	Dilthey	8	70
-2	2 2	scientist 1	turretbalistic 1 securitydrone 1	Dilthey	15	88
+2	1 1	scientist 1	turretenergy 1	Dilthey	15	100
 2	3 3	combatmedic 1	workerrobot 2 security 1	Dilthey	30	77
 3	1 1	workerrobot 1	recreationrobot 1	Dilthey	21	85
-3	4 4	workerrobot 1	workerrobot 2 security 2	Dilthey	21	73
+3	5 5	workerrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	21	74
 4	2 2		advancedbot 1 securitydrone 1	Dilthey	16	98
 4	1 1	recreationrobot 1	recreationrobot 1	Dilthey	32	100
 4	4 4	combatmedic 1	workerrobot 1 security 1 warrobot 1 securitydrone 1	Dilthey	64	88
 4	5 5	recreationrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	32	89
 5	1 1	advancedbot 1	security 1	Dilthey	55	190
-5	3 3	scientist 1	turretbalistic 2 securitydrone 1	Dilthey	55	92
+5	3 3	scientist 1	turretenergy 2 securitydrone 1	Dilthey	55	92
 5	4 4	combatmedic 1	workerrobot 2 advancedbot 1 securitydrone 1	Dilthey	110	107
 6	1 1		elite_dil 1	Dilthey	43	160
 6	4 4	combatmedic 1	workerrobot 1 recreationrobot 1 warrobot 1 securitydrone 1	Dilthey	170	90
@@ -5060,7 +5123,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	3 3		bruiser_civ 1 drone_civ 2	CResistance	10	24
 1	1 1	bruiser_civ 1	agent_civ 1	CResistance	10	80
 2	2 2		soldier_civ 1 drone_civ 1	CResistance	8	38
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
+2	1 1	combatmedic 1	turretfire 1	CResistance	15	90
 2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	90
 3	1 1	bruiser_civ 1	enforcer_civ 1	CResistance	21	100
 3	5 5	bruiser_civ 1	bruiser_civ 1 agent_civ 3 drone_civ 1	CResistance	21	77
@@ -5069,7 +5132,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	95
 4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	108
 5	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	55	148
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	90
+5	2 2	combatmedic 1	turretfire 2	CResistance	55	90
 5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	110
 6	1 1		elite_civ 1	CResistance	43	200
 6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 drone_civ 1	CResistance	170	95
@@ -5207,26 +5270,26 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	security_she 1	mars_crab 1 possessed 1 security_she 1	SheduThousand	39	170
 5	3 5	berserk 1	security_she 5	SheduThousand	39	280
 6	4 5	berserk 1	security_she 4	SheduThousand	60	310
-1	1 1		venus_slave 1	Tezctlan	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	Tezctlan	10	50
-2	1 1		venus_jaguar_knight 1	Tezctlan	8	90
+1	1 1	venus_slave 1	jungle_spider 1	Tezctlan	10	55
+1	2 2	venus_acolyte 1	venus_slave 1 jungle_spider 1	Tezctlan	10	58
+2	1 1	venus_jaguar_knight 1	jungle_spider 1	Tezctlan	8	125
 2	2 2	bigpossessed_arm 1	bigpossessed_blob 2	Tezctlan	15	90
 2	3 3	venus_demon_cat 1	venus_acolyte 3	Tezctlan	30	90
-3	1 1	venus_slave 1	venus_custodian 1	Tezctlan	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	Tezctlan	21	50
+3	3 3	venus_jaguar_knight 1	venus_slave 1 jungle_spider 2	Tezctlan	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	Tezctlan	21	62
 4	1 1		bigpossessed_centaur 1	Tezctlan	16	50
-4	1 1	venus_jaguar_knight 1	venus_jaguar_knight 1	Tezctlan	32	180
+4	2 2	venus_jaguar_knight 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	32	153
 4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_custodian 1	Tezctlan	64	104
 4	4 4	venus_jaguar_knight 1	venus_slave 1 venus_acolyte 3	Tezctlan	32	118
-5	1 1	bigpossessed_centaur 1	venus_slave 1	Tezctlan	55	70
+5	3 3	bigpossessed_centaur 1	venus_slave 1 jungle_spider 2	Tezctlan	55	80
 5	3 3	bigpossessed_arm 1	bigpossessed_blob 3	Tezctlan	55	90
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	Tezctlan	110	90
-6	1 1		venus_demon_warrior 1	Tezctlan	43	160
+6	2 2	venus_demon_warrior 1	jungle_spider 2	Tezctlan	43	195
 6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	170	124
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	85	100
-7	1 1	bigpossessed_centaur 1	venus_jaguar_knight 1	Tezctlan	120	140
+7	2 2	bigpossessed_centaur 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	120	113
 7	3 3	venus_acolyte 1	venus_jaguar_knight 1 bigpossessed_centaur 2	Tezctlan	120	94
-7	4 4	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2	Tezctlan	120	140
+7	5 5	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2 jungle_spider 1	Tezctlan	120	137
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_custodian 1 bigpossessed_centaur 1	Tezctlan	400	110
 8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_custodian 2	Tezctlan	200	208
 9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	Tezctlan	400	210
@@ -5257,29 +5320,29 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	venus_demon_cat 1	venus_slave 1 venus_acolyte 1 venus_demon_cat 1	Tezctlan	39	170
 5	3 5	venus_custodian 1	venus_demon_cat 5	Tezctlan	39	310
 6	4 5	venus_custodian 1	venus_demon_cat 4	Tezctlan	60	340
-1	1 1		venus_slave 1	XiomaraMasks	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	XiomaraMasks	10	50
-2	1 1		venus_eagle_knight 1	XiomaraMasks	8	90
-2	2 2	jungle_spider 1	jungle_spider 2	XiomaraMasks	15	70
-2	3 3	venus_demon_cat 1	venus_acolyte 3	XiomaraMasks	30	90
-3	1 1	venus_slave 1	venus_taskmaster 1	XiomaraMasks	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	XiomaraMasks	21	50
+1	1 1	venus_slave 1	jungle_spider 1	XiomaraMasks	10	55
+1	1 1	venus_acolyte 1	venus_slave 1	XiomaraMasks	10	50
+2	2 2	venus_eagle_knight 1	jungle_spider 2	XiomaraMasks	8	125
+2	4 4	jungle_spider 1	jungle_spider 4	XiomaraMasks	15	70
+2	4 4	venus_demon_cat 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	30	92
+3	3 3	venus_eagle_knight 1	venus_slave 1 jungle_spider 2	XiomaraMasks	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	21	62
 4	1 1		bigpossessed_centaur 1	XiomaraMasks	16	60
 4	1 1	venus_eagle_knight 1	venus_eagle_knight 1	XiomaraMasks	32	180
-4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1	XiomaraMasks	64	104
-4	4 4	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3	XiomaraMasks	32	118
+4	4 4	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	64	102
+4	5 5	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3 jungle_spider 1	XiomaraMasks	32	119
 5	1 1	bigpossessed_centaur 1	venus_slave 1	XiomaraMasks	55	80
-5	3 3	jungle_spider 1	jungle_spider 3	XiomaraMasks	55	70
+5	5 5	jungle_spider 1	jungle_spider 5	XiomaraMasks	55	70
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	XiomaraMasks	110	94
-6	1 1		venus_demon_warrior 1	XiomaraMasks	43	160
-6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	170	124
+6	1 1	venus_demon_warrior 1	jungle_spider 1	XiomaraMasks	43	195
+6	4 4	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	170	117
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	85	110
-7	1 1	bigpossessed_centaur 1	venus_eagle_knight 1	XiomaraMasks	120	150
+7	2 2	bigpossessed_centaur 1	venus_eagle_knight 1 jungle_spider 1	XiomaraMasks	120	123
 7	3 3	venus_acolyte 1	venus_eagle_knight 1 bigpossessed_centaur 2	XiomaraMasks	120	100
 7	4 4	venus_eagle_knight 1	venus_acolyte 2 venus_taskmaster 2	XiomaraMasks	120	140
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_taskmaster 1 bigpossessed_centaur 1	XiomaraMasks	400	114
-8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2	XiomaraMasks	200	208
-9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	XiomaraMasks	400	220
+8	5 5	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2 jungle_spider 1	XiomaraMasks	200	205
+9	3 3	venus_demon_warrior 1	bigpossessed_centaur 2 jungle_spider 1	XiomaraMasks	400	212
 10	3 3	bigpossessed_centaur 1	venus_eagle_knight 2 venus_taskmaster 1	XiomaraMasks	600	144
 10	4 4	venus_demon_warrior 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 2	XiomaraMasks	1200	225
 1	2 4	venus_slave 1	venus_slave 1	XiomaraMasks	7	75
@@ -5515,16 +5578,16 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	1 1		security 1	Dilthey	10	40
 1	1 1	workerrobot 1	workerrobot 1	Dilthey	10	70
 2	1 1		warrobot 1	Dilthey	8	70
-2	2 2	scientist 1	turretbalistic 1 securitydrone 1	Dilthey	15	88
+2	1 1	scientist 1	turretenergy 1	Dilthey	15	100
 2	3 3	combatmedic 1	workerrobot 2 security 1	Dilthey	30	77
 3	1 1	workerrobot 1	recreationrobot 1	Dilthey	21	85
-3	4 4	workerrobot 1	workerrobot 2 security 2	Dilthey	21	73
+3	5 5	workerrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	21	74
 4	2 2		advancedbot 1 securitydrone 1	Dilthey	16	98
 4	1 1	recreationrobot 1	recreationrobot 1	Dilthey	32	100
 4	4 4	combatmedic 1	workerrobot 1 security 1 warrobot 1 securitydrone 1	Dilthey	64	88
 4	5 5	recreationrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	32	89
 5	1 1	advancedbot 1	security 1	Dilthey	55	190
-5	3 3	scientist 1	turretbalistic 2 securitydrone 1	Dilthey	55	92
+5	3 3	scientist 1	turretenergy 2 securitydrone 1	Dilthey	55	92
 5	4 4	combatmedic 1	workerrobot 2 advancedbot 1 securitydrone 1	Dilthey	110	107
 6	1 1		elite_dil 1	Dilthey	43	160
 6	4 4	combatmedic 1	workerrobot 1 recreationrobot 1 warrobot 1 securitydrone 1	Dilthey	170	90
@@ -5915,7 +5978,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	3 3		bruiser_civ 1 drone_civ 2	CResistance	10	24
 1	1 1	bruiser_civ 1	agent_civ 1	CResistance	10	80
 2	2 2		soldier_civ 1 drone_civ 1	CResistance	8	38
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
+2	1 1	combatmedic 1	turretfire 1	CResistance	15	90
 2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	90
 3	1 1	bruiser_civ 1	enforcer_civ 1	CResistance	21	100
 3	5 5	bruiser_civ 1	bruiser_civ 1 agent_civ 3 drone_civ 1	CResistance	21	77
@@ -5924,7 +5987,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	95
 4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	108
 5	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	55	148
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	90
+5	2 2	combatmedic 1	turretfire 2	CResistance	55	90
 5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	110
 6	1 1		elite_civ 1	CResistance	43	200
 6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 drone_civ 1	CResistance	170	95
@@ -6062,26 +6125,26 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	security_she 1	mars_crab 1 possessed 1 security_she 1	SheduThousand	39	170
 5	3 5	berserk 1	security_she 1 possessed_worker 4	SheduThousand	39	168
 6	4 5	berserk 1	security_she 4	SheduThousand	60	310
-1	1 1		venus_slave 1	Tezctlan	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	Tezctlan	10	50
-2	1 1		venus_jaguar_knight 1	Tezctlan	8	90
+1	1 1	venus_slave 1	jungle_spider 1	Tezctlan	10	55
+1	2 2	venus_acolyte 1	venus_slave 1 jungle_spider 1	Tezctlan	10	58
+2	1 1	venus_jaguar_knight 1	jungle_spider 1	Tezctlan	8	125
 2	2 2	bigpossessed_arm 1	bigpossessed_blob 2	Tezctlan	15	90
 2	3 3	venus_demon_cat 1	venus_acolyte 3	Tezctlan	30	90
-3	1 1	venus_slave 1	venus_custodian 1	Tezctlan	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	Tezctlan	21	50
+3	3 3	venus_jaguar_knight 1	venus_slave 1 jungle_spider 2	Tezctlan	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	Tezctlan	21	62
 4	1 1		bigpossessed_centaur 1	Tezctlan	16	50
-4	1 1	venus_jaguar_knight 1	venus_jaguar_knight 1	Tezctlan	32	180
+4	2 2	venus_jaguar_knight 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	32	153
 4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_custodian 1	Tezctlan	64	104
 4	4 4	venus_jaguar_knight 1	venus_slave 1 venus_acolyte 3	Tezctlan	32	118
-5	1 1	bigpossessed_centaur 1	venus_slave 1	Tezctlan	55	70
+5	3 3	bigpossessed_centaur 1	venus_slave 1 jungle_spider 2	Tezctlan	55	80
 5	3 3	bigpossessed_arm 1	bigpossessed_blob 3	Tezctlan	55	90
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	Tezctlan	110	90
-6	1 1		venus_demon_warrior 1	Tezctlan	43	160
+6	2 2	venus_demon_warrior 1	jungle_spider 2	Tezctlan	43	195
 6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	170	124
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	85	100
-7	1 1	bigpossessed_centaur 1	venus_jaguar_knight 1	Tezctlan	120	140
+7	2 2	bigpossessed_centaur 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	120	113
 7	3 3	venus_acolyte 1	venus_jaguar_knight 1 bigpossessed_centaur 2	Tezctlan	120	94
-7	4 4	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2	Tezctlan	120	140
+7	5 5	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2 jungle_spider 1	Tezctlan	120	137
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_custodian 1 bigpossessed_centaur 1	Tezctlan	400	110
 8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_custodian 2	Tezctlan	200	208
 9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	Tezctlan	400	210
@@ -6112,29 +6175,29 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	venus_demon_cat 1	venus_slave 1 venus_acolyte 1 venus_demon_cat 1	Tezctlan	39	170
 5	3 5	venus_custodian 1	venus_demon_cat 1 possessed_worker 4	Tezctlan	39	182
 6	4 5	venus_custodian 1	venus_demon_cat 4	Tezctlan	60	340
-1	1 1		venus_slave 1	XiomaraMasks	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	XiomaraMasks	10	50
-2	1 1		venus_eagle_knight 1	XiomaraMasks	8	90
-2	2 2	jungle_spider 1	jungle_spider 2	XiomaraMasks	15	70
-2	3 3	venus_demon_cat 1	venus_acolyte 3	XiomaraMasks	30	90
-3	1 1	venus_slave 1	venus_taskmaster 1	XiomaraMasks	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	XiomaraMasks	21	50
+1	1 1	venus_slave 1	jungle_spider 1	XiomaraMasks	10	55
+1	1 1	venus_acolyte 1	venus_slave 1	XiomaraMasks	10	50
+2	2 2	venus_eagle_knight 1	jungle_spider 2	XiomaraMasks	8	125
+2	4 4	jungle_spider 1	jungle_spider 4	XiomaraMasks	15	70
+2	4 4	venus_demon_cat 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	30	92
+3	3 3	venus_eagle_knight 1	venus_slave 1 jungle_spider 2	XiomaraMasks	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	21	62
 4	1 1		bigpossessed_centaur 1	XiomaraMasks	16	60
 4	1 1	venus_eagle_knight 1	venus_eagle_knight 1	XiomaraMasks	32	180
-4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1	XiomaraMasks	64	104
-4	4 4	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3	XiomaraMasks	32	118
+4	4 4	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	64	102
+4	5 5	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3 jungle_spider 1	XiomaraMasks	32	119
 5	1 1	bigpossessed_centaur 1	venus_slave 1	XiomaraMasks	55	80
-5	3 3	jungle_spider 1	jungle_spider 3	XiomaraMasks	55	70
+5	5 5	jungle_spider 1	jungle_spider 5	XiomaraMasks	55	70
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	XiomaraMasks	110	94
-6	1 1		venus_demon_warrior 1	XiomaraMasks	43	160
-6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	170	124
+6	1 1	venus_demon_warrior 1	jungle_spider 1	XiomaraMasks	43	195
+6	4 4	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	170	117
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	85	110
-7	1 1	bigpossessed_centaur 1	venus_eagle_knight 1	XiomaraMasks	120	150
+7	2 2	bigpossessed_centaur 1	venus_eagle_knight 1 jungle_spider 1	XiomaraMasks	120	123
 7	3 3	venus_acolyte 1	venus_eagle_knight 1 bigpossessed_centaur 2	XiomaraMasks	120	100
 7	4 4	venus_eagle_knight 1	venus_acolyte 2 venus_taskmaster 2	XiomaraMasks	120	140
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_taskmaster 1 bigpossessed_centaur 1	XiomaraMasks	400	114
-8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2	XiomaraMasks	200	208
-9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	XiomaraMasks	400	220
+8	5 5	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2 jungle_spider 1	XiomaraMasks	200	205
+9	3 3	venus_demon_warrior 1	bigpossessed_centaur 2 jungle_spider 1	XiomaraMasks	400	212
 10	3 3	bigpossessed_centaur 1	venus_eagle_knight 2 venus_taskmaster 1	XiomaraMasks	600	144
 10	4 4	venus_demon_warrior 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 2	XiomaraMasks	1200	225
 1	2 4	venus_slave 1	venus_slave 1	XiomaraMasks	7	75
@@ -6370,16 +6433,16 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	1 1		security 1	Dilthey	10	40
 1	1 1	workerrobot 1	workerrobot 1	Dilthey	10	70
 2	1 1		warrobot 1	Dilthey	8	70
-2	2 2	scientist 1	turretbalistic 1 securitydrone 1	Dilthey	15	88
+2	1 1	scientist 1	turretenergy 1	Dilthey	15	100
 2	3 3	combatmedic 1	workerrobot 2 security 1	Dilthey	30	77
 3	1 1	workerrobot 1	recreationrobot 1	Dilthey	21	85
-3	4 4	workerrobot 1	workerrobot 2 security 2	Dilthey	21	73
+3	5 5	workerrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	21	74
 4	2 2		advancedbot 1 securitydrone 1	Dilthey	16	98
 4	1 1	recreationrobot 1	recreationrobot 1	Dilthey	32	100
 4	4 4	combatmedic 1	workerrobot 1 security 1 warrobot 1 securitydrone 1	Dilthey	64	88
 4	5 5	recreationrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	32	89
 5	1 1	advancedbot 1	security 1	Dilthey	55	190
-5	3 3	scientist 1	turretbalistic 2 securitydrone 1	Dilthey	55	92
+5	3 3	scientist 1	turretenergy 2 securitydrone 1	Dilthey	55	92
 5	4 4	combatmedic 1	workerrobot 2 advancedbot 1 securitydrone 1	Dilthey	110	107
 6	1 1		elite_dil 1	Dilthey	43	160
 6	4 4	combatmedic 1	workerrobot 1 recreationrobot 1 warrobot 1 securitydrone 1	Dilthey	170	90
@@ -6770,7 +6833,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	3 3		bruiser_civ 1 drone_civ 2	CResistance	10	24
 1	1 1	bruiser_civ 1	agent_civ 1	CResistance	10	80
 2	2 2		soldier_civ 1 drone_civ 1	CResistance	8	38
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
+2	1 1	combatmedic 1	turretfire 1	CResistance	15	90
 2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	90
 3	1 1	bruiser_civ 1	enforcer_civ 1	CResistance	21	100
 3	5 5	bruiser_civ 1	bruiser_civ 1 agent_civ 3 drone_civ 1	CResistance	21	77
@@ -6779,7 +6842,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	95
 4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	108
 5	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	55	148
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	90
+5	2 2	combatmedic 1	turretfire 2	CResistance	55	90
 5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	110
 6	1 1		elite_civ 1	CResistance	43	200
 6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 drone_civ 1	CResistance	170	95
@@ -6917,26 +6980,26 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	security_she 1	mars_crab 1 possessed 1 security_she 1	SheduThousand	39	170
 5	3 5	berserk 1	security_she 1 possessed_miner 4	SheduThousand	39	168
 6	4 5	berserk 1	security_she 4	SheduThousand	60	310
-1	1 1		venus_slave 1	Tezctlan	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	Tezctlan	10	50
-2	1 1		venus_jaguar_knight 1	Tezctlan	8	90
+1	1 1	venus_slave 1	jungle_spider 1	Tezctlan	10	55
+1	2 2	venus_acolyte 1	venus_slave 1 jungle_spider 1	Tezctlan	10	58
+2	1 1	venus_jaguar_knight 1	jungle_spider 1	Tezctlan	8	125
 2	2 2	bigpossessed_arm 1	bigpossessed_blob 2	Tezctlan	15	90
 2	3 3	venus_demon_cat 1	venus_acolyte 3	Tezctlan	30	90
-3	1 1	venus_slave 1	venus_custodian 1	Tezctlan	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	Tezctlan	21	50
+3	3 3	venus_jaguar_knight 1	venus_slave 1 jungle_spider 2	Tezctlan	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	Tezctlan	21	62
 4	1 1		bigpossessed_centaur 1	Tezctlan	16	50
-4	1 1	venus_jaguar_knight 1	venus_jaguar_knight 1	Tezctlan	32	180
+4	2 2	venus_jaguar_knight 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	32	153
 4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_custodian 1	Tezctlan	64	104
 4	4 4	venus_jaguar_knight 1	venus_slave 1 venus_acolyte 3	Tezctlan	32	118
-5	1 1	bigpossessed_centaur 1	venus_slave 1	Tezctlan	55	70
+5	3 3	bigpossessed_centaur 1	venus_slave 1 jungle_spider 2	Tezctlan	55	80
 5	3 3	bigpossessed_arm 1	bigpossessed_blob 3	Tezctlan	55	90
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	Tezctlan	110	90
-6	1 1		venus_demon_warrior 1	Tezctlan	43	160
+6	2 2	venus_demon_warrior 1	jungle_spider 2	Tezctlan	43	195
 6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	170	124
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	85	100
-7	1 1	bigpossessed_centaur 1	venus_jaguar_knight 1	Tezctlan	120	140
+7	2 2	bigpossessed_centaur 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	120	113
 7	3 3	venus_acolyte 1	venus_jaguar_knight 1 bigpossessed_centaur 2	Tezctlan	120	94
-7	4 4	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2	Tezctlan	120	140
+7	5 5	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2 jungle_spider 1	Tezctlan	120	137
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_custodian 1 bigpossessed_centaur 1	Tezctlan	400	110
 8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_custodian 2	Tezctlan	200	208
 9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	Tezctlan	400	210
@@ -6967,29 +7030,29 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	venus_demon_cat 1	venus_slave 1 venus_acolyte 1 venus_demon_cat 1	Tezctlan	39	170
 5	3 5	venus_custodian 1	venus_demon_cat 1 possessed_miner 4	Tezctlan	39	182
 6	4 5	venus_custodian 1	venus_demon_cat 4	Tezctlan	60	340
-1	1 1		venus_slave 1	XiomaraMasks	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	XiomaraMasks	10	50
-2	1 1		venus_eagle_knight 1	XiomaraMasks	8	90
-2	2 2	jungle_spider 1	jungle_spider 2	XiomaraMasks	15	70
-2	3 3	venus_demon_cat 1	venus_acolyte 3	XiomaraMasks	30	90
-3	1 1	venus_slave 1	venus_taskmaster 1	XiomaraMasks	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	XiomaraMasks	21	50
+1	1 1	venus_slave 1	jungle_spider 1	XiomaraMasks	10	55
+1	1 1	venus_acolyte 1	venus_slave 1	XiomaraMasks	10	50
+2	2 2	venus_eagle_knight 1	jungle_spider 2	XiomaraMasks	8	125
+2	4 4	jungle_spider 1	jungle_spider 4	XiomaraMasks	15	70
+2	4 4	venus_demon_cat 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	30	92
+3	3 3	venus_eagle_knight 1	venus_slave 1 jungle_spider 2	XiomaraMasks	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	21	62
 4	1 1		bigpossessed_centaur 1	XiomaraMasks	16	60
 4	1 1	venus_eagle_knight 1	venus_eagle_knight 1	XiomaraMasks	32	180
-4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1	XiomaraMasks	64	104
-4	4 4	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3	XiomaraMasks	32	118
+4	4 4	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	64	102
+4	5 5	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3 jungle_spider 1	XiomaraMasks	32	119
 5	1 1	bigpossessed_centaur 1	venus_slave 1	XiomaraMasks	55	80
-5	3 3	jungle_spider 1	jungle_spider 3	XiomaraMasks	55	70
+5	5 5	jungle_spider 1	jungle_spider 5	XiomaraMasks	55	70
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	XiomaraMasks	110	94
-6	1 1		venus_demon_warrior 1	XiomaraMasks	43	160
-6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	170	124
+6	1 1	venus_demon_warrior 1	jungle_spider 1	XiomaraMasks	43	195
+6	4 4	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	170	117
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	85	110
-7	1 1	bigpossessed_centaur 1	venus_eagle_knight 1	XiomaraMasks	120	150
+7	2 2	bigpossessed_centaur 1	venus_eagle_knight 1 jungle_spider 1	XiomaraMasks	120	123
 7	3 3	venus_acolyte 1	venus_eagle_knight 1 bigpossessed_centaur 2	XiomaraMasks	120	100
 7	4 4	venus_eagle_knight 1	venus_acolyte 2 venus_taskmaster 2	XiomaraMasks	120	140
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_taskmaster 1 bigpossessed_centaur 1	XiomaraMasks	400	114
-8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2	XiomaraMasks	200	208
-9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	XiomaraMasks	400	220
+8	5 5	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2 jungle_spider 1	XiomaraMasks	200	205
+9	3 3	venus_demon_warrior 1	bigpossessed_centaur 2 jungle_spider 1	XiomaraMasks	400	212
 10	3 3	bigpossessed_centaur 1	venus_eagle_knight 2 venus_taskmaster 1	XiomaraMasks	600	144
 10	4 4	venus_demon_warrior 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 2	XiomaraMasks	1200	225
 1	2 4	venus_slave 1	venus_slave 1	XiomaraMasks	7	75
@@ -7225,16 +7288,16 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	1 1		security 1	Dilthey	10	40
 1	1 1	workerrobot 1	workerrobot 1	Dilthey	10	70
 2	1 1		warrobot 1	Dilthey	8	70
-2	2 2	scientist 1	turretbalistic 1 securitydrone 1	Dilthey	15	88
+2	1 1	scientist 1	turretenergy 1	Dilthey	15	100
 2	3 3	combatmedic 1	workerrobot 2 security 1	Dilthey	30	77
 3	1 1	workerrobot 1	recreationrobot 1	Dilthey	21	85
-3	4 4	workerrobot 1	workerrobot 2 security 2	Dilthey	21	73
+3	5 5	workerrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	21	74
 4	2 2		advancedbot 1 securitydrone 1	Dilthey	16	98
 4	1 1	recreationrobot 1	recreationrobot 1	Dilthey	32	100
 4	4 4	combatmedic 1	workerrobot 1 security 1 warrobot 1 securitydrone 1	Dilthey	64	88
 4	5 5	recreationrobot 1	workerrobot 2 security 2 securitydrone 1	Dilthey	32	89
 5	1 1	advancedbot 1	security 1	Dilthey	55	190
-5	3 3	scientist 1	turretbalistic 2 securitydrone 1	Dilthey	55	92
+5	3 3	scientist 1	turretenergy 2 securitydrone 1	Dilthey	55	92
 5	4 4	combatmedic 1	workerrobot 2 advancedbot 1 securitydrone 1	Dilthey	110	107
 6	1 1		elite_dil 1	Dilthey	43	160
 6	4 4	combatmedic 1	workerrobot 1 recreationrobot 1 warrobot 1 securitydrone 1	Dilthey	170	90
@@ -7625,7 +7688,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 1	3 3		bruiser_civ 1 drone_civ 2	CResistance	10	24
 1	1 1	bruiser_civ 1	agent_civ 1	CResistance	10	80
 2	2 2		soldier_civ 1 drone_civ 1	CResistance	8	38
-2	1 1	combatmedic 1	turretbalistic 1	CResistance	15	90
+2	1 1	combatmedic 1	turretfire 1	CResistance	15	90
 2	4 4	combatmedic 1	bruiser_civ 1 agent_civ 3	CResistance	30	90
 3	1 1	bruiser_civ 1	enforcer_civ 1	CResistance	21	100
 3	5 5	bruiser_civ 1	bruiser_civ 1 agent_civ 3 drone_civ 1	CResistance	21	77
@@ -7634,7 +7697,7 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 4	4 4	combatmedic 1	bruiser_civ 1 agent_civ 2 enforcer_civ 1	CResistance	64	95
 4	5 5	soldier_civ 1	bruiser_civ 1 agent_civ 2 soldier_civ 2	CResistance	32	108
 5	2 2	elite_civ_colnode 1	bruiser_civ 1 drone_civ 1	CResistance	55	148
-5	2 2	combatmedic 1	turretbalistic 2	CResistance	55	90
+5	2 2	combatmedic 1	turretfire 2	CResistance	55	90
 5	4 4	combatmedic 1	bruiser_civ 3 elite_civ_colnode 1	CResistance	110	110
 6	1 1		elite_civ 1	CResistance	43	200
 6	5 5	combatmedic 1	bruiser_civ 1 agent_civ 1 soldier_civ 1 enforcer_civ 1 drone_civ 1	CResistance	170	95
@@ -7772,26 +7835,26 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	security_she 1	mars_crab 1 possessed 1 security_she 1	SheduThousand	39	170
 5	3 5	berserk 1	berserk 4 security_she 1	SheduThousand	39	216
 6	4 5	berserk 1	security_she 4	SheduThousand	60	310
-1	1 1		venus_slave 1	Tezctlan	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	Tezctlan	10	50
-2	1 1		venus_jaguar_knight 1	Tezctlan	8	90
+1	1 1	venus_slave 1	jungle_spider 1	Tezctlan	10	55
+1	2 2	venus_acolyte 1	venus_slave 1 jungle_spider 1	Tezctlan	10	58
+2	1 1	venus_jaguar_knight 1	jungle_spider 1	Tezctlan	8	125
 2	2 2	bigpossessed_arm 1	bigpossessed_blob 2	Tezctlan	15	90
 2	3 3	venus_demon_cat 1	venus_acolyte 3	Tezctlan	30	90
-3	1 1	venus_slave 1	venus_custodian 1	Tezctlan	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	Tezctlan	21	50
+3	3 3	venus_jaguar_knight 1	venus_slave 1 jungle_spider 2	Tezctlan	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	Tezctlan	21	62
 4	1 1		bigpossessed_centaur 1	Tezctlan	16	50
-4	1 1	venus_jaguar_knight 1	venus_jaguar_knight 1	Tezctlan	32	180
+4	2 2	venus_jaguar_knight 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	32	153
 4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_custodian 1	Tezctlan	64	104
 4	4 4	venus_jaguar_knight 1	venus_slave 1 venus_acolyte 3	Tezctlan	32	118
-5	1 1	bigpossessed_centaur 1	venus_slave 1	Tezctlan	55	70
+5	3 3	bigpossessed_centaur 1	venus_slave 1 jungle_spider 2	Tezctlan	55	80
 5	3 3	bigpossessed_arm 1	bigpossessed_blob 3	Tezctlan	55	90
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	Tezctlan	110	90
-6	1 1		venus_demon_warrior 1	Tezctlan	43	160
+6	2 2	venus_demon_warrior 1	jungle_spider 2	Tezctlan	43	195
 6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	170	124
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_jaguar_knight 1 venus_custodian 1	Tezctlan	85	100
-7	1 1	bigpossessed_centaur 1	venus_jaguar_knight 1	Tezctlan	120	140
+7	2 2	bigpossessed_centaur 1	venus_jaguar_knight 1 jungle_spider 1	Tezctlan	120	113
 7	3 3	venus_acolyte 1	venus_jaguar_knight 1 bigpossessed_centaur 2	Tezctlan	120	94
-7	4 4	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2	Tezctlan	120	140
+7	5 5	venus_jaguar_knight 1	venus_acolyte 2 venus_custodian 2 jungle_spider 1	Tezctlan	120	137
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_custodian 1 bigpossessed_centaur 1	Tezctlan	400	110
 8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_custodian 2	Tezctlan	200	208
 9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	Tezctlan	400	210
@@ -7822,29 +7885,29 @@ TechLevel	UnitSize	LeaderSpawn	MobClasses	AllowedFactions	Weight	Points
 5	2 4	venus_demon_cat 1	venus_slave 1 venus_acolyte 1 venus_demon_cat 1	Tezctlan	39	170
 5	3 5	venus_custodian 1	venus_acolyte 4 venus_demon_cat 1	Tezctlan	39	214
 6	4 5	venus_custodian 1	venus_demon_cat 4	Tezctlan	60	340
-1	1 1		venus_slave 1	XiomaraMasks	10	20
-1	1 1	venus_slave 1	venus_acolyte 1	XiomaraMasks	10	50
-2	1 1		venus_eagle_knight 1	XiomaraMasks	8	90
-2	2 2	jungle_spider 1	jungle_spider 2	XiomaraMasks	15	70
-2	3 3	venus_demon_cat 1	venus_acolyte 3	XiomaraMasks	30	90
-3	1 1	venus_slave 1	venus_taskmaster 1	XiomaraMasks	21	90
-3	4 4	venus_slave 1	venus_acolyte 4	XiomaraMasks	21	50
+1	1 1	venus_slave 1	jungle_spider 1	XiomaraMasks	10	55
+1	1 1	venus_acolyte 1	venus_slave 1	XiomaraMasks	10	50
+2	2 2	venus_eagle_knight 1	jungle_spider 2	XiomaraMasks	8	125
+2	4 4	jungle_spider 1	jungle_spider 4	XiomaraMasks	15	70
+2	4 4	venus_demon_cat 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	30	92
+3	3 3	venus_eagle_knight 1	venus_slave 1 jungle_spider 2	XiomaraMasks	21	120
+3	4 4	venus_acolyte 1	venus_acolyte 3 jungle_spider 1	XiomaraMasks	21	62
 4	1 1		bigpossessed_centaur 1	XiomaraMasks	16	60
 4	1 1	venus_eagle_knight 1	venus_eagle_knight 1	XiomaraMasks	32	180
-4	3 3	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1	XiomaraMasks	64	104
-4	4 4	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3	XiomaraMasks	32	118
+4	4 4	venus_demon_cat 1	venus_acolyte 2 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	64	102
+4	5 5	venus_eagle_knight 1	venus_slave 1 venus_acolyte 3 jungle_spider 1	XiomaraMasks	32	119
 5	1 1	bigpossessed_centaur 1	venus_slave 1	XiomaraMasks	55	80
-5	3 3	jungle_spider 1	jungle_spider 3	XiomaraMasks	55	70
+5	5 5	jungle_spider 1	jungle_spider 5	XiomaraMasks	55	70
 5	3 3	venus_demon_cat 1	venus_slave 2 bigpossessed_centaur 1	XiomaraMasks	110	94
-6	1 1		venus_demon_warrior 1	XiomaraMasks	43	160
-6	3 3	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	170	124
+6	1 1	venus_demon_warrior 1	jungle_spider 1	XiomaraMasks	43	195
+6	4 4	venus_demon_cat 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 1 jungle_spider 1	XiomaraMasks	170	117
 6	4 4	bigpossessed_centaur 1	venus_slave 2 venus_eagle_knight 1 venus_taskmaster 1	XiomaraMasks	85	110
-7	1 1	bigpossessed_centaur 1	venus_eagle_knight 1	XiomaraMasks	120	150
+7	2 2	bigpossessed_centaur 1	venus_eagle_knight 1 jungle_spider 1	XiomaraMasks	120	123
 7	3 3	venus_acolyte 1	venus_eagle_knight 1 bigpossessed_centaur 2	XiomaraMasks	120	100
 7	4 4	venus_eagle_knight 1	venus_acolyte 2 venus_taskmaster 2	XiomaraMasks	120	140
 8	3 3	venus_demon_cat 1	venus_acolyte 1 venus_taskmaster 1 bigpossessed_centaur 1	XiomaraMasks	400	114
-8	4 4	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2	XiomaraMasks	200	208
-9	2 2	venus_demon_warrior 1	bigpossessed_centaur 2	XiomaraMasks	400	220
+8	5 5	venus_demon_warrior 1	venus_slave 1 venus_acolyte 1 venus_taskmaster 2 jungle_spider 1	XiomaraMasks	200	205
+9	3 3	venus_demon_warrior 1	bigpossessed_centaur 2 jungle_spider 1	XiomaraMasks	400	212
 10	3 3	bigpossessed_centaur 1	venus_eagle_knight 2 venus_taskmaster 1	XiomaraMasks	600	144
 10	4 4	venus_demon_warrior 1	venus_acolyte 1 venus_eagle_knight 1 venus_taskmaster 2	XiomaraMasks	1200	225
 1	2 4	venus_slave 1	venus_slave 1	XiomaraMasks	7	75

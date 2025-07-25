@@ -1,7 +1,7 @@
 #global		
 Parameter	Value	
 // Build info		
-BuildVersion	0.9.2.397s.085ccee
+BuildVersion	0.9.5.401s.ea6ca38
 SaveVersion	46	
 Console	false
 SkipIntro	FALSE	
@@ -56,8 +56,6 @@ StationShippingMinHours	340
 StationShippingMaxHours	408	
 StationStorageLimit	100	
 StationProductionTimeRatio	2	
-FactionDefenseBonusGainIntervalHours	48	
-FactionDefenseBonusGainVal	1	
 PowerToRepMult	0.01	
 MinReputation	-100	
 MaxReputation	100	
@@ -79,7 +77,7 @@ StationStartItemsCount	100
 MaxBarterPrice	5000	
 FlightTimeToPlanet	20	
 FlightTimeToSatelite	10	
-MissionRewardMaxConsumables	5	
+MissionRewardMaxConsumables	8	
 MaxTechLevel	10	
 FactionAbsorbTechLevelMult	0.5	
 WorldPriceUpdateIntervalMonths	3	
@@ -116,6 +114,9 @@ TradeSellItemRepThreshold	100
 TradeSellItemMult1	0.70	
 TradeSellItemMult2	0.20	
 		
+// Proxy company		
+ProxyCompanyStrategiesList	Expansion Scouting Defense	
+		
 // Mercenary		
 TrainingPerkInHours	36	
 CloneMercDurationInHours	10	
@@ -125,10 +126,12 @@ RestoreMercAmpInHours	6
 		
 // Dungeon generation		
 ItemDropWeightConst	0.001	
-ItemDropIncrementCoef	50	
-ItemDropScaleCoef	0.003	
-ItemDropContainersPercent	80	
-CorridorWeightInDropMult	0.5	
+ItemDropIncrementCoef	120	
+ItemDropScaleCoef	0.02	
+ItemDropPriceLogCoef	2	
+ItemDropContainersPercent	85	
+CorridorWeightInDropMult	0.25	
+ContainerManualDropPointsConversion	1	
 		
 // Movement		
 SlowMoveStarvationMult	1	
@@ -196,6 +199,7 @@ AmputationWeaponTraitDmgThresholdMult	0.11
 // Augmentations		
 MobAugSpawnMinHpPercent	0.25	
 ImplantGainChanceOnAmputation	0.3	
+QuasiAugmentationClasses	Quasimorphic Qbeam	
 		
 // Starvation		
 StarvationRegenWeights	0 0.01 50.01 85.01	

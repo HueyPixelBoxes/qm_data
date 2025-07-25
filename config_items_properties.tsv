@@ -4,13 +4,13 @@ perfect_throw	WeaponTrait	Passive	FALSE	BThrowAutoHit true	traits_perfect_throw
 piercing_throw	WeaponTrait	Passive	FALSE	BPiercingThrow true	traits_piercing_throw																			
 mutiliating	WeaponTrait	Passive	FALSE	BMutilate true	traits_mutiliating																			
 cleave	WeaponTrait	Passive	FALSE	BMeleeCleave true	traits_cleave																			
-offhand	WeaponTrait	Passive	FALSE	FOffHandCritBonus 0.05	traits_offhand																			
+offhand	WeaponTrait	Passive	FALSE	FOffHandCritBonus 0.08	traits_offhand																			
 single_load	WeaponTrait	Passive	TRUE	BSingleLoad true	traits_single_load																			
 extra_knockback	WeaponTrait	Passive	FALSE	BExtraKnockback true	traits_extra_knockback																			
 painful_crits	WeaponTrait	Passive	FALSE	FPainCritMult 3	traits_painful_crits																			
 suppressor	WeaponTrait	Passive	FALSE	BSuppressor true	traits_suppressor																			
 wounding_pierce	WeaponTrait	Passive	FALSE	FPiercingTrauma 1	traits_wounding_pierce																			
-piercing	WeaponTrait	Passive	FALSE	FPierce 0.5	traits_piercing																			
+piercing	WeaponTrait	Passive	FALSE	FPierce 0.6	traits_piercing																			
 full_piercing	WeaponTrait	Passive	FALSE	FPierce 1	traits_piercing																			
 armor_pen	AmmoTrait	Passive	FALSE	FArmorPenetration 0.25	traits_armor_pen																			
 incendiary	AmmoTrait	Passive	FALSE	FIncendiaryChance 0.15	traits_incendiary																			
@@ -22,19 +22,19 @@ heavy_toxic	AmmoTrait	Passive	FALSE	FToxicSpread 0.8 IStartSpreadDistance 2	trai
 ammo_piercing	AmmoTrait	Passive	FALSE	FPierce 0.35	traits_piercing																			
 painful	AmmoTrait	Passive	FALSE	FPainDamageMult 1.6	traits_painful																			
 knockback	AmmoTrait	Passive	FALSE	FThrowbackChance 0.26	traits_knockback																			
-heavy_knockback	AmmoTrait	Passive	FALSE	FThrowbackChance 0.8	traits_knockback																			
+heavy_knockback	AmmoTrait	Passive	FALSE	FThrowbackChance 0.70	traits_knockback																			
 knockdown	AmmoTrait	Passive	FALSE	FStunChance 0.12 IEnemyStunDuration 1	traits_knockdown																			
-heavy_knockdown	AmmoTrait	Passive	FALSE	FStunChance 0.60 IEnemyStunDuration 1	traits_knockdown																			
+heavy_knockdown	AmmoTrait	Passive	FALSE	FStunChance 0.76 IEnemyStunDuration 1	traits_knockdown																			
 ramp_up	WeaponTrait	Passive	FALSE	IRampUpProjectiles 1	traits_ramp_up																			
 unthrowable	WeaponTrait	Passive	TRUE	BUnthrowable true	traits_unthrowable																			
 selfcharging	WeaponTrait	Passive	FALSE	BSelfcharging true	traits_selfcharging																			
 critical_throw	WeaponTrait	Passive	FALSE	BThrowAutoCrit true	traits_critical_throw																			
-wounding	AmmoTrait	Passive	FALSE	FDoWoundChance 0.5	traits_wounding_pierce																			
+wounding	AmmoTrait	Passive	FALSE	FDoWoundChance 0.42	traits_wounding_pierce																			
 fragile	WeaponTrait	Passive	TRUE	IFragile 5	traits_fragile																			
 unwieldy	WeaponTrait	Passive	TRUE	FUnwieldyMult 0.8	traits_unwieldy																			
 heavy_weapon	WeaponTrait	Passive	TRUE	BHeavyWeapon true	traits_heavy_weapon																			
 overheat	WeaponTrait	Passive	TRUE	IOverheatDurability 1	traits_overheat																			
-overclock	WeaponTrait	Passive	FALSE	IOverclockDamage 10	traits_overclock																			
+overclock	WeaponTrait	Passive	FALSE	IOverclockDamage 15	traits_overclock																			
 bipod	WeaponTrait	Passive	FALSE	FBipodScatter -0.5 FBipodAccuracy 0.3	traits_bipod																			
 optic_sight	WeaponTrait	Passive	FALSE	IEffRangeStarts 4	traits_optic_sight																			
 explosive	AmmoTrait	Passive	FALSE	SExplosive rocket_basic_explosion	trait_inherit_damage																			
@@ -44,7 +44,12 @@ explosive_fire	AmmoTrait	Passive	FALSE	SExplosive rocket_fire_explosion	traits_i
 explosive_poison	AmmoTrait	Passive	FALSE	SExplosive rocket_poison_explosion	traits_toxic																			
 explosive_quasi	AmmoTrait	Passive	FALSE	SExplosive rocket_quasi_explosion	trait_inherit_damage																			
 explosive_hfg	AmmoTrait	Passive	FALSE	SExplosive hfg_explosion	trait_inherit_damage																			
-ricochet	AmmoTrait	Passive	FALSE	IRicochet 5 IMaxDistance 25	traits_ricochet																			
+ricochet	AmmoTrait	Passive	FALSE	IRicochet 5 IMaxDistance 15	traits_ricochet																			
+collimator	WeaponTrait	Passive	FALSE	FFalloffBonus -0.08 IAddedEffectiveRange 3	traits_collimator																			
+laser_sight	WeaponTrait	Passive	FALSE	BLaserSight true	traits_laser_sight																			
+corrosive	AmmoTrait	Passive	FALSE	FCorrosiveEffect 0.8	traits_corrosive																			
+backstab	WeaponTrait	Passive	FALSE	FBackstabCritChance 0.6 FBackstabCritDmg 1.5	traits_backstab																			
+suppressive_fire	WeaponTrait	Passive	FALSE	FSuppressedAccuracy 0.6	traits_suppressive_fire																			
 #end																								
 																								
 #explosions																								
@@ -69,47 +74,55 @@ orbital_explosion		TRUE	4	1	TRUE	TRUE	FALSE	90	explosion	0.7	TRUE	0.5	FALSE	FALS
 knife_explosion		TRUE	1	3	TRUE	TRUE	FALSE	130	pierce	1	TRUE	0	TRUE	FALSE	0	0	FALSE	TRUE	0.06	10	TRUE	FALSE	Red	FALSE
 skrivnus_explosion		TRUE	1	2	TRUE	FALSE	FALSE	90	lacer	3	TRUE	1	FALSE	TRUE	1	1	TRUE	FALSE	0	0	FALSE	FALSE	Red	FALSE
 hfg_explosion		FALSE	4	2	TRUE	TRUE	FALSE	300	plasma	1	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	TRUE
-flak_low_explosion		TRUE	1	2	TRUE	TRUE	FALSE	20	explosion	1.2	TRUE	0	TRUE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
+flak_low_explosion		TRUE	1	3	TRUE	TRUE	FALSE	18	explosion	1.2	TRUE	0	TRUE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
 flak_explosion		TRUE	2	2	TRUE	TRUE	FALSE	40	explosion	1.2	TRUE	0.2	TRUE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Red	FALSE
-rocket_basic_explosion		TRUE	3	2	TRUE	TRUE	FALSE	85	explosion	1.2	TRUE	0.75	TRUE	FALSE	0	0	FALSE	TRUE	0.05	10	TRUE	FALSE	Red	FALSE
-rocket_fire_explosion		TRUE	3	2	TRUE	TRUE	FALSE	70	fire	0.8	TRUE	0.1	FALSE	FALSE	0	0	FALSE	TRUE	0.65	45	TRUE	FALSE	Red	FALSE
-rocket_poison_explosion		TRUE	4	1	TRUE	FALSE	FALSE	65	poison	1.5	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Toxic	FALSE
-rocket_quasi_explosion		TRUE	2	3	TRUE	FALSE	FALSE	75	chaos	1	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0.25	0	FALSE	FALSE	Red	FALSE
+rocket_basic_explosion		TRUE	3	2	TRUE	TRUE	FALSE	90	explosion	1.2	TRUE	0.75	TRUE	FALSE	0	0	FALSE	TRUE	0.05	10	TRUE	FALSE	Red	FALSE
+rocket_fire_explosion		TRUE	3	2	TRUE	TRUE	FALSE	75	fire	0.8	TRUE	0.1	FALSE	FALSE	0	0	FALSE	TRUE	0.65	45	TRUE	FALSE	Red	FALSE
+rocket_poison_explosion		TRUE	4	1	TRUE	FALSE	FALSE	70	poison	1.5	FALSE	0	FALSE	FALSE	0	0	FALSE	FALSE	0	0	FALSE	FALSE	Toxic	FALSE
+rocket_quasi_explosion		TRUE	2	3	TRUE	FALSE	FALSE	80	chaos	1	FALSE	0	FALSE	FALSE	0	0	FALSE	TRUE	0.25	0	FALSE	FALSE	Red	FALSE
 #end																								
 																								
 #projectiles																								
 Id	Speed	MakeBloodDecals																						
-continues_laser	20	FALSE																						
-continues_mercury	20	FALSE																						
-continues_quasi_laser	20	FALSE																						
-continues_ultimate_ray	20	FALSE																						
+continues_laser	60	FALSE																						
+continues_mercury	60	FALSE																						
+continues_quasi_laser	60	FALSE																						
+continues_ultimate_ray	60	FALSE																						
 disk	18	TRUE																						
-disruptor	18	FALSE																						
-disruptor_small	20	FALSE																						
+matrxDisk	18	TRUE																						
+disruptor	9	FALSE																						
+disruptor_small	9	FALSE																						
 flame_thrower	10	FALSE																						
-frost	16	FALSE																						
+frost	9	FALSE																						
 heavy	20	TRUE																						
-hfg	10	FALSE																						
-laser	16	FALSE																						
-lighting	8	FALSE																						
-lighting_small	8	FALSE																						
-melta_beam	8	FALSE																						
-melta_small_beam	8	FALSE																						
-microwave	8	FALSE																						
+heavy_thermal	20	TRUE																						
+hfg	6	FALSE																						
+laser	20	FALSE																						
+lighting	20	FALSE																						
+lighting_small	20	FALSE																						
+melta_beam	20	FALSE																						
+melta_small_beam	20	FALSE																						
+microwave	20	FALSE																						
 nail	20	TRUE																						
+quasi_nail	20	TRUE																						
 pistol	20	TRUE																						
-plasma	20	FALSE																						
-plasma_charge	14	FALSE																						
-quasi_beam	8	FALSE																						
+plasma	14	FALSE																						
+plasma_shrapnel	18	FALSE																						
+plasma_charge	7	FALSE																						
+quasi_beam	9	FALSE																						
 quasi_bolt	20	FALSE																						
 quasi_dart	20	TRUE																						
 quasi_laser	20	FALSE																						
+quasi_charge	9	FALSE																						
 shrapnel	20	TRUE																						
 sound	14	FALSE																						
-tech_frost	16	FALSE																						
+tech_frost	9	FALSE																						
+tech_frost_shrapnel	9	FALSE																						
 thermal	20	FALSE																						
+thermal_shrapnel	20	FALSE																						
 toxic	20	TRUE																						
 toxic_thrower	10	FALSE																						
+extinguisher_thrower	10	FALSE																						
 rocket	10	FALSE																						
 #end																								
 																								
@@ -132,7 +145,7 @@ axe_heavy		0	1	FALSE	0.1	1.5	0	0
 sawsword_single		1	1	FALSE	0.2	1	0	0																
 sawsword_heavy		1	1	FALSE	0.05	1.5	0	0																
 blade_ammo_single		1	1	FALSE	0.25	1	0	0																
-blade_ammo_double		2	2	FALSE	0.15	0.9	0	0.5																
+blade_ammo_double		2	2	FALSE	0	1.15	0	0.45																
 blade_single		0	1	FALSE	0.25	1	0	0																
 blade_double		0	2	FALSE	0.15	0.9	0	0.5																
 nature_armstump_single		0	1	FALSE	0	1	0	0																
@@ -228,19 +241,19 @@ triple_stab		0	3	FALSE	-0.2	0.55	0	0.35
 precise_stab		0	1	FALSE	0	1	0	0																
 injection_stab		1	1	FALSE	0	1.65	0	0																
 power_triple_stab		2	3	FALSE	-0.2	0.75	0	0.35																
-double_slash		0	2	FALSE	0	1	0	0.5																
-double_stab		0	2	FALSE	0.2	0.75	0	0.5																
+double_slash		0	2	FALSE	0	0.9	0	0.5																
+double_stab		0	2	FALSE	0.2	0.7	0	0.5																
 strong_slash		0	1	FALSE	0.2	1.6	0	0																
-power_double_slash		2	2	FALSE	0	1.4	0	0.45																
+power_double_slash		2	2	FALSE	0	1.35	0	0.45																
 power_strong_slash		1	1	FALSE	0.15	1.9	0	0																
-strong_smash		0	1	FALSE	0	1	0	0																
-double_smash		0	2	FALSE	-0.1	0.5	0	0.45																
-power_strong_smash		1	1	FALSE	0	1.4	0	0																
-breaker		1	1	FALSE	0	1.4	0	0																
-power_double_smash		1	2	FALSE	-0.1	0.7	0	0.45																
-strong_chop		0	1	FALSE	0	1	0	0																
-double_chop		0	2	FALSE	0.15	0.4	0	0.4																
-precise_chop		0	1	FALSE	0.15	0.8	0	0																
+strong_smash		0	1	FALSE	0	1.2	0	0																
+double_smash		0	2	FALSE	-0.1	0.55	0	0.45																
+power_strong_smash		1	1	FALSE	0	1.6	0	0																
+breaker		1	1	FALSE	0	1.6	0	0																
+power_double_smash		1	2	FALSE	-0.1	0.75	0	0.45																
+strong_chop		0	1	FALSE	0	1.1	0	0																
+double_chop		0	2	FALSE	0.15	0.45	0	0.4																
+precise_chop		0	1	FALSE	0.15	0.85	0	0																
 natural_punch		0	1	FALSE	0	1	0	0																
 natural_claw		0	1	FALSE	0	1	0	0																
 hfg_single		40	1	TRUE	1	1	2	0																
@@ -1464,6 +1477,48 @@ Id		OutputItem	RequiredItems	ProduceTimeInHours	ModifyStartCost	ModifyStep	Modif
 		grh_light_boots_1	rags 1 rubber 1 rusty_plates 1	40	1	1.05	ceramite_plates 1 itemChip 3 mediumItemChip 10 highItemChip 20	30																
 		plb_medium_boots_1	rags 1 rubber 1 rusty_plates 2	48	1	1.05	ceramite_plates 1 armor_repair_kit 8 mediumItemChip 10 PlanetBridgeItemChip 25	35																
 		chu_fireclub_1	blunt_parts 2 broken_weapon 2	40	1	1.05	blunt_parts 1 itemChip 3 mediumItemChip 10 highItemChip 20	30																
+		neural_jack	circuit_board 1 microelectronics_parts 1 metal_tread 2	36	1	1.05																		
+		neurocortex	circuit_board 1 microelectronics_parts 2 metal_tread 1	36	1	1.05																		
+		cortex_stimulator	circuit_board 2 microelectronics_parts 1 metal_tread 1	48	1	1.05																		
+		ultravoice	communication_relay 1 circuit_board 1 transformer 1	48	1	1.05																		
+		neural_sonar	communication_relay 1 microelectronics_parts 1 plastic 1	60	1	1.05																		
+		sbn_shorts	communication_relay 1 circuit_board 1 wire 1	36	1	1.05																		
+		artificial_musculature	plastic 1 spring 1 wire 1 hydraulic_pump 1	60	1	1.05																		
+		painhibitor	armor_plates 1 blunt_parts 1 transformer 1 metal_tread 1	36	1	1.05																		
+		recoil_suppressor	circuit_board 2 weapon_parts 2 metal_tread 1	60	1	1.05																		
+		integrated_magazine	plastic 1 circuit_board 1 metal_tread 1 weapon_parts 1	36	1	1.05																		
+		cyber_heart	rubber 1 microelectronics_parts 1 hydraulic_pump 1	48	1	1.05																		
+		bionic_lungs	rubber 1 plastic 1 hydraulic_pump 1	48	1	1.05																		
+		biomonitor	plastic 1 microelectronics_parts 1 circuit_board 1 capacitor_parts 1	48	1	1.05																		
+		tissue_regenerator	rubber 1 microelectronics_parts 1 biomass_tank 1	60	1	1.05																		
+		reinforced_epidermis	plastic 1 rubber 2 armor_plates 2	48	1	1.05																		
+		induction_frame	capacitor_parts 2 armor_plates 1 rubber 1	60	1	1.05																		
+		thermal_coating	plastic 2 rubber 2 armor_plates 1	48	1	1.05																		
+		superdermal_layer	ceramite_plates 2 armor_plates 2 metal_tread 1	48	1	1.05																		
+		bio_boosters	plastic 1 capacitor_parts 1 biomass_tank 1	36	1	1.05																		
+		blood_filtration	hydraulic_pump 1 biomass_tank 1 plastic 1 wire 1	60	1	1.05																		
+		discharge_chamber	microelectronics_parts 1 transformer 1 capacitor_parts 1 wire 1	36	1	1.05																		
+		cyborg_head	armor_plates 1 plastic 1 glass 1 bulb 1 circuit_board 1	42	1	1.05																		
+		cyborg_hand	armor_plates 1 metal_tread 1 weapon_parts 1	42	1	1.05																		
+		cyborg_drill	armor_plates 1 metal_tread 1 pierce_parts 1 blunt_parts 1	48	1	1.05																		
+		cyborg_chest	armor_plates 1 rusty_plates 1 wire 1 circuit_board 1	42	1	1.05																		
+		cyborg_guts	armor_plates 1 rusty_plates 1 wire 1 circuit_board 1	42	1	1.05																		
+		cyborg_knee	armor_plates 1 rusty_plates 1 plastic 1 circuit_board 1	42	1	1.05																		
+		cyborg_leg	armor_plates 1 metal_tread 1 weapon_parts 1	42	1	1.05																		
+		battleCyborg_head	ceramite_plates 1 plastic 1 glass 1 microelectronics_parts 1 wire 1	54	1	1.05																		
+		battleCyborg_hand	ceramite_plates 1 metal_tread 1 weapon_parts 1	54	1	1.05																		
+		battleCyborg_machinegun	ceramite_plates 1 metal_tread 1 weapon_parts 2	60	1	1.05																		
+		battleCyborg_chest	ceramite_plates 1 rusty_plates 1 capacitor_parts 1 circuit_board 1	54	1	1.05																		
+		battleCyborg_guts	armor_plates 1 rusty_plates 1 transformer 1 circuit_board 1	54	1	1.05																		
+		battleCyborg_knee	armor_plates 1 rusty_plates 1 capacitor_parts 1 circuit_board 1	54	1	1.05																		
+		battleCyborg_leg	ceramite_plates 1 metal_tread 1 weapon_parts 1	54	1	1.05																		
+		recreationCyborg_head	armor_plates 1 plastic 1 glass 1 circuit_board 1 wire 1	54	1	1.05																		
+		recreationCyborg_hand	armor_plates 1 rubber 1 weapon_parts 1	54	1	1.05																		
+		recreationCyborg_blade	armor_plates 1 rubber 1 weapon_parts 1 pierce_parts 1	60	1	1.05																		
+		recreationCyborg_chest	rubber 1 rusty_plates 1 plastic 1 circuit_board 1	54	1	1.05																		
+		recreationCyborg_guts	rubber 1 rusty_plates 1 plastic 1 circuit_board 1	54	1	1.05																		
+		recreationCyborg_knee	rubber 1 rusty_plates 1 plastic 1 circuit_board 1	54	1	1.05																		
+		recreationCyborg_leg	rusty_plates 1 rubber 1 weapon_parts 1	54	1	1.05																		
 #end																								
 																								
 #itemexpire																								

@@ -42,6 +42,9 @@ CGSHSTShuttleInventorySize	1
 AUCAPChargesCount	1							
 AUCAPCapsuleInventorySize	2							
 AUCAPCapsuleRestoreSpeed	24							
+PRCOStationProduceSpeedPercent	1							
+PRCOPostMissionBonusMult	1							
+AGSTImplantGainChanceOnAmp	0.15							
 #end								
 								
 #magnum_perks								
@@ -64,14 +67,14 @@ hwsc_itemdrop_scanfloor_bonus_2	TRUE	navigation	hyperwave_scanner_department	FAL
 hwsc_scan_floor_bonus_2	TRUE	navigation	hyperwave_scanner_department	FALSE	3 3	hwsc_itemdrop_scanfloor_bonus_2	HWSCScanFloorBonus + 1	geoscanner_device geoscanner_device
 hwsc_item_tlevel_drop_bonus	TRUE	navigation	hyperwave_scanner_department	FALSE	4 3	hwsc_scan_floor_bonus_2 hwsc_enemy_floor_bonus	HWSCItemLevelDropBonus + 1	electrical_parts_container electrical_parts_container scientific_equipment scientific_equipment
 hwsc_item_tlevel_drop_bonus_2	TRUE	navigation	hyperwave_scanner_department	FALSE	5 3	hwsc_item_tlevel_drop_bonus	HWSCItemLevelDropBonus + 1	electrical_parts_container electrical_parts_container electrical_parts_container scientific_equipment scientific_equipment
-proxycorp_department	FALSE	navigation		TRUE	1 4	hwsc_enemy_floor_bonus_2		
-prco_corp_inventory	FALSE	navigation	proxycorp_department	FALSE	0 4	proxycorp_department		
-prco_corp_strategy	FALSE	navigation	proxycorp_department	FALSE	2 4	proxycorp_department		
-prco_gain_techlevel_bonus	FALSE	navigation	proxycorp_department	FALSE	3 4	prco_corp_strategy		
-prco_item_prodspeed_bonus	FALSE	navigation	proxycorp_department	FALSE	4 4	prco_gain_techlevel_bonus		
+proxycorp_department	TRUE	navigation		TRUE	1 4	hwsc_enemy_floor_bonus_2	ProxyCorpDepartment + 1	expert_disk precious_metals drug_cargo
+prco_corp_inventory	TRUE	navigation	proxycorp_department	FALSE	0 4	proxycorp_department	PRCOAllySquad + 1	engineering_parts_container
+prco_corp_strategy	TRUE	navigation	proxycorp_department	FALSE	2 4	proxycorp_department	PRCOChangeFactionType + 1	expert_disk
+prco_gain_techlevel_bonus	TRUE	navigation	proxycorp_department	FALSE	3 4	prco_corp_strategy	PRCOPostMissionBonusMult + 0.5	research_disk
+prco_item_prodspeed_bonus	TRUE	navigation	proxycorp_department	FALSE	4 4	prco_gain_techlevel_bonus	PRCOStationProduceSpeedPercent + 0.5	construction_equipment
 weaponstation_department	TRUE	engineer		TRUE	4 0		WeaponStationDepartment + 1	weapon_container weapon_container
 armorstation_department	TRUE	engineer		TRUE	1 0		ArmorStationDepartment + 1	armor_container armor_container
-augmentstation_department	FALSE	engineer		TRUE	3 3	wpst_addit_grade_upgrade armst_addit_grade_upgrade		
+augmentstation_department	TRUE	engineer		TRUE	3 3	wpst_addit_grade_upgrade armst_addit_grade_upgrade	AugmentStationDepartment + 1	robot_parts_container robot_parts_container
 wpst_weapon_upgrade_speed	TRUE	engineer	weaponstation_department	FALSE	3 0	weaponstation_department	WPSTWeaponUpgradeSpeed - 1	weapon_container weapon_container
 wpst_upg_weapon_cost_reduce	TRUE	engineer	weaponstation_department	FALSE	5 0	weaponstation_department	WPSTUpgradeWeaponCostReduce - 1	military_parts_container military_parts_container firearm_repair_kit firearm_repair_kit
 wpst_upg_more_weapons	TRUE	engineer	weaponstation_department	FALSE	3 1	wpst_weapon_upgrade_speed	WPSTUpgradeMoreWeapon + 3	robot_parts_container robot_parts_container
@@ -88,10 +91,10 @@ armst_upg_armor_cost_reduce	TRUE	engineer	armorstation_department	FALSE	1 1	arms
 armst_upg_more_armors_2	TRUE	engineer	armorstation_department	FALSE	1 2	armst_upg_armor_cost_reduce	ARMSTUpgradeMoreArmors + 8	robot_parts_container robot_parts_container robot_parts_container security_clothing_container security_clothing_container
 armst_upg_armor_cost_reduce_2	TRUE	engineer	armorstation_department	FALSE	1 3	armst_upg_more_armors_2	ARMSTUpgradeArmorCostReduce - 1	military_parts_container military_parts_container military_parts_container
 armst_addit_grade_upgrade	TRUE	engineer	armorstation_department	FALSE	2 3	armst_upg_armor_cost_reduce_2	ARMSTMaxLevelLimit + 1	prototype_schematics prototype_schematics prototype_schematics ai_module ai_module
-augst_augmenic_upgrade_speed	FALSE	engineer	augmentstation_department	FALSE	3 4	augmentstation_department		
-augst_upg_augmenic_cost_reduce	FALSE	engineer	augmentstation_department	FALSE	2 4	augst_augmenic_upgrade_speed		
-augst_addit_grade_upgrade	FALSE	engineer	augmentstation_department	FALSE	1 4	augst_upg_augmenic_cost_reduce		
-augst_upg_more_augmentics	FALSE	engineer	augmentstation_department	FALSE	4 4	augst_augmenic_upgrade_speed		
+augst_augmenic_upgrade_speed	TRUE	engineer	augmentstation_department	FALSE	3 4	augmentstation_department	AGSTImplantGainChanceOnAmp + 0.25	robot_parts_container
+augst_upg_augmenic_cost_reduce	TRUE	engineer	augmentstation_department	FALSE	2 4	augst_augmenic_upgrade_speed	AGSTNoHealthDebuff + 1	military_parts_container engineering_parts_container
+augst_addit_grade_upgrade	TRUE	engineer	augmentstation_department	FALSE	1 4	augst_upg_augmenic_cost_reduce	AGSTDropAugsOnAmp + 1	robot_parts_container
+augst_upg_more_augmentics	TRUE	engineer	augmentstation_department	FALSE	4 4	augst_augmenic_upgrade_speed	AGSTQuasiAugs + 1	military_parts_container engineering_parts_container
 prodline_department	TRUE	supply		TRUE	2 0		ProdlineDepartment + 1	welding_machine_device
 purge_brigade_department	TRUE	supply		TRUE	4 2	prln_magnum_produce_speed_4	PurgeBrigadeDepartment + 1	weapon_container weapon_container armor_container armor_container
 store_constructor_department	TRUE	supply		TRUE	1 4	pubg_bonus_food_meds_2	StoreConstructorDepartment + 1	construction_equipment construction_equipment worker_clothing_container
@@ -238,7 +241,7 @@ boots_max_durability	MaxDurability	Integer	Boots	Integer	1	999	10	tooltip.Condit
 boots_weight	Weight	Float	Boots	Float0_0	0.1	999	-0.2	tooltip.ItemWeight
 mercenary_health	Health	Integer	Mercenary	Integer		999	10	tooltip.Health
 mercenary_pain_threshold	PainThresholdLimit	Integer	Mercenary	Integer	1	999	1	ui.property.MaxPainThreshold
-mercenary_starvation	StarvationLimit	Integer	Mercenary	Integer	1	9999	30	ui.property.StarvationLimit
+mercenary_starvation	StarvationLimit	Integer	Mercenary	Integer	1	9999	400	ui.property.StarvationLimit
 mercenary_talent	TalentPerkId	Talent	Mercenary	None				
 mercenary_dodge	Dodge	Float	Mercenary	Percent	0	1	0.03	ui.property.DodgeChance
 mercenary_los	Los	Integer	Mercenary	Integer	1	10	1	tooltip.SightRange
