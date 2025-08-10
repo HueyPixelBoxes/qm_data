@@ -1,5 +1,5 @@
 #keybinding														
-Id	Layout	OtherKeyIdToPress	Bind1	Bind2	ControllerBind1	ControllerBind2	ImmutableBind1	ImmutableBind2	ImmutableJoystickBind1	ImmutableJoystickBind2	AxisName	MovementVector	ExclusiveInputMode	ForbiddenKeysToBind
+Id	Layout	OtherKeyIdToPress	Bind1	Bind2	ControllerBind1	ControllerBind2	ImmutableBind1	ImmutableBind2	ImmutableControllerBind1	ImmutableControllerBind2	AxisName	MovementVector	ExclusiveInputMode	ForbiddenKeysToBind
 PrimaryCursorAction			Mouse0	None	None	None							KeyboardAndMouse	
 SecondaryCursorAction			Mouse1	None	None	None							KeyboardAndMouse	
 PreciseCursorShoot		PrimaryCursorAction	LeftShift	None	None	None							KeyboardAndMouse	
@@ -33,67 +33,62 @@ MoveMode_Slowdown			Z	Comma	None	None
 MoveMode_Speedup			X	Period	None	None								
 ReloadWeapon			R	None	ActionBottomRow2	None								
 SkipTurn			Space	None	RightShoulder1	None								
-Mercenary			C	None	Center1	None								
+Mercenary			C	None	None	None								
 Objectives			T	None	LeftStickButton	None								
 Map			M	None	RightStickButton	None								
+Implants			P	None	None	None								
 Health			H	None	ActionTopRow1	None								
 UseUltimate			Q	None	LeftShoulder1	None								
-Skull			V	None	Center3	None								
+Skull			V	None	None	None								
 Vest			None	None	DPadRight	None							Controller	
 Vest1			Alpha1	None	None	None							KeyboardAndMouse KeyboardOnly	
 Vest2			Alpha2	None	None	None							KeyboardAndMouse KeyboardOnly	
 Vest3			Alpha3	None	None	None							KeyboardAndMouse KeyboardOnly	
 Vest4			Alpha4	None	None	None							KeyboardAndMouse KeyboardOnly	
 Vest5			Alpha5	None	None	None							KeyboardAndMouse KeyboardOnly	
+Vest6			Alpha6	None	None	None							KeyboardAndMouse KeyboardOnly	
+Vest7			Alpha7	None	None	None							KeyboardAndMouse KeyboardOnly	
+Vest8			Alpha8	None	None	None							KeyboardAndMouse KeyboardOnly	
 ZoomIn			Greater	Equals	None	None								
 ZoomOut			Less	Minus	None	None								
 Shoot			F	None	LeftShoulder2	None								
 Interact			G	None	ActionBottomRow1	None								
+CombatLog			J	None	None	None								
 HighlightAllItems			LeftAlt	None	None	None								
 HighlightPreciseShoot			LeftShift	None	None	None								
 HighlightForceMove			LeftControl	None	None	None								
 Help			F1	None	None	None							KeyboardAndMouse KeyboardOnly	
 Menu	UI		Escape	None	Center2	None	TRUE		TRUE					Mouse0
-UI_MoveUp	UI		UpArrow	None	LeftStickYPos	DPadUp					Movement	0 1		
-UI_MoveDown	UI		DownArrow	None	LeftStickYNeg	DPadDown					Movement	0 -1		
-UI_MoveLeft	UI		LeftArrow	None	LeftStickXNeg	DPadLeft					Movement	-1 0		
-UI_MoveRight	UI		RightArrow	None	LeftStickXPos	DPadRight					Movement	1 0		
+UI_MoveUp	UI		UpArrow	None	LeftStickYPos	DPadUp	TRUE		TRUE		Movement	0 1		
+UI_MoveDown	UI		DownArrow	None	LeftStickYNeg	DPadDown	TRUE		TRUE		Movement	0 -1		
+UI_MoveLeft	UI		LeftArrow	None	LeftStickXNeg	DPadLeft	TRUE		TRUE		Movement	-1 0		
+UI_MoveRight	UI		RightArrow	None	LeftStickXPos	DPadRight	TRUE		TRUE		Movement	1 0		
 UI_MoveUpLeft	UI		None	Keypad7	None	None					Movement	-1 1		
 UI_MoveUpRight	UI		None	Keypad9	None	None					Movement	1 1		
 UI_MoveDownLeft	UI		None	Keypad1	None	None					Movement	-1 -1		
 UI_MoveDownRight	UI		None	Keypad3	None	None					Movement	1 -1		
-Back	UI		N	Backspace	ActionBottomRow2	None		TRUE						Mouse0
-Confirm	UI		Y	Return	ActionBottomRow1	None		TRUE						Mouse0
-SlideLeft	Hotkeys		PageUp	None	LeftShoulder1	None								
-SlideRight	Hotkeys		PageDown	None	RightShoulder1	None								
-Continue	Hotkeys		Y	None	None	None								
-Ok	Hotkeys		Y	None	None	None								
-Cancel	Hotkeys		N	None	None	None								
-Yes	Hotkeys		Y	None	None	None								
-No	Hotkeys		N	None	None	None								
-Newsline	Hotkeys		H	None	None	None								
-Spaceship	Hotkeys		I	None	None	None								
-Starmap	Hotkeys		M	None	None	None								
-TradeShuttle	Hotkeys		Y	None	None	None								
-Departure	Hotkeys		Z	None	None	None								
-Raid_Start	Hotkeys		Y	None	None	None								
-Raid_Finish	Hotkeys		Y	None	None	None								
-SelectClass_Apply	Hotkeys		Y	None	None	None								
-Faction_Info	Hotkeys		I	None	None	None								
-Faction_Techology	Hotkeys		T	None	None	None								
-Faction_Subscribe	Hotkeys		S	None	None	None								
-SendShuttle	Hotkeys		Y	None	None	None								
-Trade_Exchange	Hotkeys		Y	None	None	None								
-Trade_Sell	Hotkeys		Y	None	None	None								
-Trade_Buy	Hotkeys		Y	None	None	None								
-Recycle	Hotkeys		E	None	None	None								
-UnloadAll	Hotkeys		G	None	None	None								
-SendReport	Hotkeys		Y	None	None	None								
-OpenLog	Hotkeys		O	None	None	None								
-Customize	Hotkeys		C	None	None	None								
+Back	UI		N	Backspace	ActionBottomRow2	None		TRUE	TRUE					Mouse0
+Confirm	UI		Y	Return	ActionBottomRow1	None		TRUE	TRUE					Mouse0
+SlideLeft	UI		PageUp	None	LeftShoulder1	None								
+SlideRight	UI		PageDown	None	RightShoulder1	None								
+UI_ScrollUp	UI		None	None	RightStickYPos	None	TRUE		TRUE		Scroll	0 1	Controller	
+UI_ScrollDown	UI		None	None	RightStickYNeg	None	TRUE		TRUE		Scroll	0 -1	Controller	
+UI_FastScroll	UI		LeftShift	None	RightStickButton	None								
+UI_TooltipMore	UI		LeftAlt	None	RightShoulder2	None								
+Confirmation	Hotkeys		Y	None	None	None							KeyboardAndMouse	
+Cancel	Hotkeys		N	None	None	None							KeyboardAndMouse	
+Newsline	Hotkeys		H	None	None	None							KeyboardAndMouse	
+Spaceship	Hotkeys		I	None	None	None							KeyboardAndMouse	
+Starmap	Hotkeys		M	None	None	None							KeyboardAndMouse	
+TradeShuttle	Hotkeys		Z	None	None	None							KeyboardAndMouse	
+Faction_Info	Hotkeys		I	None	None	None							KeyboardAndMouse	
+Faction_Techology	Hotkeys		T	None	None	None							KeyboardAndMouse	
+Faction_Subscribe	Hotkeys		S	None	None	None							KeyboardAndMouse	
+Recycle	Hotkeys		E	None	None	None							KeyboardAndMouse	
+OpenLog	Hotkeys		O	None	None	None							KeyboardAndMouse	
+Customize	Hotkeys		C	None	None	None							KeyboardAndMouse	
 SkipCutscene	Hotkeys		Space	None	ActionTopRow1	None								
-TakeAll	Hotkeys		G	None	None	None								
-Evacuate	Hotkeys		E	None	None	None								
-CallCapsule	Hotkeys		Z	None	None	None								
-LeaveStation	Hotkeys		Y	None	None	None								
+TakeAll	Hotkeys		G	None	None	None							KeyboardAndMouse	
+Evacuate	Hotkeys		E	None	None	None							KeyboardAndMouse	
+CallCapsule	Hotkeys		Z	None	None	None							KeyboardAndMouse	
 #end														

@@ -1,0 +1,37 @@
+#events_mobspawn										
+Id	Weight	Chance	DialogCaptionTag	PortraitId	StationTypes	PointsRange	Bramfaturas	AllianceType	FactionId	QmorphosLevel
+pirate_raid_1	15	0.15	ui.triggerdialog.jane	char_jane		500 500		Traitors	UnchainedBelt	0
+#end										
+										
+#events_itemspawn										
+Id	Weight	Chance	DialogCaptionTag	PortraitId	StationTypes	PointsRange	ItemsIds			
+food_excess_1	15	0.15	ui.triggerdialog.jane	char_jane	Civilian ColonyFarm SpaceStation	500 500	canned_food_1 canned_food_2 canned_food_3 ration_pack_1 ration_pack_2 burger_pack_1 burger_pack_2 ration_pack_3 ration_pack_4			
+#end										
+										
+#events_itemdespawn										
+Id	Weight	Chance	DialogCaptionTag	PortraitId	StationTypes	PointsRange	ItemsClasses			
+food_shortage_1	15	0.15	ui.triggerdialog.jane	char_jane	Civilian ColonyFarm SpaceStation	500 500	Food Drink Alcohol			
+#end										
+										
+#events_gift										
+Id	Weight	Chance	DialogCaptionTag	PortraitId	ReputationRange	PointsRange	FactionId			
+tezctlan_gift_1	15	0.08	ui.triggerdialog.tezctlan	faction_Tezctlan	50 100	400 800	Tezctlan			
+SBN_gift_1	15	0.08	faction.SBN.name	faction_SBN	50 100	400 800	SBN			
+RealWare_gift_1	15	0.08	faction.RealWare.name	faction_RealWare	50 100	400 800	RealWare			
+AnCom_gift_1	15	0.08	faction.AnCom.name	faction_AnCom	50 100	400 800	AnCom			
+Dilthey_gift_1	15	0.08	faction.Dilthey.name	faction_Dilthey	50 100	400 800	Dilthey			
+Tianming_gift_1	15	0.08	faction.Tianming.name	faction_Tianming	50 100	400 800	Tianming			
+CoreWard_gift_1	15	0.08	faction.CoreWard.name	faction_CoreWard	50 100	400 800	CoreWard			
+DaydreamChems_gift_1	15	0.08	faction.DaydreamChems.name	faction_DaydreamChems	50 100	400 800	DaydreamChems			
+PlanetBridge_gift_1	15	0.08	faction.PlanetBridge.name	faction_PlanetBridge	50 100	400 800	PlanetBridge			
+ChurchRevelation_gift_1	15	0.08	faction.ChurchRevelation.name	faction_ChurchRevelation	50 100	400 800	ChurchRevelation			
+Grasshopper_gift_1	15	0.08	faction.Grasshopper.name	faction_Grasshopper	50 100	400 800	Grasshopper			
+Sunlight_gift_1	15	0.08	faction.Sunlight.name	faction_Sunlight	50 100	400 800	Sunlight			
+FrancheComte_gift_1	15	0.08	faction.FrancheComte.name	faction_FrancheComte	50 100	400 800	FrancheComte			
+CResistance_gift_1	15	0.08	faction.CResistance.name	faction_CResistance	50 100	400 800	CResistance			
+GodBuilders_gift_1	15	0.08	faction.GodBuilders.name	faction_GodBuilders	50 100	400 800	GodBuilders			
+CivilUnity_gift_1	15	0.08	faction.CivilUnity.name	faction_CivilUnity	50 100	400 800	CivilUnity			
+UnchainedBelt_gift_1	15	0.08	faction.UnchainedBelt.name	faction_UnchainedBelt_Expansion	50 100	400 800	UnchainedBelt			
+SheduThousand_gift_1	15	0.08	faction.SheduThousand.name	faction_SheduThousand	50 100	400 800	SheduThousand			
+XiomaraMasks_gift_1	15	0.08	faction.XiomaraMasks.name	faction_XiomaraMasks	50 100	400 800	XiomaraMasks			
+#end										

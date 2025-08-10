@@ -1,18 +1,18 @@
 #mercenary_profiles																									
 Id	ModifyStartCost	ModifyStep	ModifyLevelLimit	Health	ResistSheet	WoundSlots	MeleeDamage	MeleeAccuracy	RangeAccuracy	ReceiveAmputationChance	ReceiveWoundChanceMult	AttackWoundChanceMult	Dodge	Los	StarvationLimit	PainThresholdLimit	PainThresholdRegen	TalentPerkId	ActorId	SkinIndex	HairType	HairColorHex	VoiceBank	Immunity	CreatureClass
-john_hawkwood_boss	20	0.1		140	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 8 18 crit 1.60 critchance 0.2	0.7	0.7	0.03	0.9	1	0.15	8	2200	16	2	talent_the_man_who_sold_the_world	human_male	0	hair1	#633D08	player		Human
-francis_reid_daly	20	0.1		130	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 5 10 crit 1.70 critchance 0.2	0.7	0.6	0.04	1	1	0.15	8	2000	10	1	talent_weapon_durability	human_male	0			player		Human
-victoria_boudicca	20	0.1		100	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 5 10 crit 1.70 critchance 0.3	0.6	0.65	0.03	1	1	0.15	9	1800	8	1	talent_weapon_distance	human_female	0	hair1	#633D08	player		Human
-persival_fawcett	20	0.1		150	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 5 10 crit 1.70 critchance 0.2	0.7	0.55	0.05	0.9	1	0.1	8	2400	18	1	talent_all_resists	human_male	1	hair1	#633D08	player		Human
-Isabella_capet	20	0.1		100	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 10 20 crit 1.70 critchance 0.4	0.75	0.5	0.03	1	1.2	0.2	7	1600	10	1	talent_ignore_infection	human_female	1	hair3	#FF3100	player		Human
-maximilian_rohr	20	0.1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 6 18 crit 1.75 critchance 0.2	0.65	0.65	0.06	0.9	1	0.05	8	2000	10	1	talent_ignore_pain	human_male	0	hair2	#FFC400	player		Human
-priya_marlon	20	0.1		110	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 5 10 crit 1.70 critchance 0.4	0.6	0.55	0.05	1	1	0.15	7	2200	12	1	talent_all_consumables_stack	human_female	0	hair2	#FFC400	player		Human
-jacques_kennet	20	0.1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 5 10 crit 1.70 critchance 0.2	0.65	0.55	0.04	1	1	0.1	8	2100	10	1	talent_reload_time	human_male	0	hair1	#908E87	player		Human
-mirza_aishatu	20	0.1		110	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 7 14 crit 1.70 critchance 0.2	0.75	0.65	0.03	1	1	0.1	9	2000	9	1	talent_starving_slower	human_female	1	hair2	#633D08	player		Human
-kenzie_yukio	20	0.1		100	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 8 18 crit 1.70 critchance 0.3	0.8	0.6	0.04	1	1.4	0.25	7	1700	14	1	talent_weight_dodge_affect	human_male	0	hair2	#633D08	player		Human
-marika_wulfnod	20	0.1		100	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 6 12 crit 1.60 critchance 0.2	0.7	0.7	0.04	1	1	0.15	9	1900	12	1	talent_belt_slots	human_female	0	hair1	#FFC400	player		Human
-auberon_lukas	20	0.1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 4 8 crit 1.60 critchance 0.4	0.6	0.6	0.05	1	1	0.05	8	1800	8	1	talent_weapon_slot	human_male	0	hair2	#633D08	player		Human
-niko_medich	20	0.1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 5 10 crit 1.70 critchance 0.2	0.6	0.65	0.05	1	1	0.1	7	2000	10	1	talent_pistol_acc	human_male	0	hair1	#908E87	player		Human
+john_hawkwood_boss	20	0.1		140	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 8 16 crit 1.60 critchance 0.05	0.5	0.5	0.03	1	1	0.3	8	2200	16	2	talent_the_man_who_sold_the_world	human_male	0	hair1	#633D08	player		Human
+francis_reid_daly	20	0.1		130	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 7 14 crit 1.70 critchance 0.05	0.5	0.4	0.04	1	1	0.3	8	2000	10	1	talent_weapon_durability	human_male	0			player		Human
+victoria_boudicca	20	0.1		90	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 5 10 crit 1.70 critchance 0.1	0.4	0.45	0.05	1	1	0.3	8	1800	8	1	talent_weapon_distance	human_female	0	hair1	#633D08	player		Human
+persival_fawcett	20	0.1		150	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 6 12 crit 1.70 critchance 0.05	0.5	0.35	0.05	1	1	0.25	8	2100	16	1	talent_all_resists	human_male	1	hair1	#633D08	player		Human
+Isabella_capet	20	0.1		100	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 7 14 crit 1.70 critchance 0.15	0.55	0.3	0.03	1	1	0.35	7	1700	14	1	talent_ignore_infection	human_female	1	hair3	#FF3100	player		Human
+maximilian_rohr	20	0.1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 8 16 crit 1.75 critchance 0.05	0.45	0.45	0.06	1	1	0.2	8	2000	10	1	talent_ignore_pain	human_male	0	hair2	#FFC400	player		Human
+priya_marlon	20	0.1		110	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 5 10 crit 1.70 critchance 0.15	0.45	0.35	0.05	1	1	0.3	7	2200	12	1	talent_all_consumables_stack	human_female	0	hair2	#FFC400	player		Human
+jacques_kennet	20	0.1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 5 10 crit 1.70 critchance 0.05	0.45	0.35	0.04	1	1	0.3	8	2300	10	1	talent_reload_time	human_male	0	hair1	#908E87	player		Human
+mirza_aishatu	20	0.1		110	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 7 14 crit 1.70 critchance 0.05	0.55	0.45	0.03	1	1	0.25	9	2000	9	1	talent_starving_slower	human_female	1	hair2	#633D08	player		Human
+kenzie_yukio	20	0.1		100	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 5 10 crit 1.70 critchance 0.1	0.6	0.4	0.04	1	1	0.4	7	1600	12	1	talent_weight_dodge_affect	human_male	0	hair2	#633D08	player		Human
+marika_wulfnod	20	0.1		100	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 6 12 crit 1.60 critchance 0.05	0.5	0.5	0.04	1	1	0.3	9	1900	12	1	talent_belt_slots	human_female	0	hair1	#FFC400	player		Human
+auberon_lukas	20	0.1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 4 8 crit 1.60 critchance 0.15	0.45	0.45	0.05	1	1	0.2	9	1900	8	2	talent_weapon_slot	human_male	0	hair2	#633D08	player		Human
+niko_medich	20	0.1		120	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	blunt 5 10 crit 1.70 critchance 0.05	0.4	0.45	0.04	1	1	0.25	8	2000	10	1	talent_pistol_acc	human_male	0	hair1	#908E87	player		Human
 #end																									
 																									
 #mercenary_classes																									
@@ -33,13 +33,13 @@ Id	PerkType	LevelUpActionType	ActiveWeaponClassLimit	ActiveWeaponSubClassLimit	E
 talent_weapon_durability	Talent	None			0	0		FWeaponDurability 1.2																	
 talent_weapon_distance	Talent	None			0	0		IWeaponDistance 2																	
 talent_pistol_acc	Talent	None	Pistol		0	0		FPistolAccuracy 0.4																	
-talent_all_resists	Talent	None			0	0		IResists 10																	
+talent_all_resists	Talent	None			0	0		IResists 12																	
 talent_ignore_infection	Talent	None			0	0		BIgnoreInfection true																	
 talent_ignore_pain	Talent	None			0	0		FPainMult -1																	
 talent_all_consumables_stack	Talent	None			0	0		IAllConsumablesStack 4																	
 talent_reload_time	Talent	None			0	0		IReloadTime -2																	
 talent_starving_slower	Talent	None			0	0		FStarvDelta -0.6																	
-talent_weight_dodge_affect	Talent	None			0	0		FWeightAffectDodge -0.75																	
+talent_weight_dodge_affect	Talent	None			0	0		FWeightAffectDodge -0.50																	
 talent_belt_slots	Talent	None			0	0		IVestSlots 2																	
 talent_weapon_slot	Talent	None			0	0		BThirdWeaponSlot true																	
 talent_the_man_who_sold_the_world	Talent	None			0	0																			
@@ -65,9 +65,9 @@ blind_fury_basic	Trigger	PlayerHitted			20	100	blind_fury_advanced	IDuration 6 I
 blind_fury_advanced	Trigger	PlayerHitted			20	200	blind_fury_master	IDuration 8 ICooldown 35 IActivation 50 FDamage 0.5																	
 blind_fury_master	Trigger	PlayerHitted			20	300	blind_fury_legend	IDuration 10 ICooldown 35 IActivation 50 FDamage 0.75																	
 blind_fury_legend	Trigger	PlayerHitted						IDuration 10 ICooldown 35 IActivation 50 FDamage 1																	
-bodybuilding_basic	Passive	WeightMove			1	200	bodybuilding_advanced	IMaxHealth 5																	
-bodybuilding_advanced	Passive	WeightMove			1	400	bodybuilding_master	IMaxHealth 10																	
-bodybuilding_master	Passive	WeightMove			1	800	bodybuilding_legend	IMaxHealth 15																	
+bodybuilding_basic	Passive	WeightMove			1	100	bodybuilding_advanced	IMaxHealth 5																	
+bodybuilding_advanced	Passive	WeightMove			1	200	bodybuilding_master	IMaxHealth 10																	
+bodybuilding_master	Passive	WeightMove			1	400	bodybuilding_legend	IMaxHealth 15																	
 bodybuilding_legend	Passive	WeightMove						IMaxHealth 25																	
 hardening_basic	Passive	DmgAbsorbedByResist			20	100	hardening_advanced	FResists 0.1																	
 hardening_advanced	Passive	DmgAbsorbedByResist			20	200	hardening_master	FResists 0.2																	
@@ -272,10 +272,15 @@ ultimate_contract_mars	Ultimate	None			0	0		IQuasiLevel 300 ICooldown 50 BMutate
 ultimate_contract_ron	Ultimate	None			0	0		IQuasiLevel 300 ICooldown 50 BMutate true SQuasimorph ron_baron IMutateDuration 100																	
 ultimate_contract_scrivnus	Ultimate	None			0	0		IQuasiLevel 300 ICooldown 50 BMutate true SQuasimorph scrivnus_baron IMutateDuration 100																	
 ultimate_contract_cattaram	Ultimate	None			0	0		IQuasiLevel 300 ICooldown 50 BMutate true SQuasimorph cattaram_baron IMutateDuration 100																	
+ultimate_contract_flauros	Ultimate	None			0	0		IQuasiLevel 300 ICooldown 50 BMutate true SQuasimorph flauros_baron IMutateDuration 100																	
 ultimate_blood_revival	Ultimate	None			0	0		IQuasiLevel 200 ICooldown 50 BBloodRevival true FBRHeal 0.5 ICounter 5 IRadius 10 IDebuffDuration 20																	
 ultimate_fire_breath	Ultimate	None			0	0		BSelectTarget true IQuasiLevel 100 ICooldown 50 BFireBreath true IRayMinDamage 25 IRayMaxDamage 50 SDamageType fire IRadius 5 IInnerRadius 10 IDebuffDuration 10																	
 ultimate_fire_wall	Ultimate	None			0	0		IQuasiLevel 200 ICooldown 50 BFireWall true IRadius 5 IInnerRadius 3																	
 ultimate_stoneskin	Ultimate	None			0	0		IQuasiLevel 200 ICooldown 50 BStoneSkin true IDebuffDuration 20 ISSResists 100 IDuration 10 IDebuffDelay 10																	
 ultimate_massacre_dance	Ultimate	None			0	0		IQuasiLevel 200 ICooldown 50 BMassacreDance true FMDMeleeDmgMult 1.5 IMDDot 3 IDuration 10																	
 ultimate_illusion	Ultimate	None			0	0		IQuasiLevel 200 ICooldown 50 BIllusion true IAllyLifetime 20																	
+ultravoice	ActiveImplant	None			0	0		ICooldown 15 IDuration 2 IRadius 5																	
+neural_sonar	ActiveImplant	None			0	0		ICooldown 25 IDuration 3 IRadius 15																	
+blood_filtration	ActiveImplant	None			0	0		ICooldown 25																	
+discharge_chamber	ActiveImplant	None			0	0		ICooldown 15 IRadius 4 SDamageType shock IMinDamage 1 IMaxDamage 50																	
 #end																									
